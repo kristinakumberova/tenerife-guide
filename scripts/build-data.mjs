@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import matter from "gray-matter";
 import yaml from "js-yaml";
@@ -6,6 +6,14 @@ import yaml from "js-yaml";
 const repoRoot = resolve(".");
 const sourceRoot = resolve(repoRoot, "..");
 const outputRoot = resolve(repoRoot, "src", "data");
+
+const sourceMarker = resolve(sourceRoot, "CONTENT-POI");
+if (!existsSync(sourceMarker)) {
+  console.log(
+    `[build-data] Source markdown not found at ${sourceMarker}. Skipping data build (using pre-committed JSON in src/data/).`,
+  );
+  process.exit(0);
+}
 
 const allowed = {
   activity: new Set(["koupani", "turistika", "atrakce", "mesta", "vyhlidky", "priroda", "gastro", "kultura"]),
