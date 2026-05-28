@@ -1,0 +1,763 @@
+{
+  "restaurants": [
+    {
+      "id": "el-molino-blanco",
+      "propertyId": "paradise",
+      "name": "El Molino Blanco",
+      "category": "okoli",
+      "tags": [
+        "romantika",
+        "event"
+      ],
+      "kristinasNote": "blizko apartmanu, krasne, ale drazsi",
+      "practical": {
+        "note": "Avenida de Austria 5, San Eugenio Alto, 38660 Costa Adeje. Po-Ne 17:00-00:00, kuchyne 17:00-23:30, office Po-Pa 10:00-16:00. Cenovka EUR EUR EUR [SIGNAL]. Rezervace doporucena. GPS [?] overit v Maps."
+      },
+      "links": {
+        "official": "https://molino-blanco.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "El Molino Blanco - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "El Molino Blanco",
+          "url": "https://molino-blanco.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "craft-burger-beer",
+      "propertyId": "paradise",
+      "name": "Craft Burger & Beer",
+      "category": "okoli",
+      "tags": [
+        "casual",
+        "burger"
+      ],
+      "kristinasNote": "blizko apartmanu, skvela obsluha",
+      "practical": {
+        "note": "Avenida Austria 44, 38660 Adeje, naproti Aqualandu. Otevreno denne 17:00-24:00. Combo burger + papas + salsa + bebida 15 EUR. Delivery/take-away ano podle webu; platformu overit pred objednanim. GPS [?]."
+      },
+      "links": {
+        "official": "https://craftburgertenerife.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Craft Burger & Beer - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Craft Burger & Beer",
+          "url": "https://craftburgertenerife.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "calma-balkan-cuisine",
+      "propertyId": "paradise",
+      "name": "Calma Balkan Cuisine",
+      "category": "okoli",
+      "tags": [
+        "balkanska",
+        "vyhled"
+      ],
+      "kristinasNote": "kousek od apartmanu, krasny vyhled na more",
+      "practical": {
+        "note": "Calle Alemania 5, C.C. Patio Canario, Adeje 38660. Oficialni web uvadi Po-Ne 13:00-23:30; agregatory uvadi utery zavreno / 14:00-23:30. CONFLICT: overit utery pred navstevou. Cenovka EUR EUR, TheFork average price 25 EUR. Rezervace doporucena. GPS [?]."
+      },
+      "links": {
+        "official": "https://calmabalkancuisine.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Calma Balkan Cuisine - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Calma Balkan Cuisine",
+          "url": "https://calmabalkancuisine.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "bahia-beach-bahia-principe-daypass",
+      "propertyId": "paradise",
+      "name": "Bahia Beach / Bahia Principe Daypass",
+      "category": "okoli",
+      "tags": [
+        "beach club",
+        "atmosfera"
+      ],
+      "kristinasNote": "Bali-style, zazitkove prostredi",
+      "practical": {
+        "note": "CONFLICT: nalezen Tier 1 zdroj pro Bahia Principe Sunlight Costa Adeje Daypass, ne samostatnou restauraci „Bahia Beach“ u apartmanu. Identitu podniku/daypass musi potvrdit Kristina. Cena daypassu [?]."
+      },
+      "links": {
+        "official": "https://www.bahia-principe.com/es/hoteles-en-espana/costa-adeje/daypass/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Bahia Beach / Bahia Principe Daypass - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Bahia Beach / Bahia Principe Daypass",
+          "url": "https://www.bahia-principe.com/es/hoteles-en-espana/costa-adeje/daypass/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "roca-negra-sunset-club",
+      "propertyId": "paradise",
+      "name": "Roca Negra Sunset Club",
+      "category": "zazitkove",
+      "tags": [
+        "sunset",
+        "show"
+      ],
+      "kristinasNote": "pri zapadu slunce tanci tanecnice - zazitek",
+      "practical": {
+        "note": "Tripadvisor popisuje Sunset Ritual Show ct-ne pri zapadu slunce. Presna adresa/GPS z Tier 1 nedohledana [?]. Cena/show charge [?]. Rezervace doporucena pro sunset."
+      },
+      "links": {
+        "official": "https://www.instagram.com/rocanegrasunsetclub/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Roca Negra Sunset Club - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Roca Negra Sunset Club",
+          "url": "https://www.instagram.com/rocanegrasunsetclub/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "el-caleton-restaurante-chill-out",
+      "propertyId": "paradise",
+      "name": "El Caleton Restaurante Chill Out",
+      "category": "zazitkove",
+      "tags": [
+        "chill",
+        "sever",
+        "more"
+      ],
+      "kristinasNote": "oblibene; u prirodnich lavovych bazenu",
+      "practical": {
+        "note": "Av. Tome Cano 1, 38450 Garachico. GPS 28.3733, -16.7661. Nejvetsi shoda agregatoru: denne 12:00-21:00. Cenovka EUR EUR - EUR EUR EUR; Restaurant Guru uvadi 20-30 EUR/os. Pozor: tohle je restaurace, ne prirodni bazeny."
+      },
+      "links": {
+        "official": "https://caletonchillout.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "El Caleton Restaurante Chill Out - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": [
+        {
+          "label": "El Caleton Restaurante Chill Out",
+          "url": "https://caletonchillout.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "el-cordero",
+      "propertyId": "paradise",
+      "name": "El Cordero",
+      "category": "zazitkove",
+      "tags": [
+        "bananova plantaz",
+        "kanarska kuchyne",
+        "jih"
+      ],
+      "kristinasNote": "restaurace v bananove plantazi; carnes a la brasa",
+      "practical": {
+        "note": "Oficialni web potvrzuje restauraci v prirode/plantazi a WhatsApp booking CTA. Puvodni seed uvadi Po-So 13:00-23:00, Ne 12:30-23:00. Presna adresa/kontakt nebyly z textoveho vystupu webu vytazeny [?]; overit rucne na webu/Maps pred publikaci. Cenovka EUR EUR [SIGNAL]."
+      },
+      "links": {
+        "official": "https://restauranteelcordero.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "El Cordero - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "El Cordero",
+          "url": "https://restauranteelcordero.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "deba-sushi-lounge",
+      "propertyId": "paradise",
+      "name": "Deba Sushi Lounge",
+      "category": "specializovane",
+      "tags": [
+        "sushi",
+        "asijska"
+      ],
+      "kristinasNote": "sushi",
+      "practical": {
+        "note": "C. Galicia 4, 38660 Costa Adeje. Po zavreno; Ut-Ne 13:00-23:00. Delivery Ut-Ne 14:00-22:00. Rezervace pres web. Cenovka EUR EUR - EUR EUR EUR [SIGNAL]. GPS [?]."
+      },
+      "links": {
+        "official": "https://www.debasushi.com/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Deba Sushi Lounge - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Deba Sushi Lounge",
+          "url": "https://www.debasushi.com/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "orange-cafe",
+      "propertyId": "paradise",
+      "name": "Orange Cafe",
+      "category": "specializovane",
+      "tags": [
+        "ceska kuchyne",
+        "lokalni kuchyne"
+      ],
+      "kristinasNote": "ceska restaurace na Fanabe",
+      "practical": {
+        "note": "Calle Paris 3, CC Litoral de Fanabe, Local 3, 38660 Costa Adeje. Po zavreno; Ut-Ne 13:00-22:00. Web uvadi holiday closure 22.12.25-07.01.26. Ceska + kanarska + spanelska kuchyne; krevety na cesneku, burgery, hovezi gulas s domacim knedlikem. Cenovka EUR - EUR EUR; web uvadi Budvar 0,5 l 4 EUR, Dorada 2 EUR, sangria < 6 EUR. GPS [?]."
+      },
+      "links": {
+        "official": "https://orangecafetenerife.cz/"
+      },
+      "photos": [
+        {
+          "url": "",
+          "alt": "Orange Cafe - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "L",
+      "sourceRefs": [
+        {
+          "label": "Orange Cafe",
+          "url": "https://orangecafetenerife.cz/",
+          "tier": "official",
+          "checkedDate": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "specialita",
+      "propertyId": "paradise",
+      "name": "Specialita",
+      "category": "specializovane",
+      "tags": [
+        "Kratky text"
+      ],
+      "kristinasNote": "Foto URL",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Specialita - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "",
+      "propertyId": "paradise",
+      "name": "---",
+      "category": "specializovane",
+      "tags": [
+        "---"
+      ],
+      "kristinasNote": "---",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "--- - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "papas-arrugadas-mojo-rojo-verde",
+      "propertyId": "paradise",
+      "name": "Papas arrugadas + mojo rojo/verde",
+      "category": "specializovane",
+      "tags": [
+        "Male brambory varene ve velmi slane vode",
+        "podavane se slupkou a omackami mojo. Mojo rojo byva paprikovo-cesnekove a pikantnejsi",
+        "mojo verde je cerstvejsi",
+        "casto s koriandrem."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Papasarrugadas",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Papas arrugadas + mojo rojo/verde - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "gofio",
+      "propertyId": "paradise",
+      "name": "Gofio",
+      "category": "specializovane",
+      "tags": [
+        "Prazena obilna mouka",
+        "tradicne z psenice nebo kukurice. Pouziva se jako priloha",
+        "do polevek nebo dezertu; pro prvni ochutnani je nejlepsi jemnejsi verze jako escaldon."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Gofio",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Gofio - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "sancocho-canario",
+      "propertyId": "paradise",
+      "name": "Sancocho canario",
+      "category": "specializovane",
+      "tags": [
+        "Tradični rybi jidlo",
+        "casto ze solene ryby",
+        "s bramborami",
+        "batatem",
+        "mojo a gofio. Je to spis domaci/tradicni specialita nez beach-club jidlo."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Sancocho",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Sancocho canario - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "ropa-vieja",
+      "propertyId": "paradise",
+      "name": "Ropa vieja",
+      "category": "specializovane",
+      "tags": [
+        "Dusene maso s cizrnou",
+        "zeleninou a korenim; na Kanarech ma lokalni „comfort food“ verzi. Dobra volba pro hosty",
+        "kteri chteji neco sytého a tradicniho."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Ropavieja",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Ropa vieja - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "queso-asado",
+      "propertyId": "paradise",
+      "name": "Queso asado",
+      "category": "specializovane",
+      "tags": [
+        "Grilovany kanarsky syr",
+        "casto s mojo nebo palmovym medem. Funguje vyborne jako sdileny predkrm."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Grilledcheese",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Queso asado - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "conejo-en-salmorejo",
+      "propertyId": "paradise",
+      "name": "Conejo en salmorejo",
+      "category": "specializovane",
+      "tags": [
+        "Kralik marinovany v cesneku",
+        "vine",
+        "paprice a bylinkach",
+        "potom duseny nebo smazeny. Typicke kanarske jidlo mimo standardni turistickou nabidku."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Conejoensalmorejo",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Conejo en salmorejo - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "carnes-a-la-brasa",
+      "propertyId": "paradise",
+      "name": "Carnes a la brasa",
+      "category": "specializovane",
+      "tags": [
+        "Grilovana masa na ohni",
+        "jednoducha uprava se silnou chuti grilu. Hodi se pro skupinu a delsi veceri."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Grilledmeat",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Carnes a la brasa - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "barraquito",
+      "propertyId": "paradise",
+      "name": "Barraquito",
+      "category": "specializovane",
+      "tags": [
+        "Vrstvena kava s kondenzovanym mlekem",
+        "espressem",
+        "mlecnou penou",
+        "citronovou kurou a Licor 43. Objednej po jidle misto dezertu."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Barraquito",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Barraquito - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "ron-miel",
+      "propertyId": "paradise",
+      "name": "Ron miel",
+      "category": "specializovane",
+      "tags": [
+        "Kanarsky medovy rum",
+        "sladky digestiv po veceri. Je silnejsi",
+        "nez pusobi",
+        "takze spis mala sklenka."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Honeyrum",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Ron miel - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "bienmesabe",
+      "propertyId": "paradise",
+      "name": "Bienmesabe",
+      "category": "specializovane",
+      "tags": [
+        "Sladky mandlovy krem/dezert",
+        "casto s medem",
+        "citronem a skorici. Je hodne sladky",
+        "idealni sdilet nebo dat k male kave."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Bienmesabe",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Bienmesabe - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "quesillo",
+      "propertyId": "paradise",
+      "name": "Quesillo",
+      "category": "specializovane",
+      "tags": [
+        "Kanarsky flan z kondenzovaneho mleka a vajec",
+        "jemny a karamelovy. Bezpecna lokalni dezertni volba."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Quesillo",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Quesillo - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    },
+    {
+      "id": "frangollo",
+      "propertyId": "paradise",
+      "name": "Frangollo",
+      "category": "specializovane",
+      "tags": [
+        "Dezert z kukuricne mouky/mléka",
+        "casto se skorici",
+        "citronem",
+        "rozinkami nebo mandlemi. Chutove jednodussi a domactejsi nez bezne dorty."
+      ],
+      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Frangollo",
+      "practical": {
+        "note": ""
+      },
+      "links": {},
+      "photos": [
+        {
+          "url": "",
+          "alt": "Frangollo - foto se doplnuje",
+          "license": "missing",
+          "credit": "Doplnit"
+        }
+      ],
+      "confidence": "M",
+      "sourceRefs": []
+    }
+  ],
+  "canarianKitchen": [
+    {
+      "id": "papas-arrugadas-mojo-rojo-verde",
+      "name": "Papas arrugadas + mojo rojo/verde",
+      "description": "Male brambory varene ve velmi slane vode, podavane se slupkou a omackami mojo. Mojo rojo byva paprikovo-cesnekove a pikantnejsi, mojo verde je cerstvejsi, casto s koriandrem.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Papas_arrugadas",
+      "whereToTry": "Prakticky kazda kanarska restaurace; z Kristina vyberu zkus Orange Cafe nebo El Cordero."
+    },
+    {
+      "id": "gofio",
+      "name": "Gofio",
+      "description": "Prazena obilna mouka, tradicne z psenice nebo kukurice. Pouziva se jako priloha, do polevek nebo dezertu; pro prvni ochutnani je nejlepsi jemnejsi verze jako escaldon.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Gofio",
+      "whereToTry": "Tradicni kanarske restaurace / guachinche; z vyberu nejspis El Cordero."
+    },
+    {
+      "id": "sancocho-canario",
+      "name": "Sancocho canario",
+      "description": "Tradični rybi jidlo, casto ze solene ryby, s bramborami, batatem, mojo a gofio. Je to spis domaci/tradicni specialita nez beach-club jidlo.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Sancocho",
+      "whereToTry": "Rybi restaurace mimo turisticke centrum, napr. Los Abrigos nebo La Caleta."
+    },
+    {
+      "id": "ropa-vieja",
+      "name": "Ropa vieja",
+      "description": "Dusene maso s cizrnou, zeleninou a korenim; na Kanarech ma lokalni „comfort food“ verzi. Dobra volba pro hosty, kteri chteji neco sytého a tradicniho.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Ropa_vieja",
+      "whereToTry": "Guachinche / tradicni restaurace; overit konkretni nabidku v den navstevy."
+    },
+    {
+      "id": "queso-asado",
+      "name": "Queso asado",
+      "description": "Grilovany kanarsky syr, casto s mojo nebo palmovym medem. Funguje vyborne jako sdileny predkrm.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Grilled_cheese",
+      "whereToTry": "Tradicni restaurace a tapas podniky."
+    },
+    {
+      "id": "conejo-en-salmorejo",
+      "name": "Conejo en salmorejo",
+      "description": "Kralik marinovany v cesneku, vine, paprice a bylinkach, potom duseny nebo smazeny. Typicke kanarske jidlo mimo standardni turistickou nabidku.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Conejo_en_salmorejo",
+      "whereToTry": "Guachinche / tradicni venkovske restaurace."
+    },
+    {
+      "id": "carnes-a-la-brasa",
+      "name": "Carnes a la brasa",
+      "description": "Grilovana masa na ohni, jednoducha uprava se silnou chuti grilu. Hodi se pro skupinu a delsi veceri.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Grilled_meat",
+      "whereToTry": "El Cordero - v bananove plantazi, specialita na maso z grilu."
+    },
+    {
+      "id": "barraquito",
+      "name": "Barraquito",
+      "description": "Vrstvena kava s kondenzovanym mlekem, espressem, mlecnou penou, citronovou kurou a Licor 43. Objednej po jidle misto dezertu.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Barraquito",
+      "whereToTry": "Kavarny a restaurace po celem ostrove; dobra pauza v Garachicu / La Orotave."
+    },
+    {
+      "id": "ron-miel",
+      "name": "Ron miel",
+      "description": "Kanarsky medovy rum, sladky digestiv po veceri. Je silnejsi, nez pusobi, takze spis mala sklenka.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Honey_rum",
+      "whereToTry": "Restaurace a bary; casto jako digestiv po jidle."
+    },
+    {
+      "id": "bienmesabe",
+      "name": "Bienmesabe",
+      "description": "Sladky mandlovy krem/dezert, casto s medem, citronem a skorici. Je hodne sladky, idealni sdilet nebo dat k male kave.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Bienmesabe",
+      "whereToTry": "Tradicni restaurace nebo cukrarny."
+    },
+    {
+      "id": "quesillo",
+      "name": "Quesillo",
+      "description": "Kanarsky flan z kondenzovaneho mleka a vajec, jemny a karamelovy. Bezpecna lokalni dezertni volba.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Quesillo",
+      "whereToTry": "Bezne v kanarskych restauracich."
+    },
+    {
+      "id": "frangollo",
+      "name": "Frangollo",
+      "description": "Dezert z kukuricne mouky/mléka, casto se skorici, citronem, rozinkami nebo mandlemi. Chutove jednodussi a domactejsi nez bezne dorty.",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Category:Frangollo",
+      "whereToTry": "Tradicni restaurace; overit v denni nabidce."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jazuma Living">
+  <rect width="64" height="64" rx="12" fill="#0F6B78"/>
+  <path d="M14 42c9-2 15-7 19-16 2 7 8 12 17 16" fill="none" stroke="#FAF7F1" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="43" cy="20" r="6" fill="#E7D3A7"/>
+</svg>

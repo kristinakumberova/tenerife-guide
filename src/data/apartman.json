@@ -1,0 +1,216 @@
+{
+  "id": "paradise",
+  "brand": "Jazuma Living",
+  "name": "Jazuma Paradise",
+  "address": "C. Irlanda 5, 38660 Adeje, Santa Cruz de Tenerife",
+  "navigationName": "Paradise Court",
+  "apartmentNumber": "33",
+  "area": "San Eugenio Alto / Costa Adeje",
+  "checkIn": "od 15:00",
+  "checkOut": "do 10:00",
+  "heroImage": "/images/apartman/hero-terasa-sunset.png",
+  "mapImage": "/images/apartman/mapa-arealu.png",
+  "maps": {
+    "arrival": "/images/apartman/mapa-prijezdy.png",
+    "complex": "/images/apartman/mapa-arealu.png"
+  },
+  "contact": {
+    "label": "Kontaktuj Kristinu den pred prijezdem",
+    "whatsappUrl": "https://wa.me/420702188376",
+    "phone": "+420 702 188 376"
+  },
+  "quickInfo": [
+    {
+      "title": "Check-in",
+      "summary": "od 15:00",
+      "status": "neutral"
+    },
+    {
+      "title": "Check-out",
+      "summary": "do 10:00",
+      "status": "neutral"
+    },
+    {
+      "title": "Navigace",
+      "summary": "Zadat Paradise Court",
+      "status": "neutral"
+    },
+    {
+      "title": "Kody a WiFi",
+      "summary": "Neposilame verejne. Napis Kristine na WhatsApp.",
+      "status": "contact-required"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Příjezd autem",
+      "mapImage": "/images/apartman/mapa-prijezdy.png",
+      "paragraphs": [
+        "K apartmánu vedou dvě různé příjezdové cesty podle toho, kterým vstupem chcete projít. Obě začínají na kruhovém objezdu na Av. Europa:"
+      ],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Cesta",
+          "Trasa",
+          "Cíl"
+        ],
+        "rows": [
+          {
+            "Cesta": "🟦 Modrá",
+            "Trasa": "Kruhák → Av. Europa → C. Alemania → C. Diario de Avisos",
+            "Cíl": "Dolní vstup & vjezd do garáže"
+          },
+          {
+            "Cesta": "🟧 Oranžová",
+            "Trasa": "Kruhák → Av. Europa → C. Irlanda",
+            "Cíl": "Horní vstup (lepší pro pěší s kufry)"
+          }
+        ]
+      },
+      "body": "K apartmánu vedou dvě různé příjezdové cesty podle toho, kterým vstupem chcete projít. Obě začínají na kruhovém objezdu na Av. Europa:"
+    },
+    {
+      "title": "Vstup do areálu",
+      "mapImage": "/images/apartman/mapa-arealu.png",
+      "paragraphs": [
+        "2 vstupní body s rozdílným přístupem k apartmánu č. 33:",
+        "⚠️ Kód od brány a kód od key-locker boxu s klíči neuvádíme na webu.",
+        "Kontaktujte Kristinu den před příjezdem — pošle ti aktuální kódy:"
+      ],
+      "bullets": [
+        "WhatsApp: +420 702 188 376 (preferováno)",
+        "Telefon: +420 702 188 376"
+      ],
+      "table": {
+        "headers": [
+          "",
+          "Vstup",
+          "Poznámka"
+        ],
+        "rows": [
+          {
+            "": "1",
+            "Vstup": "Horní vstup ⭐",
+            "Poznámka": "Preferovaný — rovný přístup k apartmánu, kratší cesta s kufry"
+          },
+          {
+            "": "2",
+            "Vstup": "Dolní vstup",
+            "Poznámka": "Vede kolem bazénu, několik schodů"
+          },
+          {
+            "": "🅿️",
+            "Vstup": "Dolní parkoviště + Horní parkoviště",
+            "Poznámka": "Externí parkování pro hosty (viz Parkování níže)"
+          },
+          {
+            "": "🅿️",
+            "Vstup": "Vjezd do garáže",
+            "Poznámka": "U dolního vstupu (vlastní místo č. 10)"
+          }
+        ]
+      },
+      "body": "2 vstupní body s rozdílným přístupem k apartmánu č. 33:\n\n⚠️ Kód od brány a kód od key-locker boxu s klíči neuvádíme na webu.\n\nKontaktujte Kristinu den před příjezdem — pošle ti aktuální kódy:"
+    },
+    {
+      "title": "Parkování",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Místo",
+          "Dostupnost"
+        ],
+        "rows": [
+          {
+            "Místo": "U horního vstupu",
+            "Dostupnost": "Obvykle plnější"
+          },
+          {
+            "Místo": "U dolního vstupu",
+            "Dostupnost": "Místo téměř vždy k dispozici"
+          },
+          {
+            "Místo": "Podzemní garáže — místo č. 10",
+            "Dostupnost": "Vždy volné; ovládání od garáže je v apartmánu"
+          }
+        ]
+      },
+      "body": ""
+    },
+    {
+      "title": "Vybavení apartmánu",
+      "paragraphs": [],
+      "bullets": [
+        "Obývací pokoj — gauč, jídelní stůl (4 místa), Smart TV",
+        "Kuchyňka — plná (sklokeramická/indukce, dřez, lednice, nádobí)",
+        "Koupelna — pouze sprcha (ne vana), pračka, toaleta",
+        "Terasa — výhled na moře, jídelní sezení + sofa lounge, pergola",
+        "Bazén — 1 bazén v komplexu, lehátka"
+      ],
+      "table": null,
+      "body": ""
+    },
+    {
+      "title": "Supermarkety a nákupy",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Obchod",
+          "Vzdálenost",
+          "Poznámka"
+        ],
+        "rows": [
+          {
+            "Obchod": "Večerka",
+            "Vzdálenost": "pěšky (pod kopcem)",
+            "Poznámka": "Základní potřeby bez auta"
+          },
+          {
+            "Obchod": "Mercadona",
+            "Vzdálenost": "~5 min autem (na kruháči směrem na Adeje)",
+            "Poznámka": "Doporučeno — nejlepší poměr cena/kvalita"
+          },
+          {
+            "Obchod": "Další velké obchody",
+            "Vzdálenost": "~10 min autem (Adeje centrum)",
+            "Poznámka": "HiperDino, Lidl"
+          }
+        ]
+      },
+      "body": ""
+    },
+    {
+      "title": "Pláže",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Pláž",
+          "Vzdálenost",
+          "Charakter"
+        ],
+        "rows": [
+          {
+            "Pláž": "Playa del Duque",
+            "Vzdálenost": "~5 min autem / 15 min pěšky",
+            "Charakter": "Prémiová, modré vlajky, lehátka k pronájmu"
+          },
+          {
+            "Pláž": "Playa de las Vistas",
+            "Vzdálenost": "~10 min autem",
+            "Charakter": "Větší, písčitá, klidnější"
+          },
+          {
+            "Pláž": "Playa de Troya",
+            "Vzdálenost": "~10 min pěšky",
+            "Charakter": "Živá, animace, oblíbená"
+          }
+        ]
+      },
+      "body": ""
+    }
+  ]
+}

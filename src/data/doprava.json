@@ -1,0 +1,36 @@
+{
+  "title": "Doprava",
+  "lead": "Auto je nejpohodlnejsi, ale zakladni trasy zvladnes i taxi nebo TITSA autobusem.",
+  "sections": [
+    {
+      "id": "auto-pujcovny-v-tfs-arrivals",
+      "title": "Auto - pujcovny v TFS arrivals",
+      "body": "Nase doporuceni\n\n| Pujcovna | Proc ji uvadime | Web | Overeno 2026-05-28 |\n|---|---|---|---|\n| Autoreisen | Kristinin preferovany tip; dobra zkusenost | autoreisen.com | Prepazky TFS: Planta 0, Planta 1 a venku u terminalu. Aena tel. +34 922 260 200, +34 922 392 216, +34 922 759 364. Office page: Aeropuerto Tenerife Sur, tel. +34 922 392 216, Po-Ne 07:00-23:59. Min. vek 23 let, ridicak platny ve Spanelsku, min. 2 roky praxe. Kreditni i bankovni debitni karty OK, prepaid ne. |\n| Cicar | Alternativni doporuceni; dobra zkusenost | cicar.com | Prepazky TFS: Planta 0, Planta 1 a venku u terminalu. Aena tel. +34 928 822 900, +34 922 759 329. Cicar TFS office: +34 928 822 900. Min. vek podle kategorie 21/23/25 let, ridicak min. 2 roky. V cene na Kanarech: all-risk insurance without excess, unlimited km, airport/port taxes, extra driver, child seats/boosters. |\n\n Co potrebujes\n\n- Ridicak CR/EU: cesky ridicsky prukaz staci, pokud je platny; pujcovny resi hlavne platnost a delku drzeni.\n- Karta: Autoreisen akceptuje kreditni i bankovni debitni karty, prepaid ne. U Cicar je potvrzeny fuel deposit podle mnozstvi paliva pri prevzeti.\n- Vek: Autoreisen min. 23 let. Cicar min. 21 let pro nektere skupiny, 23/25 let pro vyssi kategorie.\n- Pojisteni: Autoreisen i Cicar maji siroke kryti bez spoluucasti; vyluky typicky zahrnuji pneumatiky, disky, podvozek, klice, spatne palivo nebo nedbalostni pouziti.\n- Palivo: vrat auto se stejnym mnozstvim paliva, s jakym ho prevezmes.\n- [?] Ceny 2026: ceny jsou dynamicke podle terminu, delky a dostupnosti. Pro web neuvadet pevny sazebnik bez konkretniho booking flow.\n\n Rizeni na Tenerife\n\n- TF-1: bezne pouzivana bezmytna dalnice na jihu Tenerife; v airport/transport zdrojich neni uvedene myto.\n- Tankovani: bezne znacky DISA / Repsol / Cepsa. [?] Cena/litr je volatilni; konkretni castku uvadet jen po dennim overeni.\n- Parkovani: v centrech sleduj modre/zelene cary, parkovaci automat nebo lokalni aplikaci. [?] Detail se lisi podle obce.\n- Kruhace: na Tenerife jsou velmi caste; jezdit klidne a sledovat pruhy.\n\n---",
+      "hasFlags": true
+    },
+    {
+      "id": "taxi",
+      "title": "Taxi",
+      "body": "Sazby nize jsou prakticka aproximace pro rok 2026. Oficialni taxi jede na taxametr; cena se meni podle denni doby, provozu, zavazadel a presne adresy.\n\n| Trasa | Cena | Cas | Evidence |\n|---|---:|---:|---|\n| TFS - Paradise Court / San Eugenio | cca 25-35 EUR | 20-25 min | SIGNAL \\| M \\| Tier 2 |\n| Paradise Court / San Eugenio - TFS | cca 25-35 EUR | 20-25 min | SIGNAL \\| M \\| Tier 2 |\n| Paradise Court - centrum Los Cristianos | cca 12-18 EUR | 10-15 min | SIGNAL \\| M \\| Tier 2 |\n\nAplikace: [?] FreeNow dostupnost na Tenerife nebyla potvrzena z Tier 1 zdroje; neuvadet jako jistotu.\n\nJista varianta: taxi stand u letiste, hotelova recepce, telefonicke objednani, taxametr.\n\n---",
+      "hasFlags": true
+    },
+    {
+      "id": "autobus-titsa",
+      "title": "Autobus TITSA",
+      "body": "Klicove info\n\n| Tema | Detail | Evidence |\n|---|---|---|\n| Provozovatel | TITSA (titsa.com) | FAKT \\| H \\| Tier 1 |\n| Platba bankovni kartou | TITSA uvadi, ze platba bankovni kartou je dostupna na vsech linkach; podminka: Mastercard/Visa bez nutnosti PIN. | FAKT \\| H \\| Tier 1 |\n| Hotovost | TITSA fares page uvadi platbu bankovni kartou nebo hotove. | FAKT \\| H \\| Tier 1 |\n| Ten+ karta | Dobijeci karta pro prilezitostne pouziti; prodej na letistnich automatech, prodejnich mistech v bus stanicich, kioskove siti a automatech Tranvia de Tenerife. | FAKT \\| H \\| Tier 1 |\n| Costa Adeje information centre | Costa Adeje Station: Po-Pa 07:00-20:00, So/Ne/svatky 08:00-17:00. | FAKT \\| H \\| Tier 1 |\n| Letiste TFS bus stop | Aena uvadi zastavku u terminalu, floor 0 / arrivals; relevantni linky z letiste: 343, 10, 40, 711, 415. | FAKT \\| H \\| Tier 1 |\n\n Klicove linky pro hosty\n\n| Linka | Trasa | Uzitecne pro |\n|---|---|---|\n| 343 | Puerto de la Cruz / TFN / TFS / Los Cristianos / Costa Adeje | Letiste TFS - Costa Adeje a spojeni se severnim letistem |\n| 10 / 40 / 711 | TFS a hlavni jizni/severni smer podle casu | Letistni presuny; overit v TITSA app |\n| 415 | El Fraile - TFS - San Isidro | Prestup pro El Medano / Las Galletas smery |\n| 408 | San Isidro / Granadilla / El Medano | El Medano bez auta po prestupu |\n| 342 | Costa Adeje - Los Cristianos - Vilaflor - Teide - El Portillo | Teide bez auta z jihu; 1x denne kazdym smerem |\n| 348 | Puerto de la Cruz - Teide | Teide bez auta ze severu |\n| 355 | Santiago del Teide - Masca | Masca logistika |\n| 369 | Buenavista - Punta de Teno | Punta de Teno; auto omezeno/zakazano podle aktualniho rezimu |\n| 467 | Costa Adeje - Las Galletas | Las Galletas, banana experience |\n\n CONFLICT - linka 342 / 482 / El Medano\n\n- CONFLICT 342 neni TFS - El Medano. Podle TITSA je to linka Costa Adeje - Teide - El Portillo.\n- 482 nepouzivat jako linku na Teide ani jako TFS - El Medano; dostupne routing zdroje ji vedou mezi oblastmi Arona/Castanos a Los Cristianos.\n- Prakticka cesta na El Medano bez auta: TFS - San Isidro linkou 415/40/450 podle casu + prestup na 408, pripadne taxi.\n\n---",
+      "hasFlags": true
+    },
+    {
+      "id": "letiste-tfs-vs-tfn",
+      "title": "Letiste - TFS vs. TFN",
+      "body": "| Letiste | Pozice | Vzdalenost k apartmanu | Doporuceni |\n|---|---|---|---|\n| TFS (Tenerife Sur / Reina Sofia) | jih | cca 25 min autem | Preferovat - vetsina charteru a low-cost letu leti sem |\n| TFN (Tenerife Norte / Los Rodeos) | sever | cca 60-75 min autem | Vetsinou inter-island + Madrid/Barcelona |\n\n---",
+      "hasFlags": false
+    },
+    {
+      "id": "teide-lanovka",
+      "title": "Teide lanovka",
+      "body": "- Telesferico del Teide rezervuj zvlast pres Volcano Teide: https://www.volcanoteide.com/.\n- Samostatna zpatecni jizdenka je na oficialnim webu uvadena od 42 EUR, premium ticket s audioguide od 45.75 EUR, ascent-only od 23.50 EUR.\n- Permit na samotny vrchol neni zahrnuty v listku na lanovku.\n\n---",
+      "hasFlags": false
+    }
+  ]
+}
