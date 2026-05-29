@@ -1,7 +1,5 @@
-import { PhoneCall } from "lucide-react";
 import kontaktyJson from "../../data/kontakty.json";
 import { ContactCard } from "../../components/ContactCard";
-import { ContactCTA } from "../../components/ContactCTA";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 
 interface ContactItem {
@@ -29,6 +27,7 @@ interface ContactsData {
 }
 
 const data = kontaktyJson as ContactsData;
+const visiblePlaybooks = data.playbooks.filter((item) => item.situation !== "Ztracené klíče od apartmánu");
 
 export function KontaktyPage() {
   useDocumentTitle("Kontakty");
@@ -36,19 +35,7 @@ export function KontaktyPage() {
   return (
     <>
       <section className="page-intro emergency-intro">
-        <p className="eyebrow">SOS</p>
-        <h1>Když se něco děje, začni tady</h1>
-        <p>
-          V akutní situaci volej evropskou tísňovou linku <strong>112</strong> — funguje 24/7 i z mobilu bez SIM.
-          Pro cokoli kolem apartmánu napiš Kristině.
-        </p>
-        <div className="emergency-actions">
-          <a className="btn btn-danger" href="tel:112">
-            <PhoneCall size={18} aria-hidden="true" />
-            Volat 112
-          </a>
-          <ContactCTA label="Napsat Kristině" whatsappUrl={data.host.whatsappUrl} phone={data.host.phone} />
-        </div>
+        <h1>SOS</h1>
       </section>
       <section className="section-block">
         <div className="contact-grid">
@@ -72,7 +59,7 @@ export function KontaktyPage() {
           <h2>Co dělat, když…</h2>
         </div>
         <div className="section-grid">
-          {data.playbooks.map((item) => (
+          {visiblePlaybooks.map((item) => (
             <article className="content-panel" key={item.situation}>
               <h3>{item.situation}</h3>
               <p>{item.action}</p>
