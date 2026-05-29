@@ -6,6 +6,7 @@ import poisJson from "../../data/poi.json";
 import { ActiveFilterBar } from "../../components/ActiveFilterBar";
 import { BundleCard } from "../../components/BundleCard";
 import { FilterPanel } from "../../components/FilterPanel";
+import { PageAnchors } from "../../components/PageAnchors";
 import { POIMapList } from "../../components/POIMapList";
 import { PermitChecklist } from "../../components/PermitChecklist";
 import { emptyFilters, filterPois } from "../../lib/tagFilter";
@@ -38,7 +39,15 @@ export function GuidePage() {
         <p>Vyber si místo podle regionu, aktivity, logistiky a počasí. Místa s permitem nebo rezervací jsou označená přímo v kartách.</p>
       </section>
 
-      <section className="guide-layout" aria-label="Filtry, mapa a seznam míst">
+      <PageAnchors
+        items={[
+          { href: "#mista", label: "Místa a mapa" },
+          { href: "#permity", label: "Permity" },
+          { href: "#denni-napady", label: "Denní nápady" },
+        ]}
+      />
+
+      <section className="guide-layout section-anchor" id="mista" aria-label="Filtry, mapa a seznam míst">
         <FilterPanel filters={filters} resultCount={filteredPois.length} onChange={setFilters} />
         <div className="guide-main">
           <ActiveFilterBar filters={filters} resultCount={filteredPois.length} onClearAll={() => setFilters(emptyFilters)} onRemove={removeFilter} />
@@ -48,7 +57,7 @@ export function GuidePage() {
 
       <PermitChecklist permits={permits} />
 
-      <details className="section-block section-disclosure">
+      <details className="section-block section-disclosure section-anchor" id="denni-napady">
         <summary className="section-disclosure-summary">
           <span>
             <span className="eyebrow">Hotové trasy</span>

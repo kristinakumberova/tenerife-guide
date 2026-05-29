@@ -1,5 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import dopravaJson from "../../data/doprava.json";
+import { PageAnchors } from "../../components/PageAnchors";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 import type { TransportData, TransportSection } from "../../types";
 
@@ -42,9 +43,10 @@ export function DopravaPage() {
         <h1>{doprava.title}</h1>
         <p>{doprava.lead}</p>
       </section>
+      <PageAnchors items={doprava.sections.map((section) => ({ href: `#${section.id}`, label: section.title }))} />
       <div className="transport-list">
         {doprava.sections.map((section) => (
-          <article className="content-panel" key={section.id}>
+          <article className="content-panel section-anchor" id={section.id} key={section.id}>
             <h2>{section.title}</h2>
             {section.intro && <p>{section.intro}</p>}
             {section.table && <SectionTable table={section.table} />}

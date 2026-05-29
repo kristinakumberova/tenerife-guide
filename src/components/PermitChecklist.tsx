@@ -8,7 +8,7 @@ interface PermitChecklistProps {
 
 export function PermitChecklist({ permits }: PermitChecklistProps) {
   return (
-    <details className="section-block section-disclosure" id="permity">
+    <details className="section-block section-disclosure section-anchor" id="permity">
       <summary className="section-disclosure-summary">
         <span>
           <span className="eyebrow">Rezervace předem</span>

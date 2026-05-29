@@ -524,6 +524,53 @@ strong {
   margin-bottom: 0.7rem;
 }
 
+.page-anchors {
+  position: sticky;
+  top: 68px;
+  z-index: 30;
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem -1.1rem 0;
+  padding: 0.7rem 1.1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  background: rgb(246 241 233 / 88%);
+  border-block: 1px solid var(--color-line);
+  backdrop-filter: saturate(140%) blur(14px);
+  scrollbar-width: none;
+}
+
+.page-anchors::-webkit-scrollbar {
+  display: none;
+}
+
+.page-anchors a {
+  flex: 0 0 auto;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-ink-soft);
+  font-size: 0.88rem;
+  font-weight: 800;
+  box-shadow: var(--shadow-xs);
+}
+
+.page-anchors a:hover,
+.page-anchors a:focus-visible {
+  border-color: rgb(15 107 120 / 30%);
+  background: var(--color-sea-tint);
+  color: var(--color-sea-deep);
+}
+
+.section-anchor {
+  scroll-margin-top: 128px;
+}
+
 .content-panel {
   padding: 1.25rem;
   box-shadow: var(--shadow-xs);
@@ -1717,6 +1764,12 @@ details summary {
 
   .page-shell {
     padding: 1.8rem 0 3.5rem;
+  }
+
+  .page-anchors {
+    margin-inline: 0;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-pill);
   }
 
   .hero-property {

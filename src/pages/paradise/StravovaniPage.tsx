@@ -1,4 +1,5 @@
 import restaurantsJson from "../../data/restaurants.json";
+import { PageAnchors } from "../../components/PageAnchors";
 import { RestaurantCard } from "../../components/RestaurantCard";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 import type { CanarianKitchenItem, Restaurant } from "../../types";
@@ -14,6 +15,13 @@ const categoryLabels: Record<Restaurant["category"], string> = {
   zazitkove: "Zážitkové (za výletem)",
   specializovane: "Specializované",
 };
+const restaurantCategories = ["okoli", "zazitkove", "specializovane"] as Restaurant["category"][];
+const restaurantAnchors = [
+  { href: "#okoli", label: "V okolí" },
+  { href: "#zazitkove", label: "Zážitkové" },
+  { href: "#specializovane", label: "Specializované" },
+  { href: "#kanarska-kuchyne", label: "Kanárská kuchyně" },
+];
 
 export function StravovaniPage() {
   useDocumentTitle("Stravovani");
@@ -25,8 +33,9 @@ export function StravovaniPage() {
         <h1>Náš výběr a kanárské klasiky</h1>
         <p>Restaurace jsou subjektivní výběr. Otevírací doby a ceny si pro jistotu před cestou ověř.</p>
       </section>
-      {(["okoli", "zazitkove", "specializovane"] as Restaurant["category"][]).map((category) => (
-        <section className="section-block" key={category}>
+      <PageAnchors items={restaurantAnchors} />
+      {restaurantCategories.map((category) => (
+        <section className="section-block section-anchor" id={category} key={category}>
           <div className="section-heading">
             <h2>{categoryLabels[category]}</h2>
           </div>
@@ -39,7 +48,7 @@ export function StravovaniPage() {
           </div>
         </section>
       ))}
-      <section className="section-block">
+      <section className="section-block section-anchor" id="kanarska-kuchyne">
         <div className="section-heading">
           <h2>Co ochutnat — kanárská kuchyně</h2>
         </div>

@@ -3,6 +3,7 @@ import { MapPin } from "lucide-react";
 import apartmanJson from "../../data/apartman.json";
 import { Gallery } from "../../components/Gallery";
 import { HeroProperty } from "../../components/HeroProperty";
+import { PageAnchors } from "../../components/PageAnchors";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 import type { Apartment, ApartmentSection } from "../../types";
 
@@ -90,9 +91,16 @@ export function ApartmanPage() {
     <>
       <HeroProperty apartment={apartment} />
 
+      <PageAnchors
+        items={[
+          { href: "#fotky", label: "Fotky" },
+          { href: "#prakticke-info", label: "Praktické info" },
+        ]}
+      />
+
       {/* Galerie */}
       {apartment.gallery.length > 0 && (
-        <section className="section-block">
+        <section className="section-block section-anchor" id="fotky">
           <div className="section-heading">
             <div>
               <p className="eyebrow">Prohlídka</p>
@@ -108,7 +116,7 @@ export function ApartmanPage() {
       )}
 
       {/* Praktické info — accordion, ať je mobilní stránka krátká */}
-      <section className="section-block">
+      <section className="section-block section-anchor" id="prakticke-info">
         <div className="section-heading">
           <div>
             <p className="eyebrow">Vše potřebné</p>

@@ -1,5 +1,6 @@
 import kontaktyJson from "../../data/kontakty.json";
 import { ContactCard } from "../../components/ContactCard";
+import { PageAnchors } from "../../components/PageAnchors";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 
 interface ContactItem {
@@ -34,17 +35,24 @@ export function KontaktyPage() {
 
   return (
     <>
-      <section className="page-intro emergency-intro">
+      <section className="page-intro emergency-intro section-anchor" id="sos">
         <h1>SOS</h1>
       </section>
-      <section className="section-block">
+      <PageAnchors
+        items={[
+          { href: "#sos-kontakty", label: "Tísňové kontakty" },
+          { href: "#zdravotnictvi", label: "Zdravotnictví" },
+          { href: "#co-delat", label: "Co dělat" },
+        ]}
+      />
+      <section className="section-block section-anchor" id="sos-kontakty">
         <div className="contact-grid">
           {data.emergency.slice(0, 6).map((item) => (
             <ContactCard key={item.title} title={item.title ?? "Kontakt"} value={item.value} note={item.note} severity={item.value?.includes("112") ? "emergency" : "normal"} />
           ))}
         </div>
       </section>
-      <section className="section-block">
+      <section className="section-block section-anchor" id="zdravotnictvi">
         <div className="section-heading">
           <h2>Zdravotnictví</h2>
         </div>
@@ -54,7 +62,7 @@ export function KontaktyPage() {
           ))}
         </div>
       </section>
-      <section className="section-block">
+      <section className="section-block section-anchor" id="co-delat">
         <div className="section-heading">
           <h2>Co dělat, když…</h2>
         </div>
