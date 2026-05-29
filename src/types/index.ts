@@ -147,6 +147,14 @@ export interface ApartmentSection {
   table: ApartmentTable | null;
 }
 
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  role: "hero" | "gallery";
+}
+
 export interface Apartment {
   id: PropertyId;
   brand: string;
@@ -158,6 +166,8 @@ export interface Apartment {
   checkIn: string;
   checkOut: string;
   heroImage: string;
+  heroAlt: string;
+  gallery: GalleryImage[];
   mapImage: string;
   maps: ApartmentMaps;
   contact: {

@@ -1,3 +1,4 @@
+import { PhoneCall } from "lucide-react";
 import kontaktyJson from "../../data/kontakty.json";
 import { ContactCard } from "../../components/ContactCard";
 import { ContactCTA } from "../../components/ContactCTA";
@@ -37,7 +38,17 @@ export function KontaktyPage() {
       <section className="page-intro emergency-intro">
         <p className="eyebrow">SOS</p>
         <h1>Když se něco děje, začni tady</h1>
-        <ContactCTA label="Napsat Kristině" whatsappUrl={data.host.whatsappUrl} phone={data.host.phone} variant="emergency" />
+        <p>
+          V akutní situaci volej evropskou tísňovou linku <strong>112</strong> — funguje 24/7 i z mobilu bez SIM.
+          Pro cokoli kolem apartmánu napiš Kristině.
+        </p>
+        <div className="emergency-actions">
+          <a className="btn btn-danger" href="tel:112">
+            <PhoneCall size={18} aria-hidden="true" />
+            Volat 112
+          </a>
+          <ContactCTA label="Napsat Kristině" whatsappUrl={data.host.whatsappUrl} phone={data.host.phone} />
+        </div>
       </section>
       <section className="section-block">
         <div className="contact-grid">

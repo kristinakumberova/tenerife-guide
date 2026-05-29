@@ -1,0 +1,65 @@
+[
+  {
+    "src": "/images/apartman/hero-terasa-sunset.webp",
+    "alt": "Terasa apartmánu Jazuma Paradise při západu slunce s výhledem na moře a Costa Adeje",
+    "width": 1086,
+    "height": 1448,
+    "role": "hero"
+  },
+  {
+    "src": "/images/apartman/terasa-denni-vyhled.webp",
+    "alt": "Terasa s pergolou, jídelním sezením, lounge sofa a výhledem na oceán",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/obyvak-vyhled.webp",
+    "alt": "Obývací pokoj s prosklenými dveřmi na terasu a výhledem k moři",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/interier-living-dining.webp",
+    "alt": "Otevřený obývací a jídelní prostor ve světlém středomořském stylu",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/obyvak-sofa.webp",
+    "alt": "Obývací pokoj s rozkládací pohovkou a námořnickými detaily",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/loznice.webp",
+    "alt": "Ložnice s manželskou postelí ve světlém plážovém stylu",
+    "width": 1448,
+    "height": 1086,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/kuchynsky-kout.webp",
+    "alt": "Plně vybavený kuchyňský kout s bílým obkladem a dřevěnou pracovní deskou",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/koupelna.webp",
+    "alt": "Koupelna s mozaikovým obkladem, vanou se sprchou a podsvíceným zrcadlem",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  },
+  {
+    "src": "/images/apartman/bazen-komplex.webp",
+    "alt": "Bazén v apartmánovém komplexu s lehátky a slunečnou terasou",
+    "width": 1086,
+    "height": 1448,
+    "role": "gallery"
+  }
+]

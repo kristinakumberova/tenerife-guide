@@ -10,7 +10,7 @@ export function HeroProperty({ apartment }: HeroPropertyProps) {
   return (
     <section className="hero-property">
       <div className="hero-media">
-        <img src={apartment.heroImage} alt="Pohled z terasy apartmánu Jazuma Paradise na Costa Adeje při západu slunce" />
+        <img src={apartment.heroImage} alt={apartment.heroAlt} fetchPriority="high" />
       </div>
       <div className="hero-copy">
         <p className="eyebrow">{apartment.brand}</p>

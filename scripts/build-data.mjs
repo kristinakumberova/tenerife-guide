@@ -525,6 +525,10 @@ function parseApartment() {
     complex: "/images/apartman/mapa-arealu.png",
   };
 
+  const galleryPath = resolve(repoRoot, "public", "images", "apartman", "gallery.json");
+  const gallery = existsSync(galleryPath) ? JSON.parse(readFileSync(galleryPath, "utf8")) : [];
+  const heroFromGallery = gallery.find((image) => image.role === "hero");
+
   const buildSection = (title, mapImage, parsed) => ({
     title,
     mapImage,
@@ -544,7 +548,9 @@ function parseApartment() {
     area: "San Eugenio Alto / Costa Adeje",
     checkIn: fields["Check-in"] ?? "od 15:00",
     checkOut: fields["Check-out"] ?? "do 10:00",
-    heroImage: "/images/apartman/hero-terasa-sunset.png",
+    heroImage: heroFromGallery?.src ?? "/images/apartman/hero-terasa-sunset.webp",
+    heroAlt: heroFromGallery?.alt ?? "Terasa apartmánu Jazuma Paradise při západu slunce",
+    gallery,
     mapImage: maps.complex,
     maps,
     contact: {
