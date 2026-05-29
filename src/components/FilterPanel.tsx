@@ -15,7 +15,7 @@ const logistics = Object.keys(logisticsLabels) as LogisticsTag[];
 const weather = Object.keys(weatherLabels) as WeatherTag[];
 
 export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const activeCount =
     filters.activity.length +
     filters.region.length +

@@ -14,7 +14,7 @@
         "note": "Avenida de Austria 5, San Eugenio Alto. Otevřeno denně 17:00–00:00. Rezervace doporučená."
       },
       "links": {
-        "official": "https://molino-blanco.com/"
+        "official": "https://www.instagram.com/elmolinoblanco/?hl=cs"
       },
       "photos": [
         {
@@ -28,7 +28,7 @@
       "sourceRefs": [
         {
           "label": "El Molino Blanco",
-          "url": "https://molino-blanco.com/",
+          "url": "https://www.instagram.com/elmolinoblanco/?hl=cs",
           "tier": "official",
           "checkedDate": "2026-05-28"
         }
@@ -113,10 +113,10 @@
       ],
       "kristinasNote": "Bali-style, zážitkové prostředí.",
       "practical": {
-        "note": "Costa Adeje. Koncept a vstup (daypass) si potvrď přímo u podniku."
+        "note": "Puerto Colón / Costa Adeje. Aktuální nabídku a rezervace si ověř přímo u podniku."
       },
       "links": {
-        "official": "https://www.bahia-principe.com/es/hoteles-en-espana/costa-adeje/daypass/"
+        "official": "https://www.bahiabeach.club/"
       },
       "photos": [
         {
@@ -130,7 +130,7 @@
       "sourceRefs": [
         {
           "label": "Bahia Beach",
-          "url": "https://www.bahia-principe.com/es/hoteles-en-espana/costa-adeje/daypass/",
+          "url": "https://www.bahiabeach.club/",
           "tier": "official",
           "checkedDate": "2026-05-28"
         }
@@ -145,9 +145,9 @@
         "sunset",
         "show"
       ],
-      "kristinasNote": "Při západu slunce tančí tanečnice — zážitek.",
+      "kristinasNote": "Při západu slunce tančí tanečnice — zážitek. Pokud nechcete jít přímo do restaurace, je možné vzít si pizzu / nápoje ve výdejovém okénku s sebou a užít si západ slunce přímo na pláži na sedacích polštářích.",
       "practical": {
-        "note": "Sunset Ritual Show obvykle čt–ne při západu slunce. Na sunset rezervuj předem."
+        "note": "Na sunset rezervuj předem. Doporučujeme!"
       },
       "links": {
         "official": "https://www.instagram.com/rocanegrasunsetclub/"
@@ -307,371 +307,6 @@
           "checkedDate": "2026-05-28"
         }
       ]
-    },
-    {
-      "id": "specialita",
-      "propertyId": "paradise",
-      "name": "Specialita",
-      "category": "specializovane",
-      "tags": [
-        "Kratky text"
-      ],
-      "kristinasNote": "Foto URL",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Specialita - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "",
-      "propertyId": "paradise",
-      "name": "---",
-      "category": "specializovane",
-      "tags": [
-        "---"
-      ],
-      "kristinasNote": "---",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "--- - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "papas-arrugadas-mojo-rojo-verde",
-      "propertyId": "paradise",
-      "name": "Papas arrugadas + mojo rojo/verde",
-      "category": "specializovane",
-      "tags": [
-        "Malé brambory vařené ve velmi slané vodě",
-        "podávané se slupkou a omáčkami mojo. Mojo rojo bývá paprikovo-česnekové a pikantnější",
-        "mojo verde je čerstvější",
-        "často s koriandrem."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Papasarrugadas",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Papas arrugadas + mojo rojo/verde - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "gofio",
-      "propertyId": "paradise",
-      "name": "Gofio",
-      "category": "specializovane",
-      "tags": [
-        "Pražená obilná mouka",
-        "tradičně z pšenice nebo kukuřice. Používá se jako příloha",
-        "do polévek nebo dezertů; pro první ochutnání je nejlepší jemnější verze jako escaldón."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Gofio",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Gofio - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "sancocho-canario",
-      "propertyId": "paradise",
-      "name": "Sancocho canario",
-      "category": "specializovane",
-      "tags": [
-        "Tradiční rybí jídlo",
-        "často ze solené ryby",
-        "s brambory",
-        "batátem",
-        "mojo a gofiem. Je to spíš domácí/tradiční specialita než beach-club jídlo."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Sancocho",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Sancocho canario - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "ropa-vieja",
-      "propertyId": "paradise",
-      "name": "Ropa vieja",
-      "category": "specializovane",
-      "tags": [
-        "Dušené maso s cizrnou",
-        "zeleninou a kořením; na Kanárech má lokální „comfort food\" verzi. Dobrá volba pro hosty",
-        "kteří chtějí něco sytého a tradičního."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Ropavieja",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Ropa vieja - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "queso-asado",
-      "propertyId": "paradise",
-      "name": "Queso asado",
-      "category": "specializovane",
-      "tags": [
-        "Grilovaný kanárský sýr",
-        "často s mojo nebo palmovým medem. Funguje výborně jako sdílený předkrm."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Grilledcheese",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Queso asado - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "conejo-en-salmorejo",
-      "propertyId": "paradise",
-      "name": "Conejo en salmorejo",
-      "category": "specializovane",
-      "tags": [
-        "Králík marinovaný v česneku",
-        "víně",
-        "paprice a bylinkách",
-        "potom dušený nebo smažený. Typické kanárské jídlo mimo standardní turistickou nabídku."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Conejoensalmorejo",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Conejo en salmorejo - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "carnes-a-la-brasa",
-      "propertyId": "paradise",
-      "name": "Carnes a la brasa",
-      "category": "specializovane",
-      "tags": [
-        "Grilovaná masa na ohni",
-        "jednoduchá úprava se silnou chutí grilu. Hodí se pro skupinu a delší večeři."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Grilledmeat",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Carnes a la brasa - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "barraquito",
-      "propertyId": "paradise",
-      "name": "Barraquito",
-      "category": "specializovane",
-      "tags": [
-        "Vrstvená káva s kondenzovaným mlékem",
-        "espressem",
-        "mléčnou pěnou",
-        "citronovou kůrou a Licorem 43. Objednej po jídle místo dezertu."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Barraquito",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Barraquito - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "ron-miel",
-      "propertyId": "paradise",
-      "name": "Ron miel",
-      "category": "specializovane",
-      "tags": [
-        "Kanárský medový rum",
-        "sladký digestiv po večeři. Je silnější",
-        "než působí",
-        "takže spíš malá sklenka."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Honeyrum",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Ron miel - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "bienmesabe",
-      "propertyId": "paradise",
-      "name": "Bienmesabe",
-      "category": "specializovane",
-      "tags": [
-        "Sladký mandlový krém/dezert",
-        "často s medem",
-        "citronem a skořicí. Je hodně sladký",
-        "ideální sdílet nebo dát k malé kávě."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Bienmesabe",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Bienmesabe - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "quesillo",
-      "propertyId": "paradise",
-      "name": "Quesillo",
-      "category": "specializovane",
-      "tags": [
-        "Kanárský flan z kondenzovaného mléka a vajec",
-        "jemný a karamelový. Bezpečná lokální dezertní volba."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Quesillo",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Quesillo - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
-    },
-    {
-      "id": "frangollo",
-      "propertyId": "paradise",
-      "name": "Frangollo",
-      "category": "specializovane",
-      "tags": [
-        "Dezert z kukuřičné mouky a mléka",
-        "často se skořicí",
-        "citronem",
-        "rozinkami nebo mandlemi. Chuťově jednodušší a domáčtější než běžné dorty."
-      ],
-      "kristinasNote": "https://commons.wikimedia.org/wiki/Category:Frangollo",
-      "practical": {
-        "note": ""
-      },
-      "links": {},
-      "photos": [
-        {
-          "url": "",
-          "alt": "Frangollo - foto se doplnuje",
-          "license": "missing",
-          "credit": "Doplnit"
-        }
-      ],
-      "confidence": "M",
-      "sourceRefs": []
     }
   ],
   "canarianKitchen": [

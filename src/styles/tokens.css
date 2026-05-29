@@ -489,6 +489,20 @@ strong {
   line-height: 1.45;
 }
 
+.quick-card a,
+.data-table a {
+  color: var(--color-sea);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.18em;
+}
+
+.quick-card a:hover,
+.data-table a:hover {
+  color: var(--color-sea-deep);
+}
+
 /* ---------- Sections ---------- */
 .section-block,
 .page-intro,
@@ -916,6 +930,12 @@ strong {
   gap: 1.1rem;
 }
 
+.guide-main,
+.poi-map-list {
+  display: grid;
+  gap: 1.1rem;
+}
+
 .filter-panel {
   display: grid;
   gap: 1.1rem;
@@ -1157,7 +1177,7 @@ strong {
 }
 
 .poi-list {
-  display: none;
+  display: grid;
   gap: 0.85rem;
 }
 
@@ -1175,6 +1195,7 @@ strong {
   grid-template-columns: 108px minmax(0, 1fr);
   gap: 1rem;
   padding: 0.85rem;
+  scroll-margin-top: 92px;
   box-shadow: var(--shadow-xs);
   transition: box-shadow 0.16s ease, transform 0.16s ease, border-color 0.16s ease;
 }
@@ -1228,6 +1249,13 @@ strong {
   margin-top: 0.85rem;
   padding-top: 0.85rem;
   border-top: 1px solid var(--color-line);
+}
+
+.poi-permit-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.55rem;
 }
 
 .info-line {
@@ -1304,6 +1332,35 @@ strong {
   border-radius: 999px;
   background: var(--color-terracotta);
   box-shadow: 0 4px 12px rgb(30 42 48 / 35%);
+}
+
+.apartment-marker {
+  display: grid;
+  place-items: center;
+}
+
+.apartment-marker svg {
+  width: 34px;
+  height: 34px;
+  padding: 0.45rem;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  background: var(--color-sea);
+  color: #fff;
+  box-shadow: 0 5px 14px rgb(30 42 48 / 35%);
+}
+
+.map-apartment-popup {
+  padding: 0.95rem;
+}
+
+.map-apartment-popup h3 {
+  margin-bottom: 0.35rem;
+}
+
+.map-apartment-popup p {
+  margin-bottom: 0.55rem;
+  font-size: 0.9rem;
 }
 
 /* Leaflet popup → POI card */
@@ -1450,6 +1507,53 @@ strong {
 .permit-item p {
   margin-bottom: 0.15rem;
   font-size: 0.9rem;
+}
+
+.section-disclosure {
+  padding: 0;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: rgb(255 255 255 / 58%);
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+}
+
+.section-disclosure-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 78px;
+  padding: 1.1rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.section-disclosure-summary::-webkit-details-marker {
+  display: none;
+}
+
+.section-disclosure-summary h2,
+.section-disclosure-summary p {
+  margin: 0;
+}
+
+.section-disclosure-summary p {
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.section-disclosure[open] .section-disclosure-summary {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.section-disclosure[open] .accordion-chevron {
+  transform: rotate(-135deg);
+}
+
+.section-disclosure > .permit-list,
+.section-disclosure > .bundle-grid {
+  padding: 1.1rem;
 }
 
 @media (max-width: 600px) {
@@ -1647,13 +1751,11 @@ details summary {
   }
 
   .guide-layout {
-    grid-template-columns: 290px minmax(0, 1fr);
-    align-items: start;
+    grid-template-columns: 1fr;
   }
 
   .filter-panel {
-    position: sticky;
-    top: 88px;
+    position: static;
   }
 
   .filter-toggle {
@@ -1665,8 +1767,7 @@ details summary {
   }
 
   .guide-split {
-    grid-template-columns: minmax(300px, 0.92fr) minmax(360px, 1.08fr);
-    align-items: start;
+    grid-template-columns: 1fr;
   }
 
   .poi-list,
@@ -1683,8 +1784,7 @@ details summary {
   }
 
   .map-frame {
-    position: sticky;
-    top: 88px;
+    position: static;
   }
 
   .gallery-grid {

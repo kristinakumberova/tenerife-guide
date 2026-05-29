@@ -29,9 +29,9 @@ const PHOTOS = [
   ["ChatGPT Image 28. 5. 2026 09_12_29 (3).png", "loznice", 1500,
     "Ložnice s manželskou postelí ve světlém plážovém stylu", "gallery"],
   ["ChatGPT Image 28. 5. 2026 09_12_30 (8).png", "kuchynsky-kout", 1500,
-    "Plně vybavený kuchyňský kout s bílým obkladem a dřevěnou pracovní deskou", "gallery"],
+    "Plně vybavený kuchyňský kout", "gallery"],
   ["ChatGPT Image 28. 5. 2026 09_12_30 (9).png", "koupelna", 1500,
-    "Koupelna s mozaikovým obkladem, vanou se sprchou a podsvíceným zrcadlem", "gallery"],
+    "Koupelna s toaletou, vanou a pračkou", "gallery"],
   ["ChatGPT Image 28. 5. 2026 09_12_30 (7).png", "bazen-komplex", 1500,
     "Bazén v apartmánovém komplexu s lehátky a slunečnou terasou", "gallery"],
 ];

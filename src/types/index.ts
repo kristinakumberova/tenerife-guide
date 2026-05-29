@@ -180,6 +180,7 @@ export interface Apartment {
   brand: string;
   name: string;
   address: string;
+  mapsUrl: string;
   navigationName: string;
   apartmentNumber: string;
   area: string;
@@ -195,6 +196,6 @@ export interface Apartment {
     whatsappUrl: string;
     phone: string;
   };
-  quickInfo: Array<{ title: string; summary: string; status: "neutral" | "contact-required" }>;
+  quickInfo: Array<{ title: string; summary: string; status: "neutral" | "contact-required"; href?: string }>;
   sections: ApartmentSection[];
 }

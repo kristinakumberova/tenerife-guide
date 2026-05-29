@@ -15,12 +15,12 @@ export function HeroProperty({ apartment }: HeroPropertyProps) {
       <div className="hero-copy">
         <p className="eyebrow">{apartment.brand}</p>
         <h1>{apartment.name}</h1>
-        <p className="lead">{apartment.area}. Praktický průvodce pro příjezd, výlety, jídlo a rychlé kontakty.</p>
+        <p className="lead">Praktický průvodce pro příjezd, výlety, jídlo a rychlé kontakty.</p>
         <ContactCTA label={apartment.contact.label} whatsappUrl={apartment.contact.whatsappUrl} phone={apartment.contact.phone} />
       </div>
       <div className="quick-grid">
         {apartment.quickInfo.map((item) => (
-          <QuickInfoCard key={item.title} title={item.title} summary={item.summary} status={item.status} />
+          <QuickInfoCard key={item.title} title={item.title} summary={item.summary} status={item.status} href={item.href} />
         ))}
       </div>
     </section>

@@ -22,7 +22,7 @@ export function StravovaniPage() {
     <>
       <section className="page-intro">
         <p className="eyebrow">Stravování</p>
-        <h1>Kristinin výběr a kanárské klasiky</h1>
+        <h1>Náš výběr a kanárské klasiky</h1>
         <p>Restaurace jsou subjektivní výběr. Otevírací doby a ceny si pro jistotu před cestou ověř.</p>
       </section>
       {(["okoli", "zazitkove", "specializovane"] as Restaurant["category"][]).map((category) => (

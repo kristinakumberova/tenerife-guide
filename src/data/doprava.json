@@ -1,11 +1,11 @@
 {
   "title": "Doprava na Tenerife",
-  "lead": "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA. Ceny a jízdní řády se mění — pár dní před cestou si je ověř.",
+  "lead": "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA.",
   "sections": [
     {
       "id": "auto",
       "title": "Auto z půjčovny",
-      "intro": "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Kristina má dobrou zkušenost s Autoreisen, spolehlivá alternativa je Cicar.",
+      "intro": "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Nejlevnější a osvědčenou je Autoreisen, spolehlivá alternativa je Cicar, která je o něco dražší.",
       "bullets": [
         "Řidičák: stačí platný český nebo EU průkaz.",
         "Platba: kreditní i běžná debetní karta (předplacené většinou ne).",
@@ -30,9 +30,7 @@
       "id": "taxi",
       "title": "Taxi",
       "intro": "Oficiální taxi jede na taxametr. Ceny níže jsou orientační pro rok 2026 a liší se podle denní doby, provozu, zavazadel a přesné adresy.",
-      "bullets": [
-        "Jistá varianta: stanoviště u letiště, recepce hotelu nebo telefonická objednávka."
-      ],
+      "bullets": [],
       "table": {
         "headers": [
           "Trasa",
@@ -57,7 +55,7 @@
     {
       "id": "bus",
       "title": "Autobus TITSA",
-      "intro": "Po celém ostrově jezdí žluté autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
+      "intro": "Po celém ostrově jezdí autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
       "bullets": [],
       "table": {
         "headers": [
@@ -133,22 +131,6 @@
         ]
       },
       "links": []
-    },
-    {
-      "id": "teide-lanovka",
-      "title": "Teide — lanovka",
-      "intro": "Lanovku (Teleférico del Teide) rezervuj zvlášť přes oficiální web Volcano Teide.",
-      "bullets": [
-        "Zpáteční jízdenka od cca 42 €, premium s audioguidem od cca 45,75 €, jen nahoru od 23,50 €.",
-        "Permit na samotný vrchol Pico není v jízdence na lanovku zahrnutý — řeší se samostatně."
-      ],
-      "table": null,
-      "links": [
-        {
-          "label": "volcanoteide.com",
-          "url": "https://www.volcanoteide.com/"
-        }
-      ]
     }
   ]
 }

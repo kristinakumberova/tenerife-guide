@@ -1,22 +1,32 @@
-import { List, Map } from "lucide-react";
 import { useState } from "react";
-import type { Poi } from "../types";
+import type { Apartment, Permit, Poi } from "../types";
 import { POICard } from "./POICard";
 import { PoiMap } from "./PoiMap";
 
 interface POIMapListProps {
   pois: Poi[];
+  permits: Permit[];
+  apartment: Apartment;
   onResetFilters: () => void;
 }
 
-export function POIMapList({ pois, onResetFilters }: POIMapListProps) {
-  const [viewMode, setViewMode] = useState<"map" | "list">("map");
+const apartmentGps: [number, number] = [28.0816, -16.7227];
+
+export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapListProps) {
+  const [openedPoiId, setOpenedPoiId] = useState<string | null>(null);
+
+  const openPoi = (poiId: string) => {
+    setOpenedPoiId(poiId);
+    window.setTimeout(() => {
+      document.getElementById(`poi-${poiId}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 50);
+  };
 
   if (pois.length === 0) {
     return (
       <section className="empty-state">
         <h2>Tahle kombinace nic nenašla.</h2>
-        <p>Zkus odebrat jeden filtr — Tenerife je velké, ale ne nekonečné.</p>
+        <p>Zkus odebrat jeden filtr. Tenerife je velké, ale ne nekonečné.</p>
         <button className="btn btn-primary" onClick={onResetFilters}>
           Vymazat filtry
         </button>
@@ -26,23 +36,16 @@ export function POIMapList({ pois, onResetFilters }: POIMapListProps) {
 
   return (
     <section className="poi-map-list">
-      <div className="segmented-control" role="group" aria-label="Zobrazení míst">
-        <button className={viewMode === "map" ? "active" : ""} onClick={() => setViewMode("map")}>
-          <Map size={16} aria-hidden="true" />
-          Mapa
-        </button>
-        <button className={viewMode === "list" ? "active" : ""} onClick={() => setViewMode("list")}>
-          <List size={16} aria-hidden="true" />
-          Seznam
-        </button>
-      </div>
-      <div className={`guide-split ${viewMode === "list" ? "show-list" : "show-map"}`}>
-        <div className="poi-list">
-          {pois.map((poi) => (
-            <POICard key={poi.id} poi={poi} />
-          ))}
-        </div>
-        <PoiMap pois={pois} />
+      <PoiMap
+        pois={pois}
+        permits={permits}
+        apartment={{ name: apartment.name, address: apartment.address, mapsUrl: apartment.mapsUrl, gps: apartmentGps }}
+        onOpenPoi={openPoi}
+      />
+      <div className="poi-list" aria-label="Seznam míst">
+        {pois.map((poi) => (
+          <POICard key={poi.id} poi={poi} permits={permits} isOpen={openedPoiId === poi.id} onOpen={openPoi} />
+        ))}
       </div>
     </section>
   );

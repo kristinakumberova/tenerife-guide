@@ -37,7 +37,7 @@ export function Gallery({ images }: GalleryProps) {
     <>
       <ul className="gallery-grid">
         {images.map((image, i) => (
-          <li key={image.src} className={i === 0 ? "gallery-item gallery-item-lead" : "gallery-item"}>
+          <li key={image.src} className="gallery-item">
             <button
               type="button"
               className="gallery-thumb"

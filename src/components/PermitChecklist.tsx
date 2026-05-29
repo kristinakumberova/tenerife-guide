@@ -8,11 +8,15 @@ interface PermitChecklistProps {
 
 export function PermitChecklist({ permits }: PermitChecklistProps) {
   return (
-    <section className="section-block" id="permity">
-      <div className="section-heading">
-        <h2>Permity a rezervace</h2>
-        <p>Ceny a pravidla se mění. Před cestou otevři oficiální odkaz a ověř aktuální stav.</p>
-      </div>
+    <details className="section-block section-disclosure" id="permity">
+      <summary className="section-disclosure-summary">
+        <span>
+          <span className="eyebrow">Rezervace předem</span>
+          <h2>Permity a rezervace</h2>
+          <p>Ceny a pravidla se mění. Před cestou otevři oficiální odkaz a ověř aktuální stav.</p>
+        </span>
+        <span className="accordion-chevron" aria-hidden="true" />
+      </summary>
       <div className="permit-list">
         {permits.map((permit) => (
           <article className="permit-item" key={permit.id}>
@@ -32,6 +36,6 @@ export function PermitChecklist({ permits }: PermitChecklistProps) {
           </article>
         ))}
       </div>
-    </section>
+    </details>
   );
 }

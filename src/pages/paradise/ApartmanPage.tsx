@@ -1,14 +1,43 @@
-import { KeyRound, MapPin } from "lucide-react";
+import { Fragment, type ReactNode } from "react";
+import { MapPin } from "lucide-react";
 import apartmanJson from "../../data/apartman.json";
-import { ContactCTA } from "../../components/ContactCTA";
 import { Gallery } from "../../components/Gallery";
 import { HeroProperty } from "../../components/HeroProperty";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 import type { Apartment, ApartmentSection } from "../../types";
 
 const apartment = apartmanJson as Apartment;
-const mapsQuery = encodeURIComponent(`${apartment.navigationName}, ${apartment.address}`);
-const mapsHref = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+
+function renderInline(value: string): ReactNode {
+  const withoutMarkdownEmphasis = value.replace(/[*`]/g, "");
+  const lines = withoutMarkdownEmphasis.split(/<br\s*\/?>/i);
+
+  return lines.map((line, lineIndex) => {
+    const nodes: ReactNode[] = [];
+    const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+    let lastIndex = 0;
+    let match: RegExpExecArray | null;
+
+    while ((match = linkPattern.exec(line))) {
+      if (match.index > lastIndex) nodes.push(line.slice(lastIndex, match.index));
+      nodes.push(
+        <a key={`${lineIndex}-${match.index}`} href={match[2]} target="_blank" rel="noreferrer">
+          {match[1]}
+        </a>,
+      );
+      lastIndex = match.index + match[0].length;
+    }
+
+    if (lastIndex < line.length) nodes.push(line.slice(lastIndex));
+
+    return (
+      <Fragment key={lineIndex}>
+        {lineIndex > 0 && <br />}
+        {nodes}
+      </Fragment>
+    );
+  });
+}
 
 function SectionContent({ section }: { section: ApartmentSection }) {
   return (
@@ -42,7 +71,7 @@ function SectionContent({ section }: { section: ApartmentSection }) {
               {section.table.rows.map((row, rowIndex) => (
                 <tr key={rowIndex}>
                   {section.table!.headers.map((header) => (
-                    <td key={header}>{row[header]}</td>
+                    <td key={header}>{renderInline(row[header])}</td>
                   ))}
                 </tr>
               ))}
@@ -61,27 +90,6 @@ export function ApartmanPage() {
     <>
       <HeroProperty apartment={apartment} />
 
-      {/* Klíče a WiFi — klíčová akce hned pod heroem, ať ji host nemusí hledat */}
-      <section className="section-block">
-        <div className="keys-card">
-          <span className="keys-card-icon" aria-hidden="true">
-            <KeyRound size={22} />
-          </span>
-          <div className="keys-card-body">
-            <h2>Klíče, kódy a WiFi</h2>
-            <p>
-              Kód od brány, key-locker boxu s klíči a přihlášení k WiFi z bezpečnostních důvodů neuvádíme na webu.
-              Napiš Kristině den před příjezdem — pošle ti aktuální údaje.
-            </p>
-            <ContactCTA
-              label="Napsat Kristině pro kódy"
-              whatsappUrl={apartment.contact.whatsappUrl}
-              phone={apartment.contact.phone}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Galerie */}
       {apartment.gallery.length > 0 && (
         <section className="section-block">
@@ -90,9 +98,9 @@ export function ApartmanPage() {
               <p className="eyebrow">Prohlídka</p>
               <h2>Jak to u nás vypadá</h2>
             </div>
-            <a className="text-button" href={mapsHref} target="_blank" rel="noreferrer">
+            <a className="text-button" href={apartment.mapsUrl} target="_blank" rel="noreferrer">
               <MapPin size={16} aria-hidden="true" />
-              {apartment.area}
+              Adresa v Google Maps
             </a>
           </div>
           <Gallery images={apartment.gallery} />
@@ -108,8 +116,8 @@ export function ApartmanPage() {
           </div>
         </div>
         <div className="accordion">
-          {apartment.sections.map((section, index) => (
-            <details className="accordion-item" key={section.title} open={index === 0}>
+          {apartment.sections.map((section) => (
+            <details className="accordion-item" key={section.title}>
               <summary className="accordion-summary">
                 <span>{section.title}</span>
                 <span className="accordion-chevron" aria-hidden="true" />

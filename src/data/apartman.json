@@ -2,7 +2,8 @@
   "id": "paradise",
   "brand": "Jazuma Living",
   "name": "Jazuma Paradise",
-  "address": "C. Irlanda 5, 38660 Adeje, Santa Cruz de Tenerife",
+  "address": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
+  "mapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111",
   "navigationName": "Paradise Court",
   "apartmentNumber": "33",
   "area": "San Eugenio Alto / Costa Adeje",
@@ -55,14 +56,14 @@
     },
     {
       "src": "/images/apartman/kuchynsky-kout.webp",
-      "alt": "Plně vybavený kuchyňský kout s bílým obkladem a dřevěnou pracovní deskou",
+      "alt": "Plně vybavený kuchyňský kout",
       "width": 1086,
       "height": 1448,
       "role": "gallery"
     },
     {
       "src": "/images/apartman/koupelna.webp",
-      "alt": "Koupelna s mozaikovým obkladem, vanou se sprchou a podsvíceným zrcadlem",
+      "alt": "Koupelna s toaletou, vanou a pračkou",
       "width": 1086,
       "height": 1448,
       "role": "gallery"
@@ -81,7 +82,7 @@
     "complex": "/images/apartman/mapa-arealu.png"
   },
   "contact": {
-    "label": "Kontaktuj Kristinu den před příjezdem",
+    "label": "Kontaktuj den před příjezdem",
     "whatsappUrl": "https://wa.me/420702188376",
     "phone": "+420 702 188 376"
   },
@@ -98,12 +99,13 @@
     },
     {
       "title": "Navigace",
-      "summary": "Zadej „Paradise Court“",
-      "status": "neutral"
+      "summary": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
+      "status": "neutral",
+      "href": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111"
     },
     {
       "title": "Kódy a WiFi",
-      "summary": "Neposíláme veřejně. Napiš Kristině na WhatsApp.",
+      "summary": "Kontaktuj den před příjezdem pro aktuální kódy a hesla.",
       "status": "contact-required"
     }
   ],
@@ -124,60 +126,25 @@
         "rows": [
           {
             "Cesta": "🟦 Modrá",
-            "Trasa": "Kruhák → Av. Europa → C. Alemania → C. Diario de Avisos",
+            "Trasa": "kruhový objezd → Av. Europa → C. Alemania → C. Diario de Avisos",
             "Cíl": "Dolní vstup & vjezd do garáže"
           },
           {
             "Cesta": "🟧 Oranžová",
-            "Trasa": "Kruhák → Av. Europa → C. Irlanda",
-            "Cíl": "Horní vstup (lepší pro pěší s kufry)"
+            "Trasa": "kruhový objezd → Av. Europa → C. Irlanda",
+            "Cíl": "Horní vstup (lepší pro pěší s kufry, méně schodů)"
           }
         ]
       },
       "body": "K apartmánu vedou dvě různé příjezdové cesty podle toho, kterým vstupem chcete projít. Obě začínají na kruhovém objezdu na Av. Europa:"
     },
     {
-      "title": "Vstup do areálu",
+      "title": "Mapa areálu",
       "mapImage": "/images/apartman/mapa-arealu.png",
-      "paragraphs": [
-        "2 vstupní body s rozdílným přístupem k apartmánu č. 33:",
-        "⚠️ Kód od brány a kód od key-locker boxu s klíči neuvádíme na webu.",
-        "Kontaktujte Kristinu den před příjezdem — pošle ti aktuální kódy:"
-      ],
-      "bullets": [
-        "WhatsApp: +420 702 188 376 (preferováno)",
-        "Telefon: +420 702 188 376"
-      ],
-      "table": {
-        "headers": [
-          "",
-          "Vstup",
-          "Poznámka"
-        ],
-        "rows": [
-          {
-            "": "1",
-            "Vstup": "Horní vstup ⭐",
-            "Poznámka": "Preferovaný — rovný přístup k apartmánu, kratší cesta s kufry"
-          },
-          {
-            "": "2",
-            "Vstup": "Dolní vstup",
-            "Poznámka": "Vede kolem bazénu, několik schodů"
-          },
-          {
-            "": "🅿️",
-            "Vstup": "Dolní parkoviště + Horní parkoviště",
-            "Poznámka": "Externí parkování pro hosty (viz Parkování níže)"
-          },
-          {
-            "": "🅿️",
-            "Vstup": "Vjezd do garáže",
-            "Poznámka": "U dolního vstupu (vlastní místo č. 10)"
-          }
-        ]
-      },
-      "body": "2 vstupní body s rozdílným přístupem k apartmánu č. 33:\n\n⚠️ Kód od brány a kód od key-locker boxu s klíči neuvádíme na webu.\n\nKontaktujte Kristinu den před příjezdem — pošle ti aktuální kódy:"
+      "paragraphs": [],
+      "bullets": [],
+      "table": null,
+      "body": ""
     },
     {
       "title": "Parkování",
@@ -199,7 +166,7 @@
           },
           {
             "Místo": "Podzemní garáže — místo č. 10",
-            "Dostupnost": "Vždy volné; ovládání od garáže je v apartmánu"
+            "Dostupnost": "Ovládání od garáže je v apartmánu"
           }
         ]
       },
@@ -209,11 +176,11 @@
       "title": "Vybavení apartmánu",
       "paragraphs": [],
       "bullets": [
-        "Obývací pokoj — gauč, jídelní stůl (4 místa), Smart TV",
-        "Kuchyňka — plná (sklokeramická/indukce, dřez, lednice, nádobí)",
-        "Koupelna — pouze sprcha (ne vana), pračka, toaleta",
+        "Obývací pokoj — gauč, jídelní stůl, Smart TV",
+        "Kuchyňka — indukce, dřez, lednice, nádobí, kombinovaná trouba / mikrovlnná trouba",
+        "Koupelna — vana, pračka, toaleta",
         "Terasa — výhled na moře, jídelní sezení + sofa lounge, pergola",
-        "Bazén — 1 bazén v komplexu, lehátka"
+        "Bazén — bazén v komplexu, lehátka a slunečníky"
       ],
       "table": null,
       "body": ""
@@ -230,19 +197,29 @@
         ],
         "rows": [
           {
-            "Obchod": "Večerka",
-            "Vzdálenost": "pěšky (pod kopcem)",
-            "Poznámka": "Základní potřeby bez auta"
+            "Obchod": "[Večerka 24/7](https://www.google.com/maps/place/28%C2%B004'54.3%22N+16%C2%B043'35.7%22W/@28.0817409,-16.7314559,962m/data=!3m2!1e3!4b1!4m7!1m2!2m1!1sparadise+court!3m3!8m2!3d28.081741!4d-16.726585?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky nejblíže",
+            "Poznámka": "Jen základní potřeby"
           },
           {
-            "Obchod": "Mercadona",
-            "Vzdálenost": "~5 min autem (na kruháči směrem na Adeje)",
-            "Poznámka": "Doporučeno — nejlepší poměr cena/kvalita"
+            "Obchod": "[Dial Prix](https://www.google.com/maps/place/DIALPRIX+LAKME/@28.0788614,-16.7278887,120m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a975ec19d2e93:0x2f307f7dd42e84e4!8m2!3d28.0792043!4d-16.7275798!16s%2Fg%2F11bwky_bw8?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky, o něco dále",
+            "Poznámka": "Menší supermarket, dražší ceny, vhodnější na menší nákupy"
           },
           {
-            "Obchod": "Další velké obchody",
-            "Vzdálenost": "~10 min autem (Adeje centrum)",
-            "Poznámka": "HiperDino, Lidl"
+            "Obchod": "[SuperDino](https://www.google.com/maps/place/SuperDino+Malib%C3%BA/@28.0788614,-16.7278887,120m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a97e3a250ceb7:0x627eebeb97b2f063!8m2!3d28.078517!4d-16.7275321!16s%2Fg%2F11mdck3q5k?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky, o něco dále",
+            "Poznámka": "Nejvhodnější supermarket v okolí, ale také dražší ceny, vhodnější na menší nákupy"
+          },
+          {
+            "Obchod": "[Mercadona](https://www.google.com/maps/place/X-Sur+Centro+Comercial/@28.0876938,-16.7310699,962m/data=!3m2!1e3!5s0xc6a9757394e3755:0xfe9a609396b5030c!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a97573f184fb1:0x74077f6df70c351c!8m2!3d28.087693!4d-16.728154!16s%2Fg%2F1tnl2nf2?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "~5 min autem (nákupní centrum X-Sur, směr Adeje)",
+            "Poznámka": "Doporučeno pro lokální výrobky"
+          },
+          {
+            "Obchod": "Další velké obchody<br>[Lidl](https://www.google.com/maps/place/Lidl/@28.1283608,-16.7475775,962m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a90926bd0999f:0x6d9ae0ff4938be7d!8m2!3d28.1283605!4d-16.7429494!16s%2Fg%2F1q5bmqsym?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)<br>[Aldi](https://www.google.com/maps/place/ALDI/@28.1283608,-16.7475775,962m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a912c44c62577:0x1152faf142717981!8m2!3d28.12805!4d-16.74401!16s%2Fg%2F11s3v01xn1?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)<br>[HyperDino](https://www.google.com/maps/place/HiperDino+Siam+Mall/@28.069035,-16.7240003,962m/data=!3m1!1e3!4m14!1m7!3m6!1s0xc6a9761d7193869:0x2462a5eb8cc2ec57!2sSiam+Mall!8m2!3d28.069035!4d-16.7214254!16s%2Fg%2F11b7wld0n3!3m5!1s0xc6a99d895b6b3b1:0x981b93f6f207f695!8m2!3d28.0693854!4d-16.7228319!16s%2Fg%2F11bccd79m9?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "~10 min autem",
+            "Poznámka": ""
           }
         ]
       },
@@ -260,19 +237,19 @@
         ],
         "rows": [
           {
-            "Pláž": "Playa del Duque",
-            "Vzdálenost": "~5 min autem / 15 min pěšky",
-            "Charakter": "Prémiová, modré vlajky, lehátka k pronájmu"
+            "Pláž": "Playa de la Pinta",
+            "Vzdálenost": "~18-22 min pěšky",
+            "Charakter": "Pláž v přístavu, nejblíže"
           },
           {
-            "Pláž": "Playa de las Vistas",
-            "Vzdálenost": "~10 min autem",
-            "Charakter": "Větší, písčitá, klidnější"
+            "Pláž": "Fañabé",
+            "Vzdálenost": "~25-30 min pěšky",
+            "Charakter": "Dlouhá městská pláž s promenádou"
           },
           {
-            "Pláž": "Playa de Troya",
-            "Vzdálenost": "~10 min pěšky",
-            "Charakter": "Živá, animace, oblíbená"
+            "Pláž": "Playa de El Bobo",
+            "Vzdálenost": "~22-26 min pěšky",
+            "Charakter": "Písečná pláž směrem k Las Américas"
           }
         ]
       },

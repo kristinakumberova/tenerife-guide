@@ -8,7 +8,7 @@ interface ContactCTAProps {
 }
 
 export function ContactCTA({
-  label = "Napsat Kristině",
+  label = "Napiš zprávu",
   whatsappUrl = "https://wa.me/420702188376",
   phone = "+420 702 188 376",
   variant = "primary",

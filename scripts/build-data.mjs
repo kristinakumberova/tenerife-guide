@@ -74,6 +74,16 @@ function stripMarkdown(value) {
     .trim();
 }
 
+function stripTableCellMarkdown(value) {
+  return normalizeText(value)
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .trim();
+}
+
 function section(content, heading) {
   const pattern = new RegExp(`^## ${escapeRegExp(heading)}\\s*$`, "m");
   const match = content.match(pattern);
@@ -367,13 +377,13 @@ function parseTransport() {
   return {
     title: "Doprava na Tenerife",
     lead:
-      "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA. Ceny a jízdní řády se mění — pár dní před cestou si je ověř.",
+      "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA.",
     sections: [
       {
         id: "auto",
         title: "Auto z půjčovny",
         intro:
-          "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Kristina má dobrou zkušenost s Autoreisen, spolehlivá alternativa je Cicar.",
+          "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Nejlevnější a osvědčenou je Autoreisen, spolehlivá alternativa je Cicar, která je o něco dražší.",
         bullets: [
           "Řidičák: stačí platný český nebo EU průkaz.",
           "Platba: kreditní i běžná debetní karta (předplacené většinou ne).",
@@ -393,9 +403,7 @@ function parseTransport() {
         title: "Taxi",
         intro:
           "Oficiální taxi jede na taxametr. Ceny níže jsou orientační pro rok 2026 a liší se podle denní doby, provozu, zavazadel a přesné adresy.",
-        bullets: [
-          "Jistá varianta: stanoviště u letiště, recepce hotelu nebo telefonická objednávka.",
-        ],
+        bullets: [],
         table: {
           headers: ["Trasa", "Cena", "Čas"],
           rows: [
@@ -409,7 +417,7 @@ function parseTransport() {
         id: "bus",
         title: "Autobus TITSA",
         intro:
-          "Po celém ostrově jezdí žluté autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
+          "Po celém ostrově jezdí autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
         bullets: [],
         table: {
           headers: ["Linka", "Trasa", "Hodí se na"],
@@ -438,17 +446,6 @@ function parseTransport() {
           ],
         },
         links: [],
-      },
-      {
-        id: "teide-lanovka",
-        title: "Teide — lanovka",
-        intro: "Lanovku (Teleférico del Teide) rezervuj zvlášť přes oficiální web Volcano Teide.",
-        bullets: [
-          "Zpáteční jízdenka od cca 42 €, premium s audioguidem od cca 45,75 €, jen nahoru od 23,50 €.",
-          "Permit na samotný vrchol Pico není v jízdence na lanovku zahrnutý — řeší se samostatně.",
-        ],
-        table: null,
-        links: [{ label: "volcanoteide.com", url: "https://www.volcanoteide.com/" }],
       },
     ],
   };
@@ -501,7 +498,7 @@ function subsection(content, heading) {
   const match = content.match(pattern);
   if (!match || match.index === undefined) return "";
   const rest = content.slice(match.index + match[0].length);
-  const next = rest.search(/^### /m);
+  const next = rest.search(/^#{1,3} /m);
   return normalizeText(next === -1 ? rest : rest.slice(0, next));
 }
 
@@ -614,7 +611,7 @@ function parseStructuredSection(raw, ...headings) {
   const tableRows = rawRows.map((row) => {
     const out = {};
     originalHeaders.forEach((header, index) => {
-      out[tableHeaders[index]] = stripMarkdown(row[header] ?? "");
+      out[tableHeaders[index]] = stripTableCellMarkdown(row[header] ?? "");
     });
     return out;
   });
@@ -647,9 +644,11 @@ function parseApartment() {
   const raw = readVaultFile("LOGISTIKA-Apartman.md");
   const apartmentRows = parseMarkdownTable(section(raw, "Apartmán") || section(raw, "Apartman"));
   const fields = Object.fromEntries(apartmentRows.map((row) => [stripMarkdown(row.Pole), stripMarkdown(row.Hodnota)]));
+  const navigationRow = apartmentRows.find((row) => stripMarkdown(row.Pole) === "Navigace");
+  const mapsUrl = markdownLinkToUrl(navigationRow?.Hodnota ?? "")
+    ?? "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111";
 
   const arrival = parseStructuredSection(raw, "Příjezd autem", "Prijezd autem");
-  const entry = parseStructuredSection(raw, "Vstup do areálu (pěšky)", "Vstup do arealu (pesky)", "Vstup do komplexu");
   const parkovani = parseStructuredSection(raw, "Parkování", "Parkovani");
   const vybaveni = parseStructuredSection(raw, "Vybavení apartmánu", "Vybaveni apartmanu");
   const supermarkety = parseStructuredSection(raw, "Supermarkety a nákupy", "Supermarkety a nakupy");
@@ -678,6 +677,7 @@ function parseApartment() {
     brand: "Jazuma Living",
     name: "Jazuma Paradise",
     address: fields.Adresa ?? "C. Irlanda 5, 38660 Adeje, Tenerife",
+    mapsUrl,
     navigationName: "Paradise Court",
     apartmentNumber: "33",
     area: "San Eugenio Alto / Costa Adeje",
@@ -689,19 +689,19 @@ function parseApartment() {
     mapImage: maps.complex,
     maps,
     contact: {
-      label: "Kontaktuj Kristinu den před příjezdem",
+      label: "Kontaktuj den před příjezdem",
       whatsappUrl: "https://wa.me/420702188376",
       phone: "+420 702 188 376",
     },
     quickInfo: [
       { title: "Check-in", summary: fields["Check-in"] ?? "od 15:00", status: "neutral" },
       { title: "Check-out", summary: fields["Check-out"] ?? "do 10:00", status: "neutral" },
-      { title: "Navigace", summary: "Zadej „Paradise Court“", status: "neutral" },
-      { title: "Kódy a WiFi", summary: "Neposíláme veřejně. Napiš Kristině na WhatsApp.", status: "contact-required" },
+      { title: "Navigace", summary: fields.Adresa ?? "C. Irlanda 5, 38660 Adeje, Tenerife", status: "neutral", href: mapsUrl },
+      { title: "Kódy a WiFi", summary: "Kontaktuj den před příjezdem pro aktuální kódy a hesla.", status: "contact-required" },
     ],
     sections: [
       buildSection("Příjezd autem", maps.arrival, arrival),
-      buildSection("Vstup do areálu", maps.complex, entry),
+      buildSection("Mapa areálu", maps.complex, { paragraphs: [], bullets: [], table: null }),
       buildSection("Parkování", undefined, parkovani),
       buildSection("Vybavení apartmánu", undefined, vybaveni),
       buildSection("Supermarkety a nákupy", undefined, supermarkety),
