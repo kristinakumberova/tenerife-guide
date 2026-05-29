@@ -360,17 +360,97 @@ function inferPermitPoiIds(id) {
   return [];
 }
 
+// Guest-facing transport content, curated from CONTENT-DOPRAVA.md (a research doc
+// with evidence columns + flags that is not publishable as-is). Facts are kept;
+// evidence markers and dynamic prices are dropped in favor of clean prose + tables.
 function parseTransport() {
-  const raw = readVaultFile("CONTENT-DOPRAVA.md");
   return {
-    title: "Doprava",
-    lead: "Auto je nejpohodlnejsi, ale zakladni trasy zvladnes i taxi nebo TITSA autobusem.",
-    sections: ["Auto - pujcovny v TFS arrivals", "Taxi", "Autobus TITSA", "Letiste - TFS vs. TFN", "Teide lanovka"].map((title) => ({
-      id: slugify(title),
-      title,
-      body: stripMarkdown(section(raw, title)),
-      hasFlags: containsFlag(section(raw, title)),
-    })),
+    title: "Doprava na Tenerife",
+    lead:
+      "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA. Ceny a jízdní řády se mění — pár dní před cestou si je ověř.",
+    sections: [
+      {
+        id: "auto",
+        title: "Auto z půjčovny",
+        intro:
+          "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Kristina má dobrou zkušenost s Autoreisen, spolehlivá alternativa je Cicar.",
+        bullets: [
+          "Řidičák: stačí platný český nebo EU průkaz.",
+          "Platba: kreditní i běžná debetní karta (předplacené většinou ne).",
+          "Věk: Autoreisen od 23 let, Cicar od 21–25 let podle kategorie vozu.",
+          "Pojištění: Autoreisen i Cicar nabízejí široké krytí bez spoluúčasti.",
+          "Palivo: auto vrať se stejným množstvím paliva, s jakým ho přebíráš.",
+          "Ceny jsou dynamické podle termínu a délky — rezervuj online předem.",
+        ],
+        table: null,
+        links: [
+          { label: "Autoreisen", url: "https://www.autoreisen.com/" },
+          { label: "Cicar", url: "https://www.cicar.com/" },
+        ],
+      },
+      {
+        id: "taxi",
+        title: "Taxi",
+        intro:
+          "Oficiální taxi jede na taxametr. Ceny níže jsou orientační pro rok 2026 a liší se podle denní doby, provozu, zavazadel a přesné adresy.",
+        bullets: [
+          "Jistá varianta: stanoviště u letiště, recepce hotelu nebo telefonická objednávka.",
+        ],
+        table: {
+          headers: ["Trasa", "Cena", "Čas"],
+          rows: [
+            { Trasa: "Letiště TFS ↔ Paradise Court / San Eugenio", Cena: "cca 25–35 €", Čas: "20–25 min" },
+            { Trasa: "Paradise Court → Los Cristianos", Cena: "cca 12–18 €", Čas: "10–15 min" },
+          ],
+        },
+        links: [],
+      },
+      {
+        id: "bus",
+        title: "Autobus TITSA",
+        intro:
+          "Po celém ostrově jezdí žluté autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
+        bullets: [],
+        table: {
+          headers: ["Linka", "Trasa", "Hodí se na"],
+          rows: [
+            { Linka: "343", Trasa: "TFS ↔ Costa Adeje ↔ TFN", "Hodí se na": "spojení z letiště do Costa Adeje" },
+            { Linka: "467", Trasa: "Costa Adeje ↔ Las Galletas", "Hodí se na": "Las Galletas a okolí" },
+            { Linka: "342", Trasa: "Costa Adeje → Vilaflor → Teide → El Portillo", "Hodí se na": "Teide bez auta z jihu (1× denně)" },
+            { Linka: "348", Trasa: "Puerto de la Cruz ↔ Teide", "Hodí se na": "Teide ze severu" },
+            { Linka: "355", Trasa: "Santiago del Teide ↔ Masca", "Hodí se na": "trek soutěskou Masca" },
+            { Linka: "408 + 415", Trasa: "přes San Isidro na El Médano", "Hodí se na": "El Médano bez auta (s přestupem)" },
+          ],
+        },
+        links: [{ label: "titsa.com", url: "https://www.titsa.com/" }],
+      },
+      {
+        id: "letiste",
+        title: "Letiště: TFS vs. TFN",
+        intro:
+          "Tenerife má dvě letiště. Většina charterů a low-cost letů přilétá na jižní TFS, které je blíž apartmánu.",
+        bullets: [],
+        table: {
+          headers: ["Letiště", "Poloha", "K apartmánu", "Doporučení"],
+          rows: [
+            { "Letiště": "TFS (Reina Sofía)", Poloha: "jih", "K apartmánu": "cca 25 min autem", Doporučení: "preferovat" },
+            { "Letiště": "TFN (Los Rodeos)", Poloha: "sever", "K apartmánu": "cca 60–75 min autem", Doporučení: "hlavně mezi­ostrovní + Madrid/Barcelona" },
+          ],
+        },
+        links: [],
+      },
+      {
+        id: "teide-lanovka",
+        title: "Teide — lanovka",
+        intro: "Lanovku (Teleférico del Teide) rezervuj zvlášť přes oficiální web Volcano Teide.",
+        bullets: [
+          "Zpáteční jízdenka od cca 42 €, premium s audioguidem od cca 45,75 €, jen nahoru od 23,50 €.",
+          "Permit na samotný vrchol Pico není v jízdence na lanovku zahrnutý — řeší se samostatně.",
+        ],
+        table: null,
+        links: [{ label: "volcanoteide.com", url: "https://www.volcanoteide.com/" }],
+      },
+    ],
   };
 }
 
@@ -425,34 +505,89 @@ function subsection(content, heading) {
   return normalizeText(next === -1 ? rest : rest.slice(0, next));
 }
 
+// Guest-facing contacts, curated from CONTENT-KONTAKTY.md (research doc with
+// evidence columns + CONFLICT/[?] flags). Numbers/facts kept, noise removed.
 function parseContacts() {
-  const raw = readVaultFile("CONTENT-KONTAKTY.md");
   return {
-    emergency: parseMarkdownTable(section(raw, "Nouzove kontakty (Tenerife / Spanelsko")).map((row) => ({
-      title: stripMarkdown(row.Kontakt),
-      value: stripMarkdown(row["Cislo / web"]),
-      note: stripMarkdown(row.Poznamka),
-    })),
-    medical: parseMarkdownTable(section(raw, "Zdravotnictvi - okoli apartmanu")).map((row) => ({
-      title: stripMarkdown(row.Zarizeni),
-      address: stripMarkdown(row.Adresa),
-      phone: stripMarkdown(row.Tel),
-      note: stripMarkdown(row["Status / poznamka"]),
-      confidence: containsFlag(Object.values(row).join(" ")) ? "L" : "H",
-    })),
-    consulate: parseMarkdownTable(section(raw, "Konzulat / velvyslanectvi")).map((row) => ({
-      title: stripMarkdown(row.Zeme),
-      detail: stripMarkdown(row.Detail),
-      phone: stripMarkdown(row["Tel / email"]),
-      confidence: containsFlag(Object.values(row).join(" ")) ? "L" : "H",
-    })),
-    playbooks: parseMarkdownTable(section(raw, "Co delat kdyz...")).map((row) => ({
-      situation: stripMarkdown(row.Situace),
-      action: stripMarkdown(row["Co delat"]),
-      confidence: containsFlag(Object.values(row).join(" ")) ? "L" : "M",
-    })),
+    emergency: [
+      { title: "Tísňová linka (EU)", value: "112", note: "Policie, hasiči i záchranka — funguje 24/7 i z mobilu bez SIM." },
+      { title: "Guardia Civil", value: "062", note: "Národní policie mimo města." },
+      { title: "Policía Nacional", value: "091", note: "Národní policie ve městech." },
+      { title: "Policía Local", value: "092", note: "Místní policie." },
+      { title: "Hasiči (Bomberos)", value: "080", note: "Pro jistotu volej raději 112." },
+      { title: "Námořní záchrana", value: "900 202 202", note: "Salvamento Marítimo." },
+    ],
+    medical: [
+      {
+        title: "Hospital Quirónsalud Costa Adeje",
+        address: "Urb. San Eugenio, Adeje",
+        phone: "+34 922 791 000",
+        note: "Soukromá nemocnice, urgentní příjem 24/7. Vezmi cestovní pojištění nebo platební kartu.",
+        confidence: "H",
+      },
+      {
+        title: "Hospiten Sur",
+        address: "C. Siete Islas 8, Arona",
+        phone: "+34 922 750 022",
+        note: "Soukromá nemocnice. Platnost EHIC si ověř předem.",
+        confidence: "H",
+      },
+      {
+        title: "Lékárna San Eugenio",
+        address: "Av. de los Pueblos 29, Costa Adeje",
+        phone: "+34 922 716 309",
+        note: "Pohotovostní lékárny (farmacia de guardia) se střídají — ověř v den potřeby.",
+        confidence: "M",
+      },
+      {
+        title: "Veřejná péče / EHIC",
+        address: "Servicio Canario de la Salud",
+        phone: "112",
+        note: "S kartou EHIC využij veřejný systém; v akutní situaci vždy volej 112.",
+        confidence: "M",
+      },
+    ],
+    consulate: [
+      {
+        title: "Velvyslanectví ČR — Madrid",
+        detail: "Avenida Pío XII 22-24, 28016 Madrid",
+        phone: "+34 915 313 065",
+        confidence: "H",
+      },
+      {
+        title: "Honorární konzulát ČR — Tenerife",
+        detail: "El Médano (jen po předchozí domluvě)",
+        phone: "+34 650 368 524",
+        confidence: "M",
+      },
+    ],
+    playbooks: [
+      {
+        situation: "Ztracený pas",
+        action:
+          "Nahlas to na Policía Nacional (091) a kontaktuj Velvyslanectví ČR v Madridu. Honorární konzulát na Tenerife pomůže jen omezeně a po domluvě.",
+      },
+      {
+        situation: "Nehoda autem",
+        action:
+          "Volej 112 a pak půjčovnu podle čísla ve smlouvě — Autoreisen TFS +34 922 392 216, Cicar +34 928 822 900.",
+      },
+      {
+        situation: "Ztracené klíče od apartmánu",
+        action: "Zavolej Kristině na WhatsApp nebo telefon +420 702 188 376.",
+      },
+      {
+        situation: "Nemoc nebo úraz",
+        action:
+          "Vážné případy: 112. Méně vážné: Quirónsalud Costa Adeje nebo Hospiten Sur s cestovním pojištěním; pro EHIC veřejný systém.",
+      },
+      {
+        situation: "Krádež osobních věcí",
+        action: "Nahlas to na Policía Nacional (091) a vyžádej si protokol pro pojišťovnu.",
+      },
+    ],
     host: {
-      name: "Kristina Kumberova",
+      name: "Kristina Kumberová",
       whatsappUrl: "https://wa.me/420702188376",
       phone: "+420 702 188 376",
       note: "WhatsApp je preferovaný kontakt pro hosty.",

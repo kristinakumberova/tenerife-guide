@@ -1,20 +1,20 @@
 [
   {
-    "id": "teide-pico-pnt-10-telesforo-bravo",
-    "title": "Teide Pico (PNT 10 Telesforo Bravo)",
+    "id": "teide-vrchol-pico-permit-pnt-10",
+    "title": "Teide — vrchol Pico (permit PNT 10)",
     "appliesToPoiIds": [
       "teide-cable-car-pico"
     ],
     "required": true,
     "bookingUrl": "https://www.tenerifeon.es",
-    "deadline": "kazde Po 7:00 KI, 56 dni dopredu",
-    "fees": "EUR 15 non-rez, sunrise 6-9 zdarma bez lanovky",
-    "currentStatus": "Lanovka je separatni rezervace; sestup pesky jen s permitem na regulovane trasy.",
+    "deadline": "každé pondělí 7:00 KI, 56 dní dopředu",
+    "fees": "15 € bez rezervace; sunrise 6–9 h zdarma (bez lanovky)",
+    "currentStatus": "Lanovka je samostatná rezervace; sestup pěšky jen s permitem na regulované trasy.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
-        "label": "Teide Pico (PNT 10 Telesforo Bravo)",
+        "label": "Teide — vrchol Pico (permit PNT 10)",
         "url": "https://www.tenerifeon.es",
         "tier": "official",
         "checkedDate": "2026-05-28"
@@ -23,20 +23,20 @@
   },
   {
     "id": "teide-lanovka",
-    "title": "Teide lanovka",
+    "title": "Teide — lanovka",
     "appliesToPoiIds": [
       "teide-cable-car-pico"
     ],
     "required": false,
     "bookingUrl": "https://www.volcanoteide.com",
-    "deadline": "idealne 2 mesice dopredu v sezone",
-    "fees": "EUR 42 adult return, EUR 21 dite 3-13",
-    "currentStatus": "Deti <3 nesmi lanovkou; provoz zavisi na vetru.",
+    "deadline": "ideálně 2 měsíce dopředu v sezóně",
+    "fees": "42 € dospělý (zpáteční), 21 € dítě 3–13",
+    "currentStatus": "Děti do 3 let nesmí lanovkou; provoz závisí na větru.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
-        "label": "Teide lanovka",
+        "label": "Teide — lanovka",
         "url": "https://www.volcanoteide.com",
         "tier": "official",
         "checkedDate": "2026-05-28"
@@ -45,20 +45,20 @@
   },
   {
     "id": "trail-7-montana-blanca-pico",
-    "title": "Trail 7 Montana Blanca - Pico",
+    "title": "Trail 7 Montaña Blanca → Pico",
     "appliesToPoiIds": [
       "teide-cable-car-pico"
     ],
     "required": true,
     "bookingUrl": "https://www.tenerifeon.es",
-    "deadline": "predem podle slotu",
-    "fees": "EUR 6 weekday / EUR 10 weekend non-rez; KI rezident EUR 3 / EUR 5",
-    "currentStatus": "Od 19.1.2026 placene; fyzicky narocna varianta.",
+    "deadline": "předem podle volného slotu",
+    "fees": "6 € všední den / 10 € víkend; rezident KI 3 € / 5 €",
+    "currentStatus": "Od 19. 1. 2026 placené; fyzicky náročná varianta.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
-        "label": "Trail 7 Montana Blanca - Pico",
+        "label": "Trail 7 Montaña Blanca → Pico",
         "url": "https://www.tenerifeon.es",
         "tier": "official",
         "checkedDate": "2026-05-28"
@@ -74,9 +74,9 @@
     ],
     "required": true,
     "bookingUrl": "https://www.caminobarrancodemasca.com",
-    "deadline": "2+ mesice predem v sezone",
-    "fees": "EUR 40,66 adult / EUR 20,33 junior 8-18",
-    "currentStatus": "Descent only, povinny TITSA bus 355 ze Santiago del Teide, separatni boat exit do 4 h, deti <8 nesmi.",
+    "deadline": "2+ měsíce předem v sezóně",
+    "fees": "40,66 € dospělý / 20,33 € junior 8–18",
+    "currentStatus": "Jen sestup, povinný bus TITSA 355 ze Santiago del Teide, samostatný boat exit do 4 h, děti do 8 let nesmí.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -97,9 +97,9 @@
     ],
     "required": false,
     "bookingUrl": "https://www.loroparque.com",
-    "deadline": "1+ den predem",
-    "fees": "EUR 44 adult / EUR 32 dite 3-11",
-    "currentStatus": "Otevreno 9:30-17:30; Twin Ticket neplatí pro oba parky ve stejny den.",
+    "deadline": "1+ den předem",
+    "fees": "44 € dospělý / 32 € dítě 3–11",
+    "currentStatus": "Otevřeno 9:30–17:30; Twin Ticket neplatí pro oba parky ve stejný den.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -119,9 +119,9 @@
     ],
     "required": false,
     "bookingUrl": "https://siampark.net",
-    "deadline": "1+ den predem",
-    "fees": "EUR 44 adult / EUR 32 dite 3-11; peak Jul-Aug cca EUR 48 / EUR 36",
-    "currentStatus": "Zakladne 10:00-18:00 leto, 10:00-17:00 zima; zavreno 25.12 a 1.1.",
+    "deadline": "1+ den předem",
+    "fees": "44 € dospělý / 32 € dítě 3–11; vrchol čvc–srp cca 48 € / 36 €",
+    "currentStatus": "Základně 10:00–18:00 léto, 10:00–17:00 zima; zavřeno 25. 12. a 1. 1.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -142,9 +142,9 @@
     ],
     "required": false,
     "bookingUrl": "https://www.loroparque.com",
-    "deadline": "1+ tyden v sezone",
-    "fees": "EUR 78 adult / EUR 57 dite 3-11",
-    "currentStatus": "Validita 15 dni, nelze oba parky stejny den.",
+    "deadline": "1+ týden v sezóně",
+    "fees": "78 € dospělý / 57 € dítě 3–11",
+    "currentStatus": "Platnost 15 dní, nelze oba parky stejný den.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -157,21 +157,21 @@
     ]
   },
   {
-    "id": "finca-las-margaritas-banana",
-    "title": "Finca Las Margaritas Banana",
+    "id": "finca-las-margaritas-bananova-farma",
+    "title": "Finca Las Margaritas — banánová farma",
     "appliesToPoiIds": [
       "las-galletas-finca-las-margaritas"
     ],
     "required": false,
     "bookingUrl": "https://lasmargaritasbananaexperience.com",
-    "deadline": "min. 12 h predem",
-    "fees": "EUR 10 self-guided / EUR 14 guided adult",
-    "currentStatus": "Skupiny 12+ rezervace 1 tyden predem.",
+    "deadline": "min. 12 h předem",
+    "fees": "10 € bez průvodce / 14 € s průvodcem",
+    "currentStatus": "Skupiny 12+ osob rezervace týden předem.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
-        "label": "Finca Las Margaritas Banana",
+        "label": "Finca Las Margaritas — banánová farma",
         "url": "https://lasmargaritasbananaexperience.com",
         "tier": "official",
         "checkedDate": "2026-05-28"
@@ -179,21 +179,19 @@
     ]
   },
   {
-    "id": "ferry-la-gomera",
-    "title": "Ferry La Gomera",
-    "appliesToPoiIds": [
-      "la-gomera-day-trip"
-    ],
+    "id": "ferry-na-la-gomeru",
+    "title": "Ferry na La Gomeru",
+    "appliesToPoiIds": [],
     "required": true,
     "bookingUrl": "https://www.fredolsen.es",
-    "deadline": "1+ tyden v sezone",
-    "fees": "dynamicky cca EUR 27-65 jednosmerne",
-    "currentStatus": "Los Cristianos - San Sebastian, cca 50 min, 4-8 spoju denne podle sezony.",
+    "deadline": "1+ týden v sezóně",
+    "fees": "dynamicky cca 27–65 € jednosměrně",
+    "currentStatus": "Los Cristianos → San Sebastián, cca 50 min, 4–8 spojů denně podle sezóny.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
-        "label": "Ferry La Gomera",
+        "label": "Ferry na La Gomeru",
         "url": "https://www.fredolsen.es",
         "tier": "official",
         "checkedDate": "2026-05-28"
@@ -206,9 +204,9 @@
     "appliesToPoiIds": [],
     "required": false,
     "bookingUrl": "https://www.tenerifeon.es",
-    "deadline": "Po 7:00 KI pro dalsi tyden",
-    "fees": "CHYBI - overit",
-    "currentStatus": "Rezervace nutna, kapacita limitovana.",
+    "deadline": "pondělí 7:00 KI na další týden",
+    "fees": "ověř aktuální cenu na webu",
+    "currentStatus": "Rezervace nutná, kapacita omezená.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [

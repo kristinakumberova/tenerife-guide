@@ -128,6 +128,26 @@ export interface TextSection {
   hasFlags?: boolean;
 }
 
+export interface LinkRef {
+  label: string;
+  url: string;
+}
+
+export interface TransportSection {
+  id: string;
+  title: string;
+  intro: string;
+  bullets: string[];
+  table: { headers: string[]; rows: Array<Record<string, string>> } | null;
+  links: LinkRef[];
+}
+
+export interface TransportData {
+  title: string;
+  lead: string;
+  sections: TransportSection[];
+}
+
 export interface ApartmentMaps {
   arrival: string;
   complex: string;

@@ -71,7 +71,7 @@ export function POICard({ poi, variant = "collapsed" }: POICardProps) {
                 <span className={`confidence confidence-${poi.confidence.toLowerCase()}`}>
                   {confidenceLabel(poi.confidence)}
                 </span>
-                <span className="muted"> · ověřeno {poi.verifiedDate}</span>
+                <span className="muted"> · data z {poi.verifiedDate}</span>
               </p>
             </div>
           </details>

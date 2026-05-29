@@ -68,12 +68,12 @@ html {
 
 body {
   margin: 0;
-  /* warm sunrise wash, very subtle */
+  /* warm sunrise wash, very subtle (kept non-fixed for scroll/paint perf) */
   background:
     radial-gradient(1200px 520px at 80% -10%, rgb(211 145 39 / 8%), transparent 60%),
     radial-gradient(900px 480px at -10% 0%, rgb(15 107 120 / 7%), transparent 55%),
     var(--color-bg);
-  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 button,
@@ -528,6 +528,32 @@ strong {
 .content-panel h3 + p,
 .content-panel p + p {
   margin-top: 0.6rem;
+}
+
+.transport-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.transport-list .content-panel h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.55rem;
+}
+
+.transport-list .content-panel .section-list,
+.transport-list .content-panel .table-wrap {
+  margin-top: 0.9rem;
+}
+
+.transport-list .content-panel .card-actions {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .transport-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .entry-map {
@@ -1162,9 +1188,10 @@ strong {
 .poi-thumb {
   display: grid;
   place-items: center;
+  align-self: start;
   width: 108px;
   min-height: 108px;
-  height: 100%;
+  aspect-ratio: 1;
   border-radius: var(--radius-sm);
   background: var(--color-sea-tint);
   color: var(--color-sea);
@@ -1384,6 +1411,19 @@ strong {
   margin-top: 0.6rem;
 }
 
+.bundle-itinerary {
+  margin-top: 0.7rem;
+  font-size: 0.88rem;
+}
+
+.bundle-itinerary li {
+  color: var(--color-ink-soft);
+}
+
+.bundle-whennot {
+  margin-top: 0.75rem;
+}
+
 /* ---------- Permits ---------- */
 .permit-list {
   display: grid;
@@ -1410,6 +1450,19 @@ strong {
 .permit-item p {
   margin-bottom: 0.15rem;
   font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .permit-item {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .permit-item > a {
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin-top: 0.4rem;
+  }
 }
 
 .icon-pill {

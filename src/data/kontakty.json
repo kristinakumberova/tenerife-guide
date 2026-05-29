@@ -1,91 +1,104 @@
 {
-  "emergency": [],
+  "emergency": [
+    {
+      "title": "Tísňová linka (EU)",
+      "value": "112",
+      "note": "Policie, hasiči i záchranka — funguje 24/7 i z mobilu bez SIM."
+    },
+    {
+      "title": "Guardia Civil",
+      "value": "062",
+      "note": "Národní policie mimo města."
+    },
+    {
+      "title": "Policía Nacional",
+      "value": "091",
+      "note": "Národní policie ve městech."
+    },
+    {
+      "title": "Policía Local",
+      "value": "092",
+      "note": "Místní policie."
+    },
+    {
+      "title": "Hasiči (Bomberos)",
+      "value": "080",
+      "note": "Pro jistotu volej raději 112."
+    },
+    {
+      "title": "Námořní záchrana",
+      "value": "900 202 202",
+      "note": "Salvamento Marítimo."
+    }
+  ],
   "medical": [
     {
-      "title": "Hospital Quironsalud Costa Adeje",
-      "address": "Urbanizacion San Eugenio, s/n, 38660 Adeje",
-      "phone": "Centralita / appointments +34 922 752 626; consultas externas +34 922 792 400; urgentni telefon +34 922 791 000",
-      "note": "Urgencias 24/7, 365 dni. Soukromy hospital; Quiron uvadi akceptaci vetsiny narodnich a mezinarodnich cestovnich pojisteni. EHIC neni potvrzena jako prima uhrada; pro EHIC preferovat verejny system / 112 / SCS. GPS [?] doplnit z Maps.",
-      "confidence": "L"
+      "title": "Hospital Quirónsalud Costa Adeje",
+      "address": "Urb. San Eugenio, Adeje",
+      "phone": "+34 922 791 000",
+      "note": "Soukromá nemocnice, urgentní příjem 24/7. Vezmi cestovní pojištění nebo platební kartu.",
+      "confidence": "H"
     },
     {
-      "title": "Hospiten Sur University Hospital",
-      "address": "C. Siete Islas 8, 38660 Arona / Playa de las Americas",
-      "phone": "+34 922 75 00 22; consultations +34 922 77 77 60; sur@hospiten.com",
-      "note": "Soukromy hospital. Pro hosty: cestovni pojisteni / platebni karta; EHIC overit predem. GPS [?].",
-      "confidence": "L"
+      "title": "Hospiten Sur",
+      "address": "C. Siete Islas 8, Arona",
+      "phone": "+34 922 750 022",
+      "note": "Soukromá nemocnice. Platnost EHIC si ověř předem.",
+      "confidence": "H"
     },
     {
-      "title": "Farmacia San Eugenio (Costa Adeje)",
-      "address": "Av. de los Pueblos 29, 38660 Costa Adeje",
+      "title": "Lékárna San Eugenio",
+      "address": "Av. de los Pueblos 29, Costa Adeje",
       "phone": "+34 922 716 309",
-      "note": "CONFLICT: Farmacias365 v den overeni uvadelo 24h sluzbu 09:00-09:00; TodosBiz uvadi bezne hodiny Po-So 09:00-21:00, Ne 09:00-14:00. Lekarny 24h funguji rotacne jako farmacia de guardia; overit v den potreby.",
-      "confidence": "L"
+      "note": "Pohotovostní lékárny (farmacia de guardia) se střídají — ověř v den potřeby.",
+      "confidence": "M"
     },
     {
-      "title": "Centro de Salud / verejna pece",
-      "address": "[?] konkretní „Centro de Salud San Eugenio“ nepotvrzeno z Tier 1",
-      "phone": "112 pro urgentni pomoc",
-      "note": "NEDOHLEDATELNE: konkretni verejne zdravotni stredisko San Eugenio nebylo potvrzeno. Pro neurgentni verejnou peci overit pres Servicio Canario de la Salud podle aktualniho pobytu. EHIC plati pro nezbytnou peci ve verejnem systemu EU, ne automaticky v soukromych nemocnicich.",
-      "confidence": "L"
-    },
-    {
-      "title": "Zubar urgent",
-      "address": "[?]",
-      "phone": "[?]",
-      "note": "NEDOHLEDATELNE: Tier 1/2 urgentni zubar v San Eugenio nedohledan v tomto passu. Doporuceni: doplnit rucne podle lokalni doporucene kliniky nebo resit pres pojistovnu.",
-      "confidence": "L"
+      "title": "Veřejná péče / EHIC",
+      "address": "Servicio Canario de la Salud",
+      "phone": "112",
+      "note": "S kartou EHIC využij veřejný systém; v akutní situaci vždy volej 112.",
+      "confidence": "M"
     }
   ],
   "consulate": [
     {
-      "title": "Velvyslanectvi CR - Madrid",
-      "detail": "Avenida Pio XII 22-24, 28016 Madrid",
-      "phone": "+34 915 31 30 65",
+      "title": "Velvyslanectví ČR — Madrid",
+      "detail": "Avenida Pío XII 22-24, 28016 Madrid",
+      "phone": "+34 915 313 065",
       "confidence": "H"
     },
     {
-      "title": "Honorarni konzulat CR - Tenerife",
-      "detail": "Existuje. Avenida Jose Miguel Galvan Bello 30-B, Edificio PIKA B, local Bajo Izquierda, 38612 El Medano, Santa Cruz de Tenerife. Honorarka: Marcela Tosal. Pusobnost: Kanarske ostrovy. Osobni jednani jen po predem sjednane schuzce.",
-      "phone": "MZV Madrid uvadi +34 650 368 524 (omezena dostupnost); MZV directory uvadi take +34 606 670 225. Email Tenerife.Honorary@mzv.gov.cz; pro schuzku Madrid page uvadi tenerife@honoraryconsulate.es. CONFLICT: rozdilne tel. v MZV zdrojich.",
-      "confidence": "L"
-    },
-    {
-      "title": "Velvyslanectvi SR - Madrid",
-      "detail": "[?] slovensky kontakt nebyl v tomto passu overen",
-      "phone": "[?]",
-      "confidence": "L"
+      "title": "Honorární konzulát ČR — Tenerife",
+      "detail": "El Médano (jen po předchozí domluvě)",
+      "phone": "+34 650 368 524",
+      "confidence": "M"
     }
   ],
   "playbooks": [
     {
-      "situation": "Ztraceny pas",
-      "action": "Nahlasit Policia Nacional 091 - kontaktovat Velvyslanectvi CR Madrid; Honorarni konzulat Tenerife muze pomoct jen v omezenem rozsahu a po domluve.",
-      "confidence": "M"
+      "situation": "Ztracený pas",
+      "action": "Nahlas to na Policía Nacional (091) a kontaktuj Velvyslanectví ČR v Madridu. Honorární konzulát na Tenerife pomůže jen omezeně a po domluvě."
     },
     {
       "situation": "Nehoda autem",
-      "action": "Volat 112 - kontaktovat pujcovnu podle cisla ve smlouve. Autoreisen TFS office: +34 922 392 216; Aena uvadi take +34 922 260 200 / +34 922 759 364. Cicar TFS/reservations: +34 928 822 900; Aena uvadi take +34 922 759 329. 24/7 emergency linky nebyly verejne potvrzeny [?].",
-      "confidence": "L"
+      "action": "Volej 112 a pak půjčovnu podle čísla ve smlouvě — Autoreisen TFS +34 922 392 216, Cicar +34 928 822 900."
     },
     {
-      "situation": "Ztracene klice od apartmanu",
-      "action": "Zavolat Kristine primo na WhatsApp / telefon +420 702 188 376.",
-      "confidence": "M"
+      "situation": "Ztracené klíče od apartmánu",
+      "action": "Zavolej Kristině na WhatsApp nebo telefon +420 702 188 376."
     },
     {
-      "situation": "Nemoc / uraz",
-      "action": "Vazne: 112. Mene vazne: Quironsalud Costa Adeje nebo Hospiten Sur s cestovnim pojistenim; pro EHIC verejny system / SCS.",
-      "confidence": "M"
+      "situation": "Nemoc nebo úraz",
+      "action": "Vážné případy: 112. Méně vážné: Quirónsalud Costa Adeje nebo Hospiten Sur s cestovním pojištěním; pro EHIC veřejný systém."
     },
     {
-      "situation": "Kradez osobnich veci",
-      "action": "Policia Nacional 091 - protokol pro pojistovnu.",
-      "confidence": "M"
+      "situation": "Krádež osobních věcí",
+      "action": "Nahlas to na Policía Nacional (091) a vyžádej si protokol pro pojišťovnu."
     }
   ],
   "host": {
-    "name": "Kristina Kumberova",
+    "name": "Kristina Kumberová",
     "whatsappUrl": "https://wa.me/420702188376",
     "phone": "+420 702 188 376",
     "note": "WhatsApp je preferovaný kontakt pro hosty."
