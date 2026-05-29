@@ -15,7 +15,7 @@
     "complex": "/images/apartman/mapa-arealu.png"
   },
   "contact": {
-    "label": "Kontaktuj Kristinu den pred prijezdem",
+    "label": "Kontaktuj Kristinu den před příjezdem",
     "whatsappUrl": "https://wa.me/420702188376",
     "phone": "+420 702 188 376"
   },
@@ -32,12 +32,12 @@
     },
     {
       "title": "Navigace",
-      "summary": "Zadat Paradise Court",
+      "summary": "Zadej „Paradise Court“",
       "status": "neutral"
     },
     {
-      "title": "Kody a WiFi",
-      "summary": "Neposilame verejne. Napis Kristine na WhatsApp.",
+      "title": "Kódy a WiFi",
+      "summary": "Neposíláme veřejně. Napiš Kristině na WhatsApp.",
       "status": "contact-required"
     }
   ],

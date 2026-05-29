@@ -24,7 +24,7 @@ export function DopravaPage() {
         {doprava.sections.map((section) => (
           <article className="content-panel" key={section.id}>
             <h2>{section.title}</h2>
-            {section.hasFlags && <span className="confidence confidence-l">Overit pred cestou</span>}
+            {section.hasFlags && <span className="confidence confidence-l">Ověřit před cestou</span>}
             <p>{section.body}</p>
           </article>
         ))}

@@ -29,18 +29,18 @@ export function POICard({ poi, variant = "collapsed" }: POICardProps) {
               {activityLabels[tag]}
             </span>
           ))}
-          {showPermit && <span className="badge badge-permit">Rezervace</span>}
+          {showPermit && <span className="badge badge-permit">Rezervace nutná</span>}
         </div>
         <p>{poi.summary}</p>
         {isExpanded && (
           <div className="poi-detail">
-            <Info label="Oteviracky" value={poi.practical.openingHours} />
+            <Info label="Otevírací doba" value={poi.practical.openingHours} />
             <Info label="Cena" value={poi.practical.price} />
-            <Info label="Doba" value={poi.practical.visitDuration} />
-            <Info label="Parkovani" value={poi.practical.parking} />
+            <Info label="Doba návštěvy" value={poi.practical.visitDuration} />
+            <Info label="Parkování" value={poi.practical.parking} />
             {poi.withoutCar?.note && <Info label="Bez auta" value={poi.withoutCar.note} />}
-            {poi.insiderTip && <Info label="Tip" value={poi.insiderTip} />}
-            {poi.rainyAlt && <Info label="Pocasi" value={poi.rainyAlt} />}
+            {poi.insiderTip && <Info label="Tip od Kristiny" value={poi.insiderTip} />}
+            {poi.rainyAlt && <Info label="Když fouká / prší" value={poi.rainyAlt} />}
             <div className="chip-row compact">
               {poi.tags.logistics.map((tag) => (
                 <span className="badge" key={tag}>

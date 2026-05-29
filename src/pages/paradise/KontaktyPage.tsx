@@ -36,8 +36,8 @@ export function KontaktyPage() {
     <>
       <section className="page-intro emergency-intro">
         <p className="eyebrow">SOS</p>
-        <h1>Kdyz se neco deje, zacni tady</h1>
-        <ContactCTA label="Napsat Kristine" whatsappUrl={data.host.whatsappUrl} phone={data.host.phone} variant="emergency" />
+        <h1>Když se něco děje, začni tady</h1>
+        <ContactCTA label="Napsat Kristině" whatsappUrl={data.host.whatsappUrl} phone={data.host.phone} variant="emergency" />
       </section>
       <section className="section-block">
         <div className="contact-grid">
@@ -48,17 +48,17 @@ export function KontaktyPage() {
       </section>
       <section className="section-block">
         <div className="section-heading">
-          <h2>Zdravotnictvi</h2>
+          <h2>Zdravotnictví</h2>
         </div>
         <div className="contact-grid">
           {data.medical.slice(0, 4).map((item) => (
-            <ContactCard key={item.title} title={item.title ?? "Zdravotnictvi"} value={item.phone} note={[item.address, item.note].filter(Boolean).join(" · ")} />
+            <ContactCard key={item.title} title={item.title ?? "Zdravotnické zařízení"} value={item.phone} note={[item.address, item.note].filter(Boolean).join(" · ")} />
           ))}
         </div>
       </section>
       <section className="section-block">
         <div className="section-heading">
-          <h2>Co delat kdyz</h2>
+          <h2>Co dělat, když…</h2>
         </div>
         <div className="section-grid">
           {data.playbooks.map((item) => (

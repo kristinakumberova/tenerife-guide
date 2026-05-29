@@ -15,8 +15,8 @@ export function POIMapList({ pois, onResetFilters }: POIMapListProps) {
   if (pois.length === 0) {
     return (
       <section className="empty-state">
-        <h2>Tahle kombinace nic nenasla.</h2>
-        <p>Zkus odebrat jeden filtr, Tenerife je velke, ale ne nekonecne.</p>
+        <h2>Tahle kombinace nic nenašla.</h2>
+        <p>Zkus odebrat jeden filtr — Tenerife je velké, ale ne nekonečné.</p>
         <button className="btn btn-primary" onClick={onResetFilters}>
           Vymazat filtry
         </button>
@@ -26,7 +26,7 @@ export function POIMapList({ pois, onResetFilters }: POIMapListProps) {
 
   return (
     <section className="poi-map-list">
-      <div className="segmented-control" role="group" aria-label="Zobrazeni mist">
+      <div className="segmented-control" role="group" aria-label="Zobrazení míst">
         <button className={viewMode === "map" ? "active" : ""} onClick={() => setViewMode("map")}>
           <Map size={16} aria-hidden="true" />
           Mapa

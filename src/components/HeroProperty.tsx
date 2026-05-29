@@ -10,12 +10,12 @@ export function HeroProperty({ apartment }: HeroPropertyProps) {
   return (
     <section className="hero-property">
       <div className="hero-media">
-        <img src={apartment.heroImage} alt="Ilustrace atmosfery terasy Jazuma Paradise pri zapadu slunce" />
+        <img src={apartment.heroImage} alt="Pohled z terasy apartmánu Jazuma Paradise na Costa Adeje při západu slunce" />
       </div>
       <div className="hero-copy">
         <p className="eyebrow">{apartment.brand}</p>
         <h1>{apartment.name}</h1>
-        <p className="lead">{apartment.area}. Prakticky guide pro prijezd, vylety, jidlo a rychle kontakty.</p>
+        <p className="lead">{apartment.area}. Praktický průvodce pro příjezd, výlety, jídlo a rychlé kontakty.</p>
         <ContactCTA label={apartment.contact.label} whatsappUrl={apartment.contact.whatsappUrl} phone={apartment.contact.phone} />
       </div>
       <div className="quick-grid">

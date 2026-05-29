@@ -95,6 +95,17 @@ function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+// YAML auto-parses unquoted `2026-05-28` into a Date; String(date) yields an ugly
+// locale string. Normalize everything to a clean ISO yyyy-mm-dd.
+function isoDate(value, fallback = "2026-05-28") {
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value.toISOString().slice(0, 10);
+  }
+  const text = String(value ?? "").trim();
+  const match = text.match(/\d{4}-\d{2}-\d{2}/);
+  return match ? match[0] : fallback;
+}
+
 function parseMarkdownTable(markdown) {
   const lines = markdown
     .split("\n")
@@ -184,10 +195,10 @@ function parsePoiFile(fileName) {
     photos: normalizePhotos(data.photos, id, data.name),
     rainyAlt: stripMarkdown(rainyAlt),
     insiderTip: stripMarkdown(insiderTip),
-    verifiedDate: String(data.verified ?? "2026-05-28"),
+    verifiedDate: isoDate(data.verified),
     confidence,
     flags,
-    sourceRefs: sourceRefsFromLinks(data.links, data.verified ?? "2026-05-28"),
+    sourceRefs: sourceRefsFromLinks(data.links, isoDate(data.verified)),
   };
 
   validatePoi(poi);
@@ -218,26 +229,38 @@ function extractTitsaLines(value) {
   return [...new Set([...value.matchAll(/\b\d{2,3}\b/g)].map((match) => match[0]))];
 }
 
+function localPoiPhoto(id) {
+  const webPath = `/images/poi/${id}.webp`;
+  const filePath = resolve(repoRoot, "public", "images", "poi", `${id}.webp`);
+  return existsSync(filePath) ? webPath : null;
+}
+
 function normalizePhotos(photos, id, name) {
+  const local = localPoiPhoto(id);
   if (!Array.isArray(photos) || photos.length === 0) {
     return [
       {
-        url: "",
-        alt: `${name} - foto se doplnuje`,
+        url: local ?? "",
+        alt: `${name} – Tenerife`,
         license: "missing",
         credit: "Doplnit",
       },
     ];
   }
 
-  return photos.map((photo, index) => ({
-    url: photo.url ?? "",
-    alt: photo.alt ?? `${name} - foto ${index + 1}`,
-    license: photo.license ?? "overit licenci",
-    credit: photo.credit ?? "Doplnit",
-    sourceUrl: photo.sourceUrl ?? photo.url,
-    localPath: photo.localPath,
-  }));
+  return photos.map((photo, index) => {
+    // First photo is served from the optimized self-hosted WebP when available;
+    // the original Commons URL is kept as sourceUrl for attribution/lightbox.
+    const useLocal = local && index === 0;
+    return {
+      url: useLocal ? local : (photo.url ?? ""),
+      alt: photo.alt ?? `${name} – Tenerife`,
+      license: photo.license ?? "ověřit licenci",
+      credit: photo.credit ?? "Doplnit",
+      sourceUrl: photo.sourceUrl ?? photo.url,
+      localPath: useLocal ? local : photo.localPath,
+    };
+  });
 }
 
 function sourceRefsFromLinks(links, checkedDate) {
@@ -293,11 +316,11 @@ function parseBundles() {
       transport: data.transport ?? "mixed",
       permits: data.permits ?? [],
       estimatedCostPerson: data.estimatedCostPerson,
-      notes: stripMarkdown(section(body, "Logistika") || body),
-      summary: firstParagraph(section(body, "Pro koho")),
-      itinerary: stripMarkdown(section(body, "Co uvidis") || section(body, "Co uvidíš")),
-      bestFor: [firstParagraph(section(body, "Pro koho"))].filter(Boolean),
-      whenNot: stripMarkdown(section(body, "Kdy NE")),
+      notes: stripMarkdown(subsection(body, "Logistika")),
+      summary: firstParagraph(subsection(body, "Pro koho")),
+      itinerary: stripMarkdown(subsection(body, "Co uvidíš") || subsection(body, "Co uvidis")),
+      bestFor: [firstParagraph(subsection(body, "Pro koho"))].filter(Boolean),
+      whenNot: stripMarkdown(subsection(body, "Kdy NE")),
     });
   }
 
@@ -432,7 +455,7 @@ function parseContacts() {
       name: "Kristina Kumberova",
       whatsappUrl: "https://wa.me/420702188376",
       phone: "+420 702 188 376",
-      note: "WhatsApp je preferovany kontakt pro hosty.",
+      note: "WhatsApp je preferovaný kontakt pro hosty.",
     },
   };
 }
@@ -525,15 +548,15 @@ function parseApartment() {
     mapImage: maps.complex,
     maps,
     contact: {
-      label: "Kontaktuj Kristinu den pred prijezdem",
+      label: "Kontaktuj Kristinu den před příjezdem",
       whatsappUrl: "https://wa.me/420702188376",
       phone: "+420 702 188 376",
     },
     quickInfo: [
-      { title: "Check-in", summary: "od 15:00", status: "neutral" },
-      { title: "Check-out", summary: "do 10:00", status: "neutral" },
-      { title: "Navigace", summary: "Zadat Paradise Court", status: "neutral" },
-      { title: "Kody a WiFi", summary: "Neposilame verejne. Napis Kristine na WhatsApp.", status: "contact-required" },
+      { title: "Check-in", summary: fields["Check-in"] ?? "od 15:00", status: "neutral" },
+      { title: "Check-out", summary: fields["Check-out"] ?? "do 10:00", status: "neutral" },
+      { title: "Navigace", summary: "Zadej „Paradise Court“", status: "neutral" },
+      { title: "Kódy a WiFi", summary: "Neposíláme veřejně. Napiš Kristině na WhatsApp.", status: "contact-required" },
     ],
     sections: [
       buildSection("Příjezd autem", maps.arrival, arrival),

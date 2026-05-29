@@ -32,8 +32,8 @@ export function GuidePage() {
     <>
       <section className="page-intro">
         <p className="eyebrow">Tenerife Guide</p>
-        <h1>Mapa, filtry a denni napady</h1>
-        <p>Vyber misto podle regionu, aktivity, logistiky a pocasi. Permit veci jsou oznacene primo v kartach.</p>
+        <h1>Mapa, filtry a denní nápady</h1>
+        <p>Vyber si místo podle regionu, aktivity, logistiky a počasí. Místa s permitem nebo rezervací jsou označená přímo v kartách.</p>
       </section>
       <div className="guide-layout">
         <FilterPanel filters={filters} resultCount={filteredPois.length} onChange={setFilters} />
@@ -45,8 +45,8 @@ export function GuidePage() {
       <PermitChecklist permits={permits} />
       <section className="section-block">
         <div className="section-heading">
-          <h2>Denni navrhy</h2>
-          <p>Hotove kombinace mist, kdyz nechces skladat program od nuly.</p>
+          <h2>Denní nápady</h2>
+          <p>Hotové kombinace míst, když nechceš skládat program od nuly.</p>
         </div>
         <div className="bundle-grid">
           {bundles.map((bundle) => (

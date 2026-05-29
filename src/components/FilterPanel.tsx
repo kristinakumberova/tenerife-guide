@@ -27,7 +27,7 @@ export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps
         <input
           value={filters.query}
           onChange={(event) => onChange({ ...filters, query: event.target.value })}
-          placeholder="Hledat misto"
+          placeholder="Hledat místo"
         />
       </label>
       <FilterGroup title="Typ aktivity">
@@ -51,14 +51,14 @@ export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps
           </Chip>
         ))}
       </FilterGroup>
-      <FilterGroup title="Pocasi">
+      <FilterGroup title="Počasí">
         {weather.map((item) => (
           <Chip key={item} active={filters.weather.includes(item)} onClick={() => toggle("weather", item)}>
             {weatherLabels[item]}
           </Chip>
         ))}
       </FilterGroup>
-      <p className="filter-total">{resultCount} mist odpovida filtru</p>
+      <p className="filter-total">{resultCount} míst odpovídá filtru</p>
     </aside>
   );
 }

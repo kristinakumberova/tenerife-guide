@@ -46,16 +46,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Steep_coast_in_Alcala_on_Tenerife%2C_Spain_%2848225514032%29.jpg",
-        "alt": "Alcalá - foto 1",
+        "url": "/images/poi/alcala.webp",
+        "alt": "Alcalá – Tenerife",
         "license": "CC BY 2.0",
         "credit": "Wikimedia Commons: dronepicr",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Steep_coast_in_Alcala_on_Tenerife%2C_Spain_%2848225514032%29.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Steep_coast_in_Alcala_on_Tenerife%2C_Spain_%2848225514032%29.jpg",
+        "localPath": "/images/poi/alcala.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Přírodní bazény = ideální při větru/vlnách v oceánu. Pondělní trh u Plaza Llamo (8–13). Z apt jako stop cestou na Los Gigantes nebo Masca. Spojit s Alcalá → Los Gigantes trail (11 km, náročnější) nebo kratší Alcalá ↔ Playa San Juan.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -63,25 +64,25 @@
         "label": "Oficialni web",
         "url": "https://www.tenerife-is.com/alcala-tenerife/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://honest-tenerife.com/beaches/playa-de-alcala/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://honest-tenerife.com/coast-path/alcala/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.beachatlas.com/la-jaquita",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -134,16 +135,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coast_at_Chinamada_-_Tenerife_04.jpg",
-        "alt": "Anaga Rural Park + Chinamada (PR-TF 10 + Sendero Sentidos viz #5) - foto 1",
+        "url": "/images/poi/anaga-chinamada.webp",
+        "alt": "Anaga Rural Park + Chinamada (PR-TF 10 + Sendero Sentidos viz #5) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: H. Zell",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coast_at_Chinamada_-_Tenerife_04.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coast_at_Chinamada_-_Tenerife_04.jpg",
+        "localPath": "/images/poi/anaga-chinamada.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Pro full PR-TF 10 = plánuj 6–7 h door-to-door + odjezd auta. Bus 105 z Punta del Hidalgo → Tegueste/La Laguna pro zpáteční cestu k autu (komplikované). Alternativy: - (a) Z Cruz del Carmen jen k Chinamada (~5 km, sestup) + zpět taxi - (b) Sendero de los Sentidos (5) — 0,4–3,6 km, bezbar. začátek, ideální s rodinou - (c) Mirador Pico del Inglés / Mirador Cruz del Carmen — autem + 5 min walk",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -151,25 +153,25 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/protected-natural-areas/en-parques-rurales/parque-rural-de-anaga",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.webtenerife.co.uk",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-10-cruz-del-carmen-punta-del-hidalgo",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -228,16 +230,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Candelaria%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-12%2C_DD_11.jpg",
-        "alt": "Candelaria (Basílica de Nuestra Señora + sochy Guanche Menceyes) - foto 1",
+        "url": "/images/poi/candelaria.webp",
+        "alt": "Candelaria (Basílica de Nuestra Señora + sochy Guanche Menceyes) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Candelaria%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-12%2C_DD_11.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Candelaria%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-12%2C_DD_11.jpg",
+        "localPath": "/images/poi/candelaria.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Návštěva mimo poutě (2.2 / 15.8) = klid + zaparkovat. Před nebo po bazilice rybí restaurace na promenádě + plážová zmrzlina. Foť sochy ze severu (Menceyes čelem k oceánu = klasická pohlednice). Spoj se Santa Cruz/La Laguna = celý východ za 1 den. Černé pláže Caletillas (sever) nebo Punta Larga (vedle) ideální mezi prohlídkou.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -245,25 +248,25 @@
         "label": "Oficialni web",
         "url": "https://www.candelaria.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://gotenerife.net/en/explore/basilica-candelaria/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://en.m.wikipedia.org/wiki/Basilica_of_Candelaria",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://triptionary.net/candelaria-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -314,16 +317,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Drago_%28Dracaena_drago%29_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg",
-        "alt": "Drago Milenario + Parque del Drago + Mariposario (Icod de los Vinos) - foto 1",
+        "url": "/images/poi/drago-milenario-icod.webp",
+        "alt": "Drago Milenario + Parque del Drago + Mariposario (Icod de los Vinos) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Lmbuga (Luis Miguel Bugallo Sanchez)",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Drago_%28Dracaena_drago%29_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Drago_%28Dracaena_drago%29_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg",
+        "localPath": "/images/poi/drago-milenario-icod.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Combo Drago + Mariposario = ~2 h (děti milují motýly). Park Drago v low season otevírá v 10 (ne 9!) — naplánuj. Lavka k parku úzká → NEjeď autem až k parku, parkuj v centru Icod a 5 min pěšky. Po prohlídce ochutnej vino blanco Icod v lokální vinárně.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -331,25 +335,25 @@
         "label": "Oficialni web",
         "url": "https://icoddelosvinos.es/patrimonio/drago-milenario",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "http://www.mariposario.com/en/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.mariposario.com/en/informacion-y-precios/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -408,16 +412,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ES7020049_Tenerife_Monta%C3%B1a_Roja%2C_playa_de_El_M%C3%A9dano.jpg",
-        "alt": "El Médano (městečko + Playa El Médano + Playa La Tejita + Montaña Roja + Playa La Pelada) - foto 1",
+        "url": "/images/poi/el-medano.webp",
+        "alt": "El Médano (městečko + Playa El Médano + Playa La Tejita + Montaña Roja + Playa La Pelada) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Papm1949",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ES7020049_Tenerife_Monta%C3%B1a_Roja%2C_playa_de_El_M%C3%A9dano.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ES7020049_Tenerife_Monta%C3%B1a_Roja%2C_playa_de_El_M%C3%A9dano.jpg",
+        "localPath": "/images/poi/el-medano.webp"
       }
     ],
     "rainyAlt": "El Médano = \"vždy fouká\" → na koupání ne, ale na surf ano. Když nechceš vítr, jeď na Playa del Duque (Costa Adeje, ~25 min). Při Kalimě: stejně dusno všude na jihu.",
     "insiderTip": "Playa La Pelada (nudistická, 2 km východně) bývá poloprázdná — parkoviště zdarma 200 m nad pláží, dolů prašnou cestou. Středeční farmářské trhy v centru. Z Calle Irlanda ~25 min autem (TF-1).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -425,25 +430,25 @@
         "label": "Oficialni web",
         "url": "https://elmedanoweb.com/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://wikipedia.com/wiki/El_M%C3%A9dano",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.titsa.com",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://guanches.org/El_M%C3%A9dano",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -492,16 +497,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/View_on_the_hike_from_Santiago_del_Teide_to_Masca_towards_El_Palmar%2C_Tenerife%2C_Spain.jpg",
-        "alt": "El Palmar + Teno Alto (Teno Rural Park) - foto 1",
+        "url": "/images/poi/el-palmar-teno-alto.webp",
+        "alt": "El Palmar + Teno Alto (Teno Rural Park) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Christoph Strassler",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/View_on_the_hike_from_Santiago_del_Teide_to_Masca_towards_El_Palmar%2C_Tenerife%2C_Spain.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/View_on_the_hike_from_Santiago_del_Teide_to_Masca_towards_El_Palmar%2C_Tenerife%2C_Spain.jpg",
+        "localPath": "/images/poi/el-palmar-teno-alto.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Neděle = market El Palmar (9:30–13:30) + oběd v Los Bailaderos / La Piñata (Teno Alto) → kozí maso s cizrnou a kozí sýr. Cesta na Teno Alto z El Palmar = klikatá ale krásná. Trail Callejón de Teno (5 km, zpevněný) = lehčí alternativa pěšky.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -509,25 +515,25 @@
         "label": "Oficialni web",
         "url": "https://www.webtenerife.co.uk/what-see/outdoor-attractions/teno-country-park/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://es.wikipedia.org/wiki/El_Palmar_(Buenavista_del_Norte",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://best-of-tenerife.com/el-palmar-nature-tradition-and-volcanoes-in-the-heart-of-the-teno-massif/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.hellocanaryislands.com/nature-spaces/tenerife/teno-rural-park/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -581,16 +587,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20250704_Echium_wildpretii.jpg",
-        "alt": "Centro de Visitantes El Portillo (Teide NP) - foto 1",
+        "url": "/images/poi/el-portillo.webp",
+        "alt": "Centro de Visitantes El Portillo (Teide NP) – Tenerife",
         "license": "CC BY 4.0",
         "credit": "Wikimedia Commons: Flocci Nivis",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20250704_Echium_wildpretii.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20250704_Echium_wildpretii.jpg",
+        "localPath": "/images/poi/el-portillo.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Stop cestou na Teide z Puerto de la Cruz (sever) — nebo zpět z Roques de García na jih. 45–60 min pohoda. WC + voda zdarma (před náročnou cestou nahoru). Při dešti = ideální backup k uzavřené lanovce.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -598,25 +605,25 @@
         "label": "Oficialni web",
         "url": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.gobiernodecanarias.org/parquesnacionales/teide/visita/centros_y_horarios/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.webtenerife.co.uk/what-see/teide-national-park/centro-de-visitantes-el-portillo/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -669,16 +676,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Piscinas_naturales%2C_Garachico%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-13%2C_DD_01.jpg",
-        "alt": "Garachico + El Caletón (přírodní bazény) - foto 1",
+        "url": "/images/poi/garachico-el-caleton.webp",
+        "alt": "Garachico + El Caletón (přírodní bazény) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Piscinas_naturales%2C_Garachico%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-13%2C_DD_01.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Piscinas_naturales%2C_Garachico%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-13%2C_DD_01.jpg",
+        "localPath": "/images/poi/garachico-el-caleton.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Zkontroluj tide tables před cestou (např. tideschart.com) — low tide = koupej, high tide = jen foť. Ráno pracovní dny = klid; víkend/léto = davy. Restaurace u bazénů → oběd s mořem na talíři. Castillo (€3) + town hall plaza + nadherne stoletá tehnička. Z apt = day trip.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -686,25 +694,25 @@
         "label": "Oficialni web",
         "url": "https://icoddelosvinos.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://airial.travel/attractions/spain/garachico/el-calet%C3%B3n-natural-pools-qxCfuea5",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://canarias-lovers.com/en/natural-pools-el-caleton-garachico/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -756,16 +764,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Caleta_R04.jpg",
-        "alt": "La Caleta (rybářská vesnice + Playa de Enramada) - foto 1",
+        "url": "/images/poi/la-caleta.webp",
+        "alt": "La Caleta (rybářská vesnice + Playa de Enramada) – Tenerife",
         "license": "CC BY 3.0",
         "credit": "Wikimedia Commons: Marc Ryckaert",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Caleta_R04.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Caleta_R04.jpg",
+        "localPath": "/images/poi/la-caleta.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Sunset s rybou na terase La Vieja — rezervuj minimálně den dopředu. Promenáda směr Playa del Duque je 1 z nejhezčích walks v Costa Adeje. Z apt večerní výprava pěšky/autem na večeři.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -773,25 +782,25 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/la-caleta",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://restaurantelavieja.com/en/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://caletasuitestenerife.com/gastronomy/seafood-restaurants-in-la-caleta/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://tapitaslacaleta.shop/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -843,16 +852,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bosque_Encantado%2C_Parque_nacional_de_Garajonay%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_19.jpg",
-        "alt": "La Gomera — Day trip (Fred. Olsen / Naviera Armas + Garajonay NP + San Sebastián) - foto 1",
+        "url": "/images/poi/la-gomera-day-trip.webp",
+        "alt": "La Gomera — Day trip (Fred. Olsen / Naviera Armas + Garajonay NP + San Sebastián) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bosque_Encantado%2C_Parque_nacional_de_Garajonay%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_19.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bosque_Encantado%2C_Parque_nacional_de_Garajonay%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_19.jpg",
+        "localPath": "/images/poi/la-gomera-day-trip.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Z apt nejbližší k ferry terminálu (10 min do Los Cristianos)! 2 varianty: - (a) Organizovaný tour Civitatis (~50–70 €) = pickup z hotelu + ferry + bus + průvodce + Silbo demo + canarian oběd + Garajonay + San Sebastián, vrátíš se hotový bez plánování. - (b) DIY = ferry tam i zpět (~70 €/os), v San Sebastián rent car (~30 €/den) + vlastní okruh; 2× volnost, 2× náročnější logistika. Best (a): Pro 1 den naivní cestovatel. Best (b): Pro samostatné turisty s časem na hike. Rezervuj ferry 1+ týden předem (sezóna může být plno). Pro viditelnost La Palmy z Alto de Garajonay = jasný den.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -860,25 +870,25 @@
         "label": "Oficialni web",
         "url": "https://www.fredolsen.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.expedia.com/La-Gomera.dx6025053",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.tuimusement.com/uk/spain/tenerife/la-gomera-tour-with-garajonay-forest-and-san-sebastian-10/e_o9qd7-d_302-c_161/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -934,16 +944,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Catedral_de_San_Crist%C3%B3bal_de_La_Laguna%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD%2C_DD_102-104_HDR.jpg",
-        "alt": "La Laguna (UNESCO World Heritage) - foto 1",
+        "url": "/images/poi/la-laguna.webp",
+        "alt": "La Laguna (UNESCO World Heritage) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Catedral_de_San_Crist%C3%B3bal_de_La_Laguna%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD%2C_DD_102-104_HDR.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Catedral_de_San_Crist%C3%B3bal_de_La_Laguna%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD%2C_DD_102-104_HDR.jpg",
+        "localPath": "/images/poi/la-laguna.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Combo se Santa Cruz přes tram (1× cesta €1,35, frekvence ~10 min). Pondělí = mnoho muzeí zavřeno — jdi Út–Ne. Plánuj mezi 11–15 (univ. studenti dělají atmosféru). Vezmi vrstvy — La Laguna je ve výši, často mlha + chladněji než pobřeží. Spoj s Anaga (35) odpoledne.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -951,25 +962,25 @@
         "label": "Oficialni web",
         "url": "https://www.aytolalaguna.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://tourismattractions.net/spain/la-laguna",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1020,16 +1031,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Valle_de_La_Orotava_qtl1.jpg",
-        "alt": "La Orotava (historické centrum + Casa de los Balcones) - foto 1",
+        "url": "/images/poi/la-orotava.webp",
+        "alt": "La Orotava (historické centrum + Casa de los Balcones) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Quartl",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Valle_de_La_Orotava_qtl1.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Valle_de_La_Orotava_qtl1.jpg",
+        "localPath": "/images/poi/la-orotava.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Spoj s návštěvou Puerto de la Cruz (15 min autem) = 1 day trip celý sever. Jdi pěšky od Plaza de la Constitución přes Calle de San Francisco. Casa Eladia Machado = ukázka řemesel (vstup s ticketem na Casa de los Balcones). Pokud trefíš Corpus Christi (květen/červen) = jedna z nejkrásnějších slavností Španělska.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1037,25 +1049,25 @@
         "label": "Oficialni web",
         "url": "http://www.laorotava.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.webtenerife.co.uk/what-see/other-attractions/casa-balcones/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "http://www.laorotava.es/en/lugares/set-historical-buildings-visitables",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1107,16 +1119,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Las_Galletas_3.JPG",
-        "alt": "Las Galletas + Finca Las Margaritas Banana Experience - foto 1",
+        "url": "/images/poi/las-galletas-finca-las-margaritas.webp",
+        "alt": "Las Galletas + Finca Las Margaritas Banana Experience – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: X3m",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Las_Galletas_3.JPG"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Las_Galletas_3.JPG",
+        "localPath": "/images/poi/las-galletas-finca-las-margaritas.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Páteční ranní trh (řemesla + jídlo) v Marina del Sur. Po Margaritas tour = oběd na promenádě v rybí restauraci. Kdo má rád diving — Las Galletas = top diving spot jihu.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1124,25 +1137,25 @@
         "label": "Oficialni web",
         "url": "https://spainguides.com/top-destinations/las-galletas/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://lasmargaritasbananaexperience.com/en/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://laesenciadecanarias.com/tenerife/las-galletas/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.pelago.com/en-US/tenerife/playa-de-las-galletas-c3247",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1192,16 +1205,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Camino_a_La_Zona_Recreativa_Las_Lajas.jpg",
-        "alt": "Zona Recreativa Las Lajas - foto 1",
+        "url": "/images/poi/las-lajas.webp",
+        "alt": "Zona Recreativa Las Lajas – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Claudia1711",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Camino_a_La_Zona_Recreativa_Las_Lajas.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Camino_a_La_Zona_Recreativa_Las_Lajas.jpg",
+        "localPath": "/images/poi/las-lajas.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Přijeď mimo víkend (Mo–Pá = klid). Voda v zařízení NENÍ pitná — vlastní 2 l/os. Maso/uhlí nakup v Vilaflor/Granadilla (po cestě). Mlhy se ženou odpoledne — vyjeď ráno. Camping rezervace každé Po 7:00 ráno (KI čas) pro další týden.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1209,25 +1223,25 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/facilities/recreational-area/las-lajas",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.tenerifeon.es/en/facilities/camping-area/las-lajas-campsite",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.tenerife-information-centre.com/las-lajas-campsite.html",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://centralreservas.tenerife.es/actividad/11",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1285,16 +1299,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Aratinga_solstitialis_-_Loro_Parque_01.jpg",
-        "alt": "Loro Parque - foto 1",
+        "url": "/images/poi/loro-parque.webp",
+        "alt": "Loro Parque – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: H. Zell",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Aratinga_solstitialis_-_Loro_Parque_01.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Aratinga_solstitialis_-_Loro_Parque_01.jpg",
+        "localPath": "/images/poi/loro-parque.webp"
       }
     ],
     "rainyAlt": "Ideální! Velká část krytá (akvárium, planet penguin, terárium). Plus dostatek stínu mezi voliérami. Severní Puerto bývá chladnější — bunda do akvárií.",
     "insiderTip": "Přijeď na otvíračku 09:30 — vyhneš se davům na ranní lachtany. Šou na orcas se sedat mimo prvních 5 řad (sprcha). Kupuj online (vyhneš se frontě u pokladny). Lístek bez data expirace — nemusíš jít hned. Twin Ticket Siam+Loro = 10 € sleva, ale Siam je na jihu (70 km od Loro) → 2 různé dny.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1302,25 +1317,25 @@
         "label": "Oficialni web",
         "url": "https://www.loroparque.com",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.loroparque.com/en/plan-visit-loro-parque/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.loroparque.com/en/faq/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.taquilla.com/entradas/loro-parque",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1372,16 +1387,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/At_Los_Abrigos_2022_001.jpg",
-        "alt": "Los Abrigos - foto 1",
+        "url": "/images/poi/los-abrigos.webp",
+        "alt": "Los Abrigos – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Mike Peel",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/At_Los_Abrigos_2022_001.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/At_Los_Abrigos_2022_001.jpg",
+        "localPath": "/images/poi/los-abrigos.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Restaurante Los Abrigos — zavřeno St + Čt, jinak 12–22 nepřetržitě. Přijdi brzy (12–13) na výběr ryby z pultu. Po cestě zpět zastav v Berry's heladeria (provoz Češka). Promenáda kolem přístavu = sunset walk. Spoj s návštěvou Amarilla Golf nebo Montaña Amarilla.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1389,25 +1405,25 @@
         "label": "Oficialni web",
         "url": "https://www.granadilladeabona.org",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://biveros.com/los-abrigos-tenerife-spain/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.tenerifepages.com/los-abrigos-fish-market",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://tenerifesouthguide.com/los-abrigos/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1457,16 +1473,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/At_Tenerife_2023_503_-_Playa_Honda%2C_Los_Cristianos.jpg",
-        "alt": "Los Cristianos - foto 1",
+        "url": "/images/poi/los-cristianos.webp",
+        "alt": "Los Cristianos – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Mike Peel",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/At_Tenerife_2023_503_-_Playa_Honda%2C_Los_Cristianos.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/At_Tenerife_2023_503_-_Playa_Honda%2C_Los_Cristianos.jpg",
+        "localPath": "/images/poi/los-cristianos.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Z apt nejbližší ferry terminál (La Gomera day trip!). Velký výběr restaurací všech kuchyní (čínská, italská, mexická), na rozdíl od La Caleta není to \"rybí specialista\" ale \"all-rounder\". Sunday market.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1474,25 +1491,25 @@
         "label": "Oficialni web",
         "url": "https://arona.travel",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://en.wikipedia.org/wiki/Los_Cristianos",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://gotenerife.net/en/explore/los-cristianos/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://arona.travel/es-es/Planea-tu-viaje/Oficinas-de-informaci%C3%B3n-tur%C3%ADstica",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1542,16 +1559,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Los_Gigantes%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_10.jpg",
-        "alt": "Los Gigantes + boat trip Flipper Uno (whale & dolphin watching) - foto 1",
+        "url": "/images/poi/los-gigantes-boat-trip.webp",
+        "alt": "Los Gigantes + boat trip Flipper Uno (whale & dolphin watching) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Los_Gigantes%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_10.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Los_Gigantes%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_10.jpg",
+        "localPath": "/images/poi/los-gigantes-boat-trip.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Pro 3h trip preferuj Flipper Uno (paella + drinks + zipline). Sustainable Barco Azul tag = ne otravuje zvířata. Loď z apt = den. Z apt 50 min do Los Gigantes, lépe rezervovat ranní (klidnější moře = víc cetacea). Po lodi oběd na promenádě + zmrzlinárna Berry's (provoz Češka, vyhlášená).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1559,25 +1577,25 @@
         "label": "Oficialni web",
         "url": "https://flipperuno.com",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://flipperuno.com/en/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://emocionatetours.com/en/excursions-tenerife/tenerife-boat-trips/flipper-one/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://flipperuno.com/pf/flipper-uno/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1630,16 +1648,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Masca_Gorge_view_towards_north-west%2C_sunset_%28Dec_2014%29.jpg",
-        "alt": "Masca Gorge Trail (Barranco de Masca) - foto 1",
+        "url": "/images/poi/masca-trail.webp",
+        "alt": "Masca Gorge Trail (Barranco de Masca) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Aliasnamesake",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Masca_Gorge_view_towards_north-west%2C_sunset_%28Dec_2014%29.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Masca_Gorge_view_towards_north-west%2C_sunset_%28Dec_2014%29.jpg",
+        "localPath": "/images/poi/masca-trail.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Rezervuj 2+ měsíce dopředu v sezóně (vysoká poptávka). Plánuj sloty: ráno 7:00 — bus 7:30–8:00 ze Santiago, hike 8:30–13:00, boat do 17:00, zpět TITSA 462 do Los Gigantes hotel. Total day = 8–10 hod logistika. Plánuj na to celý den + následující den oddych. Pohodlnější alternativa = bez treku jen vesnice Masca (21).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "L",
     "flags": [
       "overit-pred-cestou"
@@ -1649,25 +1668,25 @@
         "label": "Oficialni web",
         "url": "https://www.caminobarrancodemasca.com",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.caminobarrancodemasca.com/en/activities/booking/book-your-visit-to-the-masca-trail/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://huntingforbliss.com/masca-gorge-famous-canyon-walk",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1720,16 +1739,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Masca_auf_Teneriffa_%28Zuschnitt%29.jpg",
-        "alt": "Masca vesnice + Mirador La Cruz de Hilda - foto 1",
+        "url": "/images/poi/masca-vesnice.webp",
+        "alt": "Masca vesnice + Mirador La Cruz de Hilda – Tenerife",
         "license": "CC BY-SA 3.0 de",
         "credit": "Wikimedia Commons: Thomas Wolf",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Masca_auf_Teneriffa_%28Zuschnitt%29.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Masca_auf_Teneriffa_%28Zuschnitt%29.jpg",
+        "localPath": "/images/poi/masca-vesnice.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Cesta = zážitek — vyjeď ze Santiago del Teide (klidnější než z Buenavista). Na Cruz de Hilda 5 min stop = klasická pohlednice + kafe. Před 9:00 parking volný + bez davů; po 16:30 = sunset bonus. Klikatá cesta — pokud někomu špatně z aut, jeď bus 355.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1737,25 +1757,25 @@
         "label": "Oficialni web",
         "url": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.saltinourhair.com/spain/masca-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://biveros.com/mirador-la-cruz-de-hilda-tenerife-spain/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1809,16 +1829,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Paisaje_Lunar_de_Granadilla_on_Tenerife_in_2014_%287%29.JPG",
-        "alt": "Paisaje Lunar (PR-TF 72) - foto 1",
+        "url": "/images/poi/paisaje-lunar.webp",
+        "alt": "Paisaje Lunar (PR-TF 72) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Chmee2",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Paisaje_Lunar_de_Granadilla_on_Tenerife_in_2014_%287%29.JPG"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Paisaje_Lunar_de_Granadilla_on_Tenerife_in_2014_%287%29.JPG",
+        "localPath": "/images/poi/paisaje-lunar.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Krátká varianta (3,6 km okruh) jen od trailheadu Los Escurriales — ALE: cesta na trailhead je hrubá nezpevněná, nedoporučeno pro rental car. Buď celý 13 km z Vilaflor pěšky, nebo přijmi riziko. Po treku stop Pino Gordo (5 min z Vilaflor). Léto = horko, zima = ráno mráz.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1826,25 +1847,25 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.webtenerife.co.uk/what-to-do/nature/hiking/trails/camino-de-chasna-paisaje-lunar/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://travelmademedoit.com/paisaje-lunar-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1895,16 +1916,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Monta%C3%B1a_de_Guaza%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD_01.jpg",
-        "alt": "Palm-Mar + Montaña de Guaza + Malpaís de la Rasca - foto 1",
+        "url": "/images/poi/palm-mar-montana-guaza.webp",
+        "alt": "Palm-Mar + Montaña de Guaza + Malpaís de la Rasca – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Diego Delso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Monta%C3%B1a_de_Guaza%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD_01.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Monta%C3%B1a_de_Guaza%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD_01.jpg",
+        "localPath": "/images/poi/palm-mar-montana-guaza.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Po treku zastavit v Chiringuito Bar na Playa La Arenita = sunset koktejl s pohledem na La Gomeru. Žádný stín na trase → klobouk + 2 l vody/os. Z Palm-Mar jde také trail nahoru na vrchol Montaña de Guaza (428 m, výhled na Teide + La Gomera).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -1912,25 +1934,25 @@
         "label": "Oficialni web",
         "url": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.easykayaktenerife.com/blog/2393324_maplais-de-la-rasca-palm-mar",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/palm-mar-faro-de-rasca",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -1983,16 +2005,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Playa-Las-Vistas-Tenerife-03.jpg",
-        "alt": "Playa de las Vistas (Los Cristianos) - foto 1",
+        "url": "/images/poi/playa-de-las-vistas.webp",
+        "alt": "Playa de las Vistas (Los Cristianos) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Tuxyso",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Playa-Las-Vistas-Tenerife-03.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Playa-Las-Vistas-Tenerife-03.jpg",
+        "localPath": "/images/poi/playa-de-las-vistas.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Pokud chceš úplně bezvlnnou pláž, jdi na vedlejší Playa Los Cristianos (přístavní). Las Vistas vlny menší (vlnolamy). Promenáda spojuje s Costa Adeje (10 km celkem) — výborný walk.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2000,19 +2023,19 @@
         "label": "Oficialni web",
         "url": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.advartis.com/best-beaches-in-tenerife/los-cristianos/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://los-cristianos.costasur.com/sites/playa-las-vistas/es/index.html",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2065,16 +2088,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Beach_%22playa_de_Troya%22_in_Costa_Adeje_.jpg",
-        "alt": "Playa de Troya (a Playa del Bobo) - foto 1",
+        "url": "/images/poi/playa-de-troya.webp",
+        "alt": "Playa de Troya (a Playa del Bobo) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Tenerife Activities",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Beach_%22playa_de_Troya%22_in_Costa_Adeje_.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Beach_%22playa_de_Troya%22_in_Costa_Adeje_.jpg",
+        "localPath": "/images/poi/playa-de-troya.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Z apt nejbližší pláž pěšky (~10 min jižně přes Av. Las Américas). Pedaló s integrovaným tobogánem k pronájmu (zábava pro děti). Pohled na Puerto Colón yachty.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2082,19 +2106,19 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/troya-beaches",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "http://tenerife-resorts.co.uk/costa_adeje.htm",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2147,16 +2171,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tenerife_Playa_El_Duque_R03.jpg",
-        "alt": "Playa del Duque - foto 1",
+        "url": "/images/poi/playa-del-duque.webp",
+        "alt": "Playa del Duque – Tenerife",
         "license": "CC BY 3.0",
         "credit": "Wikimedia Commons: Marc Ryckaert",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tenerife_Playa_El_Duque_R03.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tenerife_Playa_El_Duque_R03.jpg",
+        "localPath": "/images/poi/playa-del-duque.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Severní konec pláže = velké černé oblázky, méně lidí (kontrast). Při západu slunce nejkrásnější na ostrově dle místních. Parkuj v Plaza del Duque (1. hod free), pak promenáda.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2164,25 +2189,25 @@
         "label": "Oficialni web",
         "url": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.barcelo.com/guia-turismo/en/spain/tenerife/things-to-do/playa-del-duque/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.just-tenerife.com/resorts/playa-del-duque.htm",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://enjoycanaryislands.com/playa-del-duque-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2231,16 +2256,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Playa_El_Bollullo_4.jpg",
-        "alt": "Playa El Bollullo - foto 1",
+        "url": "/images/poi/playa-el-bollullo.webp",
+        "alt": "Playa El Bollullo – Tenerife",
         "license": "CC BY 4.0",
         "credit": "Wikimedia Commons: TenSob",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Playa_El_Bollullo_4.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Playa_El_Bollullo_4.jpg",
+        "localPath": "/images/poi/playa-el-bollullo.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Nejedeš autem až k restauraci (úzká cesta), parkuj 1,5 km dříve. Nebo lepší: pěšky z Puerto de la Cruz (45 min, banán. plantáže, krásná procházka). Vlny silné — nedoporučeno pro děti a slabé plavce. Beach bar dělá výborný mojito + paella. Spoj s den v Puerto de la Cruz.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2248,25 +2274,25 @@
         "label": "Oficialni web",
         "url": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://tenerifevida.com/playa-el-bollullo/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://dailytravelpill.com/playa-el-bollullo-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://airial.travel/attractions/spain/playa-de-el-bollullo-lFRlDUMm",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2322,16 +2348,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Playa_de_Fa%C3%B1ab%C3%A9_R05.jpg",
-        "alt": "Playa Fañabé - foto 1",
+        "url": "/images/poi/playa-fanabe.webp",
+        "alt": "Playa Fañabé – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Marc Ryckaert",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Playa_de_Fa%C3%B1ab%C3%A9_R05.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Playa_de_Fa%C3%B1ab%C3%A9_R05.jpg",
+        "localPath": "/images/poi/playa-fanabe.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Beach clubs (Le Club, Fañabé Beach Club) — rezervuj lehátko dopředu. Voda nikdy <20 °C i v zimě. Tipsy: doprava v okolí špatná (úzké jednosměrky) → pěšky z apt.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2339,25 +2366,25 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/fanabe-beach",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://costa-adeje.costasur.com/sites/playa-de-fanabe/es/index.html",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://canarias-lovers.com/en/playa-fanabe-beach-costa-adeje-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2410,16 +2437,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Tenerife_2019_116.jpg",
-        "alt": "Playa de las Teresitas + Playa de las Gaviotas (San Andrés) - foto 1",
+        "url": "/images/poi/playa-teresitas-gaviotas.webp",
+        "alt": "Playa de las Teresitas + Playa de las Gaviotas (San Andrés) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Mike Peel",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Tenerife_2019_116.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Tenerife_2019_116.jpg",
+        "localPath": "/images/poi/playa-teresitas-gaviotas.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Pondělí–pátek mimo léto = klid; víkend/léto narváno (rezidenti Santa Cruz). V San Andrés rybí restaurace (mola — vyber si z pultu) — Asunción, El Rincón. Stop Las Gaviotas (5 min autem) = wild kontrast. Z apt celý den, lépe s Anaga (35) navazujícím.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2427,25 +2455,25 @@
         "label": "Oficialni web",
         "url": "https://www.santacruzdetenerife.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.santacruzdetenerife.es/web/noticias-y-agenda/cronista-oficial/cronicas/detalle-cronica/la-playa-de-las-teresitas-cumple-medio-siglo",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2496,16 +2524,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tenerife_Adeje_promenade_A.jpg",
-        "alt": "Promenáda Costa Adeje (Paseo Marítimo) - foto 1",
+        "url": "/images/poi/promenada-costa-adeje.webp",
+        "alt": "Promenáda Costa Adeje (Paseo Marítimo) – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Wouter Hagens",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tenerife_Adeje_promenade_A.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tenerife_Adeje_promenade_A.jpg",
+        "localPath": "/images/poi/promenada-costa-adeje.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Z apt nejlepší startovní bod = Playa de Troya (10 min pěšky). Odsud severozápad k La Caleta (5 km, večeře) NEBO jihovýchod k Las Vistas (5 km, koupání). Wheelchair-friendly. Při Kalimě/silném větru = ráno < 11:00.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "L",
     "flags": [
       "overit-pred-cestou"
@@ -2515,19 +2544,19 @@
         "label": "Oficialni web",
         "url": "https://www.komoot.com/smarttour/1525340126",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.studycountry.com/wiki/how-long-is-the-promenade-from-costa-adeje-to-los-cristianos",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "http://tenerife-resorts.co.uk/costa_adeje.htm",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2585,16 +2614,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lago_Marti%C3%A1nez_qtl1.jpg",
-        "alt": "Puerto de la Cruz + Lago Martiánez + Jardín Botánico - foto 1",
+        "url": "/images/poi/puerto-de-la-cruz-lago-martianez.webp",
+        "alt": "Puerto de la Cruz + Lago Martiánez + Jardín Botánico – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Quartl",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lago_Marti%C3%A1nez_qtl1.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lago_Marti%C3%A1nez_qtl1.jpg",
+        "localPath": "/images/poi/puerto-de-la-cruz-lago-martianez.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Den v Puerto: ráno Botanico (před vedrem), oběd Plaza del Charco, odpoledne Lago Martiánez (cool down v 7 bazénech). Lago = vezmi ručník + plavky a hotovost (no online). Single-entry rule = jdi rovnou na celé odpoledne. Z apt = den, lépe odpočinout den předtím.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2602,25 +2632,25 @@
         "label": "Oficialni web",
         "url": "https://lagomartianez.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.webtenerife.co.uk",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.ticketlens.com/en/p409226320/tenerife/lago-martianez",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2671,16 +2701,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Punta_de_Teno_02.jpg",
-        "alt": "Punta de Teno - foto 1",
+        "url": "/images/poi/punta-de-teno.webp",
+        "alt": "Punta de Teno – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: H. Zell",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Punta_de_Teno_02.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Punta_de_Teno_02.jpg",
+        "localPath": "/images/poi/punta-de-teno.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Plan podle bus 369 schedule — víkend hustší takt. Buenavista parking zdarma + bus za €1. Vezmi si bundu (mys = silný vítr). Ideální spojit s návštěvou Garachico (28) a Masca vesnice (cestou zpět). Při počasí \"Aviso Amarillo\" (žluté výstraha) cesta často uzavřena.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2688,25 +2719,25 @@
         "label": "Oficialni web",
         "url": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-369",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2763,16 +2794,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Teide_Roques_de_Garcia.jpg",
-        "alt": "Roques de García (Teide National Park) - foto 1",
+        "url": "/images/poi/roques-de-garcia.webp",
+        "alt": "Roques de García (Teide National Park) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Ingo Mehling",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Teide_Roques_de_Garcia.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Teide_Roques_de_Garcia.jpg",
+        "localPath": "/images/poi/roques-de-garcia.webp"
       }
     ],
     "rainyAlt": "Při silném větru parky zavírají TF-21. Kalima = neviditelnost (mlha) → cesta na Teide ztrácí smysl. Alternativa: Anaga lesy (~600 m výška, mírnější mikroklima).",
     "insiderTip": "Přijeď do 10:00 nebo po 17:00 — parkoviště mezi 11–15 plné. Začni protisměrně (proti hodinkám) → nejnáročnější stoupák na konci máš mírnější. Voda 2 l/os — žádné občerstvení po trase. V nadm. výšce 2 100 m UV silnější — krém + klobouk povinné.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2780,25 +2812,25 @@
         "label": "Oficialni web",
         "url": "https://www.reservasparquesnacionales.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://triptionary.net/teide-national-park-guide/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://charlieswanderings.com/spain/the-spectacular-roques-de-garcia-hike-in-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2856,16 +2888,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_016.jpg",
-        "alt": "Santa Cruz de Tenerife + Palmetum - foto 1",
+        "url": "/images/poi/santa-cruz-palmetum.webp",
+        "alt": "Santa Cruz de Tenerife + Palmetum – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Mike Peel",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_016.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_016.jpg",
+        "localPath": "/images/poi/santa-cruz-palmetum.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Den v Santa Cruz: ráno trh Nuestra Señora de Africa (8–14 pondělí–sobota), procházka Auditorio, oběd Plaza de España, odpoledne Palmetum (vstup do 17). Z Santa Cruz tram (€1,35) do La Laguna (34) = combo. Karneval (únor) = vrcholná zkušenost, ale bookuj 6+ měsíců dopředu ubytování.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2873,25 +2906,25 @@
         "label": "Oficialni web",
         "url": "https://www.santacruzdetenerife.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://palmetumtenerife.es",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://palmetumtenerife.es/?lang=en",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://growproexperience.civitatis.com/en/santa-cruz-de-tenerife/palmetum-ticket/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -2952,16 +2985,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/J00_691_Mirador_Llano_de_los_Loros.jpg",
-        "alt": "Sendero de los Sentidos (Anaga Rural Park, Cruz del Carmen) - foto 1",
+        "url": "/images/poi/sendero-de-los-sentidos.webp",
+        "alt": "Sendero de los Sentidos (Anaga Rural Park, Cruz del Carmen) – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Falk2",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/J00_691_Mirador_Llano_de_los_Loros.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/J00_691_Mirador_Llano_de_los_Loros.jpg",
+        "localPath": "/images/poi/sendero-de-los-sentidos.webp"
       }
     ],
     "rainyAlt": "Ideální v zataženo / lehký déšť — prales je krásnější. Při silném dešti raději ne (stezka kluzká). Při Kalimě (písek) — Anaga často nad mlhou = nad Kalimou. Když je dole 30 °C, tady 15 °C s mlhou = osvěžení.",
     "insiderTip": "Přijeď před 9:00 — parking malý, plný brzy (zvl. víkend). Z Calle Irlanda ~80 km / 1 h 20 min → bundle s Santa Cruz nebo La Laguna na celý den. Bunda + uzavřené boty (na pobřeží 25°C, v Anaze 5–15°C + vlhko + déšť). Při plném parkingu jeď k El Bosque de los Enigmas parkingu o 800 m níž (jiný trail vede zpět na Cruz del Carmen).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -2969,25 +3003,25 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://wonderfultenerife.com/en/article/show/5093/sendero-de-los-sentidos",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.google.com/maps/dir//28.530695299574,+-16.279897900481",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "http://juegostafadtenerife.blogspot.com/2017/12/rutometro-sendero-de-los-sentidos.html",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -3041,16 +3075,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Siamparkentrada1.JPG",
-        "alt": "Siam Park - foto 1",
+        "url": "/images/poi/siam-park.webp",
+        "alt": "Siam Park – Tenerife",
         "license": "Public domain",
         "credit": "Wikimedia Commons: Mataparda",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Siamparkentrada1.JPG"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Siamparkentrada1.JPG",
+        "localPath": "/images/poi/siam-park.webp"
       }
     ],
     "rainyAlt": "Některé výškové atrakce zavřou při silném větru. Při Kalimě (písek) prach ve vodě → raději odložit. V chladnějších měsících (listopad–březen) může být voda chladná, ale park otevřeno.",
     "insiderTip": "Přijeď s otvíračkou (10:00) — vyhneš se hodinovým frontám. Twin Ticket s Loro Parque ušetří 10 € a dává 15 dní na druhou návštěvu. Tower of Power = jen pro odvážlivce a 1,4+ m. Většina atrakcí pro 6+ a 120/130 cm.",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -3058,25 +3093,25 @@
         "label": "Oficialni web",
         "url": "https://www.siampark.net",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://siampark.net",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://siampark.tictactickets.com/en",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.loroparque.com/en/faq/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -3133,16 +3168,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tel%C3%A9ferico_del_Teide_01.jpg",
-        "alt": "Teide Cable Car (Teleférico) + Pico del Teide permit - foto 1",
+        "url": "/images/poi/teide-cable-car-pico.webp",
+        "alt": "Teide Cable Car (Teleférico) + Pico del Teide permit – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: H. Zell",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tel%C3%A9ferico_del_Teide_01.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tel%C3%A9ferico_del_Teide_01.jpg",
+        "localPath": "/images/poi/teide-cable-car-pico.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Rezervuj lanovku + permit alespoň 2 měsíce dopředu v sezóně. Sunrise permit (6–9 zdarma, bez lanovky = pěšky z Montaña Blanca po trail 7, samostatný permit) = nejlepší zážitek pro fit turisty. Cesta nahoru = řada se občas zavírá při větru bez varování → free storno do 18:00. Bez lanovky lze pěšky výhledy: Roques de García (volně, viz 3).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -3150,25 +3186,25 @@
         "label": "Oficialni web",
         "url": "https://www.volcanoteide.com",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.volcanoteide.com/en/volcano_teide/teide_cable_car/teide_cable_car",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.volcanoteide.com/en/the_company/terms_and_conditions",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   },
@@ -3221,16 +3257,17 @@
     },
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pino_Gordo%2C_Vilaflor_de_Chasna%2C_Tenerife_04.jpg",
-        "alt": "Vilaflor + Pino Gordo - foto 1",
+        "url": "/images/poi/vilaflor-pino-gordo.webp",
+        "alt": "Vilaflor + Pino Gordo – Tenerife",
         "license": "CC BY-SA 4.0",
         "credit": "Wikimedia Commons: Fry72",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pino_Gordo%2C_Vilaflor_de_Chasna%2C_Tenerife_04.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pino_Gordo%2C_Vilaflor_de_Chasna%2C_Tenerife_04.jpg",
+        "localPath": "/images/poi/vilaflor-pino-gordo.webp"
       }
     ],
     "rainyAlt": "Kdyz se zvedne vitr, prijde dest nebo Kalima, over aktualni podminky a zvol kratsi variantu programu nebo indoor alternativu z bundles.",
     "insiderTip": "Stop u Pino Gordo (10 min) zařadit do cesty na Teide. Pino de las Dos Pernadas přes silnici = krátký trek, méně lidí. Vilaflor jako základna pro náročnější PR-TF 72 trek na Paisaje Lunar (viz 19). Restaurace v centru tradiční canarian (kozí maso, cizrna).",
-    "verifiedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)",
+    "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
@@ -3238,25 +3275,25 @@
         "label": "Oficialni web",
         "url": "https://www.vilaflordechasna.es",
         "tier": "official",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 1",
         "url": "https://en.wikipedia.org/wiki/Vilaflor,_Santa_Cruz_de_Tenerife",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 2",
         "url": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       },
       {
         "label": "Zdroj 3",
         "url": "https://www.tenerifecanaryislands.com/vilaflor/",
         "tier": "secondary",
-        "checkedDate": "Thu May 28 2026 02:00:00 GMT+0200 (středoevropský letní čas)"
+        "checkedDate": "2026-05-28"
       }
     ]
   }

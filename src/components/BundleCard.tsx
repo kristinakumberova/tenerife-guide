@@ -18,11 +18,11 @@ export function BundleCard({ bundle, pois }: BundleCardProps) {
       <p>{bundle.summary}</p>
       <div className="route-line">
         <Route size={16} aria-hidden="true" />
-        <span>{names.join(" -> ")}</span>
+        <span>{names.join(" → ")}</span>
       </div>
       {bundle.estimatedCostPerson && <p className="muted">Odhad: {bundle.estimatedCostPerson}</p>}
       <details>
-        <summary>Itinerar</summary>
+        <summary>Itinerář dne</summary>
         <p>{bundle.itinerary}</p>
         {bundle.whenNot && <p className="muted">{bundle.whenNot}</p>}
       </details>

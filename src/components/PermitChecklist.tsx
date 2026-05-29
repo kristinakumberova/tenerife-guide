@@ -11,7 +11,7 @@ export function PermitChecklist({ permits }: PermitChecklistProps) {
     <section className="section-block" id="permity">
       <div className="section-heading">
         <h2>Permity a rezervace</h2>
-        <p>Ceny a pravidla se meni. Pred cestou otevri oficialni odkaz.</p>
+        <p>Ceny a pravidla se mění. Před cestou otevři oficiální odkaz a ověř aktuální stav.</p>
       </div>
       <div className="permit-list">
         {permits.map((permit) => (
@@ -26,7 +26,7 @@ export function PermitChecklist({ permits }: PermitChecklistProps) {
             {permit.bookingUrl && (
               <a className="text-button" href={permit.bookingUrl} target="_blank" rel="noreferrer">
                 <ExternalLink size={16} aria-hidden="true" />
-                Otevrit
+                Otevřít rezervaci
               </a>
             )}
           </article>

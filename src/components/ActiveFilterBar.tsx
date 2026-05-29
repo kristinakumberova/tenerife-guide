@@ -19,12 +19,12 @@ export function ActiveFilterBar({ filters, resultCount, onClearAll, onRemove }: 
   ];
 
   if (chips.length === 0) {
-    return <p className="result-count">{resultCount} mist</p>;
+    return <p className="result-count">{resultCount} míst</p>;
   }
 
   return (
     <div className="active-filters" aria-live="polite">
-      <strong>{resultCount} vysledku</strong>
+      <strong>{resultCount} výsledků</strong>
       <div className="chip-row">
         {chips.map((chip) => (
           <button key={`${chip.axis}-${chip.value}`} className="chip chip-active" onClick={() => onRemove(chip.axis, chip.value)}>
@@ -34,7 +34,7 @@ export function ActiveFilterBar({ filters, resultCount, onClearAll, onRemove }: 
         ))}
       </div>
       <button className="text-button" onClick={onClearAll}>
-        Vymazat vse
+        Vymazat vše
       </button>
     </div>
   );

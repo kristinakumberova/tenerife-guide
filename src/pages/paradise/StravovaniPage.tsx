@@ -10,9 +10,9 @@ interface RestaurantsData {
 
 const data = restaurantsJson as RestaurantsData;
 const categoryLabels: Record<Restaurant["category"], string> = {
-  okoli: "V okoli",
-  zazitkove: "Zazitkove",
-  specializovane: "Specializovane",
+  okoli: "V okolí apartmánu",
+  zazitkove: "Zážitkové (za výletem)",
+  specializovane: "Specializované",
 };
 
 export function StravovaniPage() {
@@ -21,9 +21,9 @@ export function StravovaniPage() {
   return (
     <>
       <section className="page-intro">
-        <p className="eyebrow">Stravovani</p>
-        <h1>Kristinin vyber a kanarske klasiky</h1>
-        <p>Restaurace jsou subjektivni vyber, provozni veci si pred cestou radeji over.</p>
+        <p className="eyebrow">Stravování</p>
+        <h1>Kristinin výběr a kanárské klasiky</h1>
+        <p>Restaurace jsou subjektivní výběr. Otevírací doby a ceny si pro jistotu před cestou ověř.</p>
       </section>
       {(["okoli", "zazitkove", "specializovane"] as Restaurant["category"][]).map((category) => (
         <section className="section-block" key={category}>
@@ -41,7 +41,7 @@ export function StravovaniPage() {
       ))}
       <section className="section-block">
         <div className="section-heading">
-          <h2>Co ochutnat</h2>
+          <h2>Co ochutnat — kanárská kuchyně</h2>
         </div>
         <div className="kitchen-grid">
           {data.canarianKitchen.map((item) => (
