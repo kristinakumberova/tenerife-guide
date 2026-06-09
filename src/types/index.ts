@@ -1,4 +1,16 @@
 export type PropertyId = "paradise" | "markyta";
+
+// Obsazenost apartmánu. Z feedu se ukládají JEN datumy — nikdy jména hostů ani popis.
+export interface OccupiedRange {
+  start: string; // ISO YYYY-MM-DD, včetně
+  end: string; // ISO YYYY-MM-DD, vyjma (den check-outu je volný)
+}
+
+export interface Availability {
+  updated: string | null; // ISO timestamp posledního načtení feedu, nebo null
+  occupied: OccupiedRange[];
+}
+
 export type Region = "okoli" | "jih" | "zapad" | "sever" | "vychod" | "centrum-hory" | "mimo-tenerife";
 export type ActivityTag = "koupani" | "turistika" | "atrakce" | "mesta" | "vyhlidky" | "priroda" | "gastro" | "kultura";
 export type LogisticsTag = "bez-auta" | "s-koccarkem" | "pul-den" | "cely-den" | "permit-nutny" | "rezervace-doporucena" | "placene-vstupne";

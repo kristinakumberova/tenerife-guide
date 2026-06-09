@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Dvakrát denně (UTC) přetáhne aktuální obsazenost z kalendáře a nasadí web.
+    - cron: "0 5,17 * * *"
 
 permissions:
   contents: read
@@ -28,6 +31,15 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE_PATH: /
+          # Přístup k neveřejnému Google Kalendáři přes Calendar API.
+          # Vše se drží v GitHub secrets, nikdy v repu (zero-secrets).
+          # Když nejsou nastavené, build použije pre-committed availability.json.
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          # Volitelná záloha: veřejný iCal feed, pokud by se API nepoužilo.
+          AVAILABILITY_ICS_URL: ${{ secrets.AVAILABILITY_ICS_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

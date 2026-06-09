@@ -1,6 +1,7 @@
 import { Fragment, type ReactNode } from "react";
 import { MapPin } from "lucide-react";
 import apartmanJson from "../../data/apartman.json";
+import { AvailabilityCalendar } from "../../components/AvailabilityCalendar";
 import { Gallery } from "../../components/Gallery";
 import { HeroProperty } from "../../components/HeroProperty";
 import { PageAnchors } from "../../components/PageAnchors";
@@ -94,6 +95,7 @@ export function ApartmanPage() {
       <PageAnchors
         items={[
           { href: "#fotky", label: "Fotky" },
+          { href: "#dostupnost", label: "Dostupnost" },
           { href: "#prakticke-info", label: "Praktické info" },
         ]}
       />
@@ -114,6 +116,17 @@ export function ApartmanPage() {
           <Gallery images={apartment.gallery} />
         </section>
       )}
+
+      {/* Dostupnost — živý Google embed (free/busy) */}
+      <section className="section-block section-anchor" id="dostupnost">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Volné termíny</p>
+            <h2>Dostupnost apartmánu</h2>
+          </div>
+        </div>
+        <AvailabilityCalendar />
+      </section>
 
       {/* Praktické info — accordion, ať je mobilní stránka krátká */}
       <section className="section-block section-anchor" id="prakticke-info">

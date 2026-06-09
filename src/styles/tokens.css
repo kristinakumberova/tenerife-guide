@@ -971,6 +971,142 @@ strong {
   margin-top: 0;
 }
 
+/* ---------- Availability (vlastní kalendář obsazenosti) ---------- */
+.availability {
+  --availability-busy: #d64545;
+  --availability-busy-deep: #b03636;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.availability-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+}
+
+.availability-dot {
+  display: inline-block;
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line-strong);
+}
+
+.availability-dot--busy {
+  background: var(--availability-busy);
+  border-color: var(--availability-busy-deep);
+}
+
+.availability-dot--free {
+  background: var(--color-surface);
+}
+
+.availability-legend .availability-dot:not(:first-child) {
+  margin-left: 0.45rem;
+}
+
+.availability-cal {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem 1.1rem 1.2rem;
+  max-width: 440px;
+}
+
+.availability-cal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+
+.availability-month {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--color-ink);
+}
+
+.availability-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.availability-nav:hover:not(:disabled) {
+  background: var(--color-surface-2);
+  border-color: var(--color-line-strong);
+}
+
+.availability-nav:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.availability-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.availability-weekday {
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+  padding-bottom: 0.3rem;
+}
+
+.availability-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-ink-soft);
+}
+
+.availability-day--empty {
+  visibility: hidden;
+}
+
+.availability-day--busy {
+  background: var(--availability-busy);
+  border-color: var(--availability-busy-deep);
+  color: #fff;
+}
+
+.availability-day--today {
+  outline: 2px solid var(--color-sea);
+  outline-offset: -2px;
+}
+
+.availability-note {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+}
+
 /* ---------- Guide layout ---------- */
 .guide-layout {
   display: grid;

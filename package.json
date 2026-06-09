@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build:data": "node scripts/build-data.mjs",
-    "prebuild": "npm run build:data",
+    "build:availability": "node scripts/fetch-availability.mjs",
+    "prebuild": "npm run build:data && npm run build:availability",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
