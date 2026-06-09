@@ -16,13 +16,13 @@ import { resolve } from "node:path";
 
 const outFile = resolve(".", "src", "data", "availability.json");
 
-const {
-  GOOGLE_CLIENT_ID,
-  GOOGLE_CLIENT_SECRET,
-  GOOGLE_REFRESH_TOKEN,
-  GOOGLE_CALENDAR_ID = "a6383c9d7df8ef7272a220efec10692de1e1201a30d71cade137f485288554cd@group.calendar.google.com",
-  AVAILABILITY_ICS_URL,
-} = process.env;
+const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, AVAILABILITY_ICS_URL } = process.env;
+
+// Pozor: chybějící GitHub secret se předá jako prázdný řetězec "", ne undefined,
+// takže default v destrukturalizaci by se neuplatnil — řešíme přes || fallback.
+const GOOGLE_CALENDAR_ID =
+  (process.env.GOOGLE_CALENDAR_ID || "").trim() ||
+  "a6383c9d7df8ef7272a220efec10692de1e1201a30d71cade137f485288554cd@group.calendar.google.com";
 
 // ---------- pomocné funkce ----------
 
