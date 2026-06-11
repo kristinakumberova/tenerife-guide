@@ -2,8 +2,8 @@ import L from "leaflet";
 import { Home, MapPin } from "lucide-react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import type { Permit, Poi } from "../types";
-import { POICard } from "./POICard";
+import type { Poi } from "../types";
+import { MapPopupCard } from "./MapPopupCard";
 
 interface ApartmentMarker {
   name: string;
@@ -14,7 +14,6 @@ interface ApartmentMarker {
 
 interface PoiMapProps {
   pois: Poi[];
-  permits: Permit[];
   apartment: ApartmentMarker;
   onOpenPoi: (poiId: string) => void;
 }
@@ -33,9 +32,9 @@ const apartmentIcon = L.divIcon({
   iconAnchor: [18, 18],
 });
 
-export function PoiMap({ pois, permits, apartment, onOpenPoi }: PoiMapProps) {
+export function PoiMap({ pois, apartment, onOpenPoi }: PoiMapProps) {
   return (
-    <div className="map-frame">
+    <div className="map-frame" id="poi-map">
       <MapContainer center={[28.2916, -16.6291]} zoom={9} scrollWheelZoom={false} className="leaflet-map">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -56,8 +55,8 @@ export function PoiMap({ pois, permits, apartment, onOpenPoi }: PoiMapProps) {
         </Marker>
         {pois.map((poi) => (
           <Marker key={poi.id} position={poi.gps} icon={markerIcon}>
-            <Popup minWidth={260}>
-              <POICard poi={poi} permits={permits} variant="popup" onOpen={onOpenPoi} />
+            <Popup minWidth={320} maxWidth={340} keepInView autoPanPadding={[28, 28]}>
+              <MapPopupCard poi={poi} onOpen={onOpenPoi} />
             </Popup>
           </Marker>
         ))}

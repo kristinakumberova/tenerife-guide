@@ -22,18 +22,18 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Klidná autentická vesnice na západě, mezi turisty méně známá. Black sand pláže + přírodní bazény + 2 km promenáda s dětskými hřišti, skateparkem a sportovišti. Sunset s pohledem na La Gomeru. Family-friendly bez turismu mas.",
-    "description": "Klidná autentická vesnice na západě, mezi turisty méně známá. Black sand pláže + přírodní bazény + 2 km promenáda s dětskými hřišti, skateparkem a sportovišti. Sunset s pohledem na La Gomeru. Family-friendly bez turismu mas.",
+    "summary": "Klidnější západní pobřeží bez velkých hotelových davů. Hodí se na krátké koupání, procházku po promenádě a západ slunce s výhledem směrem k La Gomeře.",
+    "description": "Klidnější západní pobřeží bez velkých hotelových davů. Hodí se na krátké koupání, procházku po promenádě a západ slunce s výhledem směrem k La Gomeře.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Zdarma u pláže a náměstí",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "openingHours": "Pláže a promenáda jsou veřejně přístupné.",
+      "price": "Zdarma.",
+      "visitDuration": "1-3 hodiny jako zastávka; půlden, pokud chceš koupání a oběd.",
+      "parking": "Hledej místo u pláže nebo u náměstí; v sezoně počítej s chvílí hledání.",
+      "reservation": "Není potřeba."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je Alcalá méně pohodlná než pláže v okolí Costa Adeje. Pokud nechceš řešit přestupy, je lepší auto nebo taxi."
     },
     "links": {
       "official": "https://www.tenerife-is.com/alcala-tenerife/",
@@ -54,8 +54,8 @@
         "localPath": "/images/poi/alcala.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Přírodní bazény = ideální při větru/vlnách v oceánu. Pondělní trh u Plaza Llamo (8–13). Z apt jako stop cestou na Los Gigantes nebo Masca. Spojit s Alcalá → Los Gigantes trail (11 km, náročnější) nebo kratší Alcalá ↔ Playa San Juan.",
+    "rainyAlt": "Při silných vlnách zůstaň u promenády a přírodních bazénů. Na klasické koupání je v horším počasí jistější zůstat na chráněnějších plážích u Costa Adeje.",
+    "insiderTip": "Neber to jako hlavní celodenní cíl, ale jako příjemnou zastávku cestou na Los Gigantes nebo zpět z výletu na západ. Pokud jsou v oceánu vlny, přírodní bazény mohou být příjemnější než otevřená pláž.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -108,21 +108,12 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Nejstarší laurisilva (Tertiary relict) Tenerife — UNESCO Biosphere Reserve (od 9.7.2015). Vlhká džungle ve výšině 800–1000 m, prehistorické rostliny, Anaga ridge. Chinamada = jeskynní vesnice (do dneška obývaná), unikátní v EU. PR-TF 10 = jeden z nejlepších treků ostrova.",
-    "description": "Nejstarší laurisilva (Tertiary relict) Tenerife — UNESCO Biosphere Reserve (od 9.7.2015). Vlhká džungle ve výšině 800–1000 m, prehistorické rostliny, Anaga ridge. Chinamada = jeskynní vesnice (do dneška obývaná), unikátní v EU. PR-TF 10 = jeden z nejlepších treků ostrova.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "NE (free access, no booking)"
-    },
+    "summary": "Anaga je nejzelenější a nejdivočejší část Tenerife: vlhký vavřínový les, hřebeny nad oceánem a úplně jiná atmosféra než na jihu. Chinamada přidá jeskynní domy a krásný výhledový trek pro ty, kdo chtějí opravdový horský den.",
+    "description": "Anaga je nejzelenější a nejdivočejší část Tenerife: vlhký vavřínový les, hřebeny nad oceánem a úplně jiná atmosféra než na jihu. Chinamada přidá jeskynní domy a krásný výhledový trek pro ty, kdo chtějí opravdový horský den.",
+    "practical": {},
     "withoutCar": {
-      "titsaLines": [
-        "077",
-        "105"
-      ],
-      "note": "TITSA 077 (La Laguna → Cruz del Carmen) + 105 (Punta del Hidalgo zpět) — pozor, nízká frekvence"
+      "titsaLines": [],
+      "note": "Jde to autobusem z La Laguny na Cruz del Carmen a zpět z Punta del Hidalgo, ale spoje nejsou časté. Bez auta plánuj časy dopředu a nech si velkou rezervu."
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/protected-natural-areas/en-parques-rurales/parque-rural-de-anaga",
@@ -143,8 +134,8 @@
         "localPath": "/images/poi/anaga-chinamada.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Pro full PR-TF 10 = plánuj 6–7 h door-to-door + odjezd auta. Bus 105 z Punta del Hidalgo → Tegueste/La Laguna pro zpáteční cestu k autu (komplikované). Alternativy: - (a) Z Cruz del Carmen jen k Chinamada (~5 km, sestup) + zpět taxi - (b) Sendero de los Sentidos (5) — 0,4–3,6 km, bezbar. začátek, ideální s rodinou - (c) Mirador Pico del Inglés / Mirador Cruz del Carmen — autem + 5 min walk",
+    "rainyAlt": "Lehká mlha a mrholení Anaze sluší, ale za silného deště jsou stezky kluzké. V takovém případě zůstaň u návštěvnického centra, krátkého okruhu nebo den přesuň do La Laguny.",
+    "insiderTip": "Pokud nechceš logisticky náročný trek, dej si jen Sendero de los Sentidos u Cruz del Carmen. Je krátké, krásné a s rodinou mnohem jednodušší než sestup až k oceánu.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -200,24 +191,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Hlavní poutní město Kanárských ostrovů. Bazilika s Virgen de la Candelaria (patronka KI) na obrovské pláži-plaze otevřené k oceánu. Před bazilikou 9 dramatických bronzových soch Guanche králů (Menceyes) směrem k moři — symbolika srážky kultur.",
-    "description": "Hlavní poutní město Kanárských ostrovů. Bazilika s Virgen de la Candelaria (patronka KI) na obrovské pláži-plaze otevřené k oceánu. Před bazilikou 9 dramatických bronzových soch Guanche králů (Menceyes) směrem k moři — symbolika srážky kultur.",
+    "summary": "Candelaria je hlavní poutní místo Kanárských ostrovů a příjemný kulturní výlet u moře. Bazilika, velké náměstí a sochy guančských králů působí nejlépe jako krátká zastávka spojená s obědem nebo procházkou.",
+    "description": "Candelaria je hlavní poutní místo Kanárských ostrovů a příjemný kulturní výlet u moře. Bazilika, velké náměstí a sochy guančských králů působí nejlépe jako krátká zastávka spojená s obědem nebo procházkou.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování je snazší mimo hlavní poutní termíny a mimo špičku."
     },
     "withoutCar": {
-      "titsaLines": [
-        "111",
-        "120",
-        "121",
-        "122",
-        "123"
-      ],
-      "note": "TITSA 111, 120, 121, 122, 123"
+      "titsaLines": [],
+      "note": "Do Candelarie jezdí více linek TITSA z východní a jižní části ostrova. Je to jedna z těch zastávek, které dávají smysl i bez auta."
     },
     "links": {
       "official": "https://www.candelaria.es",
@@ -238,8 +219,8 @@
         "localPath": "/images/poi/candelaria.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Návštěva mimo poutě (2.2 / 15.8) = klid + zaparkovat. Před nebo po bazilice rybí restaurace na promenádě + plážová zmrzlina. Foť sochy ze severu (Menceyes čelem k oceánu = klasická pohlednice). Spoj se Santa Cruz/La Laguna = celý východ za 1 den. Černé pláže Caletillas (sever) nebo Punta Larga (vedle) ideální mezi prohlídkou.",
+    "rainyAlt": "Za horšího počasí zkrať venkovní část na baziliku, náměstí a kávu. Pokud prší víc, spoj Candelarii s indoor zastávkou v Santa Cruz.",
+    "insiderTip": "Sochy Menceyes foť od moře směrem k bazilice nebo z boku po ránu, kdy je na náměstí klidněji. Po prohlídce se hodí rybí oběd na promenádě nebo krátká zastávka na pláži v Punta Larga.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -293,18 +274,12 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Drago Milenario = ikonický strom Tenerife, ~1000 let, 21 m. Národní památka od 1917. Vedle Mariposario = první specializovaný motýlí park ve Španělsku (1997), 800+ druhů. Krásné historické městečko Icod (vinařská tradice — \"de los Vinos\").",
-    "description": "Drago Milenario = ikonický strom Tenerife, ~1000 let, 21 m. Národní památka od 1917. Vedle Mariposario = první specializovaný motýlí park ve Španělsku (1997), 800+ druhů. Krásné historické městečko Icod (vinařská tradice — \"de los Vinos\").",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Limitované u Parque del Drago (úzká cestě + lávka); doporučeno parkovat v centru Icod",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Icod de los Vinos je hezké historické městečko a Drago Milenario je jeden ze symbolů Tenerife. Dobře funguje jako klidná severní zastávka s krátkou procházkou, fotkou a případně motýlím parkem pro děti.",
+    "description": "Icod de los Vinos je hezké historické městečko a Drago Milenario je jeden ze symbolů Tenerife. Dobře funguje jako klidná severní zastávka s krátkou procházkou, fotkou a případně motýlím parkem pro děti.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je cesta z jihu zdlouhavá a obvykle přes přestup. Pokud nemáš celý den, je praktičtější auto nebo organizovaný severní okruh."
     },
     "links": {
       "official": "https://icoddelosvinos.es/patrimonio/drago-milenario",
@@ -325,8 +300,8 @@
         "localPath": "/images/poi/drago-milenario-icod.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Combo Drago + Mariposario = ~2 h (děti milují motýly). Park Drago v low season otevírá v 10 (ne 9!) — naplánuj. Lavka k parku úzká → NEjeď autem až k parku, parkuj v centru Icod a 5 min pěšky. Po prohlídce ochutnej vino blanco Icod v lokální vinárně.",
+    "rainyAlt": "Icod je na horší počasí snesitelný: Drago se dá vidět rychle a Mariposario je kryté. Pokud je sever zatažený celý den, spoj to s La Orotavou nebo Puerto de la Cruz.",
+    "insiderTip": "Motýlí park je dobrý bonus pro děti nebo jako jemná varianta při horším počasí. Po prohlídce si nech chvíli na historické uličky a sklenku místního bílého vína.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -385,21 +360,14 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Boho rybářské městečko 7 km od letiště TFS s nejdelší přírodní pláží Tenerife (modrá vlajka) a sopečným kuželem Montaña Roja jako kulisou. Centrum kitesurfingu a windsurfingu (světové šampionáty). Kavárnová atmosféra, dřevěná promenáda, sřední trhy.",
-    "description": "Boho rybářské městečko 7 km od letiště TFS s nejdelší přírodní pláží Tenerife (modrá vlajka) a sopečným kuželem Montaña Roja jako kulisou. Centrum kitesurfingu a windsurfingu (světové šampionáty). Kavárnová atmosféra, dřevěná promenáda, sřední trhy.",
-    "practical": {
-      "openingHours": "Veřejné prostranství, přístup 24/7",
-      "price": "Zdarma",
-      "visitDuration": "Půlden (jen koupání) / celý den (+ Montaña Roja trek)",
-      "parking": "Zdarma u Playa Tejita (2 parkoviště — u Montaña Roja + u OC) + na okraji silnice; v centru placeno modré zóny",
-      "reservation": "Žádný"
-    },
+    "summary": "El Médano je uvolněné plážové městečko s promenádou, kavárnami a výhledem na Montaña Roja. Je skvělé na procházku, surfovou atmosféru a ve správném počasí i koupání.",
+    "description": "El Médano je uvolněné plážové městečko s promenádou, kavárnami a výhledem na Montaña Roja. Je skvělé na procházku, surfovou atmosféru a ve správném počasí i koupání.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
-        "470",
-        "30"
+        "470"
       ],
-      "note": "Linka 470 El Médano ↔ Las Galletas ↔ Los Cristianos (~30 min); z TFS přestup přes Las Chafiras / Cristianos"
+      "note": "Z Los Cristianos a Las Galletas jezdí linka 470. Cesta je použitelná, jen si předem zkontroluj poslední spoj zpět."
     },
     "links": {
       "official": "https://elmedanoweb.com/",
@@ -420,8 +388,8 @@
         "localPath": "/images/poi/el-medano.webp"
       }
     ],
-    "rainyAlt": "El Médano = \"vždy fouká\" → na koupání ne, ale na surf ano. Když nechceš vítr, jeď na Playa del Duque (Costa Adeje, ~25 min). Při Kalimě: stejně dusno všude na jihu.",
-    "insiderTip": "Playa La Pelada (nudistická, 2 km východně) bývá poloprázdná — parkoviště zdarma 200 m nad pláží, dolů prašnou cestou. Středeční farmářské trhy v centru. Z Calle Irlanda ~25 min autem (TF-1).",
+    "rainyAlt": "El Médano často fouká; pro surfaře je to výhoda, pro klidné koupání ne. Když chceš vodu bez větru, zvol raději Playa del Duque nebo Las Vistas.",
+    "insiderTip": "Když je v centru moc živo, popojeď nebo dojdi k Playa La Pelada. Bývá klidnější, ale přístup je po prašné cestě a bez zázemí.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -473,18 +441,12 @@
       "logistics": [],
       "weather": []
     },
-    "summary": "Brána do Teno Rural Parku, izolovaný severozápad Tenerife. Zelené údolí pod sopečným kuželem Monte del Palmar. Visitor Center s mapou tras + nedělní farmer's market (vinařské, sýry, šafrán). Teno Alto = horská vesnice s autentickými kozími sýry.",
-    "description": "Brána do Teno Rural Parku, izolovaný severozápad Tenerife. Zelené údolí pod sopečným kuželem Monte del Palmar. Visitor Center s mapou tras + nedělní farmer's market (vinařské, sýry, šafrán). Teno Alto = horská vesnice s autentickými kozími sýry.",
-    "practical": {
-      "openingHours": "Po–Ne 09:30–16:30",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "El Palmar a Teno Alto ukazují venkovský severozápad Tenerife bez hotelového ruchu. Zelené údolí, horské silničky, kozí sýry a výhledy z Teno Rural Parku jsou ideální pro pomalejší den autem.",
+    "description": "El Palmar a Teno Alto ukazují venkovský severozápad Tenerife bez hotelového ruchu. Zelené údolí, horské silničky, kozí sýry a výhledy z Teno Rural Parku jsou ideální pro pomalejší den autem.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je Teno Alto nepraktické. Pokud nechceš řídit, vyber raději Masca bus variantu nebo organizovaný výlet po Tenu."
     },
     "links": {
       "official": "https://www.webtenerife.co.uk/what-see/outdoor-attractions/teno-country-park/",
@@ -505,8 +467,8 @@
         "localPath": "/images/poi/el-palmar-teno-alto.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Neděle = market El Palmar (9:30–13:30) + oběd v Los Bailaderos / La Piñata (Teno Alto) → kozí maso s cizrnou a kozí sýr. Cesta na Teno Alto z El Palmar = klikatá ale krásná. Trail Callejón de Teno (5 km, zpevněný) = lehčí alternativa pěšky.",
+    "rainyAlt": "Za mlhy a deště zkrať horské přejezdy a drž se El Palmaru nebo Buenavisty. Pokud jsou silnice mokré a viditelnost špatná, nech Teno Alto na jiný den.",
+    "insiderTip": "Nejhezčí je nedělní kombinace: dopoledne trh v El Palmaru, pak pomalý přejezd do Teno Alto a jednoduchý oběd s místním sýrem nebo kozím masem.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -560,21 +522,12 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Severní brána do Teide NP. První návštěvnické centrum svého druhu ve Španělsku (1980s). Skvělé úvodní vysvětlení vulkánu před nájezdem na NP — geologie, flóra/fauna, archeologie. Adjacent botanická zahrada s endemity Tenerife.",
-    "description": "Severní brána do Teide NP. První návštěvnické centrum svého druhu ve Španělsku (1980s). Skvělé úvodní vysvětlení vulkánu před nájezdem na NP — geologie, flóra/fauna, archeologie. Adjacent botanická zahrada s endemity Tenerife.",
-    "practical": {
-      "openingHours": "Po–Ne 9:00–16:15. Zavřeno 25.12, 1.1, 6.1",
-      "price": "Zdarma (vč. botanické zahrady + guided trail service)",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "El Portillo je praktická zastávka před nebo po cestě přes Teide. Návštěvnické centrum vysvětlí sopky, krajinu i místní rostliny a pomůže ostrov pochopit líp než jen z vyhlídky.",
+    "description": "El Portillo je praktická zastávka před nebo po cestě přes Teide. Návštěvnické centrum vysvětlí sopky, krajinu i místní rostliny a pomůže ostrov pochopit líp než jen z vyhlídky.",
+    "practical": {},
     "withoutCar": {
-      "titsaLines": [
-        "348",
-        "342"
-      ],
-      "note": "TITSA 348 + 342, zastávka \"Centro de Visitantes\" kód 5242"
+      "titsaLines": [],
+      "note": "Zastavují tu linky přes Teide, ale mají omezený takt. Bez auta plánuj podle jízdního řádu TITSA, ne podle volné improvizace."
     },
     "links": {
       "official": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
@@ -595,8 +548,8 @@
         "localPath": "/images/poi/el-portillo.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Stop cestou na Teide z Puerto de la Cruz (sever) — nebo zpět z Roques de García na jih. 45–60 min pohoda. WC + voda zdarma (před náročnou cestou nahoru). Při dešti = ideální backup k uzavřené lanovce.",
+    "rainyAlt": "Když se lanovka na Teide kvůli větru zavře, El Portillo je dobrý náhradní bod v horách. Při špatné viditelnosti ale nečekej velké výhledy.",
+    "insiderTip": "Zařaď El Portillo cestou z Roques de García nebo při severní trase z Puerto de la Cruz. Je to přesně ta zastávka, která z krátkého výletu udělá srozumitelný zážitek.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -650,20 +603,14 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Krásné historické město, zničené vulkánem 1706, dnes UNESCO-style obnovené. Přírodní mořské bazény El Caletón vznikly z lávy → ironický symbol obrody. Vedle 16. st. zámek San Miguel. Atmosféra klidná, less turistická než Puerto.",
-    "description": "Krásné historické město, zničené vulkánem 1706, dnes UNESCO-style obnovené. Přírodní mořské bazény El Caletón vznikly z lávy → ironický symbol obrody. Vedle 16. st. zámek San Miguel. Atmosféra klidná, less turistická než Puerto.",
-    "practical": {
-      "openingHours": "Denně 24h (free); plavčík v letní sezóně",
-      "price": "Zdarma",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Garachico je jedno z nejhezčích historických měst na severu a lávové bazény El Caletón jsou jeho největší bonus. Je to výlet pro hezkou architekturu, moře, oběd a koupání, když je oceán klidný.",
+    "description": "Garachico je jedno z nejhezčích historických měst na severu a lávové bazény El Caletón jsou jeho největší bonus. Je to výlet pro hezkou architekturu, moře, oběd a koupání, když je oceán klidný.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "363"
       ],
-      "note": "TITSA 363 (Puerto ↔ Garachico ↔ Buenavista)"
+      "note": "Z Puerto de la Cruz a Buenavisty jezdí linka 363. Z jihu je to bez auta delší výlet s přestupy."
     },
     "links": {
       "official": "https://icoddelosvinos.es",
@@ -684,8 +631,8 @@
         "localPath": "/images/poi/garachico-el-caleton.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Zkontroluj tide tables před cestou (např. tideschart.com) — low tide = koupej, high tide = jen foť. Ráno pracovní dny = klid; víkend/léto = davy. Restaurace u bazénů → oběd s mořem na talíři. Castillo (€3) + town hall plaza + nadherne stoletá tehnička. Z apt = day trip.",
+    "rainyAlt": "Při vlnách do bazénů nechoď. Nech si Garachico jako městský výlet s kavárnou, Castillo de San Miguel a obědem u moře.",
+    "insiderTip": "Před cestou mrkni na příliv a vlny. Při nízkém klidném moři je El Caletón na koupání, při vyšších vlnách spíš na fotky a procházku městem.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -737,21 +684,15 @@
       ],
       "weather": []
     },
-    "summary": "Bývalá rybářská vesnice, dnes gastronomická top destinace Costa Adeje. Vedle čerstvých rybích restaurací (vieja = papoušek, octopus, lapas) coastal walkway přes lávové skály a černé pláže (Enramada). Slunce přes La Gomeru.",
-    "description": "Bývalá rybářská vesnice, dnes gastronomická top destinace Costa Adeje. Vedle čerstvých rybích restaurací (vieja = papoušek, octopus, lapas) coastal walkway přes lávové skály a černé pláže (Enramada). Slunce přes La Gomeru.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Veřejné u promenády + restaurací; vyplatí se přijet brzy večer",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "La Caleta je příjemná rybářská vesnice na okraji Costa Adeje, kam se chodí hlavně na moře, západ slunce a dobrou večeři. Je klidnější než hlavní promenády a pořád blízko apartmánu.",
+    "description": "La Caleta je příjemná rybářská vesnice na okraji Costa Adeje, kam se chodí hlavně na moře, západ slunce a dobrou večeři. Je klidnější než hlavní promenády a pořád blízko apartmánu.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "467",
         "477"
       ],
-      "note": "TITSA 467/477"
+      "note": "Dá se dojet linkami 467 nebo 477, případně taxíkem. Z Costa Adeje je to také hezká pěší trasa po promenádě."
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/la-caleta",
@@ -772,8 +713,8 @@
         "localPath": "/images/poi/la-caleta.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Sunset s rybou na terase La Vieja — rezervuj minimálně den dopředu. Promenáda směr Playa del Duque je 1 z nejhezčích walks v Costa Adeje. Z apt večerní výprava pěšky/autem na večeři.",
+    "rainyAlt": "Za větru zkrať pobřežní část a udělej z toho hlavně večeři. Při dešti vyber restauraci s krytou terasou nebo se přesuň do Plaza del Duque.",
+    "insiderTip": "Na jednoduchý večerní plán dej procházku směrem k Playa del Duque a pak rybu na terase v La Caletě. Pokud chceš konkrétní restauraci, rezervuj předem.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -828,18 +769,12 @@
       ],
       "weather": []
     },
-    "summary": "Ostrov-sourozenec 50 min lodí. Zcela jiný svět: vlhká vavřínová prales (Garajonay UNESCO), pískaný jazyk (Silbo Gomero UNESCO), tichá rybářská kapitál (San Sebastián), kde Kolumbus zastavil před cestou do Ameriky 1492. Klid kontra turistický jih Tenerife.",
-    "description": "Ostrov-sourozenec 50 min lodí. Zcela jiný svět: vlhká vavřínová prales (Garajonay UNESCO), pískaný jazyk (Silbo Gomero UNESCO), tichá rybářská kapitál (San Sebastián), kde Kolumbus zastavil před cestou do Ameriky 1492. Klid kontra turistický jih Tenerife.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Od €27,59 (Gomera → Tenerife) / od €42,73 (Tenerife → Gomera); avg €69/cesta foot pax",
-      "visitDuration": "~12 h door-to-door (pickup 6:30–7:00, návrat 19:00–20:00)",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Je to nejlepší celodenní výlet mimo ostrov pro hosty, kteří chtějí vidět víc než pláže.",
+    "description": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Je to nejlepší celodenní výlet mimo ostrov pro hosty, kteří chtějí vidět víc než pláže.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta dává největší smysl organizovaný tour s trajektem, autobusem a průvodcem. DIY varianta bez auta na Gomeře je na jeden den dost omezená."
     },
     "links": {
       "official": "https://www.fredolsen.es",
@@ -860,8 +795,8 @@
         "localPath": "/images/poi/la-gomera-day-trip.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Z apt nejbližší k ferry terminálu (10 min do Los Cristianos)! 2 varianty: - (a) Organizovaný tour Civitatis (~50–70 €) = pickup z hotelu + ferry + bus + průvodce + Silbo demo + canarian oběd + Garajonay + San Sebastián, vrátíš se hotový bez plánování. - (b) DIY = ferry tam i zpět (~70 €/os), v San Sebastián rent car (~30 €/den) + vlastní okruh; 2× volnost, 2× náročnější logistika. Best (a): Pro 1 den naivní cestovatel. Best (b): Pro samostatné turisty s časem na hike. Rezervuj ferry 1+ týden předem (sezóna může být plno). Pro viditelnost La Palmy z Alto de Garajonay = jasný den.",
+    "rainyAlt": "Při silném větru se může měnit komfort plavby i program v horách. Den předem ověř trajekt a počasí; při nejistotě raději nech výlet na jiný den.",
+    "insiderTip": "Pokud jedeš poprvé a jen na den, vezmi organizovaný okruh. Pokud chceš svobodu, rezervuj trajekt i auto v San Sebastiánu a neplánuj příliš mnoho zastávek.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -917,21 +852,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Bývalé hlavní město Tenerife, UNESCO World Heritage (1999) za zachovalý renesanční plán = model pro koloniální města Americas (Havana, Lima, Cartagena). Univerzitní město s živými ulicemi, katedrála, kláštery, balkónové domy. Kontrast k turistickému jihu.",
-    "description": "Bývalé hlavní město Tenerife, UNESCO World Heritage (1999) za zachovalý renesanční plán = model pro koloniální města Americas (Havana, Lima, Cartagena). Univerzitní město s živými ulicemi, katedrála, kláštery, balkónové domy. Kontrast k turistickému jihu.",
+    "summary": "La Laguna je historické univerzitní město a UNESCO památka s úplně jinou energií než jih ostrova. Hodí se na uličky, kavárny, koloniální domy a den, kdy nechceš být jen u pláže.",
+    "description": "La Laguna je historické univerzitní město a UNESCO památka s úplně jinou energií než jih ostrova. Hodí se na uličky, kavárny, koloniální domy a den, kdy nechceš být jen u pláže.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Aparcamiento Adelantado zdarma 24h, na okraji centra",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování Aparcamiento Adelantado je dobrý výchozí bod na okraji centra."
     },
     "withoutCar": {
-      "titsaLines": [
-        "30",
-        "35"
-      ],
-      "note": "Tranvía linka 1 Santa Cruz ↔ La Laguna (La Trinidad), <30 min, €1,35"
+      "titsaLines": [],
+      "note": "Ze Santa Cruz jede do La Laguny tramvaj linky 1, rychle a často. Z jihu je praktičtější dojet autobusem do Santa Cruz a pokračovat tramvají."
     },
     "links": {
       "official": "https://www.aytolalaguna.es",
@@ -952,8 +880,8 @@
         "localPath": "/images/poi/la-laguna.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Combo se Santa Cruz přes tram (1× cesta €1,35, frekvence ~10 min). Pondělí = mnoho muzeí zavřeno — jdi Út–Ne. Plánuj mezi 11–15 (univ. studenti dělají atmosféru). Vezmi vrstvy — La Laguna je ve výši, často mlha + chladněji než pobřeží. Spoj s Anaga (35) odpoledne.",
+    "rainyAlt": "Lehký déšť La Laguně nevadí: kavárny, obchody a historické domy jsou blízko u sebe. Při silnějším dešti zkrať program na centrum a oběd.",
+    "insiderTip": "Nejživější je centrum kolem poledne, kdy jsou v ulicích studenti. Vezmi si vrstvu navíc, La Laguna bývá chladnější a mlhavější než pobřeží.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1007,18 +935,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Nejlépe zachovalé koloniální centrum Tenerife (16.–17. st.), UNESCO-style památkové centrum. Casa de los Balcones = ikonický motiv canarian architektury (vyřezávané dřevěné balkóny + tropický patio). Tradice řemesel (vyšívka, keramika, vulkanické koberce Corpus Christi).",
-    "description": "Nejlépe zachovalé koloniální centrum Tenerife (16.–17. st.), UNESCO-style památkové centrum. Casa de los Balcones = ikonický motiv canarian architektury (vyřezávané dřevěné balkóny + tropický patio). Tradice řemesel (vyšívka, keramika, vulkanické koberce Corpus Christi).",
+    "summary": "La Orotava má jedno z nejhezčích historických center na Tenerife, s dřevěnými balkóny, patii a starými uličkami nad údolím. Je to klidná kulturní zastávka, která se dobře kombinuje s Puerto de la Cruz.",
+    "description": "La Orotava má jedno z nejhezčích historických center na Tenerife, s dřevěnými balkóny, patii a starými uličkami nad údolím. Je to klidná kulturní zastávka, která se dobře kombinuje s Puerto de la Cruz.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování hledej na okraji historického centra a dál pokračuj pěšky."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta jeď přes Puerto de la Cruz nebo severní linky TITSA. Z jihu je to delší výlet, lepší jako součást celého dne na severu."
     },
     "links": {
       "official": "http://www.laorotava.es",
@@ -1039,8 +963,8 @@
         "localPath": "/images/poi/la-orotava.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Spoj s návštěvou Puerto de la Cruz (15 min autem) = 1 day trip celý sever. Jdi pěšky od Plaza de la Constitución přes Calle de San Francisco. Casa Eladia Machado = ukázka řemesel (vstup s ticketem na Casa de los Balcones). Pokud trefíš Corpus Christi (květen/červen) = jedna z nejkrásnějších slavností Španělska.",
+    "rainyAlt": "Při lehkém dešti fungují Casa de los Balcones, kavárny a krátká procházka centrem. Pokud je sever celý mokrý, spoj výlet s Puerto de la Cruz nebo ho přesuň.",
+    "insiderTip": "Začni u Plaza de la Constitución a sejdi přes historické ulice k Casa de los Balcones. Pokud trefíš Corpus Christi, město je výjimečné, ale bývá plné.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1092,21 +1016,15 @@
       "logistics": [],
       "weather": []
     },
-    "summary": "Místní rybářská vesnice na jihu (ne turistická), černé vulkanické pláže, autentická Canarian atmosféra. Finca Las Margaritas = banánová plantáž s prohlídkou + ochutnávkou (gofio, banánové produkty), v \"manguero\" stínu. Provoz od 1977, rodinný.",
-    "description": "Místní rybářská vesnice na jihu (ne turistická), černé vulkanické pláže, autentická Canarian atmosféra. Finca Las Margaritas = banánová plantáž s prohlídkou + ochutnávkou (gofio, banánové produkty), v \"manguero\" stínu. Provoz od 1977, rodinný.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Las Galletas je obyčejnější, místnější jih Tenerife bez velkých hotelových kulis. Finca Las Margaritas k tomu přidá srozumitelnou banánovou prohlídku s ochutnávkou, takže výlet není jen další pláž.",
+    "description": "Las Galletas je obyčejnější, místnější jih Tenerife bez velkých hotelových kulis. Finca Las Margaritas k tomu přidá srozumitelnou banánovou prohlídku s ochutnávkou, takže výlet není jen další pláž.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "470",
         "416"
       ],
-      "note": "TITSA 470 (El Médano ↔ Las Galletas ↔ Los Cristianos), 416 přes Costa del Silencio"
+      "note": "Do Las Galletas jezdí linka 470 z Los Cristianos a El Médana, případně linka 416 přes Costa del Silencio. Na fincu si ověř docházkovou vzdálenost nebo vezmi taxi."
     },
     "links": {
       "official": "https://spainguides.com/top-destinations/las-galletas/",
@@ -1127,8 +1045,8 @@
         "localPath": "/images/poi/las-galletas-finca-las-margaritas.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Páteční ranní trh (řemesla + jídlo) v Marina del Sur. Po Margaritas tour = oběd na promenádě v rybí restauraci. Kdo má rád diving — Las Galletas = top diving spot jihu.",
+    "rainyAlt": "Za větru zkrať pláž a nech si fincu, trh nebo oběd. Při dešti ověř, jestli prohlídka probíhá, a případně přesuň program do Los Cristianos.",
+    "insiderTip": "Po banánové prohlídce zůstaň na jednoduchý rybí oběd u promenády. Pokud někdo ve skupině potápí, Las Galletas je dobrý jihový výchozí bod.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1181,18 +1099,12 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Veřejné grilování v borovicovém lese Corona Forestal, pod Teide. Free BBQ místa, dětské hřiště, výhled. Ideální v letním vedru (chladnější vzduch v 1 500 m). Lokálové sem o víkendech jezdí pikinkovat — narváno.",
-    "description": "Veřejné grilování v borovicovém lese Corona Forestal, pod Teide. Free BBQ místa, dětské hřiště, výhled. Ideální v letním vedru (chladnější vzduch v 1 500 m). Lokálové sem o víkendech jezdí pikinkovat — narváno.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma (recreational area); camping s rezervací",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Las Lajas je piknikové a grilovací místo v borovicovém lese pod Teide, kde se dá utéct z horka na jihu. Je to jednoduchý lokální zážitek: stín, chladnější vzduch, výhledy a pomalý oběd venku.",
+    "description": "Las Lajas je piknikové a grilovací místo v borovicovém lese pod Teide, kde se dá utéct z horka na jihu. Je to jednoduchý lokální zážitek: stín, chladnější vzduch, výhledy a pomalý oběd venku.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je Las Lajas nepraktické. Na piknik, uhlí a vodu je auto výrazně pohodlnější."
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/facilities/recreational-area/las-lajas",
@@ -1213,8 +1125,8 @@
         "localPath": "/images/poi/las-lajas.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Přijeď mimo víkend (Mo–Pá = klid). Voda v zařízení NENÍ pitná — vlastní 2 l/os. Maso/uhlí nakup v Vilaflor/Granadilla (po cestě). Mlhy se ženou odpoledne — vyjeď ráno. Camping rezervace každé Po 7:00 ráno (KI čas) pro další týden.",
+    "rainyAlt": "Při dešti nebo silném větru grilování nemá smysl a může být omezené. Jako náhradu zvol Vilaflor, El Portillo nebo krátkou zastávku u Pino Gordo.",
+    "insiderTip": "Nakup jídlo, uhlí a vodu už ve Vilafloru nebo Granadille. Vyjeď dopoledne, odpoledne se v horách často zatáhne a ochladí.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1270,23 +1182,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Světoznámá zoologická zahrada v Puerto de la Cruz, vzniklá 1972 jako papouščí ráj, dnes 400+ druhů zvířat. Šou s kosatkami, delfíny, lachtany a papoušky. Akvárium, Planet Penguin (–2°C indoor), žralokový tunel. Z Calle Irlanda 70 km / 70 min na sever (D-1 plánovat celý den).",
-    "description": "Světoznámá zoologická zahrada v Puerto de la Cruz, vzniklá 1972 jako papouščí ráj, dnes 400+ druhů zvířat. Šou s kosatkami, delfíny, lachtany a papoušky. Akvárium, Planet Penguin (–2°C indoor), žralokový tunel. Z Calle Irlanda 70 km / 70 min na sever (D-1 plánovat celý den).",
+    "summary": "Loro Parque je velký celodenní park v Puerto de la Cruz, vhodný hlavně pro rodiny a den, kdy chcete hotový program bez plánování. Kombinuje zvířata, akvárium, show a kryté části, takže funguje i mimo plážové počasí.",
+    "description": "Loro Parque je velký celodenní park v Puerto de la Cruz, vhodný hlavně pro rodiny a den, kdy chcete hotový program bez plánování. Kombinuje zvířata, akvárium, show a kryté části, takže funguje i mimo plážové počasí.",
     "practical": {
-      "openingHours": "Pondělí–neděle 09:30–17:30, 365 dní v roce",
-      "price": "Dospělý (12+) 44 €, dítě (3–11) 32 €, infant <3 free",
-      "visitDuration": "Celý den (8 hod)",
-      "parking": "7 € / den",
-      "reservation": "Doporučeno online předem — lístky platí indefinitely"
+      "parking": "Parkování je placené."
     },
     "withoutCar": {
-      "titsaLines": [
-        "20",
-        "09",
-        "30",
-        "17"
-      ],
-      "note": "Z Plaza de los Reyes Católicos (Puerto de la Cruz), každých 20 min, 09:30–17:30"
+      "titsaLines": [],
+      "note": "Po Puerto de la Cruz jezdí k parku turistický vláček z Plaza de los Reyes Católicos. Z jihu je cesta bez auta dlouhá, s přestupem přes sever."
     },
     "links": {
       "official": "https://www.loroparque.com",
@@ -1307,8 +1210,8 @@
         "localPath": "/images/poi/loro-parque.webp"
       }
     ],
-    "rainyAlt": "Ideální! Velká část krytá (akvárium, planet penguin, terárium). Plus dostatek stínu mezi voliérami. Severní Puerto bývá chladnější — bunda do akvárií.",
-    "insiderTip": "Přijeď na otvíračku 09:30 — vyhneš se davům na ranní lachtany. Šou na orcas se sedat mimo prvních 5 řad (sprcha). Kupuj online (vyhneš se frontě u pokladny). Lístek bez data expirace — nemusíš jít hned. Twin Ticket Siam+Loro = 10 € sleva, ale Siam je na jihu (70 km od Loro) → 2 různé dny.",
+    "rainyAlt": "Tohle je jedna z nejlepších variant pro horší počasí. Část programu je krytá a sever bývá stejně chladnější, takže vezmi lehkou bundu.",
+    "insiderTip": "Přijeď na otevření a naplánuj si časy show hned u vstupu. U vodních show neseď v prvních řadách, pokud nechceš skončit mokrá.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1360,21 +1263,17 @@
       ],
       "weather": []
     },
-    "summary": "Naprosto autentický rybářský přístav 18 km od apt, kde čerstvé úlovky jdou z mola přímo do kuchyně. Restaurace Los Abrigos = 30 let provoz, 4,5★ Google. Úterní večerní trh (18:00) = jediný pravidelný evening market na Tenerife.",
-    "description": "Naprosto autentický rybářský přístav 18 km od apt, kde čerstvé úlovky jdou z mola přímo do kuchyně. Restaurace Los Abrigos = 30 let provoz, 4,5★ Google. Úterní večerní trh (18:00) = jediný pravidelný evening market na Tenerife.",
+    "summary": "Los Abrigos je nenápadný rybářský přístav na jihu, kam se jezdí hlavně na čerstvou rybu a klidnější večer. Je autentičtější než turistické promenády a pořád dobře dostupný z apartmánu.",
+    "description": "Los Abrigos je nenápadný rybářský přístav na jihu, kam se jezdí hlavně na čerstvou rybu a klidnější večer. Je autentičtější než turistické promenády a pořád dobře dostupný z apartmánu.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování v uličkách může chvíli trvat."
     },
     "withoutCar": {
       "titsaLines": [
         "470",
         "477"
       ],
-      "note": "TITSA 470, 477"
+      "note": "Do Los Abrigos jezdí linky 470 a 477. Na večerní návrat si zkontroluj poslední spoj, jinak je jednodušší taxi."
     },
     "links": {
       "official": "https://www.granadilladeabona.org",
@@ -1395,8 +1294,8 @@
         "localPath": "/images/poi/los-abrigos.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Restaurante Los Abrigos — zavřeno St + Čt, jinak 12–22 nepřetržitě. Přijdi brzy (12–13) na výběr ryby z pultu. Po cestě zpět zastav v Berry's heladeria (provoz Češka). Promenáda kolem přístavu = sunset walk. Spoj s návštěvou Amarilla Golf nebo Montaña Amarilla.",
+    "rainyAlt": "Za větru z toho udělej hlavně gastro výlet. Vyber restauraci uvnitř nebo s krytou terasou a promenádu nech jen na krátkou pauzu.",
+    "insiderTip": "Přijď na oběd dřív, kdy bývá nejlepší výběr ryb. Po jídle se projdi kolem přístavu; na západ slunce je to velmi příjemná krátká zastávka.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1449,18 +1348,14 @@
       ],
       "weather": []
     },
-    "summary": "Bývalá rybářská vesnice, dnes turistické srdce jihu Tenerife. Přístav = brána na vedlejší ostrovy (La Gomera 50 min). Promenáda spojuje 2 hlavní pláže (Cristianos + las Vistas) přes Camison až do Las Américas (3,4 km).",
-    "description": "Bývalá rybářská vesnice, dnes turistické srdce jihu Tenerife. Přístav = brána na vedlejší ostrovy (La Gomera 50 min). Promenáda spojuje 2 hlavní pláže (Cristianos + las Vistas) přes Camison až do Las Américas (3,4 km).",
+    "summary": "Los Cristianos je rušné turistické centrum jihu s přístavem, dvěma plážemi a dlouhou promenádou. Je praktické na trajekt, večerní procházku, restaurace i den bez auta.",
+    "description": "Los Cristianos je rušné turistické centrum jihu s přístavem, dvěma plážemi a dlouhou promenádou. Je praktické na trajekt, večerní procházku, restaurace i den bez auta.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování v centru je složitější, zejména večer a o víkendu."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Hlavní bus terminál jihu — všechny TITSA linky"
+      "note": "Los Cristianos je hlavní autobusový uzel jihu. Bez auta je to jedna z nejjednodušších destinací."
     },
     "links": {
       "official": "https://arona.travel",
@@ -1481,8 +1376,8 @@
         "localPath": "/images/poi/los-cristianos.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Z apt nejbližší ferry terminál (La Gomera day trip!). Velký výběr restaurací všech kuchyní (čínská, italská, mexická), na rozdíl od La Caleta není to \"rybí specialista\" ale \"all-rounder\". Sunday market.",
+    "rainyAlt": "Za větru funguje promenáda, přístav a restaurace. Při dešti zvol kratší procházku a kryté podniky v centru.",
+    "insiderTip": "Na klidnější koupání jdi spíš na Playa de las Vistas nebo přístavní Playa Los Cristianos. Pokud plánuješ La Gomeru, večer předem si projdi trasu k terminálu.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1516,7 +1411,7 @@
   {
     "id": "los-gigantes-boat-trip",
     "propertyId": "paradise",
-    "name": "Los Gigantes + boat trip Flipper Uno (whale & dolphin watching)",
+    "name": "Los Gigantes + výlet lodí Flipper Uno",
     "nameLocal": "Los Gigantes (Acantilados de los Gigantes) + Flipper Uno",
     "gps": [
       28.244,
@@ -1535,18 +1430,18 @@
       ],
       "weather": []
     },
-    "summary": "Město pod 600m útesy + base pro nejlepší whale & dolphin watching jihu Tenerife. Flipper Uno = autentická dřevěná pirátská loď (1996), AROC certifikace, multilingual guide. 100% záruka cetacea (jinak vrácení peněz).",
-    "description": "Město pod 600m útesy + base pro nejlepší whale & dolphin watching jihu Tenerife. Flipper Uno = autentická dřevěná pirátská loď (1996), AROC certifikace, multilingual guide. 100% záruka cetacea (jinak vrácení peněz).",
+    "summary": "Los Gigantes stojí za výlet hlavně kvůli obrovským útesům padajícím přímo do oceánu. Pokud chceš z výletu udělat zážitek, přidej plavbu lodí z přístavu a pozorování delfínů nebo velryb.",
+    "description": "Los Gigantes stojí za výlet hlavně kvůli obrovským útesům padajícím přímo do oceánu. Pokud chceš z výletu udělat zážitek, přidej plavbu lodí z přístavu a pozorování delfínů nebo velryb.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma",
-      "visitDuration": "Cely den.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "openingHours": "Město a přístav jsou volně přístupné; časy plaveb se řídí rezervací.",
+      "price": "Město zdarma; plavba lodí je placená.",
+      "visitDuration": "Půlden na město a výhledy; celý den, pokud přidáš plavbu a oběd.",
+      "parking": "U přístavu bývá rušno, přijeď s rezervou.",
+      "reservation": "Plavbu rezervuj předem, hlavně v sezoně."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je možné jet autobusem směrem na Los Gigantes, ale pro pohodlný den s lodí je praktičtější auto nebo organizovaný výlet."
     },
     "links": {
       "official": "https://flipperuno.com",
@@ -1560,15 +1455,15 @@
     "photos": [
       {
         "url": "/images/poi/los-gigantes-boat-trip.webp",
-        "alt": "Los Gigantes + boat trip Flipper Uno (whale & dolphin watching) – Tenerife",
+        "alt": "Los Gigantes + výlet lodí Flipper Uno – Tenerife",
         "license": "CC BY-SA 3.0",
         "credit": "Wikimedia Commons: Diego Delso",
         "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Los_Gigantes%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_10.jpg",
         "localPath": "/images/poi/los-gigantes-boat-trip.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Pro 3h trip preferuj Flipper Uno (paella + drinks + zipline). Sustainable Barco Azul tag = ne otravuje zvířata. Loď z apt = den. Z apt 50 min do Los Gigantes, lépe rezervovat ranní (klidnější moře = víc cetacea). Po lodi oběd na promenádě + zmrzlinárna Berry's (provoz Češka, vyhlášená).",
+    "rainyAlt": "Při silném větru se plavby mohou měnit nebo rušit. V takovém případě nech Los Gigantes jen jako vyhlídkovou zastávku a spoj ho s Alcalá nebo Mascou.",
+    "insiderTip": "Na plavbu je lepší ranní termín: moře bývá klidnější a den se potom nerozpadne čekáním. Po návratu si nech čas na krátkou procházku přístavem a oběd s výhledem na útesy.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1624,18 +1519,12 @@
         "slunecno-must"
       ]
     },
-    "summary": "Nejslavnější trek Tenerife — kaňonem od vesnice Masca dolů k oceánu (5,5 km, -750 m). Po letech zavřeno, znovu otevřeno v pilotním režimu 2025. Pouze descent + povinný boat exit do Los Gigantes. Spektakulární, ale logisticky náročný.",
-    "description": "Nejslavnější trek Tenerife — kaňonem od vesnice Masca dolů k oceánu (5,5 km, -750 m). Po letech zavřeno, znovu otevřeno v pilotním režimu 2025. Pouze descent + povinný boat exit do Los Gigantes. Spektakulární, ale logisticky náročný.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Cely den.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Barranco de Masca je jeden z nejslavnějších treků Tenerife: sestup kaňonem z vesnice až k oceánu. Je nádherný, ale logisticky náročný a vhodný spíš pro zkušenější turisty než pro spontánní výlet.",
+    "description": "Barranco de Masca je jeden z nejslavnějších treků Tenerife: sestup kaňonem z vesnice až k oceánu. Je nádherný, ale logisticky náročný a vhodný spíš pro zkušenější turisty než pro spontánní výlet.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta to může být nakonec jednodušší než s autem, protože trasa nekončí tam, kde začíná. Sleduj oficiální instrukce k dopravě, autobusu a lodi."
     },
     "links": {
       "official": "https://www.caminobarrancodemasca.com",
@@ -1656,8 +1545,8 @@
         "localPath": "/images/poi/masca-trail.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Rezervuj 2+ měsíce dopředu v sezóně (vysoká poptávka). Plánuj sloty: ráno 7:00 — bus 7:30–8:00 ze Santiago, hike 8:30–13:00, boat do 17:00, zpět TITSA 462 do Los Gigantes hotel. Total day = 8–10 hod logistika. Plánuj na to celý den + následující den oddych. Pohodlnější alternativa = bez treku jen vesnice Masca (21).",
+    "rainyAlt": "Při dešti, větru nebo riziku špatných podmínek trek nezkoušej. Kaňon je bezpečný jen za vhodného počasí; náhradou je vesnice Masca, Santiago del Teide nebo Los Gigantes.",
+    "insiderTip": "Rezervuj s velkým předstihem a neplánuj na stejný den nic dalšího. Pokud chceš krásu Mascy bez složité logistiky, zvol jen vesnici Masca a vyhlídky.",
     "verifiedDate": "2026-05-28",
     "confidence": "L",
     "flags": [
@@ -1712,21 +1601,14 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Magická vesnice ve výši v údolí Teno Massif, \"Tenerife jihoamerický kanyon\". 100 obyvatel, kamenné domy, restaurace s výhledem na Roque de Catana. Cesta sem stejně dobrodružná jako cíl — 4 zastávky viewpoints (Cherfe, Masca, Cruz de Hilda).",
-    "description": "Magická vesnice ve výši v údolí Teno Massif, \"Tenerife jihoamerický kanyon\". 100 obyvatel, kamenné domy, restaurace s výhledem na Roque de Catana. Cesta sem stejně dobrodružná jako cíl — 4 zastávky viewpoints (Cherfe, Masca, Cruz de Hilda).",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Velmi limitované — max 2 hodiny mezi 8:00–14:00 (jinak pokuta od místní policie)",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Masca je malá horská vesnice sevřená mezi dramatickými skalami a patří k nejfotogeničtějším místům Tenerife. Už samotná cesta přes Teno je zážitek, takže výlet dává smysl i bez treku kaňonem.",
+    "description": "Masca je malá horská vesnice sevřená mezi dramatickými skalami a patří k nejfotogeničtějším místům Tenerife. Už samotná cesta přes Teno je zážitek, takže výlet dává smysl i bez treku kaňonem.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
-        "355",
-        "365"
+        "355"
       ],
-      "note": "Linka 355 Buenavista ↔ Masca ↔ Santiago del Teide + linka 365 Buenavista → Masca"
+      "note": "Do Mascy jezdí linka 355 mezi Buenavistou a Santiago del Teide. Autobus je dobrá volba, pokud se nechceš stresovat řízením a parkováním."
     },
     "links": {
       "official": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
@@ -1747,8 +1629,8 @@
         "localPath": "/images/poi/masca-vesnice.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Cesta = zážitek — vyjeď ze Santiago del Teide (klidnější než z Buenavista). Na Cruz de Hilda 5 min stop = klasická pohlednice + kafe. Před 9:00 parking volný + bez davů; po 16:30 = sunset bonus. Klikatá cesta — pokud někomu špatně z aut, jeď bus 355.",
+    "rainyAlt": "Za deště nebo mlhy může být silnice nepříjemná a výhledy slabé. V takový den zvol raději Santiago del Teide, Garachico nebo pobřežní program.",
+    "insiderTip": "Nejhezčí krátká zastávka je Mirador La Cruz de Hilda na kávu a fotku do údolí. Pokud se někomu dělá v autě špatně, neber Mascu jako rychlou odbočku.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1802,21 +1684,15 @@
         "slunecno-must"
       ]
     },
-    "summary": "\"Měsíční krajina\" — vulkanické komíny po erozi pemzové půdy, kreuje surreal landscape. Trek PR-TF 72 z Vilaflor přes vavřínový + borovicový les Corona Forestal s výhledy na hřebeny. Celodenní výprava (5 h+).",
-    "description": "\"Měsíční krajina\" — vulkanické komíny po erozi pemzové půdy, kreuje surreal landscape. Trek PR-TF 72 z Vilaflor přes vavřínový + borovicový les Corona Forestal s výhledy na hřebeny. Celodenní výprava (5 h+).",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Cely den.",
-      "parking": "Vilaflor village (zdarma u kostela + náměstí)",
-      "reservation": "NE — free access"
-    },
+    "summary": "Paisaje Lunar je horský trek k bílým sopečným útvarům, které vypadají skoro měsíčně. Je to krásný, ale delší výlet pro ty, kdo chtějí ticho, borovicový les a fyzicky poctivější den.",
+    "description": "Paisaje Lunar je horský trek k bílým sopečným útvarům, které vypadají skoro měsíčně. Je to krásný, ale delší výlet pro ty, kdo chtějí ticho, borovicový les a fyzicky poctivější den.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "482",
         "474"
       ],
-      "note": "TITSA 482 (Los Cristianos → Vilaflor), 474 (Granadilla → Vilaflor)"
+      "note": "Do Vilafloru jezdí linky 482 z Los Cristianos a 474 z Granadilly. Kvůli délce treku si pečlivě pohlídej poslední spoj zpět."
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
@@ -1837,8 +1713,8 @@
         "localPath": "/images/poi/paisaje-lunar.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Krátká varianta (3,6 km okruh) jen od trailheadu Los Escurriales — ALE: cesta na trailhead je hrubá nezpevněná, nedoporučeno pro rental car. Buď celý 13 km z Vilaflor pěšky, nebo přijmi riziko. Po treku stop Pino Gordo (5 min z Vilaflor). Léto = horko, zima = ráno mráz.",
+    "rainyAlt": "Za deště, mlhy nebo silného větru trek odlož. Kratší a bezpečnější alternativou je Vilaflor, Pino Gordo nebo návštěvnické centrum El Portillo.",
+    "insiderTip": "Po treku se zastav u Pino Gordo, je to krátká a nenáročná tečka za horským dnem. V létě vycházej brzy, v zimě počítej s chladným ránem.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1892,18 +1768,14 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Mimo-turistický kout jihu. Tichá vesnice Palm-Mar + vulkanická přírodní rezervace Malpaís de la Rasca s majákem Punta de Rasca. Žádné davy. Z apt 15 min autem — alternative k turistické trase Los Cristianos/Adeje.",
-    "description": "Mimo-turistický kout jihu. Tichá vesnice Palm-Mar + vulkanická přírodní rezervace Malpaís de la Rasca s majákem Punta de Rasca. Žádné davy. Z apt 15 min autem — alternative k turistické trase Los Cristianos/Adeje.",
+    "summary": "Palm-Mar je klidnější kout jihu blízko apartmánu, kde se dá utéct od hlavních promenád. Pobřeží Malpaís de la Rasca a Montaña de Guaza nabídnou suchou sopečnou krajinu, výhledy a nenáročný aktivní půlden.",
+    "description": "Palm-Mar je klidnější kout jihu blízko apartmánu, kde se dá utéct od hlavních promenád. Pobřeží Malpaís de la Rasca a Montaña de Guaza nabídnou suchou sopečnou krajinu, výhledy a nenáročný aktivní půlden.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Paseo Tucan (Palm-Mar)",
-      "reservation": "NE"
+      "parking": "Parkování hledej u Paseo Tucán v Palm-Maru."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Bez auta je Palm-Mar hůř napojený než Los Cristianos nebo Costa Adeje. Na krátký výlet je často nejjednodušší taxi."
     },
     "links": {
       "official": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
@@ -1924,8 +1796,8 @@
         "localPath": "/images/poi/palm-mar-montana-guaza.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Po treku zastavit v Chiringuito Bar na Playa La Arenita = sunset koktejl s pohledem na La Gomeru. Žádný stín na trase → klobouk + 2 l vody/os. Z Palm-Mar jde také trail nahoru na vrchol Montaña de Guaza (428 m, výhled na Teide + La Gomera).",
+    "rainyAlt": "Za silného větru nebo horka zkrať trasu na pobřežní část a drž se u Palm-Maru. Po dešti mohou být kameny kluzké, takže raději zvol promenádu v Costa Adeje.",
+    "insiderTip": "Po procházce si nech čas na drink u Playa La Arenita při západu slunce. Pokud jdeš na Guazu, vyraz brzy a neber to jako polední výšlap.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1978,14 +1850,10 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Největší pláž Los Cristianos (~900 m) s nejlepšími bezbariérovými službami v Tenerife. Klidná díky vlnolamům, ideální pro děti i osoby s omezenou mobilitou (servis celoročně). Charakteristická fontána na umělém ostrůvku uprostřed.",
-    "description": "Největší pláž Los Cristianos (~900 m) s nejlepšími bezbariérovými službami v Tenerife. Klidná díky vlnolamům, ideální pro děti i osoby s omezenou mobilitou (servis celoročně). Charakteristická fontána na umělém ostrůvku uprostřed.",
+    "summary": "Playa de las Vistas je velká, pohodlná a dobře chráněná pláž mezi Los Cristianos a Las Américas. Je výborná pro rodiny, kočárek i hosty, kteří chtějí jednoduchý plážový den se zázemím.",
+    "description": "Playa de las Vistas je velká, pohodlná a dobře chráněná pláž mezi Los Cristianos a Las Américas. Je výborná pro rodiny, kočárek i hosty, kteří chtějí jednoduchý plážový den se zázemím.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "100+ míst zdarma + soukromá placená v okolí",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování v okolí existuje, ale v sezoně se rychle plní."
     },
     "withoutCar": {
       "titsaLines": [
@@ -1993,7 +1861,7 @@
         "343",
         "467"
       ],
-      "note": "TITSA mnoho linek do Los Cristianos (111, 343, 467)"
+      "note": "Do Los Cristianos jede mnoho linek TITSA, například 111, 343 a 467. Od zastávky se dá pohodlně dojít pěšky."
     },
     "links": {
       "official": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
@@ -2013,8 +1881,8 @@
         "localPath": "/images/poi/playa-de-las-vistas.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Pokud chceš úplně bezvlnnou pláž, jdi na vedlejší Playa Los Cristianos (přístavní). Las Vistas vlny menší (vlnolamy). Promenáda spojuje s Costa Adeje (10 km celkem) — výborný walk.",
+    "rainyAlt": "Za běžného větru Las Vistas často pořád funguje díky vlnolamům. Při dešti zkrať koupání a využij promenádu, kavárny nebo Los Cristianos.",
+    "insiderTip": "Když chceš úplně nejklidnější vodu, porovnej Las Vistas s přístavní Playa Los Cristianos. Na delší procházku pokračuj po promenádě až směrem ke Costa Adeje.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2061,22 +1929,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Nejstarší a nejnavštěvovanější pláž Costa Adeje, chráněná 2 vlnolamy. Surfaři často využívají vlny mezi vlnolamy. Vedle Puerto Colón marina (boat trips).",
-    "description": "Nejstarší a nejnavštěvovanější pláž Costa Adeje, chráněná 2 vlnolamy. Surfaři často využívají vlny mezi vlnolamy. Vedle Puerto Colón marina (boat trips).",
+    "summary": "Playa de Troya je nejbližší klasická pláž od apartmánu a nejrychlejší volba, když chceš prostě k moři bez plánování. Je živá, s promenádou, bary a Puerto Colón hned vedle.",
+    "description": "Playa de Troya je nejbližší klasická pláž od apartmánu a nejrychlejší volba, když chceš prostě k moři bez plánování. Je živá, s promenádou, bary a Puerto Colón hned vedle.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "V uličkách Costa Adeje + Puerto Colón placené",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování v okolí je spíš placené nebo v uličkách."
     },
     "withoutCar": {
-      "titsaLines": [
-        "111",
-        "343",
-        "467"
-      ],
-      "note": "TITSA 111/343/467"
+      "titsaLines": [],
+      "note": "Z apartmánu je to pěšky jedna z nejjednodušších pláží. Autobusem se dá využít více linek přes Costa Adeje a Las Américas."
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/troya-beaches",
@@ -2096,8 +1956,8 @@
         "localPath": "/images/poi/playa-de-troya.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Z apt nejbližší pláž pěšky (~10 min jižně přes Av. Las Américas). Pedaló s integrovaným tobogánem k pronájmu (zábava pro děti). Pohled na Puerto Colón yachty.",
+    "rainyAlt": "Za větru zůstaň u kratšího koupání a procházky po promenádě. Při dešti se přesuň do podniků u Puerto Colón nebo do obchodů v Costa Adeje.",
+    "insiderTip": "Ber ji jako rychlou pláž na dopoledne nebo podvečer. Pro klidnější atmosféru pokračuj po promenádě směrem na Playa del Duque.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2144,21 +2004,17 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Prémiová pláž v Costa Adeje s dovezeným zlatým pískem a klidnou vodou chráněnou vlnolamem. Vedle Castillo del Duque (19. st.) — odsud jméno. Promenáda s upscale restauracemi, butiky a shopping centrem Plaza del Duque (Armani, Boss, Rolex).",
-    "description": "Prémiová pláž v Costa Adeje s dovezeným zlatým pískem a klidnou vodou chráněnou vlnolamem. Vedle Castillo del Duque (19. st.) — odsud jméno. Promenáda s upscale restauracemi, butiky a shopping centrem Plaza del Duque (Armani, Boss, Rolex).",
+    "summary": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
+    "description": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Zdarma za Restaurant Caleta Coast (limitované); podzemní placená CC Plaza del Duque (1. hod free) + The Corner Mall",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování je možné v Plaza del Duque nebo okolních parkovištích, část je placená."
     },
     "withoutCar": {
       "titsaLines": [
         "467",
         "477"
       ],
-      "note": "TITSA linka 467 + místní 477"
+      "note": "Dojedeš linkou 467 nebo místní 477, případně pěšky po promenádě z Costa Adeje."
     },
     "links": {
       "official": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
@@ -2179,8 +2035,8 @@
         "localPath": "/images/poi/playa-del-duque.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Severní konec pláže = velké černé oblázky, méně lidí (kontrast). Při západu slunce nejkrásnější na ostrově dle místních. Parkuj v Plaza del Duque (1. hod free), pak promenáda.",
+    "rainyAlt": "Když fouká na otevřenějších plážích, Del Duque často zůstává použitelnější. Při dešti se dá program přesunout do Plaza del Duque nebo na krytou restauraci.",
+    "insiderTip": "Na západ slunce se projdi k severnímu konci pláže a dál směrem k La Caletě. Pokud jedeš autem, Plaza del Duque je pohodlnější než hledání místa v uličkách.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2232,18 +2088,16 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Skrytá pláž \"off-the-beaten-path\" 4 km východně od Puerto de la Cruz. Černý vulkanický písek pod útesy, banánové plantáže okolo. Méně turistů (díky přístupu), wild Atlantic vlny → pro plavce.",
-    "description": "Skrytá pláž \"off-the-beaten-path\" 4 km východně od Puerto de la Cruz. Černý vulkanický písek pod útesy, banánové plantáže okolo. Méně turistů (díky přístupu), wild Atlantic vlny → pro plavce.",
+    "summary": "El Bollullo je divočejší severní pláž s černým pískem, útesy a banánovníky okolo. Je krásná hlavně pro atmosféru a fotky, ne jako bezstarostná dětská pláž.",
+    "description": "El Bollullo je divočejší severní pláž s černým pískem, útesy a banánovníky okolo. Je krásná hlavně pro atmosféru a fotky, ne jako bezstarostná dětská pláž.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Méně než 50 míst u restaurace El Bollullo (placené)",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování u restaurace je malé a placené."
     },
     "withoutCar": {
-      "titsaLines": [],
-      "note": "Inter-city (do Puerto, dál pěšky)"
+      "titsaLines": [
+        "45"
+      ],
+      "note": "Nejhezčí varianta bez auta je dojít pěšky z Puerto de la Cruz, zhruba 45 minut přes oblast s banánovníky. Z jihu je to bez auta na delší plán."
     },
     "links": {
       "official": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
@@ -2264,8 +2118,8 @@
         "localPath": "/images/poi/playa-el-bollullo.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Nejedeš autem až k restauraci (úzká cesta), parkuj 1,5 km dříve. Nebo lepší: pěšky z Puerto de la Cruz (45 min, banán. plantáže, krásná procházka). Vlny silné — nedoporučeno pro děti a slabé plavce. Beach bar dělá výborný mojito + paella. Spoj s den v Puerto de la Cruz.",
+    "rainyAlt": "Při velkých vlnách se nekoupej a ber pláž jen jako vyhlídku. Za deště zvol raději Puerto de la Cruz, Lago Martiánez nebo botanickou zahradu.",
+    "insiderTip": "Nesnaž se za každou cenu dojet autem až dolů úzkou cestou. Pěší přístup z Puerto de la Cruz je často příjemnější a méně stresující.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2318,24 +2172,19 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Jedna z nejživějších pláží Costa Adeje, sousedí s Playa de Troya. Široká promenáda s obchody, beach clubs (Le Club, El 3 Tapas, Fañabé Beach Club). Černý/písčitý povrch, klidné vlny, ideální pro rodiny i vodní sporty. Pohled na La Gomeru.",
-    "description": "Jedna z nejživějších pláží Costa Adeje, sousedí s Playa de Troya. Široká promenáda s obchody, beach clubs (Le Club, El 3 Tapas, Fañabé Beach Club). Černý/písčitý povrch, klidné vlny, ideální pro rodiny i vodní sporty. Pohled na La Gomeru.",
+    "summary": "Playa Fañabé je živá pláž v Costa Adeje s promenádou, restauracemi a dobrým zázemím. Hodí se pro rodiny, vodní aktivity i den, kdy chceš mít všechno po ruce.",
+    "description": "Playa Fañabé je živá pláž v Costa Adeje s promenádou, restauracemi a dobrým zázemím. Hodí se pro rodiny, vodní aktivity i den, kdy chceš mít všechno po ruce.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "V uličkách + Fañabé Plaza CC",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování hledej v okolních ulicích nebo u Fañabé Plaza."
     },
     "withoutCar": {
       "titsaLines": [
         "111",
         "343",
         "416",
-        "473",
-        "10"
+        "473"
       ],
-      "note": "TITSA linky 111, 343, 416, 473, zastávka \"Fañabé Plaza\" (~10 min pěšky)"
+      "note": "Jezdí sem linky 111, 343, 416 a 473, zastávka Fañabé Plaza je pár minut pěšky od pláže. Z apartmánu je často nejpohodlnější jít pěšky po pobřeží."
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/fanabe-beach",
@@ -2356,8 +2205,8 @@
         "localPath": "/images/poi/playa-fanabe.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Beach clubs (Le Club, Fañabé Beach Club) — rezervuj lehátko dopředu. Voda nikdy <20 °C i v zimě. Tipsy: doprava v okolí špatná (úzké jednosměrky) → pěšky z apt.",
+    "rainyAlt": "Při větru se dá zůstat na promenádě nebo přesunout na chráněnější Del Duque. Při dešti zvol Fañabé Plaza, restauraci nebo kratší pobřežní procházku.",
+    "insiderTip": "Na pohodový den bez auta vyraz pěšky, dej si koupání, oběd na promenádě a večer se vrať při západu slunce. Autem se v okolních jednosměrkách snadno ztratí čas.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2411,20 +2260,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Nejslavnější pláž severovýchodu — 1,3 km umělá pláž, sahara písek (1973). Vlnolam = klidná voda ideální pro děti. Rybářská vesnice San Andrés vedle = rybí oběd. Vedlejší Playa de las Gaviotas = wild černý písek pro hledače klidu.",
-    "description": "Nejslavnější pláž severovýchodu — 1,3 km umělá pláž, sahara písek (1973). Vlnolam = klidná voda ideální pro děti. Rybářská vesnice San Andrés vedle = rybí oběd. Vedlejší Playa de las Gaviotas = wild černý písek pro hledače klidu.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Zdarma u 10 vchodů",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Las Teresitas je ikonická severovýchodní pláž se světlým pískem, klidnou vodou a horami za zády. San Andrés hned vedle z ní dělá dobrý výlet na koupání a rybí oběd.",
+    "description": "Las Teresitas je ikonická severovýchodní pláž se světlým pískem, klidnou vodou a horami za zády. San Andrés hned vedle z ní dělá dobrý výlet na koupání a rybí oběd.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "910"
       ],
-      "note": "TITSA linka 910 Intercambiador (Santa Cruz) ↔ San Andrés ↔ Playa de las Teresitas (vchod 1), vysoká frekvence"
+      "note": "Ze Santa Cruz jezdí k Teresitas častá linka 910. Bez auta je to velmi použitelný výlet, pokud se nejdřív dostaneš do Santa Cruz."
     },
     "links": {
       "official": "https://www.santacruzdetenerife.es",
@@ -2445,8 +2288,8 @@
         "localPath": "/images/poi/playa-teresitas-gaviotas.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Pondělí–pátek mimo léto = klid; víkend/léto narváno (rezidenti Santa Cruz). V San Andrés rybí restaurace (mola — vyber si z pultu) — Asunción, El Rincón. Stop Las Gaviotas (5 min autem) = wild kontrast. Z apt celý den, lépe s Anaga (35) navazujícím.",
+    "rainyAlt": "Při větru zůstává Teresitas díky vlnolamu často lepší než otevřené pláže. Při dešti přesuň program do Santa Cruz nebo La Laguny.",
+    "insiderTip": "Jeď ve všední den mimo hlavní sezonu a po koupání si dej oběd v San Andrés. Las Gaviotas přidej jen jako krátký kontrast, pokud je moře klidné.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2501,18 +2344,12 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Souvislá pěší promenáda spojující všechny pláže jihu Adeje + Arona. 10 km bez aut, lemovaná restauracemi, bary, hotely, butiky, palmami. Začneš v Los Cristianos, končíš v La Caleta s rybou na terase.",
-    "description": "Souvislá pěší promenáda spojující všechny pláže jihu Adeje + Arona. 10 km bez aut, lemovaná restauracemi, bary, hotely, butiky, palmami. Začneš v Los Cristianos, končíš v La Caleta s rybou na terase.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Paseo Marítimo je nejjednodušší výlet přímo od apartmánu: dlouhá pobřežní promenáda bez auta, pláže, bary a výhledy na La Gomeru. Dá se z ní udělat krátká večerní procházka i půldenní pěší program.",
+    "description": "Paseo Marítimo je nejjednodušší výlet přímo od apartmánu: dlouhá pobřežní promenáda bez auta, pláže, bary a výhledy na La Gomeru. Dá se z ní udělat krátká večerní procházka i půldenní pěší program.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "note": "Tohle je ideální bez auta: začni pěšky od apartmánu a vrať se stejnou cestou, taxíkem nebo autobusem podle energie."
     },
     "links": {
       "official": "https://www.komoot.com/smarttour/1525340126",
@@ -2532,8 +2369,8 @@
         "localPath": "/images/poi/promenada-costa-adeje.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Z apt nejlepší startovní bod = Playa de Troya (10 min pěšky). Odsud severozápad k La Caleta (5 km, večeře) NEBO jihovýchod k Las Vistas (5 km, koupání). Wheelchair-friendly. Při Kalimě/silném větru = ráno < 11:00.",
+    "rainyAlt": "Při větru jdi kratší úsek a drž se části s podniky, kde se dá sednout. Za Kalimy vyraz ráno a neplánuj dlouhou trasu v poledne.",
+    "insiderTip": "Nejlepší čas je ráno nebo před západem slunce. Na večeři dojdi směrem k La Caletě, na koupání a rušnější atmosféru směrem k Las Vistas.",
     "verifiedDate": "2026-05-28",
     "confidence": "L",
     "flags": [
@@ -2586,22 +2423,12 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Hlavní turistické centrum severu, prosperující od 19. st. (anglo-britská elita). Lago Martiánez = ikonické dílo César Manrique, 7 mořských bazénů. Jardín Botánico = 250 let starý vědecký botanický ostrov s endemity. + Loro Parque (4 v pilotu) na okraji města.",
-    "description": "Hlavní turistické centrum severu, prosperující od 19. st. (anglo-britská elita). Lago Martiánez = ikonické dílo César Manrique, 7 mořských bazénů. Jardín Botánico = 250 let starý vědecký botanický ostrov s endemity. + Loro Parque (4 v pilotu) na okraji města.",
-    "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
-    },
+    "summary": "Puerto de la Cruz je klasické severní letovisko s hezkým centrem, oceánem a bazénovým areálem Lago Martiánez od Césara Manriqueho. Je to dobrý celodenní kontrast k jihu: víc zeleně, starší atmosféra a chladnější vzduch.",
+    "description": "Puerto de la Cruz je klasické severní letovisko s hezkým centrem, oceánem a bazénovým areálem Lago Martiánez od Césara Manriqueho. Je to dobrý celodenní kontrast k jihu: víc zeleně, starší atmosféra a chladnější vzduch.",
+    "practical": {},
     "withoutCar": {
-      "titsaLines": [
-        "100",
-        "102",
-        "103"
-      ],
-      "note": "TITSA 100 express, 102, 103 (Santa Cruz/La Laguna ↔ Puerto); z jihu přes La Laguna nebo Santa Cruz"
+      "titsaLines": [],
+      "note": "Ze severu a Santa Cruz je spojení dobré, z jihu je cesta delší a obvykle přes přestup. Na pohodový den počítej s časovou rezervou."
     },
     "links": {
       "official": "https://lagomartianez.es",
@@ -2622,8 +2449,8 @@
         "localPath": "/images/poi/puerto-de-la-cruz-lago-martianez.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Den v Puerto: ráno Botanico (před vedrem), oběd Plaza del Charco, odpoledne Lago Martiánez (cool down v 7 bazénech). Lago = vezmi ručník + plavky a hotovost (no online). Single-entry rule = jdi rovnou na celé odpoledne. Z apt = den, lépe odpočinout den předtím.",
+    "rainyAlt": "Při větru a chladnu vynech koupání v Lagu a nech si centrum, botanickou zahradu nebo kavárny. Pokud je sever úplně zatažený, zůstaň raději na jihu.",
+    "insiderTip": "Dobrá skladba dne: ráno botanická zahrada, oběd kolem Plaza del Charco a odpoledne Lago Martiánez. Den předtím neplánuj velkou túru.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2677,18 +2504,20 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Nejzápadnější cíp Tenerife, divoký a osamělý. Maják + přírodní bazény + výhled na La Gomeru a La Palmu. Auto zakázáno (od 19.1.2026, road works ~10 měsíců) — povinný TITSA bus 369 z Buenavista. Ironicky tak méně lidí = klidnější.",
-    "description": "Nejzápadnější cíp Tenerife, divoký a osamělý. Maják + přírodní bazény + výhled na La Gomeru a La Palmu. Auto zakázáno (od 19.1.2026, road works ~10 měsíců) — povinný TITSA bus 369 z Buenavista. Ironicky tak méně lidí = klidnější.",
+    "summary": "Nejzápadnější cíp Tenerife s majákem, dramatickým pobřežím a výhledy na La Gomeru i La Palmu. Je to krásné místo, ale logistiku si naplánuj předem: soukromé auto má kvůli pracím na silnici omezený přístup a je potřeba počítat s autobusem z Buenavisty.",
+    "description": "Nejzápadnější cíp Tenerife s majákem, dramatickým pobřežím a výhledy na La Gomeru i La Palmu. Je to krásné místo, ale logistiku si naplánuj předem: soukromé auto má kvůli pracím na silnici omezený přístup a je potřeba počítat s autobusem z Buenavisty.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "openingHours": "Přístup závisí na aktuálním režimu silnice a autobusu.",
+      "price": "Samotné místo zdarma; autobus se platí zvlášť.",
+      "visitDuration": "Půlden, ale kvůli dopravě počítej s větší časovou rezervou.",
+      "parking": "Auto nech v Buenavista del Norte a pokračuj autobusem TITSA 369.",
+      "reservation": "Permit není potřeba, ale před odjezdem ověř aktuální režim přístupu."
     },
     "withoutCar": {
-      "titsaLines": [],
-      "note": "Bez auta ověř aktuální linky TITSA; pro tento POI je praktičtější auto nebo organizovaný výlet."
+      "titsaLines": [
+        "369"
+      ],
+      "note": "Klíčová je linka TITSA 369 z Buenavista del Norte. Před cestou zkontroluj aktuální jízdní řád, ať nezůstaneš dlouho čekat na návrat."
     },
     "links": {
       "official": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
@@ -2709,8 +2538,8 @@
         "localPath": "/images/poi/punta-de-teno.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Plan podle bus 369 schedule — víkend hustší takt. Buenavista parking zdarma + bus za €1. Vezmi si bundu (mys = silný vítr). Ideální spojit s návštěvou Garachico (28) a Masca vesnice (cestou zpět). Při počasí \"Aviso Amarillo\" (žluté výstraha) cesta často uzavřena.",
+    "rainyAlt": "Při silném větru nebo výstraze počasí Teno raději vynech. Cesta je exponovaná a výhledy za špatné viditelnosti nestojí za komplikace.",
+    "insiderTip": "Naplánuj den podle autobusu, ne podle mapy. Vezmi si něco proti větru a spoj Teno s Garachicem nebo krátkou zastávkou v Masce, jinak kvůli dlouhé cestě působí výlet zbytečně těžkopádně.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2767,21 +2596,17 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Nejikoničtější krátký trek v Teide NP. Okruh kolem skalních útvarů sopečného původu — vrchol Roque Cinchado byl na bývalé 1000-pesete bankovce a v parku se vznáší jako přírodní podpis Tenerife. Cestou panorámatický výhled na kaldéru i Pico del Teide.",
-    "description": "Nejikoničtější krátký trek v Teide NP. Okruh kolem skalních útvarů sopečného původu — vrchol Roque Cinchado byl na bývalé 1000-pesete bankovce a v parku se vznáší jako přírodní podpis Tenerife. Cestou panorámatický výhled na kaldéru i Pico del Teide.",
+    "summary": "Roques de García je nejvděčnější krátký trek v národním parku Teide. Za relativně málo času uvidíš lávové skály, kalderu i výhledy na Pico del Teide.",
+    "description": "Roques de García je nejvděčnější krátký trek v národním parku Teide. Za relativně málo času uvidíš lávové skály, kalderu i výhledy na Pico del Teide.",
     "practical": {
-      "openingHours": "Trail 24/7, ale doporučeno za světla; NP Cañada Blanca Visitor Center má vlastní otev. dobu",
-      "price": "Zdarma",
-      "visitDuration": "2 hod (trek) + 1 hod (mirador + foto)",
-      "parking": "Zdarma u Mirador de la Ruleta (malé) + podél TF-21",
-      "reservation": "NE (volně přístupné) — pozor: Pico del Teide a trail 7/9 už ANO (viz Permity HUB)"
+      "parking": "00-15:00 bývá plné."
     },
     "withoutCar": {
       "titsaLines": [
         "348",
         "342"
       ],
-      "note": "Linka 348 (Puerto de la Cruz → Teide), linka 342 (Costa Adeje → El Portillo / Teide, zast. „Centro de Visitantes\" kód 5242) — omezený takt, ověř titsa.com"
+      "note": "Jezdí sem linky 348 ze severu a 342 z jihu, ale spoje jsou omezené. Aktuální jízdní řád zkontroluj ještě před plánováním dne."
     },
     "links": {
       "official": "https://www.reservasparquesnacionales.es",
@@ -2802,8 +2627,8 @@
         "localPath": "/images/poi/roques-de-garcia.webp"
       }
     ],
-    "rainyAlt": "Při silném větru parky zavírají TF-21. Kalima = neviditelnost (mlha) → cesta na Teide ztrácí smysl. Alternativa: Anaga lesy (~600 m výška, mírnější mikroklima).",
-    "insiderTip": "Přijeď do 10:00 nebo po 17:00 — parkoviště mezi 11–15 plné. Začni protisměrně (proti hodinkám) → nejnáročnější stoupák na konci máš mírnější. Voda 2 l/os — žádné občerstvení po trase. V nadm. výšce 2 100 m UV silnější — krém + klobouk povinné.",
+    "rainyAlt": "Při silném větru, mlze nebo Kalimě výlet na Teide ztrácí smysl a může být nepříjemný. Náhradou je El Portillo, Vilaflor nebo zelenější Anaga.",
+    "insiderTip": "Přijeď do 10:00 nebo až později odpoledne. Pokud půjdeš okruh proti směru hodinových ručiček, náročnější část si lépe rozložíš.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2859,23 +2684,14 @@
         "vse-pocasi"
       ]
     },
-    "summary": "Hlavní město Tenerife (200 000 obyv.). Palmetum = unikátní transformace skládky na 12ha botanickou palmovou zahradu — největší kolekce palem v EU. Vedle Auditorio (Calatrava) + plaza + trh + karneval (únor).",
-    "description": "Hlavní město Tenerife (200 000 obyv.). Palmetum = unikátní transformace skládky na 12ha botanickou palmovou zahradu — největší kolekce palem v EU. Vedle Auditorio (Calatrava) + plaza + trh + karneval (únor).",
+    "summary": "Santa Cruz je hlavní město Tenerife a dobrá volba, když chceš trh, městskou atmosféru, architekturu a něco zeleného. Palmetum je nečekaně příjemná palmová zahrada s výhledy a klidnou pauzou od města.",
+    "description": "Santa Cruz je hlavní město Tenerife a dobrá volba, když chceš trh, městskou atmosféru, architekturu a něco zeleného. Palmetum je nečekaně příjemná palmová zahrada s výhledy a klidnou pauzou od města.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování v centru bývá placené, pohodlnější jsou garáže."
     },
     "withoutCar": {
-      "titsaLines": [
-        "100",
-        "102",
-        "103",
-        "910"
-      ],
-      "note": "TITSA 100/102/103/910 + Tranvía (linka 1 Santa Cruz → La Laguna)"
+      "titsaLines": [],
+      "note": "Do Santa Cruz je dobré autobusové spojení a po městě navazuje tramvaj do La Laguny. Bez auta je to jedna z nejlepších městských variant."
     },
     "links": {
       "official": "https://www.santacruzdetenerife.es",
@@ -2896,8 +2712,8 @@
         "localPath": "/images/poi/santa-cruz-palmetum.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Den v Santa Cruz: ráno trh Nuestra Señora de Africa (8–14 pondělí–sobota), procházka Auditorio, oběd Plaza de España, odpoledne Palmetum (vstup do 17). Z Santa Cruz tram (€1,35) do La Laguna (34) = combo. Karneval (únor) = vrcholná zkušenost, ale bookuj 6+ měsíců dopředu ubytování.",
+    "rainyAlt": "Za horšího počasí drž program víc městský: trh, kavárny, oběd a případně tramvaj do La Laguny. Palmetum nech na chvíli, kdy neprší.",
+    "insiderTip": "Začni ráno na trhu, projdi Auditorio a nábřeží, dej oběd v centru a Palmetum nech na klidnější odpoledne. La Lagunu můžeš přidat tramvají, pokud máš energii.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2956,15 +2772,9 @@
         "kalima-ne"
       ]
     },
-    "summary": "Vstupní brána do Anagy — UNESCO Biosphere Reserve (od 9.7.2015) s laurisilva pralesem (relikt z třetihor). Krátký okruh s naučnými cedulemi vyzývajícími použít vůně, dotyk, zrak. Sendero 1 je bezbariérový (kočárek, vozíček). Z mirador Cruz del Carmen za jasna výhled až na Teide.",
-    "description": "Vstupní brána do Anagy — UNESCO Biosphere Reserve (od 9.7.2015) s laurisilva pralesem (relikt z třetihor). Krátký okruh s naučnými cedulemi vyzývajícími použít vůně, dotyk, zrak. Sendero 1 je bezbariérový (kočárek, vozíček). Z mirador Cruz del Carmen za jasna výhled až na Teide.",
-    "practical": {
-      "openingHours": "Trail 24/7. Centro de Visitantes vlastní doba (ověř před návštěvou)",
-      "price": "Zdarma",
-      "visitDuration": "Sendero 1: 30 min. Sendero 2: 1 hod. Sendero 3: 2 hod",
-      "parking": "Zdarma u Centro de Visitantes Cruz del Carmen — malé, plné brzy (zvl. víkend)",
-      "reservation": "NE — free access, žádná rezervace"
-    },
+    "summary": "Sendero de los Sentidos je nejjednodušší způsob, jak ochutnat prales Anagy bez velké túry. Krátké okruhy u Cruz del Carmen fungují i s dětmi, kočárkem na nejlehčí části a menší energií.",
+    "description": "Sendero de los Sentidos je nejjednodušší způsob, jak ochutnat prales Anagy bez velké túry. Krátké okruhy u Cruz del Carmen fungují i s dětmi, kočárkem na nejlehčí části a menší energií.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
         "76",
@@ -2972,7 +2782,7 @@
         "273",
         "275"
       ],
-      "note": "Linky 76, 77, 273, 275 — zastávka Cruz del Carmen, kód 2232"
+      "note": "Na Cruz del Carmen jezdí linky 76, 77, 273 a 275. Bez auta je to reálné, jen si předem ověř spoje zpět."
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
@@ -2993,8 +2803,8 @@
         "localPath": "/images/poi/sendero-de-los-sentidos.webp"
       }
     ],
-    "rainyAlt": "Ideální v zataženo / lehký déšť — prales je krásnější. Při silném dešti raději ne (stezka kluzká). Při Kalimě (písek) — Anaga často nad mlhou = nad Kalimou. Když je dole 30 °C, tady 15 °C s mlhou = osvěžení.",
-    "insiderTip": "Přijeď před 9:00 — parking malý, plný brzy (zvl. víkend). Z Calle Irlanda ~80 km / 1 h 20 min → bundle s Santa Cruz nebo La Laguna na celý den. Bunda + uzavřené boty (na pobřeží 25°C, v Anaze 5–15°C + vlhko + déšť). Při plném parkingu jeď k El Bosque de los Enigmas parkingu o 800 m níž (jiný trail vede zpět na Cruz del Carmen).",
+    "rainyAlt": "Lehká mlha nebo mrholení tady nevadí, prales je pak krásný. Silný déšť je jiná věc: stezka klouže, takže zůstaň jen u krátké varianty nebo jeď do La Laguny.",
+    "insiderTip": "Přijeď před 9:00 a projdi si stezku ještě před hlavní vlnou návštěvníků. Pokud je parkoviště plné, zvaž blízký El Bosque de los Enigmas.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -3051,18 +2861,15 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Největší vodní park v Evropě, opakovaně vyhlášený nejlepší vodní park světa (TripAdvisor 2014–dnes). Thajský motiv, 25+ atrakcí od adrenalinového Tower of Power (téměř volný pád) po klidnou Mai Thai River. Pro nejmenší Lost City.",
-    "description": "Největší vodní park v Evropě, opakovaně vyhlášený nejlepší vodní park světa (TripAdvisor 2014–dnes). Thajský motiv, 25+ atrakcí od adrenalinového Tower of Power (téměř volný pád) po klidnou Mai Thai River. Pro nejmenší Lost City.",
+    "summary": "Siam Park je velký vodní park přímo u Costa Adeje a nejjednodušší celodenní atrakce pro rodiny nebo milovníky skluzavek. Má adrenalinové atrakce, klidnější řeku i části pro menší děti.",
+    "description": "Siam Park je velký vodní park přímo u Costa Adeje a nejjednodušší celodenní atrakce pro rodiny nebo milovníky skluzavek. Má adrenalinové atrakce, klidnější řeku i části pro menší děti.",
     "practical": {
-      "openingHours": "Léto (1.5–31.10): 10:00–18:00. Zima (1.11–30.4): 10:00–17:00. Otevřeno 365 dní v roce",
-      "price": "Dospělý 44 €, Dítě 3–11: 32 €, infant <3: free",
-      "visitDuration": "Celý den (8 hod)",
-      "parking": "7 € / den (limitovaná kapacita)",
-      "reservation": "Doporučeno koupit online předem; entry date required (capacity control)"
+      "openingHours": "Otevírací dobu a ceny ověř před nákupem, sezonně se liší.",
+      "parking": "Parkování je placené a kapacita omezená."
     },
     "withoutCar": {
       "titsaLines": [],
-      "note": "Bezplatná shuttle z Las Américas / Los Cristianos / Costa Adeje (zahrnuto v lístku)"
+      "note": "Z Las Américas, Los Cristianos a Costa Adeje jezdí shuttle. Z apartmánu je Siam Park velmi blízko i taxíkem."
     },
     "links": {
       "official": "https://www.siampark.net",
@@ -3083,8 +2890,8 @@
         "localPath": "/images/poi/siam-park.webp"
       }
     ],
-    "rainyAlt": "Některé výškové atrakce zavřou při silném větru. Při Kalimě (písek) prach ve vodě → raději odložit. V chladnějších měsících (listopad–březen) může být voda chladná, ale park otevřeno.",
-    "insiderTip": "Přijeď s otvíračkou (10:00) — vyhneš se hodinovým frontám. Twin Ticket s Loro Parque ušetří 10 € a dává 15 dní na druhou návštěvu. Tower of Power = jen pro odvážlivce a 1,4+ m. Většina atrakcí pro 6+ a 120/130 cm.",
+    "rainyAlt": "Za silného větru se mohou zavírat vyšší atrakce, při Kalimě je park méně příjemný. V chladnějších měsících počítej s tím, že voda může působit studeně.",
+    "insiderTip": "Největší fronty se tvoří u hlavních atrakcí, proto začni těmi, které jsou pro vás nejdůležitější. Pro děti předem zkontroluj výškové limity.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -3141,21 +2948,15 @@
         "vetrno-ne"
       ]
     },
-    "summary": "Lanovka z 2 356 m do La Rambleta 3 555 m za 8 minut; odsud při permitu pěšky 1 h na samotný vrchol Pico (3 715 m, nejvyšší hora Španělska). Bez permitu = procházky po La Rambleta, výhledy do kaldery + na 4 ostrovy.",
-    "description": "Lanovka z 2 356 m do La Rambleta 3 555 m za 8 minut; odsud při permitu pěšky 1 h na samotný vrchol Pico (3 715 m, nejvyšší hora Španělska). Bez permitu = procházky po La Rambleta, výhledy do kaldery + na 4 ostrovy.",
-    "practical": {
-      "openingHours": "9:00–17:00 většinu roku; jaro/léto 9:00–18:40; jaro 28.3–12.4 + léto 1.7–30.9",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Ověř podle konkrétního místa; u center a pláží počítej s omezenou kapacitou nebo placeným parkováním.",
-      "reservation": "tenerifeon.es, Po 7:00 KI čas, 56 dní dopředu"
-    },
+    "summary": "Lanovka na Teide tě během pár minut dostane do výšky přes 3 500 metrů s výhledy na kalderu a okolní ostrovy. Výstup na samotný vrchol je mimořádný zážitek, ale jen s povolením a dobrým počasím.",
+    "description": "Lanovka na Teide tě během pár minut dostane do výšky přes 3 500 metrů s výhledy na kalderu a okolní ostrovy. Výstup na samotný vrchol je mimořádný zážitek, ale jen s povolením a dobrým počasím.",
+    "practical": {},
     "withoutCar": {
       "titsaLines": [
-        "348",
-        "342"
+        "342",
+        "348"
       ],
-      "note": "TITSA 348 (Puerto de la Cruz), 342 (Costa Adeje → El Portillo / Teide) — omezený takt"
+      "note": "Jezdí sem linky 342 z jihu a 348 ze severu, ale s omezeným taktem. Bez auta si nejdřív ověř, že spoje sedí k času lanovky."
     },
     "links": {
       "official": "https://www.volcanoteide.com",
@@ -3176,8 +2977,8 @@
         "localPath": "/images/poi/teide-cable-car-pico.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Rezervuj lanovku + permit alespoň 2 měsíce dopředu v sezóně. Sunrise permit (6–9 zdarma, bez lanovky = pěšky z Montaña Blanca po trail 7, samostatný permit) = nejlepší zážitek pro fit turisty. Cesta nahoru = řada se občas zavírá při větru bez varování → free storno do 18:00. Bez lanovky lze pěšky výhledy: Roques de García (volně, viz 3).",
+    "rainyAlt": "Při větru, námraze nebo špatné viditelnosti lanovku odlož. Náhradní horský plán je Roques de García, El Portillo nebo Vilaflor.",
+    "insiderTip": "Pokud nemáš permit nebo se lanovka zavře, nenech si pokazit den: Roques de García a vyhlídky v parku jsou krásné i bez lanovky. Vezmi teplou vrstvu, nahoře je úplně jiné klima.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -3230,21 +3031,17 @@
       ],
       "weather": []
     },
-    "summary": "Nejvyšší obec Kanárských ostrovů (1 400 m). Brána k Teide z jihu. Pino Gordo = nejtlustší strom Španělska (700–800 let, 9,36 m obvod) — 10 min stop u silnice. Klid, čistý horský vzduch, mandlové suchary v lokálních pekárnách.",
-    "description": "Nejvyšší obec Kanárských ostrovů (1 400 m). Brána k Teide z jihu. Pino Gordo = nejtlustší strom Španělska (700–800 let, 9,36 m obvod) — 10 min stop u silnice. Klid, čistý horský vzduch, mandlové suchary v lokálních pekárnách.",
+    "summary": "Vilaflor je klidná horská obec na cestě k Teide a Pino Gordo je rychlá, působivá zastávka u jednoho z největších borovicových stromů ostrova. Hodí se jako jemnější horský program bez dlouhé túry.",
+    "description": "Vilaflor je klidná horská obec na cestě k Teide a Pino Gordo je rychlá, působivá zastávka u jednoho z největších borovicových stromů ostrova. Hodí se jako jemnější horský program bez dlouhé túry.",
     "practical": {
-      "openingHours": "Veřejné prostranství je obvykle volně přístupné; konkrétní atrakce, trhy a restaurace ověř u oficiálního odkazu.",
-      "price": "Zdarma u veřejných míst; placené atrakce a rezervace viz oficiální odkaz nebo Permity HUB.",
-      "visitDuration": "Půlden až celý den podle tempa a zvolené varianty.",
-      "parking": "Zdarma u silnice + vyhlídka",
-      "reservation": "Není uvedeno jako povinné; u placených atrakcí a regulovaných tras ověř Permity HUB."
+      "parking": "Parkování je u silnice a vyhlídky, buď opatrná při přecházení."
     },
     "withoutCar": {
       "titsaLines": [
         "482",
         "474"
       ],
-      "note": "TITSA 482 (Los Cristianos ↔ Vilaflor Centro), 474 (Granadilla → Vilaflor)"
+      "note": "Do Vilafloru jezdí linka 482 z Los Cristianos a 474 z Granadilly. Na krátkou zastávku u Pino Gordo je ale auto pohodlnější."
     },
     "links": {
       "official": "https://www.vilaflordechasna.es",
@@ -3265,8 +3062,8 @@
         "localPath": "/images/poi/vilaflor-pino-gordo.webp"
       }
     ],
-    "rainyAlt": "Když se zvedne vítr, přijde déšť nebo Kalima, ověř aktuální podmínky a zvol kratší variantu programu nebo indoor alternativu z denních nápadů.",
-    "insiderTip": "Stop u Pino Gordo (10 min) zařadit do cesty na Teide. Pino de las Dos Pernadas přes silnici = krátký trek, méně lidí. Vilaflor jako základna pro náročnější PR-TF 72 trek na Paisaje Lunar (viz 19). Restaurace v centru tradiční canarian (kozí maso, cizrna).",
+    "rainyAlt": "Při horším počasí zkrať program na Vilaflor a Pino Gordo, bez delších horských tras. Pokud je nahoře mlha a déšť, nech Teide i Paisaje Lunar na jiný den.",
+    "insiderTip": "Zařaď Pino Gordo cestou na Teide nebo po návratu z Paisaje Lunar. Pokud máš čas, zastav se v centru Vilafloru na jednoduché kanárské jídlo.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],

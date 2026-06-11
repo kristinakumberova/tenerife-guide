@@ -1,4 +1,4 @@
-import { ExternalLink, MapPin, ShieldCheck } from "lucide-react";
+import { ArrowUp, ExternalLink, MapPin, ShieldCheck } from "lucide-react";
 import { activityLabels, confidenceLabel, logisticsLabels, regionLabels } from "../lib/labels";
 import type { Permit, Poi } from "../types";
 import { WeatherBadge } from "./WeatherBadge";
@@ -8,10 +8,12 @@ interface POICardProps {
   permits?: Permit[];
   variant?: "collapsed" | "popup";
   isOpen?: boolean;
+  isSelected?: boolean;
+  onBackToMap?: () => void;
   onOpen?: (poiId: string) => void;
 }
 
-export function POICard({ poi, permits = [], variant = "collapsed", isOpen = false, onOpen }: POICardProps) {
+export function POICard({ poi, permits = [], variant = "collapsed", isOpen = false, isSelected = false, onBackToMap, onOpen }: POICardProps) {
   const isPopup = variant === "popup";
   const relatedPermits = permits.filter((permit) => permit.appliesToPoiIds.includes(poi.id));
   const bookingPermit = relatedPermits.find((permit) => permit.bookingUrl);
@@ -21,20 +23,27 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
   const photo = poi.photos[0];
   const hasCredit = photo?.credit && photo.credit !== "Doplnit";
   const hasDescription = Boolean(poi.description && poi.description !== poi.summary);
+  const openingHours = usefulInfo(poi.practical.openingHours);
+  const price = usefulInfo(poi.practical.price);
+  const visitDuration = usefulInfo(poi.practical.visitDuration);
+  const parking = usefulInfo(poi.practical.parking);
+  const reservation = usefulInfo(poi.practical.reservation);
+  const withoutCarNote = usefulInfo(poi.withoutCar?.note);
+  const rainyAlt = usefulInfo(poi.rainyAlt);
   const hasDetail =
     hasDescription ||
-    poi.practical.openingHours ||
-    poi.practical.price ||
-    poi.practical.visitDuration ||
-    poi.practical.parking ||
-    poi.practical.reservation ||
+    openingHours ||
+    price ||
+    visitDuration ||
+    parking ||
+    reservation ||
     poi.insiderTip ||
-    poi.rainyAlt ||
-    poi.withoutCar?.note ||
+    rainyAlt ||
+    withoutCarNote ||
     relatedPermits.length > 0;
 
   return (
-    <article className={`poi-card poi-card-${variant}`} id={`poi-${poi.id}`}>
+    <article className={`poi-card poi-card-${variant}${isSelected ? " poi-card-selected" : ""}`} id={`poi-${poi.id}`}>
       <div className="poi-thumb">
         {photo?.url ? <img src={photo.url} alt={photo.alt} loading="lazy" /> : <MapPin size={28} aria-hidden="true" />}
       </div>
@@ -58,14 +67,14 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
             <summary>Praktické info</summary>
             <div className="poi-detail">
               {hasDescription && <p>{poi.description}</p>}
-              <Info label="Otevírací doba" value={poi.practical.openingHours} />
-              <Info label="Cena" value={poi.practical.price} />
-              <Info label="Doba návštěvy" value={poi.practical.visitDuration} />
-              <Info label="Parkování" value={poi.practical.parking} />
-              <Info label="Rezervace" value={poi.practical.reservation} />
-              {poi.withoutCar?.note && <Info label="Bez auta" value={poi.withoutCar.note} />}
-              {poi.insiderTip && <Info label="Tip od Kristiny" value={poi.insiderTip} />}
-              {poi.rainyAlt && <Info label="Když fouká / prší" value={poi.rainyAlt} />}
+              <Info label="Otevírací doba" value={openingHours} />
+              <Info label="Cena" value={price} />
+              <Info label="Doba návštěvy" value={visitDuration} />
+              <Info label="Parkování" value={parking} />
+              <Info label="Rezervace" value={reservation} />
+              {withoutCarNote && <Info label="Bez auta" value={withoutCarNote} />}
+              {poi.insiderTip && <Info label="Tip" value={poi.insiderTip} />}
+              {rainyAlt && <Info label="Když fouká / prší" value={rainyAlt} />}
               {relatedPermits.length > 0 && (
                 <div className="poi-permit-links">
                   {relatedPermits.map((permit) => (
@@ -99,6 +108,12 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
         )}
 
         <div className="card-actions">
+          {!isPopup && onBackToMap && (
+            <button type="button" className="text-button" onClick={onBackToMap}>
+              <ArrowUp size={16} aria-hidden="true" />
+              Zpět k mapě
+            </button>
+          )}
           {isPopup && onOpen && (
             <button type="button" className="text-button" onClick={() => onOpen(poi.id)}>
               <ExternalLink size={16} aria-hidden="true" />
@@ -143,4 +158,19 @@ function Info({ label, value }: { label: string; value?: string }) {
       <strong>{label}:</strong> {value}
     </p>
   );
+}
+
+function usefulInfo(value?: string) {
+  if (!value) return undefined;
+  const text = value.trim();
+  const genericPatterns = [
+    /^Veřejné prostranství je obvykle volně přístupné/i,
+    /^Zdarma u veřejných míst; placené atrakce/i,
+    /^Půlden až celý den podle tempa/i,
+    /^Ověř podle konkrétního místa/i,
+    /^Není uvedeno jako povinné; u placených atrakcí/i,
+    /^Bez auta ověř aktuální linky TITSA/i,
+    /^Když se zvedne vítr, přijde déšť nebo Kalima/i,
+  ];
+  return genericPatterns.some((pattern) => pattern.test(text)) ? undefined : text;
 }
