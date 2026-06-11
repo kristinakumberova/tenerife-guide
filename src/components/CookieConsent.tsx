@@ -5,13 +5,10 @@ import { denyConsent, getStoredConsent, grantConsent, initConsent } from "../lib
 export const COOKIE_SETTINGS_EVENT = "open-cookie-settings";
 
 export function CookieConsent() {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(() => getStoredConsent() === null);
 
   useEffect(() => {
     initConsent();
-    if (getStoredConsent() === null) {
-      setVisible(true);
-    }
     const open = () => setVisible(true);
     window.addEventListener(COOKIE_SETTINGS_EVENT, open);
     return () => window.removeEventListener(COOKIE_SETTINGS_EVENT, open);
