@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://jazumaliving.com/</loc></url>
-  <url><loc>https://jazumaliving.com/paradise</loc></url>
-  <url><loc>https://jazumaliving.com/paradise/apartman</loc></url>
-  <url><loc>https://jazumaliving.com/paradise/guide</loc></url>
-  <url><loc>https://jazumaliving.com/paradise/doprava</loc></url>
-  <url><loc>https://jazumaliving.com/paradise/stravovani</loc></url>
-  <url><loc>https://jazumaliving.com/paradise/kontakty</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/apartman/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/guide/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/doprava/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/stravovani/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/kontakty/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/zasady-soukromi/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/cookies/</loc></url>
+  <url><loc>https://jazumaliving.com/paradise/pravni-informace/</loc></url>
 </urlset>
