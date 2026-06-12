@@ -1,5 +1,5 @@
 // Google Analytics 4 s Google Consent Mode v2.
-// GA se načte AŽ po souhlasu uživatele (cookie lišta). Bez souhlasu se neměří.
+// Tag je v HTML kvůli detekci Googlem; měření se zapne až po souhlasu uživatele.
 // Měření zapneš doplněním Measurement ID (formát G-XXXXXXXXXX) níže:
 const GA_MEASUREMENT_ID = "G-W0SDXB9VTX";
 
@@ -24,11 +24,11 @@ export function getStoredConsent(): ConsentChoice | null {
 }
 
 function ensureGtagBase(): void {
-  if (typeof window === "undefined" || window.dataLayer) {
+  if (typeof window === "undefined") {
     return;
   }
-  window.dataLayer = [];
-  window.gtag = function gtag(...args: unknown[]) {
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function gtag(...args: unknown[]) {
     window.dataLayer.push(args);
   };
   // Consent Mode v2 — vše zamítnuto, dokud uživatel nesouhlasí.
@@ -46,11 +46,14 @@ function loadGa(): void {
     return;
   }
   gaLoaded = true;
-  const script = document.createElement("script");
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-  document.head.appendChild(script);
-  window.gtag("js", new Date());
+  const src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  if (!document.querySelector(`script[src="${src}"]`)) {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = src;
+    document.head.appendChild(script);
+    window.gtag("js", new Date());
+  }
   window.gtag("config", GA_MEASUREMENT_ID, { anonymize_ip: true });
 }
 
