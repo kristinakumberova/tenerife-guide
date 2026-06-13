@@ -26,7 +26,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      # npm install (ne npm ci): sharp ma optional wasm podstrom (@emnapi), ktery
+      # npm na Windows neumi zapsat do locku tak, aby ho prisne npm ci na Linuxu
+      # prijalo (cross-platform optional-dep limit). npm install si graf doresolvi.
+      - run: npm install --no-audit --no-fund
       # Chromium pro prerender (scripts/prerender.mjs) — AI crawleri nespousti JS,
       # proto se pri buildu uklada hotove HTML kazde routy. Headless launch pouziva
       # chromium-headless-shell ("install chromium" samotny ho nestahuje).
