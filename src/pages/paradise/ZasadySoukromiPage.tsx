@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 
 export function ZasadySoukromiPage() {
-  useDocumentTitle("Zásady ochrany osobních údajů");
+  useDocumentTitle("paradise/zasady-soukromi");
 
   return (
     <>
@@ -33,18 +33,23 @@ export function ZasadySoukromiPage() {
           </p>
           <h2>Třetí strany</h2>
           <p>
-            Mapové podklady poskytují OpenStreetMap / Leaflet; web používá Google Fonts (fonts.gstatic.com). Jejich
-            načtení může znamenat přenos vaší IP adresy danému poskytovateli.
+            Mapové podklady na stránce průvodce poskytuje OpenStreetMap; jejich načtení může znamenat přenos vaší IP
+            adresy tomuto poskytovateli. Písma (fonty) jsou uložená přímo na našem webu, takže se nenačítají z cizích
+            serverů.
           </p>
           <h2>Cookies</h2>
           <p>
             Web používá analytické cookies (Google Analytics) pouze s vaším souhlasem. Bez souhlasu měření neprobíhá.
-            Souhlas můžete kdykoli odvolat. Podrobnosti v <Link to="/paradise/cookies">zásadách cookies</Link>.
+            Skript Google Analytics se načte už při otevření webu (kvůli ověření ze strany Googlu), ale do udělení
+            souhlasu nic neměří a neukládá žádné cookies. Souhlas můžete kdykoli odvolat. Podrobnosti v{" "}
+            <Link to="/paradise/cookies">zásadách cookies</Link>.
           </p>
           <h2>Vaše práva</h2>
           <p>
             Máte právo na přístup, opravu, výmaz, omezení a námitku. Uplatníte je na kontaktu výše. Máte také právo
-            podat stížnost u dozorového úřadu.
+            podat stížnost u dozorového úřadu — vzhledem k sídlu správců ve Španělsku je jím Agencia Española de
+            Protección de Datos (AEPD, <a href="https://www.aepd.es">aepd.es</a>); jste-li z Česka, můžete se obrátit i
+            na Úřad pro ochranu osobních údajů (<a href="https://www.uoou.gov.cz">uoou.gov.cz</a>).
           </p>
         </article>
       </section>

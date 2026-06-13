@@ -2,7 +2,7 @@ import { COOKIE_SETTINGS_EVENT } from "../../components/CookieConsent";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 
 export function ZasadyCookiesPage() {
-  useDocumentTitle("Zásady používání cookies");
+  useDocumentTitle("paradise/cookies");
 
   return (
     <>
@@ -18,7 +18,8 @@ export function ZasadyCookiesPage() {
           <h2>Analytické cookies (Google Analytics)</h2>
           <p>
             Používáme Google Analytics 4 k anonymnímu měření návštěvnosti. Tyto cookies se načtou jen tehdy, když k tomu
-            dáte souhlas v cookie liště. Bez souhlasu se neměří.
+            dáte souhlas v cookie liště. Bez souhlasu se neměří. Samotný skript Google Analytics je na webu přítomen už
+            před souhlasem (kvůli ověření ze strany Googlu), ale měření i cookies se aktivují teprve po vašem souhlasu.
           </p>
           <ul>
             <li>

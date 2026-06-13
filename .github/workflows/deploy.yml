@@ -27,6 +27,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Chromium pro prerender (scripts/prerender.mjs) — AI crawleri nespousti JS,
+      # proto se pri buildu uklada hotove HTML kazde routy. Headless launch pouziva
+      # chromium-headless-shell ("install chromium" samotny ho nestahuje).
+      - run: npx playwright install chromium-headless-shell --with-deps
       - run: npm run lint
       - run: npm run build
         env:

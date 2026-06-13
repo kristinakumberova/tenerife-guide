@@ -24,7 +24,7 @@ const restaurantAnchors = [
 ];
 
 export function StravovaniPage() {
-  useDocumentTitle("Stravovani");
+  useDocumentTitle("paradise/stravovani");
 
   return (
     <>

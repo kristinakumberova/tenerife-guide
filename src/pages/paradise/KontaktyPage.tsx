@@ -31,7 +31,7 @@ const data = kontaktyJson as ContactsData;
 const visiblePlaybooks = data.playbooks.filter((item) => item.situation !== "Ztracené klíče od apartmánu");
 
 export function KontaktyPage() {
-  useDocumentTitle("Kontakty");
+  useDocumentTitle("paradise/kontakty");
 
   return (
     <>

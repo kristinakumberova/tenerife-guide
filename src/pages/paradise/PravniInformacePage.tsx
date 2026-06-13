@@ -1,7 +1,7 @@
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
 
 export function PravniInformacePage() {
-  useDocumentTitle("Právní informace");
+  useDocumentTitle("paradise/pravni-informace");
 
   return (
     <>

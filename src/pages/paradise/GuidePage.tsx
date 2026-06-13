@@ -19,7 +19,7 @@ const bundles = bundlesJson as unknown as Bundle[];
 const permits = permitsJson as unknown as Permit[];
 
 export function GuidePage() {
-  useDocumentTitle("Tenerife Guide");
+  useDocumentTitle("paradise/guide");
   const [filters, setFilters] = useState<PoiFilterState>(emptyFilters);
   const filteredPois = useMemo(() => filterPois(pois, filters), [filters]);
 

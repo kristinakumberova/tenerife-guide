@@ -1,0 +1,44 @@
+{
+  "root": {
+    "title": "Jazuma Paradise — apartmán a průvodce, Tenerife",
+    "description": "Apartmán Jazuma Paradise v Costa Adeje na Tenerife a praktický průvodce pro hosty: mapa míst, doprava, jídlo a rychlé kontakty.",
+    "canonical": "https://jazumaliving.com/paradise/apartman/"
+  },
+  "paradise": {
+    "title": "Apartmán Jazuma Paradise — Costa Adeje, Tenerife",
+    "description": "Apartmán v San Eugenio, Costa Adeje na jihu Tenerife. Fotky, vybavení, dostupnost a praktické info k pobytu.",
+    "canonical": "https://jazumaliving.com/paradise/apartman/"
+  },
+  "paradise/apartman": {
+    "title": "Apartmán Jazuma Paradise — Costa Adeje, Tenerife",
+    "description": "Apartmán v San Eugenio, Costa Adeje na jihu Tenerife. Fotky, vybavení, dostupnost a praktické info k pobytu. Poptávka přes WhatsApp nebo e-mail."
+  },
+  "paradise/guide": {
+    "title": "Tenerife Guide — mapa, výlety a tipy | Jazuma Paradise",
+    "description": "Průvodce po Tenerife: pláže, výlety, vyhlídky, permity a rezervace. Mapa s filtry a denní nápady od hostitelů apartmánu v Costa Adeje."
+  },
+  "paradise/doprava": {
+    "title": "Doprava na Tenerife — auto, taxi, TITSA | Jazuma Paradise",
+    "description": "Jak se pohybovat po Tenerife: půjčovna aut, taxi, autobusy TITSA a letiště TFS vs. TFN. Praktické rady pro pobyt v Costa Adeje."
+  },
+  "paradise/stravovani": {
+    "title": "Stravování na Tenerife — kam na jídlo | Jazuma Paradise",
+    "description": "Ověřené restaurace v okolí Costa Adeje i za výletem a co ochutnat z kanárské kuchyně. Výběr hostitelů apartmánu Jazuma Paradise."
+  },
+  "paradise/kontakty": {
+    "title": "Kontakty a SOS na Tenerife | Jazuma Paradise",
+    "description": "Důležité kontakty pro pobyt na Tenerife: tísňová linka 112, zdravotnictví a co dělat v nouzových situacích."
+  },
+  "paradise/zasady-soukromi": {
+    "title": "Zásady ochrany osobních údajů | Jazuma Living",
+    "description": "Jak web jazumaliving.com nakládá s osobními údaji: správci, rozsah údajů, cookies a vaše práva."
+  },
+  "paradise/cookies": {
+    "title": "Zásady používání cookies | Jazuma Living",
+    "description": "Jaké cookies web jazumaliving.com používá, k čemu slouží a jak můžete souhlas kdykoli změnit."
+  },
+  "paradise/pravni-informace": {
+    "title": "Právní informace | Jazuma Living",
+    "description": "Provozovatelé webu a registrace krátkodobého pronájmu Jazuma Paradise (VV-38-4-0089376), Registro General Turístico de Canarias."
+  }
+}

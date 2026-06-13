@@ -86,7 +86,7 @@ function SectionContent({ section }: { section: ApartmentSection }) {
 }
 
 export function ApartmanPage() {
-  useDocumentTitle("Jazuma Paradise");
+  useDocumentTitle("paradise/apartman");
 
   return (
     <>

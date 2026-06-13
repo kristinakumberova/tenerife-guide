@@ -34,7 +34,7 @@ function SectionTable({ table }: { table: NonNullable<TransportSection["table"]>
 }
 
 export function DopravaPage() {
-  useDocumentTitle("Doprava");
+  useDocumentTitle("paradise/doprava");
 
   return (
     <>
