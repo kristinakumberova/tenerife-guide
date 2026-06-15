@@ -37,7 +37,9 @@
     },
     "links": {
       "official": "https://www.tenerife-is.com/alcala-tenerife/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.2381,-16.8261",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Playa%20La%20Jaquita%20Alcala%20Tenerife",
+      "guide": "https://honest-tenerife.com/beaches/playa-de-alcala/",
+      "actions": [],
       "other": [
         "https://honest-tenerife.com/beaches/playa-de-alcala/",
         "https://honest-tenerife.com/coast-path/alcala/",
@@ -64,6 +66,18 @@
         "label": "Oficialni web",
         "url": "https://www.tenerife-is.com/alcala-tenerife/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/beaches/playa-de-alcala/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Playa%20La%20Jaquita%20Alcala%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -117,7 +131,9 @@
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/protected-natural-areas/en-parques-rurales/parque-rural-de-anaga",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.535,-16.284",
+      "maps": "https://www.google.com/maps/place/Parque+Rural+de+Anaga/@28.5310664,-16.2808981,403m/data=!3m1!1e3!4m6!3m5!1s0xc41ceb2cf807a31:0x6ccbc0b96cf0dc22!8m2!3d28.5308651!4d-16.279915!16s%2Fg%2F11_yxvp4q?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+      "guide": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+      "actions": [],
       "other": [
         "https://www.webtenerife.co.uk",
         "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
@@ -147,6 +163,18 @@
         "checkedDate": "2026-05-28"
       },
       {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/place/Parque+Rural+de+Anaga/@28.5310664,-16.2808981,403m/data=!3m1!1e3!4m6!3m5!1s0xc41ceb2cf807a31:0x6ccbc0b96cf0dc22!8m2!3d28.5308651!4d-16.279915!16s%2Fg%2F11_yxvp4q?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
         "label": "Zdroj 1",
         "url": "https://www.webtenerife.co.uk",
         "tier": "secondary",
@@ -163,6 +191,110 @@
         "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-10-cruz-del-carmen-punta-del-hidalgo",
         "tier": "secondary",
         "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "aqualand-costa-adeje",
+    "propertyId": "paradise",
+    "name": "Aqualand Costa Adeje",
+    "nameLocal": "Aqualand Costa Adeje",
+    "gps": [
+      28.0807,
+      -16.7268
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "koupani"
+      ],
+      "logistics": [
+        "bez-auta",
+        "cely-den",
+        "s-koccarkem",
+        "placene-vstupne"
+      ],
+      "weather": [
+        "vse-pocasi",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Aqualand Costa Adeje je vodní park jen pár kroků od apartmánu. Oproti Siam Parku působí jednodušeji a často dává větší smysl pro menší děti: má dětské bazény, Splash Tower, Pelican Bay, Pirates Island, vlnový bazén i klidnější atrakce.",
+    "description": "Aqualand Costa Adeje je vodní park jen pár kroků od apartmánu. Oproti Siam Parku působí jednodušeji a často dává větší smysl pro menší děti: má dětské bazény, Splash Tower, Pelican Bay, Pirates Island, vlnový bazén i klidnější atrakce.",
+    "practical": {
+      "openingHours": "obvykle 10:00-17:00, v červenci a srpnu 10:00-18:00; vodní atrakce zavírají zhruba 30 minut před koncem parku.",
+      "price": "online 1denní vstupenka začíná zhruba od 35 € dospělý / 27 € dítě 5-10; na pokladně bývá dražší.",
+      "visitDuration": "počítej půlden až celý den podle věku dětí a tepla.",
+      "parking": "park má vlastní parkování, ale z apartmánu je nejpohodlnější dojít pěšky.",
+      "reservation": "vstupenky se dají koupit online i na místě; online nákup šetří frontu."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Z apartmánu se dá dojít pěšky. To je hlavní výhoda oproti Siam Parku: žádné auto, žádný taxík a snadný návrat, když jsou děti unavené."
+    },
+    "links": {
+      "official": "https://www.aqualand.es/costa-adeje/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aqualand%20Costa%20Adeje%20Avenida%20de%20Austria%2015",
+      "guide": "https://www.aqualand.es/costa-adeje/en/attraction/",
+      "actions": [],
+      "other": [
+        "https://www.aqualand.es/costa-adeje/en/tickets/",
+        "https://www.aqualand.es/costa-adeje/en/opening-hours/",
+        "https://www.aqualand.es/costa-adeje/en/how-to-get-there/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/aqualand-costa-adeje.webp",
+        "alt": "Aqualand Costa Adeje – Tenerife",
+        "license": "AI-generated illustrative image",
+        "credit": "OpenAI image generation",
+        "sourceUrl": "/images/poi/aqualand-costa-adeje.webp",
+        "localPath": "/images/poi/aqualand-costa-adeje.webp"
+      }
+    ],
+    "rainyAlt": "Za silného větru mohou být některé atrakce nepříjemné nebo omezené. V chladnějších měsících počítej s tím, že voda může působit studeně; pro malé děti je lepší teplý slunečný den.",
+    "insiderTip": "Pro menší děti může být Aqualand příjemnější než Siam Park, protože je blíž, jednodušší a méně logisticky náročný. V areálu se zeptej na zvýhodněný return ticket, pokud byste se chtěli vrátit další den; nabídky se mohou měnit podle sezóny.",
+    "verifiedDate": "2026-06-15",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.aqualand.es/costa-adeje/en/",
+        "tier": "official",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.aqualand.es/costa-adeje/en/attraction/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aqualand%20Costa%20Adeje%20Avenida%20de%20Austria%2015",
+        "tier": "maps",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.aqualand.es/costa-adeje/en/tickets/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.aqualand.es/costa-adeje/en/opening-hours/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.aqualand.es/costa-adeje/en/how-to-get-there/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
       }
     ]
   },
@@ -202,7 +334,9 @@
     },
     "links": {
       "official": "https://www.candelaria.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3528,-16.3712",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Basilica%20Candelaria%20Tenerife",
+      "guide": "https://gotenerife.net/en/explore/basilica-candelaria/",
+      "actions": [],
       "other": [
         "https://gotenerife.net/en/explore/basilica-candelaria/",
         "https://en.m.wikipedia.org/wiki/Basilica_of_Candelaria",
@@ -229,6 +363,18 @@
         "label": "Oficialni web",
         "url": "https://www.candelaria.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://gotenerife.net/en/explore/basilica-candelaria/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Basilica%20Candelaria%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -283,7 +429,14 @@
     },
     "links": {
       "official": "https://icoddelosvinos.es/patrimonio/drago-milenario",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3717,-16.7187",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20del%20Drago%20Icod%20de%20los%20Vinos%20Tenerife",
+      "guide": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+      "actions": [
+        {
+          "label": "Motýli",
+          "url": "https://www.mariposario.com/en/"
+        }
+      ],
       "other": [
         "https://icoddelosvinos.es/patrimonio/drago-milenario/",
         "http://www.mariposario.com/en/",
@@ -310,6 +463,24 @@
         "label": "Oficialni web",
         "url": "https://icoddelosvinos.es/patrimonio/drago-milenario",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Motýli",
+        "url": "https://www.mariposario.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20del%20Drago%20Icod%20de%20los%20Vinos%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -371,7 +542,14 @@
     },
     "links": {
       "official": "https://elmedanoweb.com/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0466,-16.5358",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Medano%20Tenerife",
+      "guide": "https://elmedanoweb.com/",
+      "actions": [
+        {
+          "label": "Surf lekce česky",
+          "url": "https://www.surftenerife.cz/"
+        }
+      ],
       "other": [
         "https://wikipedia.com/wiki/El_M%C3%A9dano",
         "https://www.titsa.com",
@@ -388,8 +566,8 @@
         "localPath": "/images/poi/el-medano.webp"
       }
     ],
-    "rainyAlt": "El Médano často fouká; pro surfaře je to výhoda, pro klidné koupání ne. Když chceš vodu bez větru, zvol raději Playa del Duque nebo Las Vistas.",
-    "insiderTip": "Když je v centru moc živo, popojeď nebo dojdi k Playa La Pelada. Bývá klidnější, ale přístup je po prašné cestě a bez zázemí.",
+    "rainyAlt": "El Médano často fouká; pro surfaře je to výhoda, pro klidné koupání ne. Pokud chceš zkusit surf, rezervuj si lekci dopředu a podmínky nech posoudit školou. Když chceš vodu bez větru, zvol raději Playa del Duque nebo Las Vistas.",
+    "insiderTip": "Když si chceš surf jen vyzkoušet, dá se objednat lekce v české surf škole Wave Academy Surf School. Když je v centru moc živo, popojeď nebo dojdi k Playa La Pelada. Bývá klidnější, ale přístup je po prašné cestě a bez zázemí.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -398,6 +576,24 @@
         "label": "Oficialni web",
         "url": "https://elmedanoweb.com/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://elmedanoweb.com/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Surf lekce česky",
+        "url": "https://www.surftenerife.cz/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Medano%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -415,85 +611,6 @@
       {
         "label": "Zdroj 3",
         "url": "https://guanches.org/El_M%C3%A9dano",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      }
-    ]
-  },
-  {
-    "id": "el-palmar-teno-alto",
-    "propertyId": "paradise",
-    "name": "El Palmar + Teno Alto (Teno Rural Park)",
-    "nameLocal": "El Palmar (Buenavista del Norte) + Teno Alto + Los Pedregales Visitor Centre",
-    "gps": [
-      28.345,
-      -16.846
-    ],
-    "region": "zapad",
-    "tags": {
-      "activity": [
-        "priroda",
-        "mesta",
-        "gastro",
-        "turistika",
-        "vyhlidky"
-      ],
-      "logistics": [],
-      "weather": []
-    },
-    "summary": "El Palmar a Teno Alto ukazují venkovský severozápad Tenerife bez hotelového ruchu. Zelené údolí, horské silničky, kozí sýry a výhledy z Teno Rural Parku jsou ideální pro pomalejší den autem.",
-    "description": "El Palmar a Teno Alto ukazují venkovský severozápad Tenerife bez hotelového ruchu. Zelené údolí, horské silničky, kozí sýry a výhledy z Teno Rural Parku jsou ideální pro pomalejší den autem.",
-    "practical": {},
-    "withoutCar": {
-      "titsaLines": [],
-      "note": "Bez auta je Teno Alto nepraktické. Pokud nechceš řídit, vyber raději Masca bus variantu nebo organizovaný výlet po Tenu."
-    },
-    "links": {
-      "official": "https://www.webtenerife.co.uk/what-see/outdoor-attractions/teno-country-park/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.345,-16.846",
-      "other": [
-        "https://es.wikipedia.org/wiki/El_Palmar_(Buenavista_del_Norte",
-        "https://best-of-tenerife.com/el-palmar-nature-tradition-and-volcanoes-in-the-heart-of-the-teno-massif/",
-        "https://www.hellocanaryislands.com/nature-spaces/tenerife/teno-rural-park/"
-      ]
-    },
-    "photos": [
-      {
-        "url": "/images/poi/el-palmar-teno-alto.webp",
-        "alt": "El Palmar + Teno Alto (Teno Rural Park) – Tenerife",
-        "license": "CC BY-SA 4.0",
-        "credit": "Wikimedia Commons: Christoph Strassler",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/View_on_the_hike_from_Santiago_del_Teide_to_Masca_towards_El_Palmar%2C_Tenerife%2C_Spain.jpg",
-        "localPath": "/images/poi/el-palmar-teno-alto.webp"
-      }
-    ],
-    "rainyAlt": "Za mlhy a deště zkrať horské přejezdy a drž se El Palmaru nebo Buenavisty. Pokud jsou silnice mokré a viditelnost špatná, nech Teno Alto na jiný den.",
-    "insiderTip": "Nejhezčí je nedělní kombinace: dopoledne trh v El Palmaru, pak pomalý přejezd do Teno Alto a jednoduchý oběd s místním sýrem nebo kozím masem.",
-    "verifiedDate": "2026-05-28",
-    "confidence": "H",
-    "flags": [],
-    "sourceRefs": [
-      {
-        "label": "Oficialni web",
-        "url": "https://www.webtenerife.co.uk/what-see/outdoor-attractions/teno-country-park/",
-        "tier": "official",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 1",
-        "url": "https://es.wikipedia.org/wiki/El_Palmar_(Buenavista_del_Norte",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 2",
-        "url": "https://best-of-tenerife.com/el-palmar-nature-tradition-and-volcanoes-in-the-heart-of-the-teno-massif/",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 3",
-        "url": "https://www.hellocanaryislands.com/nature-spaces/tenerife/teno-rural-park/",
         "tier": "secondary",
         "checkedDate": "2026-05-28"
       }
@@ -531,7 +648,9 @@
     },
     "links": {
       "official": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3045,-16.5666",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20de%20Visitantes%20El%20Portillo%20Tenerife",
+      "guide": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+      "actions": [],
       "other": [
         "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
         "https://www.gobiernodecanarias.org/parquesnacionales/teide/visita/centros_y_horarios/",
@@ -558,6 +677,18 @@
         "label": "Oficialni web",
         "url": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20de%20Visitantes%20El%20Portillo%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -613,8 +744,10 @@
       "note": "Z Puerto de la Cruz a Buenavisty jezdí linka 363. Z jihu je to bez auta delší výlet s přestupy."
     },
     "links": {
-      "official": "https://icoddelosvinos.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3741,-16.7634",
+      "official": "https://turismo.garachico.es/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20El%20Caleton%20Garachico%20Tenerife",
+      "guide": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+      "actions": [],
       "other": [
         "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
         "https://airial.travel/attractions/spain/garachico/el-calet%C3%B3n-natural-pools-qxCfuea5",
@@ -639,8 +772,20 @@
     "sourceRefs": [
       {
         "label": "Oficialni web",
-        "url": "https://icoddelosvinos.es",
+        "url": "https://turismo.garachico.es/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20El%20Caleton%20Garachico%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -696,7 +841,9 @@
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/la-caleta",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.1024,-16.7711",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Caleta%20Adeje%20Tenerife",
+      "guide": "https://costa-adeje.es/en/beaches/la-caleta",
+      "actions": [],
       "other": [
         "https://restaurantelavieja.com/en/",
         "https://caletasuitestenerife.com/gastronomy/seafood-restaurants-in-la-caleta/",
@@ -723,6 +870,18 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/la-caleta",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://costa-adeje.es/en/beaches/la-caleta",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Caleta%20Adeje%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -769,16 +928,19 @@
       ],
       "weather": []
     },
-    "summary": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Je to nejlepší celodenní výlet mimo ostrov pro hosty, kteří chtějí vidět víc než pláže.",
-    "description": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Je to nejlepší celodenní výlet mimo ostrov pro hosty, kteří chtějí vidět víc než pláže.",
+    "summary": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Jako jednodenní výlet je to spíš náročná ochutnávka než pohodový den; dává smysl hlavně s organizovaným okruhem nebo pro hosty, kteří opravdu chtějí vidět další ostrov.",
+    "description": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Jako jednodenní výlet je to spíš náročná ochutnávka než pohodový den; dává smysl hlavně s organizovaným okruhem nebo pro hosty, kteří opravdu chtějí vidět další ostrov.",
     "practical": {},
     "withoutCar": {
       "titsaLines": [],
       "note": "Bez auta dává největší smysl organizovaný tour s trajektem, autobusem a průvodcem. DIY varianta bez auta na Gomeře je na jeden den dost omezená."
     },
     "links": {
-      "official": "https://www.fredolsen.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0479,-16.7204",
+      "official": "https://lagomera.travel/en/",
+      "maps": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
+      "mapsLabel": "Ferry",
+      "guide": "https://lagomera.travel/en/",
+      "actions": [],
       "other": [
         "https://www.expedia.com/La-Gomera.dx6025053",
         "https://www.tuimusement.com/uk/spain/tenerife/la-gomera-tour-with-garajonay-forest-and-san-sebastian-10/e_o9qd7-d_302-c_161/",
@@ -803,7 +965,19 @@
     "sourceRefs": [
       {
         "label": "Oficialni web",
-        "url": "https://www.fredolsen.es",
+        "url": "https://lagomera.travel/en/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://lagomera.travel/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Ferry",
+        "url": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
         "tier": "official",
         "checkedDate": "2026-05-28"
       },
@@ -863,7 +1037,9 @@
     },
     "links": {
       "official": "https://www.aytolalaguna.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.4855,-16.3214",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Adelantado%20La%20Laguna%20Tenerife",
+      "guide": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
+      "actions": [],
       "other": [
         "https://tourismattractions.net/spain/la-laguna",
         "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
@@ -890,6 +1066,18 @@
         "label": "Oficialni web",
         "url": "https://www.aytolalaguna.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Adelantado%20La%20Laguna%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -946,7 +1134,9 @@
     },
     "links": {
       "official": "http://www.laorotava.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3905,-16.5236",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Orotava%20centro%20Tenerife",
+      "guide": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+      "actions": [],
       "other": [
         "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
         "https://www.webtenerife.co.uk/what-see/other-attractions/casa-balcones/",
@@ -973,6 +1163,18 @@
         "label": "Oficialni web",
         "url": "http://www.laorotava.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Orotava%20centro%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1028,7 +1230,9 @@
     },
     "links": {
       "official": "https://spainguides.com/top-destinations/las-galletas/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0162,-16.6516",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Finca%20Las%20Margaritas%20Banana%20Experience%20parking%20Tenerife",
+      "guide": "https://laesenciadecanarias.com/tenerife/las-galletas/",
+      "actions": [],
       "other": [
         "https://lasmargaritasbananaexperience.com/en/",
         "https://laesenciadecanarias.com/tenerife/las-galletas/",
@@ -1058,6 +1262,18 @@
         "checkedDate": "2026-05-28"
       },
       {
+        "label": "Pruvodce",
+        "url": "https://laesenciadecanarias.com/tenerife/las-galletas/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Finca%20Las%20Margaritas%20Banana%20Experience%20parking%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
         "label": "Zdroj 1",
         "url": "https://lasmargaritasbananaexperience.com/en/",
         "tier": "secondary",
@@ -1072,86 +1288,6 @@
       {
         "label": "Zdroj 3",
         "url": "https://www.pelago.com/en-US/tenerife/playa-de-las-galletas-c3247",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      }
-    ]
-  },
-  {
-    "id": "las-lajas",
-    "propertyId": "paradise",
-    "name": "Zona Recreativa Las Lajas",
-    "nameLocal": "Zona Recreativa Las Lajas + Campsite Las Lajas (Vilaflor / Adeje)",
-    "gps": [
-      28.1906,
-      -16.6651
-    ],
-    "region": "centrum-hory",
-    "tags": {
-      "activity": [
-        "priroda",
-        "gastro"
-      ],
-      "logistics": [
-        "s-koccarkem"
-      ],
-      "weather": [
-        "vse-pocasi"
-      ]
-    },
-    "summary": "Las Lajas je piknikové a grilovací místo v borovicovém lese pod Teide, kde se dá utéct z horka na jihu. Je to jednoduchý lokální zážitek: stín, chladnější vzduch, výhledy a pomalý oběd venku.",
-    "description": "Las Lajas je piknikové a grilovací místo v borovicovém lese pod Teide, kde se dá utéct z horka na jihu. Je to jednoduchý lokální zážitek: stín, chladnější vzduch, výhledy a pomalý oběd venku.",
-    "practical": {},
-    "withoutCar": {
-      "titsaLines": [],
-      "note": "Bez auta je Las Lajas nepraktické. Na piknik, uhlí a vodu je auto výrazně pohodlnější."
-    },
-    "links": {
-      "official": "https://www.tenerifeon.es/en/facilities/recreational-area/las-lajas",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.1906,-16.6651",
-      "other": [
-        "https://www.tenerifeon.es/en/facilities/camping-area/las-lajas-campsite",
-        "https://www.tenerife-information-centre.com/las-lajas-campsite.html",
-        "https://centralreservas.tenerife.es/actividad/11"
-      ]
-    },
-    "photos": [
-      {
-        "url": "/images/poi/las-lajas.webp",
-        "alt": "Zona Recreativa Las Lajas – Tenerife",
-        "license": "CC BY-SA 4.0",
-        "credit": "Wikimedia Commons: Claudia1711",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Camino_a_La_Zona_Recreativa_Las_Lajas.jpg",
-        "localPath": "/images/poi/las-lajas.webp"
-      }
-    ],
-    "rainyAlt": "Při dešti nebo silném větru grilování nemá smysl a může být omezené. Jako náhradu zvol Vilaflor, El Portillo nebo krátkou zastávku u Pino Gordo.",
-    "insiderTip": "Nakup jídlo, uhlí a vodu už ve Vilafloru nebo Granadille. Vyjeď dopoledne, odpoledne se v horách často zatáhne a ochladí.",
-    "verifiedDate": "2026-05-28",
-    "confidence": "H",
-    "flags": [],
-    "sourceRefs": [
-      {
-        "label": "Oficialni web",
-        "url": "https://www.tenerifeon.es/en/facilities/recreational-area/las-lajas",
-        "tier": "official",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 1",
-        "url": "https://www.tenerifeon.es/en/facilities/camping-area/las-lajas-campsite",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 2",
-        "url": "https://www.tenerife-information-centre.com/las-lajas-campsite.html",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 3",
-        "url": "https://centralreservas.tenerife.es/actividad/11",
         "tier": "secondary",
         "checkedDate": "2026-05-28"
       }
@@ -1193,7 +1329,9 @@
     },
     "links": {
       "official": "https://www.loroparque.com",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.4108,-16.5658",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Loro%20Parque%20Tenerife",
+      "guide": "https://www.loroparque.com/en/plan-visit-loro-parque/",
+      "actions": [],
       "other": [
         "https://www.loroparque.com/en/plan-visit-loro-parque/",
         "https://www.loroparque.com/en/faq/",
@@ -1220,6 +1358,18 @@
         "label": "Oficialni web",
         "url": "https://www.loroparque.com",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.loroparque.com/en/plan-visit-loro-parque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Loro%20Parque%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1277,7 +1427,9 @@
     },
     "links": {
       "official": "https://www.granadilladeabona.org",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0247,-16.5774",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Los%20Abrigos%20Tenerife",
+      "guide": "https://tenerifesouthguide.com/los-abrigos/",
+      "actions": [],
       "other": [
         "https://biveros.com/los-abrigos-tenerife-spain/",
         "https://www.tenerifepages.com/los-abrigos-fish-market",
@@ -1304,6 +1456,18 @@
         "label": "Oficialni web",
         "url": "https://www.granadilladeabona.org",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://tenerifesouthguide.com/los-abrigos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Los%20Abrigos%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1359,7 +1523,9 @@
     },
     "links": {
       "official": "https://arona.travel",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0497,-16.722",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Los%20Cristianos%20Tenerife",
+      "guide": "https://gotenerife.net/en/explore/los-cristianos/",
+      "actions": [],
       "other": [
         "https://en.wikipedia.org/wiki/Los_Cristianos",
         "https://gotenerife.net/en/explore/los-cristianos/",
@@ -1386,6 +1552,18 @@
         "label": "Oficialni web",
         "url": "https://arona.travel",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://gotenerife.net/en/explore/los-cristianos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Los%20Cristianos%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1445,7 +1623,9 @@
     },
     "links": {
       "official": "https://flipperuno.com",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.244,-16.839",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Deportivo%20Los%20Gigantes%20Tenerife",
+      "guide": "https://flipperuno.com/en/",
+      "actions": [],
       "other": [
         "https://flipperuno.com/en/",
         "https://emocionatetours.com/en/excursions-tenerife/tenerife-boat-trips/flipper-one/",
@@ -1475,6 +1655,18 @@
         "checkedDate": "2026-05-28"
       },
       {
+        "label": "Pruvodce",
+        "url": "https://flipperuno.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Deportivo%20Los%20Gigantes%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
         "label": "Zdroj 1",
         "url": "https://flipperuno.com/en/",
         "tier": "secondary",
@@ -1489,91 +1681,6 @@
       {
         "label": "Zdroj 3",
         "url": "https://flipperuno.com/pf/flipper-uno/",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      }
-    ]
-  },
-  {
-    "id": "masca-trail",
-    "propertyId": "paradise",
-    "name": "Masca Gorge Trail (Barranco de Masca)",
-    "nameLocal": "Camino del Barranco de Masca",
-    "gps": [
-      28.3101,
-      -16.8307
-    ],
-    "region": "zapad",
-    "tags": {
-      "activity": [
-        "turistika",
-        "priroda"
-      ],
-      "logistics": [
-        "permit-nutny",
-        "rezervace-doporucena",
-        "placene-vstupne",
-        "cely-den"
-      ],
-      "weather": [
-        "slunecno-must"
-      ]
-    },
-    "summary": "Barranco de Masca je jeden z nejslavnějších treků Tenerife: sestup kaňonem z vesnice až k oceánu. Je nádherný, ale logisticky náročný a vhodný spíš pro zkušenější turisty než pro spontánní výlet.",
-    "description": "Barranco de Masca je jeden z nejslavnějších treků Tenerife: sestup kaňonem z vesnice až k oceánu. Je nádherný, ale logisticky náročný a vhodný spíš pro zkušenější turisty než pro spontánní výlet.",
-    "practical": {},
-    "withoutCar": {
-      "titsaLines": [],
-      "note": "Bez auta to může být nakonec jednodušší než s autem, protože trasa nekončí tam, kde začíná. Sleduj oficiální instrukce k dopravě, autobusu a lodi."
-    },
-    "links": {
-      "official": "https://www.caminobarrancodemasca.com",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3101,-16.8307",
-      "other": [
-        "https://www.caminobarrancodemasca.com/en/activities/booking/book-your-visit-to-the-masca-trail/",
-        "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
-        "https://huntingforbliss.com/masca-gorge-famous-canyon-walk"
-      ]
-    },
-    "photos": [
-      {
-        "url": "/images/poi/masca-trail.webp",
-        "alt": "Masca Gorge Trail (Barranco de Masca) – Tenerife",
-        "license": "CC BY-SA 4.0",
-        "credit": "Wikimedia Commons: Aliasnamesake",
-        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Masca_Gorge_view_towards_north-west%2C_sunset_%28Dec_2014%29.jpg",
-        "localPath": "/images/poi/masca-trail.webp"
-      }
-    ],
-    "rainyAlt": "Při dešti, větru nebo riziku špatných podmínek trek nezkoušej. Kaňon je bezpečný jen za vhodného počasí; náhradou je vesnice Masca, Santiago del Teide nebo Los Gigantes.",
-    "insiderTip": "Rezervuj s velkým předstihem a neplánuj na stejný den nic dalšího. Pokud chceš krásu Mascy bez složité logistiky, zvol jen vesnici Masca a vyhlídky.",
-    "verifiedDate": "2026-05-28",
-    "confidence": "L",
-    "flags": [
-      "overit-pred-cestou"
-    ],
-    "sourceRefs": [
-      {
-        "label": "Oficialni web",
-        "url": "https://www.caminobarrancodemasca.com",
-        "tier": "official",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 1",
-        "url": "https://www.caminobarrancodemasca.com/en/activities/booking/book-your-visit-to-the-masca-trail/",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 2",
-        "url": "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
-        "tier": "secondary",
-        "checkedDate": "2026-05-28"
-      },
-      {
-        "label": "Zdroj 3",
-        "url": "https://huntingforbliss.com/masca-gorge-famous-canyon-walk",
         "tier": "secondary",
         "checkedDate": "2026-05-28"
       }
@@ -1612,7 +1719,9 @@
     },
     "links": {
       "official": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.31,-16.83",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Masca%20Tenerife",
+      "guide": "https://www.saltinourhair.com/spain/masca-tenerife/",
+      "actions": [],
       "other": [
         "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
         "https://www.saltinourhair.com/spain/masca-tenerife/",
@@ -1639,6 +1748,18 @@
         "label": "Oficialni web",
         "url": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.saltinourhair.com/spain/masca-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Masca%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1696,7 +1817,9 @@
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.159,-16.6365",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Paisaje%20Lunar%20Vilaflor%20Tenerife",
+      "guide": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
+      "actions": [],
       "other": [
         "https://www.webtenerife.co.uk/what-to-do/nature/hiking/trails/camino-de-chasna-paisaje-lunar/",
         "https://travelmademedoit.com/paisaje-lunar-tenerife/",
@@ -1723,6 +1846,18 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Paisaje%20Lunar%20Vilaflor%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1779,7 +1914,14 @@
     },
     "links": {
       "official": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0235,-16.6783",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Paseo%20Tucan%20Palm-Mar%20Tenerife",
+      "guide": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+      "actions": [
+        {
+          "label": "Bahia Beach",
+          "url": "https://www.bahiabeach.club/"
+        }
+      ],
       "other": [
         "https://www.easykayaktenerife.com/blog/2393324_maplais-de-la-rasca-palm-mar",
         "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
@@ -1797,7 +1939,7 @@
       }
     ],
     "rainyAlt": "Za silného větru nebo horka zkrať trasu na pobřežní část a drž se u Palm-Maru. Po dešti mohou být kameny kluzké, takže raději zvol promenádu v Costa Adeje.",
-    "insiderTip": "Po procházce si nech čas na drink u Playa La Arenita při západu slunce. Pokud jdeš na Guazu, vyraz brzy a neber to jako polední výšlap.",
+    "insiderTip": "Po procházce si nech čas na drink nebo jídlo v Bahia Beach u Playa La Arenita - boho/Bali atmosféra, u moře a v neděli často i s živou hudbou. Aktuální program si předem ověř. Pokud jdeš na Guazu, vyraz brzy a neber to jako polední výšlap.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -1806,6 +1948,24 @@
         "label": "Oficialni web",
         "url": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Bahia Beach",
+        "url": "https://www.bahiabeach.club/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Paseo%20Tucan%20Palm-Mar%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1865,7 +2025,9 @@
     },
     "links": {
       "official": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0526,-16.7248",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Vistas%20Los%20Cristianos%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+      "actions": [],
       "other": [
         "https://www.advartis.com/best-beaches-in-tenerife/los-cristianos/",
         "https://los-cristianos.costasur.com/sites/playa-las-vistas/es/index.html"
@@ -1891,6 +2053,18 @@
         "label": "Oficialni web",
         "url": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Vistas%20Los%20Cristianos%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -1940,7 +2114,9 @@
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/troya-beaches",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0744,-16.728",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Troya%20Tenerife",
+      "guide": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
+      "actions": [],
       "other": [
         "http://tenerife-resorts.co.uk/costa_adeje.htm",
         "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/"
@@ -1966,6 +2142,18 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/troya-beaches",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Troya%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2007,7 +2195,7 @@
     "summary": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
     "description": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
     "practical": {
-      "parking": "Parkování je možné v Plaza del Duque nebo okolních parkovištích, část je placená."
+      "parking": "buď Plaza del Duque nebo okolní parkoviště, část je placená. Hezčí varianta je zaparkovat u La Calety / Hovima Jardín Caleta a dojít na Duque pobřežní procházkou přes Playa de la Enramada."
     },
     "withoutCar": {
       "titsaLines": [
@@ -2018,11 +2206,19 @@
     },
     "links": {
       "official": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0911,-16.7434",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20Comercial%20Plaza%20del%20Duque%20Tenerife",
+      "guide": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+      "actions": [
+        {
+          "label": "Start z La Calety",
+          "url": "https://www.google.com/maps/place/Hovima+Jardin+Caleta/@28.097627,-16.7495675,481m/data=!3m1!1e3!4m6!3m5!1s0xc6a91c51f10c62f:0x5975272d4508d46b!8m2!3d28.09903!4d-16.7512593!16s%2Fg%2F11gjs78c80?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D"
+        }
+      ],
       "other": [
         "https://www.barcelo.com/guia-turismo/en/spain/tenerife/things-to-do/playa-del-duque/",
         "https://www.just-tenerife.com/resorts/playa-del-duque.htm",
-        "https://enjoycanaryislands.com/playa-del-duque-tenerife/"
+        "https://enjoycanaryislands.com/playa-del-duque-tenerife/",
+        "https://costa-adeje.es/en/beaches/la-caleta"
       ]
     },
     "photos": [
@@ -2036,7 +2232,7 @@
       }
     ],
     "rainyAlt": "Když fouká na otevřenějších plážích, Del Duque často zůstává použitelnější. Při dešti se dá program přesunout do Plaza del Duque nebo na krytou restauraci.",
-    "insiderTip": "Na západ slunce se projdi k severnímu konci pláže a dál směrem k La Caletě. Pokud jedeš autem, Plaza del Duque je pohodlnější než hledání místa v uličkách.",
+    "insiderTip": "Hezčí varianta autem: zaparkuj u La Calety, projdi se přes Playa de la Enramada směrem na Playa del Duque a vrať se stejnou cestou. U Enramady můžeš při dobrých podmínkách vidět paraglidisty a cestou je jednodušší zastavit na rozumnější plážové jídlo než přímo u Duque. Pokud chceš jen rychlé koupání bez procházky, Plaza del Duque je pohodlnější.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2045,6 +2241,24 @@
         "label": "Oficialni web",
         "url": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Start z La Calety",
+        "url": "https://www.google.com/maps/place/Hovima+Jardin+Caleta/@28.097627,-16.7495675,481m/data=!3m1!1e3!4m6!3m5!1s0xc6a91c51f10c62f:0x5975272d4508d46b!8m2!3d28.09903!4d-16.7512593!16s%2Fg%2F11gjs78c80?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20Comercial%20Plaza%20del%20Duque%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2062,6 +2276,12 @@
       {
         "label": "Zdroj 3",
         "url": "https://enjoycanaryislands.com/playa-del-duque-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 4",
+        "url": "https://costa-adeje.es/en/beaches/la-caleta",
         "tier": "secondary",
         "checkedDate": "2026-05-28"
       }
@@ -2101,7 +2321,9 @@
     },
     "links": {
       "official": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.4179,-16.5194",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Bollullo%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+      "actions": [],
       "other": [
         "https://tenerifevida.com/playa-el-bollullo/",
         "https://dailytravelpill.com/playa-el-bollullo-tenerife/",
@@ -2128,6 +2350,18 @@
         "label": "Oficialni web",
         "url": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Bollullo%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2188,7 +2422,14 @@
     },
     "links": {
       "official": "https://costa-adeje.es/en/beaches/fanabe-beach",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0867,-16.7376",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Fanabe%20Plaza%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+      "actions": [
+        {
+          "label": "Orange Cafe",
+          "url": "https://orangecafetenerife.cz/"
+        }
+      ],
       "other": [
         "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
         "https://costa-adeje.costasur.com/sites/playa-de-fanabe/es/index.html",
@@ -2206,7 +2447,7 @@
       }
     ],
     "rainyAlt": "Při větru se dá zůstat na promenádě nebo přesunout na chráněnější Del Duque. Při dešti zvol Fañabé Plaza, restauraci nebo kratší pobřežní procházku.",
-    "insiderTip": "Na pohodový den bez auta vyraz pěšky, dej si koupání, oběd na promenádě a večer se vrať při západu slunce. Autem se v okolních jednosměrkách snadno ztratí čas.",
+    "insiderTip": "Na pohodový den bez auta vyraz pěšky, dej si koupání, oběd na promenádě a večer se vrať při západu slunce. Když chceš českou kuchyni nebo jistější volbu pro děti, kousek od pláže je Orange Cafe v CC Litoral de Fañabé.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "flags": [],
@@ -2215,6 +2456,24 @@
         "label": "Oficialni web",
         "url": "https://costa-adeje.es/en/beaches/fanabe-beach",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Orange Cafe",
+        "url": "https://orangecafetenerife.cz/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Fanabe%20Plaza%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2271,7 +2530,9 @@
     },
     "links": {
       "official": "https://www.santacruzdetenerife.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.5086,-16.1858",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Teresitas%20Tenerife",
+      "guide": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+      "actions": [],
       "other": [
         "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
         "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas",
@@ -2298,6 +2559,18 @@
         "label": "Oficialni web",
         "url": "https://www.santacruzdetenerife.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Teresitas%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2353,7 +2626,9 @@
     },
     "links": {
       "official": "https://www.komoot.com/smarttour/1525340126",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.086,-16.737",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20Fanabe%20Tenerife",
+      "guide": "https://www.komoot.com/smarttour/1525340126",
+      "actions": [],
       "other": [
         "https://www.studycountry.com/wiki/how-long-is-the-promenade-from-costa-adeje-to-los-cristianos",
         "http://tenerife-resorts.co.uk/costa_adeje.htm"
@@ -2381,6 +2656,18 @@
         "label": "Oficialni web",
         "url": "https://www.komoot.com/smarttour/1525340126",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.komoot.com/smarttour/1525340126",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20Fanabe%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2432,7 +2719,9 @@
     },
     "links": {
       "official": "https://lagomartianez.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.4154,-16.5466",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Muelle%20Puerto%20de%20la%20Cruz%20Tenerife",
+      "guide": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+      "actions": [],
       "other": [
         "https://www.webtenerife.co.uk",
         "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
@@ -2459,6 +2748,18 @@
         "label": "Oficialni web",
         "url": "https://lagomartianez.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Muelle%20Puerto%20de%20la%20Cruz%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2521,7 +2822,9 @@
     },
     "links": {
       "official": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.3434,-16.9226",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Buenavista%20del%20Norte%20bus%20369%20Punta%20de%20Teno%20Tenerife",
+      "guide": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
+      "actions": [],
       "other": [
         "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno/",
         "https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-369",
@@ -2548,6 +2851,18 @@
         "label": "Oficialni web",
         "url": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Buenavista%20del%20Norte%20bus%20369%20Punta%20de%20Teno%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2588,8 +2903,7 @@
       ],
       "logistics": [
         "bez-auta",
-        "pul-den",
-        "rezervace-doporucena"
+        "pul-den"
       ],
       "weather": [
         "slunecno-must",
@@ -2609,8 +2923,10 @@
       "note": "Jezdí sem linky 348 ze severu a 342 z jihu, ale spoje jsou omezené. Aktuální jízdní řád zkontroluj ještě před plánováním dne."
     },
     "links": {
-      "official": "https://www.reservasparquesnacionales.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.2241,-16.6307",
+      "official": "https://www.webtenerife.co.uk/what-see/teide-national-park/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Roques%20de%20Garcia%20Tenerife",
+      "guide": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
+      "actions": [],
       "other": [
         "https://triptionary.net/teide-national-park-guide/",
         "https://charlieswanderings.com/spain/the-spectacular-roques-de-garcia-hike-in-tenerife/",
@@ -2629,33 +2945,45 @@
     ],
     "rainyAlt": "Při silném větru, mlze nebo Kalimě výlet na Teide ztrácí smysl a může být nepříjemný. Náhradou je El Portillo, Vilaflor nebo zelenější Anaga.",
     "insiderTip": "Přijeď do 10:00 nebo až později odpoledne. Pokud půjdeš okruh proti směru hodinových ručiček, náročnější část si lépe rozložíš.",
-    "verifiedDate": "2026-05-28",
+    "verifiedDate": "2026-06-15",
     "confidence": "H",
     "flags": [],
     "sourceRefs": [
       {
         "label": "Oficialni web",
-        "url": "https://www.reservasparquesnacionales.es",
+        "url": "https://www.webtenerife.co.uk/what-see/teide-national-park/",
         "tier": "official",
-        "checkedDate": "2026-05-28"
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Roques%20de%20Garcia%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-06-15"
       },
       {
         "label": "Zdroj 1",
         "url": "https://triptionary.net/teide-national-park-guide/",
         "tier": "secondary",
-        "checkedDate": "2026-05-28"
+        "checkedDate": "2026-06-15"
       },
       {
         "label": "Zdroj 2",
         "url": "https://charlieswanderings.com/spain/the-spectacular-roques-de-garcia-hike-in-tenerife/",
         "tier": "secondary",
-        "checkedDate": "2026-05-28"
+        "checkedDate": "2026-06-15"
       },
       {
         "label": "Zdroj 3",
         "url": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
         "tier": "secondary",
-        "checkedDate": "2026-05-28"
+        "checkedDate": "2026-06-15"
       }
     ]
   },
@@ -2695,7 +3023,9 @@
     },
     "links": {
       "official": "https://www.santacruzdetenerife.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.4636,-16.2518",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Palmetum%20Santa%20Cruz%20de%20Tenerife",
+      "guide": "https://palmetumtenerife.es/?lang=en",
+      "actions": [],
       "other": [
         "https://palmetumtenerife.es",
         "https://palmetumtenerife.es/?lang=en",
@@ -2722,6 +3052,18 @@
         "label": "Oficialni web",
         "url": "https://www.santacruzdetenerife.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://palmetumtenerife.es/?lang=en",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Palmetum%20Santa%20Cruz%20de%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2786,7 +3128,9 @@
     },
     "links": {
       "official": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.5307,-16.2799",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Cruz%20del%20Carmen%20Tenerife",
+      "guide": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+      "actions": [],
       "other": [
         "https://wonderfultenerife.com/en/article/show/5093/sendero-de-los-sentidos",
         "https://www.google.com/maps/dir//28.530695299574,+-16.279897900481",
@@ -2813,6 +3157,18 @@
         "label": "Oficialni web",
         "url": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Cruz%20del%20Carmen%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2873,7 +3229,8 @@
     },
     "links": {
       "official": "https://www.siampark.net",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.0747,-16.7236",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Siam%20Park%20Tenerife",
+      "actions": [],
       "other": [
         "https://siampark.net",
         "https://siampark.tictactickets.com/en",
@@ -2900,6 +3257,12 @@
         "label": "Oficialni web",
         "url": "https://www.siampark.net",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Siam%20Park%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -2960,7 +3323,9 @@
     },
     "links": {
       "official": "https://www.volcanoteide.com",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.2522,-16.6248",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Teleferico%20del%20Teide%20Tenerife",
+      "guide": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+      "actions": [],
       "other": [
         "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
         "https://www.volcanoteide.com/en/volcano_teide/teide_cable_car/teide_cable_car",
@@ -2987,6 +3352,18 @@
         "label": "Oficialni web",
         "url": "https://www.volcanoteide.com",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Teleferico%20del%20Teide%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {
@@ -3045,7 +3422,9 @@
     },
     "links": {
       "official": "https://www.vilaflordechasna.es",
-      "maps": "https://www.google.com/maps/search/?api=1&query=28.1577,-16.6346",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Pino%20Gordo%20Vilaflor%20Tenerife",
+      "guide": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+      "actions": [],
       "other": [
         "https://en.wikipedia.org/wiki/Vilaflor,_Santa_Cruz_de_Tenerife",
         "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
@@ -3072,6 +3451,18 @@
         "label": "Oficialni web",
         "url": "https://www.vilaflordechasna.es",
         "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Pino%20Gordo%20Vilaflor%20Tenerife",
+        "tier": "maps",
         "checkedDate": "2026-05-28"
       },
       {

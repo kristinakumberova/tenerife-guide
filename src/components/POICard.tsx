@@ -16,10 +16,14 @@ interface POICardProps {
 export function POICard({ poi, permits = [], variant = "collapsed", isOpen = false, isSelected = false, onBackToMap, onOpen }: POICardProps) {
   const isPopup = variant === "popup";
   const relatedPermits = permits.filter((permit) => permit.appliesToPoiIds.includes(poi.id));
-  const bookingPermit = relatedPermits.find((permit) => permit.bookingUrl);
-  const showPermit =
-    relatedPermits.length > 0 ||
-    poi.tags.logistics.some((tag) => tag === "permit-nutny" || tag === "rezervace-doporucena" || tag === "placene-vstupne");
+  const bookingPermit =
+    relatedPermits.find((permit) => permit.id === poi.id && permit.bookingUrl) ??
+    relatedPermits.find((permit) => permit.bookingUrl);
+  const hasRequiredBooking =
+    relatedPermits.some((permit) => permit.required) ||
+    poi.tags.logistics.some((tag) => tag === "permit-nutny" || tag === "rezervace-doporucena");
+  const hasPaidEntry = relatedPermits.length > 0 || poi.tags.logistics.includes("placene-vstupne");
+  const permitBadgeLabel = hasRequiredBooking ? "Rezervace nutná" : hasPaidEntry ? "Placené vstupné" : undefined;
   const photo = poi.photos[0];
   const hasCredit = photo?.credit && photo.credit !== "Doplnit";
   const hasDescription = Boolean(poi.description && poi.description !== poi.summary);
@@ -30,6 +34,11 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
   const reservation = usefulInfo(poi.practical.reservation);
   const withoutCarNote = usefulInfo(poi.withoutCar?.note);
   const rainyAlt = usefulInfo(poi.rainyAlt);
+  const mapsLabel = poi.links.mapsLabel ?? "Parkování v mapách";
+  const guideLabel = poi.links.guideLabel ?? "Průvodce";
+  const guideUrl = poi.links.guide ?? poi.links.official;
+  const permitBookingUrls = relatedPermits.map((permit) => permit.bookingUrl).filter(Boolean);
+  const showGuideLink = Boolean(guideUrl) && !permitBookingUrls.some((url) => sameUrl(url, guideUrl));
   const hasDetail =
     hasDescription ||
     openingHours ||
@@ -58,7 +67,7 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
               {activityLabels[tag]}
             </span>
           ))}
-          {showPermit && <span className="badge badge-permit">Rezervace nutná</span>}
+          {permitBadgeLabel && <span className="badge badge-permit">{permitBadgeLabel}</span>}
         </div>
         <p>{poi.summary}</p>
 
@@ -122,22 +131,28 @@ export function POICard({ poi, permits = [], variant = "collapsed", isOpen = fal
           )}
           {poi.links.maps && (
             <a className="text-button" href={poi.links.maps} target="_blank" rel="noreferrer">
-              <MapPin size={16} aria-hidden="true" />
-              Otevřít v mapách
+              {poi.links.mapsLabel ? <ExternalLink size={16} aria-hidden="true" /> : <MapPin size={16} aria-hidden="true" />}
+              {mapsLabel}
             </a>
           )}
           {bookingPermit && (
             <a className="text-button" href={bookingPermit.bookingUrl} target="_blank" rel="noreferrer">
               <ShieldCheck size={16} aria-hidden="true" />
-              Permit
+              Vstupenky / permit
             </a>
           )}
-          {poi.links.official && (
-            <a className="text-button" href={poi.links.official} target="_blank" rel="noreferrer">
+          {showGuideLink && (
+            <a className="text-button" href={guideUrl} target="_blank" rel="noreferrer">
               <ExternalLink size={16} aria-hidden="true" />
-              Web
+              {poi.links.guide ? guideLabel : "Web"}
             </a>
           )}
+          {poi.links.actions?.map((action) => (
+            <a className="text-button" href={action.url} target="_blank" rel="noreferrer" key={action.url}>
+              <ExternalLink size={16} aria-hidden="true" />
+              {action.label}
+            </a>
+          ))}
         </div>
 
         {hasCredit && (
@@ -173,4 +188,22 @@ function usefulInfo(value?: string) {
     /^Když se zvedne vítr, přijde déšť nebo Kalima/i,
   ];
   return genericPatterns.some((pattern) => pattern.test(text)) ? undefined : text;
+}
+
+function sameUrl(left?: string, right?: string) {
+  const normalizedLeft = normalizeUrl(left);
+  const normalizedRight = normalizeUrl(right);
+  return Boolean(normalizedLeft && normalizedRight && normalizedLeft === normalizedRight);
+}
+
+function normalizeUrl(value?: string) {
+  if (!value) return undefined;
+  try {
+    const url = new URL(value);
+    const host = url.hostname.replace(/^www\./, "").toLowerCase();
+    const path = url.pathname.replace(/\/$/, "");
+    return `${url.protocol}//${host}${path}${url.search}`;
+  } catch {
+    return value.replace(/^https?:\/\/www\./i, (match) => match.replace("www.", "")).replace(/\/$/, "").toLowerCase();
+  }
 }

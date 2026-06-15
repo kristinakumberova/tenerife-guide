@@ -44,32 +44,9 @@
     ]
   },
   {
-    "id": "trail-7-montana-blanca-pico",
-    "title": "Trail 7 Montaña Blanca → Pico",
-    "appliesToPoiIds": [
-      "teide-cable-car-pico"
-    ],
-    "required": true,
-    "bookingUrl": "https://www.tenerifeon.es",
-    "deadline": "předem podle volného slotu",
-    "fees": "6 € všední den / 10 € víkend; rezident KI 3 € / 5 €",
-    "currentStatus": "Od 19. 1. 2026 placené; fyzicky náročná varianta.",
-    "verifiedDate": "2026-05-28",
-    "confidence": "H",
-    "sourceRefs": [
-      {
-        "label": "Trail 7 Montaña Blanca → Pico",
-        "url": "https://www.tenerifeon.es",
-        "tier": "official",
-        "checkedDate": "2026-05-28"
-      }
-    ]
-  },
-  {
     "id": "masca-trail-barranco-de-masca",
     "title": "Masca Trail (Barranco de Masca)",
     "appliesToPoiIds": [
-      "masca-trail",
       "masca-vesnice"
     ],
     "required": true,
@@ -97,9 +74,9 @@
     ],
     "required": false,
     "bookingUrl": "https://www.loroparque.com",
-    "deadline": "1+ den předem",
+    "deadline": "online nebo na místě",
     "fees": "44 € dospělý / 32 € dítě 3–11",
-    "currentStatus": "Otevřeno 9:30–17:30; Twin Ticket neplatí pro oba parky ve stejný den.",
+    "currentStatus": "Otevřeno 9:30–17:30; online nákup šetří frontu, Twin Ticket neplatí pro oba parky ve stejný den.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -119,15 +96,37 @@
     ],
     "required": false,
     "bookingUrl": "https://siampark.net",
-    "deadline": "1+ den předem",
+    "deadline": "online nebo na místě",
     "fees": "44 € dospělý / 32 € dítě 3–11; vrchol čvc–srp cca 48 € / 36 €",
-    "currentStatus": "Základně 10:00–18:00 léto, 10:00–17:00 zima; zavřeno 25. 12. a 1. 1.",
+    "currentStatus": "Základně 10:00–18:00 léto, 10:00–17:00 zima; online nákup šetří frontu; zavřeno 25. 12. a 1. 1.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
       {
         "label": "Siam Park",
         "url": "https://siampark.net",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "aqualand-costa-adeje",
+    "title": "Aqualand Costa Adeje",
+    "appliesToPoiIds": [
+      "aqualand-costa-adeje"
+    ],
+    "required": false,
+    "bookingUrl": "https://www.aqualand.es/costa-adeje/en/tickets/",
+    "deadline": "online nebo na místě",
+    "fees": "od cca 35 € dospělý / 27 € dítě 5–10 online; pokladna bývá dražší",
+    "currentStatus": "Jen pár kroků od apartmánu; vhodnější pro menší děti než Siam Park. V areálu se zeptej na zvýhodněný return ticket.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Aqualand Costa Adeje",
+        "url": "https://www.aqualand.es/costa-adeje/en/tickets/",
         "tier": "official",
         "checkedDate": "2026-05-28"
       }
@@ -142,9 +141,9 @@
     ],
     "required": false,
     "bookingUrl": "https://www.loroparque.com",
-    "deadline": "1+ týden v sezóně",
+    "deadline": "online nebo na místě",
     "fees": "78 € dospělý / 57 € dítě 3–11",
-    "currentStatus": "Platnost 15 dní, nelze oba parky stejný den.",
+    "currentStatus": "Platnost 15 dní, nelze oba parky stejný den; v sezóně je online nákup pohodlnější.",
     "verifiedDate": "2026-05-28",
     "confidence": "H",
     "sourceRefs": [
@@ -193,26 +192,6 @@
       {
         "label": "Ferry na La Gomeru",
         "url": "https://www.fredolsen.es",
-        "tier": "official",
-        "checkedDate": "2026-05-28"
-      }
-    ]
-  },
-  {
-    "id": "camping-las-lajas",
-    "title": "Camping Las Lajas",
-    "appliesToPoiIds": [],
-    "required": false,
-    "bookingUrl": "https://www.tenerifeon.es",
-    "deadline": "pondělí 7:00 KI na další týden",
-    "fees": "ověř aktuální cenu na webu",
-    "currentStatus": "Rezervace nutná, kapacita omezená.",
-    "verifiedDate": "2026-05-28",
-    "confidence": "H",
-    "sourceRefs": [
-      {
-        "label": "Camping Las Lajas",
-        "url": "https://www.tenerifeon.es",
         "tier": "official",
         "checkedDate": "2026-05-28"
       }

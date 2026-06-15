@@ -165,6 +165,7 @@ function checkedArray(value, name, set, id) {
 function parsePoiFile(fileName) {
   const raw = readVaultFile(join("CONTENT-POI", fileName));
   const { data, content } = matter(raw);
+  if (data.status === "archived" || data.publish === false) return null;
   const id = data.slug ?? fileName.replace(/\.md$/, "");
   const gps = Array.isArray(data.gps) && data.gps.length === 2 ? data.gps : gpsFallbacks[id];
 
@@ -199,7 +200,11 @@ function parsePoiFile(fileName) {
       : undefined,
     links: {
       official: data.links?.official,
-      maps: `https://www.google.com/maps/search/?api=1&query=${gps[0]},${gps[1]}`,
+      maps: data.links?.maps ?? `https://www.google.com/maps/search/?api=1&query=${gps[0]},${gps[1]}`,
+      mapsLabel: data.links?.mapsLabel,
+      guide: data.links?.guide,
+      guideLabel: data.links?.guideLabel,
+      actions: Array.isArray(data.links?.actions) ? data.links.actions : [],
       other: Array.isArray(data.links?.other) ? data.links.other : [],
     },
     photos: normalizePhotos(data.photos, id, data.name),
@@ -276,6 +281,18 @@ function normalizePhotos(photos, id, name) {
 function sourceRefsFromLinks(links, checkedDate) {
   const refs = [];
   if (links?.official) refs.push({ label: "Oficialni web", url: links.official, tier: "official", checkedDate: String(checkedDate) });
+  if (links?.guide) refs.push({ label: links.guideLabel ?? "Pruvodce", url: links.guide, tier: "secondary", checkedDate: String(checkedDate) });
+  for (const action of links?.actions ?? []) {
+    refs.push({ label: action.label, url: action.url, tier: "secondary", checkedDate: String(checkedDate) });
+  }
+  if (links?.maps) {
+    refs.push({
+      label: links.mapsLabel ?? "Parkovani / mapa",
+      url: links.maps,
+      tier: links.mapsLabel ? "official" : "maps",
+      checkedDate: String(checkedDate),
+    });
+  }
   for (const [index, url] of (links?.other ?? []).entries()) {
     refs.push({ label: `Zdroj ${index + 1}`, url, tier: "secondary", checkedDate: String(checkedDate) });
   }
@@ -299,7 +316,8 @@ function parsePois() {
   return readdirSync(dir)
     .filter((name) => name.endsWith(".md"))
     .sort()
-    .map(parsePoiFile);
+    .map(parsePoiFile)
+    .filter(Boolean);
 }
 
 function parseBundles() {
@@ -362,9 +380,10 @@ function parsePermits() {
 
 function inferPermitPoiIds(id) {
   if (id.includes("teide") || id.includes("pico")) return ["teide-cable-car-pico"];
-  if (id.includes("masca")) return ["masca-trail", "masca-vesnice"];
+  if (id.includes("masca")) return ["masca-vesnice"];
   if (id.includes("loro")) return ["loro-parque", "siam-park"];
   if (id.includes("siam")) return ["siam-park"];
+  if (id.includes("aqualand")) return ["aqualand-costa-adeje"];
   if (id.includes("gomera")) return ["la-gomera-day-trip"];
   if (id.includes("margaritas")) return ["las-galletas-finca-las-margaritas"];
   return [];

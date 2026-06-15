@@ -61,6 +61,10 @@ export interface Poi {
   links: {
     official?: string;
     maps?: string;
+    mapsLabel?: string;
+    guide?: string;
+    guideLabel?: string;
+    actions?: LinkRef[];
     other?: string[];
   };
   photos: PhotoAsset[];

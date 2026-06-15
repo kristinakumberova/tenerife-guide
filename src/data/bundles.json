@@ -29,17 +29,19 @@
     "duration": "full-day",
     "poiIds": [
       "siam-park",
+      "aqualand-costa-adeje",
       "los-cristianos",
       "playa-de-las-vistas"
     ],
     "transport": "car",
     "permits": [
-      "siam-park-online-ticket"
+      "siam-park",
+      "aqualand-costa-adeje"
     ],
-    "estimatedCostPerson": "EUR 44-80",
-    "notes": "- Siam kup online předem; Twin Ticket dává smysl jen pokud plánuješ i Loro Parque do 15 dní.\n- Los Cristianos je dobrý backup pro večerní procházku i orientaci u ferry.",
+    "estimatedCostPerson": "EUR 35-80",
+    "notes": "- Siam i Aqualand se dají koupit online i na místě; online nákup šetří frontu. Aqualand je blíž a jednodušší pro menší děti, Siam je větší celodenní zážitek. Twin Ticket dává smysl jen pokud plánuješ i Loro Parque do 15 dní.\n- Los Cristianos je dobrý backup pro večerní procházku i orientaci u ferry.",
     "summary": "Pro rodiny a partu, která chce jeden den bez složité logistiky: voda, promenády, jídlo a jednoduché parkování.",
-    "itinerary": "- 10:00 — Siam Park na otevíračku\n- 16:30 — přesun do Los Cristianos\n- 17:00 — Playa de las Vistas / promenáda\n- 19:00 — večeře v Los Cristianos",
+    "itinerary": "- 10:00 — Siam Park na otevíračku, nebo Aqualand pěšky od apartmánu pro menší děti\n- 16:30 — přesun do Los Cristianos\n- 17:00 — Playa de las Vistas / promenáda\n- 19:00 — večeře v Los Cristianos",
     "bestFor": [
       "Pro rodiny a partu, která chce jeden den bez složité logistiky: voda, promenády, jídlo a jednoduché parkování."
     ],
@@ -126,7 +128,6 @@
     "duration": "full-day",
     "poiIds": [
       "masca-vesnice",
-      "masca-trail",
       "los-gigantes-boat-trip",
       "alcala"
     ],
