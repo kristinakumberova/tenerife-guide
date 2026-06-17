@@ -1,4 +1,5 @@
 import kontaktyJson from "../../data/kontakty.json";
+import { PhoneCall } from "lucide-react";
 import { ContactCard } from "../../components/ContactCard";
 import { PageAnchors } from "../../components/PageAnchors";
 import { useDocumentTitle } from "../../lib/useDocumentTitle";
@@ -23,6 +24,7 @@ interface ContactsData {
     name: string;
     whatsappUrl: string;
     phone: string;
+    email: string;
     note: string;
   };
 }
@@ -32,20 +34,48 @@ const visiblePlaybooks = data.playbooks.filter((item) => item.situation !== "Ztr
 
 export function KontaktyPage() {
   useDocumentTitle("paradise/kontakty");
+  const { host } = data;
+  const hostTel = host.phone.replace(/\s/g, "");
 
   return (
     <>
-      <section className="page-intro emergency-intro section-anchor" id="sos">
-        <h1>SOS</h1>
+      <section className="page-intro section-anchor" id="hostitel">
+        <h1>Kontakty</h1>
       </section>
       <PageAnchors
         items={[
+          { href: "#hostitel-kontakt", label: "Hostitel" },
           { href: "#sos-kontakty", label: "Tísňové kontakty" },
           { href: "#zdravotnictvi", label: "Zdravotnictví" },
           { href: "#co-delat", label: "Co dělat" },
         ]}
       />
+      <section className="section-block section-anchor" id="hostitel-kontakt">
+        <div className="section-heading">
+          <h2>Hostitel</h2>
+        </div>
+        <article className="contact-card">
+          <PhoneCall size={20} aria-hidden="true" />
+          <div>
+            <h3>{host.name}</h3>
+            {host.note && <p>{host.note}</p>}
+            <p className="contact-value">{host.phone}</p>
+            <a className="text-button" href={host.whatsappUrl} target="_blank" rel="noreferrer">
+              Napsat na WhatsApp
+            </a>
+            <a className="text-button" href={`tel:${hostTel}`}>
+              Volat
+            </a>
+            <a className="text-button" href={`mailto:${host.email}`}>
+              Napsat e-mail
+            </a>
+          </div>
+        </article>
+      </section>
       <section className="section-block section-anchor" id="sos-kontakty">
+        <div className="section-heading">
+          <h2>Tísňové kontakty (SOS)</h2>
+        </div>
         <div className="contact-grid">
           {data.emergency.slice(0, 6).map((item) => (
             <ContactCard key={item.title} title={item.title ?? "Kontakt"} value={item.value} note={item.note} severity={item.value?.includes("112") ? "emergency" : "normal"} />
