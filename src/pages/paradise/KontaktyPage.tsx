@@ -35,7 +35,6 @@ const visiblePlaybooks = data.playbooks.filter((item) => item.situation !== "Ztr
 export function KontaktyPage() {
   useDocumentTitle("paradise/kontakty");
   const { host } = data;
-  const hostTel = host.phone.replace(/\s/g, "");
 
   return (
     <>
@@ -57,17 +56,12 @@ export function KontaktyPage() {
         <article className="contact-card">
           <PhoneCall size={20} aria-hidden="true" />
           <div>
-            <h3>{host.name}</h3>
-            {host.note && <p>{host.note}</p>}
-            <p className="contact-value">{host.phone}</p>
+            <p>{host.note}</p>
             <a className="text-button" href={host.whatsappUrl} target="_blank" rel="noreferrer">
               Napsat na WhatsApp
             </a>
-            <a className="text-button" href={`tel:${hostTel}`}>
-              Volat
-            </a>
             <a className="text-button" href={`mailto:${host.email}`}>
-              Napsat e-mail
+              Poslat e-mail
             </a>
           </div>
         </article>

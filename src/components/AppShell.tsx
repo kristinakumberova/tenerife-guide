@@ -8,7 +8,7 @@ const tabs = [
   { to: "/paradise/guide", label: "Tenerife Guide", mobile: "Guide", icon: Map },
   { to: "/paradise/doprava", label: "Doprava", mobile: "Doprava", icon: Car },
   { to: "/paradise/stravovani", label: "Stravování", mobile: "Jídlo", icon: Utensils },
-  { to: "/paradise/kontakty", label: "Kontakty", mobile: "SOS", icon: Phone },
+  { to: "/paradise/kontakty", label: "Kontakty", mobile: "Kontakty", icon: Phone },
 ];
 
 export function AppShell() {
