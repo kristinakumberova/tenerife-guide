@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+// Zásady cookies (SPEC-Lite §1 / chunk 4): parita obsahu.
+// Tlačítko "Nastavení cookies" nese data-cookie-settings — posluchač naváže
+// CookieConsent island v chunku 8 (stejný hook jako v SiteFooter).
+---
+
+<BaseLayout
+  title="Zásady používání cookies — Jazuma Paradise"
+  description="Jaké cookies web Jazuma Paradise používá: nezbytné pro provoz a analytické cookies Google Analytics jen s vaším souhlasem. Jak souhlas odvolat."
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Cookies", url: "/paradise/cookies/" },
+  ]}
+>
+  <section class="page-intro section-anchor" id="cookies">
+    <h1>Zásady používání cookies</h1>
+  </section>
+  <section class="section-block">
+    <article class="content-panel legal-text">
+      <p>
+        Cookies jsou malé soubory, které web ukládá do vašeho prohlížeče. Tento web používá pouze cookies nezbytné
+        pro fungování a — s vaším souhlasem — analytické cookies pro měření návštěvnosti.
+      </p>
+      <h2>Analytické cookies (Google Analytics)</h2>
+      <p>
+        Používáme Google Analytics 4 k anonymnímu měření návštěvnosti. Tyto cookies se načtou jen tehdy, když k tomu
+        dáte souhlas v cookie liště. Bez souhlasu se neměří. Samotný skript Google Analytics je na webu přítomen už
+        před souhlasem (kvůli ověření ze strany Googlu), ale měření i cookies se aktivují teprve po vašem souhlasu.
+      </p>
+      <ul>
+        <li>
+          <strong>_ga, _ga_*</strong> — rozlišení návštěvníků a relací; poskytovatel Google; doba platnosti až 2 roky.
+        </li>
+      </ul>
+      <p>Data zpracovává společnost Google jako třetí strana. IP adresa je zpracovávána anonymizovaně.</p>
+      <h2>Odvolání souhlasu</h2>
+      <p>Souhlas můžete kdykoli změnit:</p>
+      <p>
+        <button type="button" class="btn btn-ghost" data-cookie-settings>Nastavení cookies</button>
+      </p>
+      <p>Cookies můžete také smazat nebo blokovat přímo v nastavení svého prohlížeče.</p>
+    </article>
+  </section>
+</BaseLayout>
