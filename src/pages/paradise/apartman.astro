@@ -1,0 +1,235 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageAnchors from "../../components/PageAnchors.astro";
+import QuickInfoCard from "../../components/QuickInfoCard.astro";
+import ContactCTA from "../../components/ContactCTA.astro";
+import { vacationRental } from "../../lib/jsonld";
+import apartmanData from "../../data/apartman.json";
+
+// Apartmán (SPEC-Lite §1 / chunk 4): hero + statická kostra.
+// Islandy Gallery (lightbox) a AvailabilityCalendar = chunk 5 — tady statická
+// galerie (0 JS) a placeholder dostupnosti s mailto/WhatsApp CTA.
+// Host-story je OUT (ADR-002). VacationRental JSON-LD jen / + /apartman (SPEC §5).
+
+interface GalleryImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  role: string;
+}
+interface QuickInfo {
+  title: string;
+  summary: string;
+  status?: "neutral" | "contact-required";
+  href?: string;
+}
+interface TableData {
+  headers: string[];
+  rows: Record<string, string>[];
+}
+interface Section {
+  title: string;
+  mapImage?: string;
+  paragraphs: string[];
+  bullets: string[];
+  table: TableData | null;
+}
+interface Apartment {
+  brand: string;
+  name: string;
+  heroImage: string;
+  heroAlt: string;
+  mapsUrl: string;
+  gallery: GalleryImage[];
+  contact: { label: string; whatsappUrl: string; phone: string };
+  quickInfo: QuickInfo[];
+  sections: Section[];
+}
+
+const apartment = apartmanData as Apartment;
+const HOST_EMAIL = "info@jazumaliving.com";
+
+const escapeHtml = (s: string) =>
+  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+// Tabulkové buňky mohou nést markdown odkazy [text](url) a <br>. Port renderInline
+// z legacy ApartmanPage: zbav markdown zvýraznění, escapuj text, povol jen odkazy.
+const cellToHtml = (value: string) =>
+  value
+    .replace(/[*`]/g, "")
+    .split(/<br\s*\/?>/i)
+    .map((line) =>
+      escapeHtml(line).replace(
+        /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+        (_m, text, url) => `<a href="${url}" target="_blank" rel="noreferrer">${text}</a>`,
+      ),
+    )
+    .join("<br>");
+---
+
+<BaseLayout
+  title="Jazuma Paradise — apartmán v Costa Adeje, Tenerife"
+  description="Apartmán Jazuma Paradise s výhledem na moře v Costa Adeje na jihu Tenerife: fotky, dostupnost, příjezd, parkování a vše praktické pro hosty."
+  jsonLd={[vacationRental()]}
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Apartmán", url: "/paradise/apartman/" },
+  ]}
+>
+  <section class="hero-property">
+    <div class="hero-media">
+      <img src={apartment.heroImage} alt={apartment.heroAlt} fetchpriority="high" width="1086" height="1448" />
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow">{apartment.brand}</p>
+      <h1>{apartment.name}</h1>
+      <p class="lead">
+        Apartmán s výhledem na moře v Costa Adeje — terasa s pergolou, bazén v komplexu a pláže i
+        nákupy v docházkové vzdálenosti. Praktický průvodce pro příjezd, výlety, jídlo a rychlé kontakty.
+      </p>
+      <p class="muted">Registrace krátkodobého pronájmu: <strong>VV-38-4-0089376</strong></p>
+      <ContactCTA
+        label={apartment.contact.label}
+        whatsappUrl={apartment.contact.whatsappUrl}
+        phone={apartment.contact.phone}
+      />
+    </div>
+    <div class="quick-grid">
+      {
+        apartment.quickInfo.map((item) => (
+          <QuickInfoCard title={item.title} summary={item.summary} status={item.status} href={item.href} />
+        ))
+      }
+    </div>
+  </section>
+
+  <PageAnchors
+    items={[
+      { href: "#fotky", label: "Fotky" },
+      { href: "#dostupnost", label: "Dostupnost" },
+      { href: "#prakticke-info", label: "Praktické info" },
+    ]}
+  />
+
+  {/* Galerie — statická (lightbox island = chunk 5) */}
+  {
+    apartment.gallery.length > 0 && (
+      <section class="section-block section-anchor" id="fotky">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Prohlídka</p>
+            <h2>Jak to u nás vypadá</h2>
+          </div>
+          <a class="text-button" href={apartment.mapsUrl} target="_blank" rel="noreferrer">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Adresa v Google Maps
+          </a>
+        </div>
+        <ul class="gallery-grid">
+          {apartment.gallery.map((image, index) => (
+            <li class={`gallery-item${index === 0 ? " gallery-item-lead" : ""}`}>
+              <figure class="gallery-thumb">
+                <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" />
+              </figure>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {/* Dostupnost — živý kalendář obsazenosti = chunk 5; teď CTA pro dotaz na termín */}
+  <section class="section-block section-anchor" id="dostupnost">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Volné termíny</p>
+        <h2>Dostupnost apartmánu</h2>
+      </div>
+    </div>
+    <article class="content-panel">
+      <p>
+        Zajímá tě konkrétní termín? Napiš nám a obratem potvrdíme, jestli je volno. WhatsApp je
+        nejrychlejší, ale klidně i e-mailem.
+      </p>
+      <ContactCTA
+        label="Zeptat se na termín"
+        whatsappUrl={apartment.contact.whatsappUrl}
+        phone={apartment.contact.phone}
+        email={HOST_EMAIL}
+      />
+    </article>
+  </section>
+
+  {/* Praktické info — nativní accordion (0 JS) */}
+  <section class="section-block section-anchor" id="prakticke-info">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Vše potřebné</p>
+        <h2>Praktické info k pobytu</h2>
+      </div>
+    </div>
+    <div class="accordion">
+      {
+        apartment.sections.map((section) => (
+          <details class="accordion-item">
+            <summary class="accordion-summary">
+              <span>{section.title}</span>
+              <span class="accordion-chevron" aria-hidden="true" />
+            </summary>
+            <div class="accordion-body">
+              {section.mapImage && (
+                <img class="entry-map" src={section.mapImage} alt={`Mapa: ${section.title}`} loading="lazy" />
+              )}
+              {section.paragraphs.map((paragraph) => (
+                <p>{paragraph}</p>
+              ))}
+              {section.bullets.length > 0 && (
+                <ul class="section-list">
+                  {section.bullets.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              )}
+              {section.table && section.table.rows.length > 0 && (
+                <div class="table-wrap">
+                  <table class="data-table">
+                    <thead>
+                      <tr>
+                        {section.table.headers.map((header) => (
+                          <th scope="col">{header}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.table.rows.map((row) => (
+                        <tr>
+                          {section.table!.headers.map((header) => (
+                            <td set:html={cellToHtml(row[header] ?? "")} />
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
