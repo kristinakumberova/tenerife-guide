@@ -6,7 +6,7 @@ import tseslint from "typescript-eslint";
 // react-refresh plugin odebrán s Vite (Astro nemá React Fast Refresh HMR).
 // react-hooks zůstává — platí pro React islands.
 export default tseslint.config(
-  { ignores: ["dist", ".astro", "src/data/*.json", "**/*.d.ts"] },
+  { ignores: ["dist", ".astro", "legacy", "src/data/*.json", "**/*.d.ts"] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],
