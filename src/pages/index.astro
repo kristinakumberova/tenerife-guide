@@ -1,6 +1,25 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { organization, vacationRental } from "../lib/jsonld";
+
+// Reálná homepage (SPEC-Lite §1 / chunk 4): value prop + rozcestník Apartmán/Průvodce.
+// Nahrazuje původní redirect na /paradise/apartman. Canonical = / (vlastní).
+const cards = [
+  {
+    href: "/paradise/apartman/",
+    eyebrow: "Ubytování",
+    title: "Jazuma Paradise",
+    text: "Apartmán s výhledem na moře v Costa Adeje. Fotky, dostupnost a všechno praktické k pobytu na jednom místě.",
+    cta: "Prohlédnout apartmán",
+  },
+  {
+    href: "/paradise/guide/",
+    eyebrow: "Průvodce",
+    title: "Tenerife Guide",
+    text: "Ověřená místa na jihu i po celém ostrově — mapa, výlety, doprava a tipy na jídlo pro hosty apartmánu.",
+    cta: "Otevřít průvodce",
+  },
+];
 ---
 
 <BaseLayout
@@ -13,8 +32,51 @@ import { organization, vacationRental } from "../lib/jsonld";
     <span class="eyebrow">Jazuma Living</span>
     <h1>Apartmán a průvodce po Tenerife</h1>
     <p class="lead">
-      Scaffold homepage (chunk 3) — design systém, AppShell a SEO vrstva jsou v provozu.
-      Plný rozcestník Apartmán / Průvodce a sales vrstva přijdou v chunku 4.
+      Soukromý apartmán v Costa Adeje na jihu Tenerife a praktický průvodce, který hostům
+      pomůže s příjezdem, výlety, dopravou i rychlými kontakty. Žádné formuláře — píšeme si přímo.
     </p>
   </section>
+
+  <section class="section-block">
+    <div class="home-split">
+      {
+        cards.map((card) => (
+          <article class="content-panel">
+            <p class="eyebrow">{card.eyebrow}</p>
+            <h2>{card.title}</h2>
+            <p>{card.text}</p>
+            <p class="card-actions">
+              <a class="btn btn-primary" href={card.href}>
+                {card.cta}
+              </a>
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
 </BaseLayout>
+
+<style>
+  .home-split {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .home-split .content-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .home-split .card-actions {
+    margin-top: auto;
+    padding-top: 0.6rem;
+  }
+
+  @media (min-width: 768px) {
+    .home-split {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
