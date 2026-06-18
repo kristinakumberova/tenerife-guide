@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+// Markyta parking lot (SPEC-Lite §1 / chunk 4): rozpracovaná property, mimo hlavní
+// navigaci. noindex — nemá se zaindexovat, dokud není hotová.
+---
+
+<BaseLayout
+  title="Markyta — připravujeme"
+  description="Property Markyta se zatím připravuje."
+  noindex={true}
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Markyta", url: "/markyta/" },
+  ]}
+>
+  <section class="empty-state">
+    <p class="eyebrow">Jazuma Living</p>
+    <h1>Markyta se připravuje.</h1>
+    <p>Tahle property je zatím rozpracovaná, v hlavní navigaci ji nezobrazujeme.</p>
+    <a class="btn btn-primary" href="/paradise/apartman/">Otevřít Jazuma Paradise</a>
+  </section>
+</BaseLayout>
