@@ -1,0 +1,108 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageAnchors from "../../components/PageAnchors.astro";
+import dopravaData from "../../data/doprava.json";
+
+// Doprava (SPEC-Lite §1 / chunk 4): parita obsahu z data/doprava.json.
+
+interface SectionTable {
+  headers: string[];
+  rows: Record<string, string>[];
+}
+interface TransportSection {
+  id: string;
+  title: string;
+  intro?: string;
+  bullets: string[];
+  table: SectionTable | null;
+  links: { label: string; url: string }[];
+}
+interface TransportData {
+  title: string;
+  lead: string;
+  sections: TransportSection[];
+}
+
+const doprava = dopravaData as TransportData;
+---
+
+<BaseLayout
+  title="Doprava na Tenerife — auto, taxi, autobus TITSA"
+  description="Jak se na Tenerife dopravit: auto z půjčovny, taxi a ceny, autobusy TITSA a srovnání letišť TFS a TFN. Praktické tipy pro hosty apartmánu."
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Doprava", url: "/paradise/doprava/" },
+  ]}
+>
+  <section class="page-intro">
+    <p class="eyebrow">Doprava</p>
+    <h1>{doprava.title}</h1>
+    <p>{doprava.lead}</p>
+  </section>
+
+  <PageAnchors items={doprava.sections.map((section) => ({ href: `#${section.id}`, label: section.title }))} />
+
+  <div class="transport-list">
+    {
+      doprava.sections.map((section) => (
+        <article class="content-panel section-anchor" id={section.id}>
+          <h2>{section.title}</h2>
+          {section.intro && <p>{section.intro}</p>}
+          {section.table && (
+            <div class="table-wrap">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    {section.table.headers.map((header) => (
+                      <th scope="col">{header}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {section.table.rows.map((row) => (
+                    <tr>
+                      {section.table!.headers.map((header) => (
+                        <td>{row[header]}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          {section.bullets.length > 0 && (
+            <ul class="section-list">
+              {section.bullets.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          )}
+          {section.links.length > 0 && (
+            <div class="card-actions">
+              {section.links.map((link) => (
+                <a class="text-button" href={link.url} target="_blank" rel="noreferrer">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M15 3h6v6" />
+                    <path d="M10 14 21 3" />
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" />
+                  </svg>
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </article>
+      ))
+    }
+  </div>
+</BaseLayout>
