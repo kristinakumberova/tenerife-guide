@@ -1,0 +1,86 @@
+[
+  {
+    "id": "papas-arrugadas-mojo-rojo-verde",
+    "name": "Papas arrugadas + mojo rojo/verde",
+    "description": "Malé brambory vařené ve velmi slané vodě, podávané se slupkou a omáčkami mojo. Mojo rojo bývá paprikovo-česnekové a pikantnější, mojo verde je čerstvější, často s koriandrem.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Papas_arrugadas",
+    "whereToTry": "Prakticky každá kanárská restaurace; z Kristinina výběru zkus Orange Cafe nebo El Cordero."
+  },
+  {
+    "id": "gofio",
+    "name": "Gofio",
+    "description": "Pražená obilná mouka, tradičně z pšenice nebo kukuřice. Používá se jako příloha, do polévek nebo dezertů; pro první ochutnání je nejlepší jemnější verze jako escaldón.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Gofio",
+    "whereToTry": "Tradiční kanárské restaurace / guachinche; z výběru nejspíš El Cordero."
+  },
+  {
+    "id": "sancocho-canario",
+    "name": "Sancocho canario",
+    "description": "Tradiční rybí jídlo, často ze solené ryby, s brambory, batátem, mojo a gofiem. Je to spíš domácí/tradiční specialita než beach-club jídlo.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Sancocho",
+    "whereToTry": "Rybí restaurace mimo turistické centrum, např. Los Abrigos nebo La Caleta."
+  },
+  {
+    "id": "ropa-vieja",
+    "name": "Ropa vieja",
+    "description": "Dušené maso s cizrnou, zeleninou a kořením; na Kanárech má lokální „comfort food\" verzi. Dobrá volba pro hosty, kteří chtějí něco sytého a tradičního.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Ropa_vieja",
+    "whereToTry": "Guachinche / tradiční restaurace; konkrétní nabídku ověř v den návštěvy."
+  },
+  {
+    "id": "queso-asado",
+    "name": "Queso asado",
+    "description": "Grilovaný kanárský sýr, často s mojo nebo palmovým medem. Funguje výborně jako sdílený předkrm.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Grilled_cheese",
+    "whereToTry": "Tradiční restaurace a tapas podniky."
+  },
+  {
+    "id": "conejo-en-salmorejo",
+    "name": "Conejo en salmorejo",
+    "description": "Králík marinovaný v česneku, víně, paprice a bylinkách, potom dušený nebo smažený. Typické kanárské jídlo mimo standardní turistickou nabídku.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Conejo_en_salmorejo",
+    "whereToTry": "Guachinche / tradiční venkovské restaurace."
+  },
+  {
+    "id": "carnes-a-la-brasa",
+    "name": "Carnes a la brasa",
+    "description": "Grilovaná masa na ohni, jednoduchá úprava se silnou chutí grilu. Hodí se pro skupinu a delší večeři.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Grilled_meat",
+    "whereToTry": "El Cordero — v banánové plantáži, specialita na maso z grilu."
+  },
+  {
+    "id": "barraquito",
+    "name": "Barraquito",
+    "description": "Vrstvená káva s kondenzovaným mlékem, espressem, mléčnou pěnou, citronovou kůrou a Licorem 43. Objednej po jídle místo dezertu.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Barraquito",
+    "whereToTry": "Kavárny a restaurace po celém ostrově; dobrá pauza v Garachicu / La Orotavě."
+  },
+  {
+    "id": "ron-miel",
+    "name": "Ron miel",
+    "description": "Kanárský medový rum, sladký digestiv po večeři. Je silnější, než působí, takže spíš malá sklenka.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Honey_rum",
+    "whereToTry": "Restaurace a bary; často jako digestiv po jídle."
+  },
+  {
+    "id": "bienmesabe",
+    "name": "Bienmesabe",
+    "description": "Sladký mandlový krém/dezert, často s medem, citronem a skořicí. Je hodně sladký, ideální sdílet nebo dát k malé kávě.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Bienmesabe",
+    "whereToTry": "Tradiční restaurace nebo cukrárny."
+  },
+  {
+    "id": "quesillo",
+    "name": "Quesillo",
+    "description": "Kanárský flan z kondenzovaného mléka a vajec, jemný a karamelový. Bezpečná lokální dezertní volba.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Quesillo",
+    "whereToTry": "Běžné v kanárských restauracích."
+  },
+  {
+    "id": "frangollo",
+    "name": "Frangollo",
+    "description": "Dezert z kukuřičné mouky a mléka, často se skořicí, citronem, rozinkami nebo mandlemi. Chuťově jednodušší a domáčtější než běžné dorty.",
+    "photoUrl": "https://commons.wikimedia.org/wiki/Category:Frangollo",
+    "whereToTry": "Tradiční restaurace; ověř v denní nabídce."
+  }
+]

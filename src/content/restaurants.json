@@ -1,0 +1,311 @@
+[
+  {
+    "id": "el-molino-blanco",
+    "propertyId": "paradise",
+    "name": "El Molino Blanco",
+    "category": "okoli",
+    "tags": [
+      "romantika",
+      "na event"
+    ],
+    "kristinasNote": "Blízko apartmánu, krásné, ale dražší.",
+    "practical": {
+      "note": "Avenida de Austria 5, San Eugenio Alto. Otevřeno denně 17:00–00:00. Rezervace doporučená."
+    },
+    "links": {
+      "official": "https://www.instagram.com/elmolinoblanco/?hl=cs"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "El Molino Blanco - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "El Molino Blanco",
+        "url": "https://www.instagram.com/elmolinoblanco/?hl=cs",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "craft-burger-beer",
+    "propertyId": "paradise",
+    "name": "Craft Burger & Beer",
+    "category": "okoli",
+    "tags": [
+      "casual",
+      "burgery"
+    ],
+    "kristinasNote": "Blízko apartmánu, skvělá obsluha.",
+    "practical": {
+      "note": "Avenida Austria 44, naproti Aqualandu. Otevřeno denně 17:00–24:00."
+    },
+    "links": {
+      "official": "https://craftburgertenerife.com/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Craft Burger & Beer - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Craft Burger & Beer",
+        "url": "https://craftburgertenerife.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "calma-balkan-cuisine",
+    "propertyId": "paradise",
+    "name": "Calma Balkan Cuisine",
+    "category": "okoli",
+    "tags": [
+      "balkánská",
+      "výhled"
+    ],
+    "kristinasNote": "Kousek od apartmánu, krásný výhled na moře.",
+    "practical": {
+      "note": "Calle Alemania 5, C.C. Patio Canario. Otevírací den v úterý si raději ověř. Rezervace doporučená."
+    },
+    "links": {
+      "official": "https://calmabalkancuisine.com/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Calma Balkan Cuisine - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Calma Balkan Cuisine",
+        "url": "https://calmabalkancuisine.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "bahia-beach",
+    "propertyId": "paradise",
+    "name": "Bahia Beach",
+    "category": "okoli",
+    "tags": [
+      "boho",
+      "beach club",
+      "živá hudba"
+    ],
+    "kristinasNote": "Oblíbené místo u moře v boho/Bali stylu; v neděli často živá hudba.",
+    "practical": {
+      "note": "El Palm-Mar / Playa La Arenita. Aktuální nabídku, rezervace a program si ověř přímo u podniku."
+    },
+    "links": {
+      "official": "https://www.bahiabeach.club/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Bahia Beach - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Bahia Beach",
+        "url": "https://www.bahiabeach.club/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "roca-negra-sunset-club",
+    "propertyId": "paradise",
+    "name": "Roca Negra Sunset Club",
+    "category": "zazitkove",
+    "tags": [
+      "sunset",
+      "show"
+    ],
+    "kristinasNote": "Při západu slunce tančí tanečnice — zážitek. Pokud nechcete jít přímo do restaurace, je možné vzít si pizzu / nápoje ve výdejovém okénku s sebou a užít si západ slunce přímo na pláži na sedacích polštářích.",
+    "practical": {
+      "note": "Na sunset rezervuj předem. Doporučujeme!"
+    },
+    "links": {
+      "official": "https://www.instagram.com/rocanegrasunsetclub/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Roca Negra Sunset Club - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Roca Negra Sunset Club",
+        "url": "https://www.instagram.com/rocanegrasunsetclub/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "el-caleton-restaurante-chill-out",
+    "propertyId": "paradise",
+    "name": "El Caleton Restaurante Chill Out",
+    "category": "zazitkove",
+    "tags": [
+      "chill",
+      "sever",
+      "u moře"
+    ],
+    "kristinasNote": "Oblíbené; u přírodních lávových bazénů v Garachicu.",
+    "practical": {
+      "note": "Av. Tomé Cano 1, Garachico. Obvykle denně 12:00–21:00. Je to restaurace, ne přírodní bazény."
+    },
+    "links": {
+      "official": "https://caletonchillout.com/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "El Caleton Restaurante Chill Out - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "El Caleton Restaurante Chill Out",
+        "url": "https://caletonchillout.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "el-cordero",
+    "propertyId": "paradise",
+    "name": "El Cordero",
+    "category": "zazitkove",
+    "tags": [
+      "banánová plantáž",
+      "kanárská kuchyně",
+      "jih"
+    ],
+    "kristinasNote": "Restaurace v banánové plantáži; carnes a la brasa.",
+    "practical": {
+      "note": "V přírodě / plantáži, rezervace přes WhatsApp na webu. Adresu ověř na webu/Maps."
+    },
+    "links": {
+      "official": "https://restauranteelcordero.com/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "El Cordero - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "El Cordero",
+        "url": "https://restauranteelcordero.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "deba-sushi-lounge",
+    "propertyId": "paradise",
+    "name": "Deba Sushi Lounge",
+    "category": "specializovane",
+    "tags": [
+      "sushi",
+      "asijská"
+    ],
+    "kristinasNote": "Sushi kousek od apartmánu.",
+    "practical": {
+      "note": "C. Galicia 4, Costa Adeje. Po zavřeno; út–ne 13:00–23:00. Rezervace přes web."
+    },
+    "links": {
+      "official": "https://www.debasushi.com/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Deba Sushi Lounge - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Deba Sushi Lounge",
+        "url": "https://www.debasushi.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "orange-cafe",
+    "propertyId": "paradise",
+    "name": "Orange Cafe",
+    "category": "specializovane",
+    "tags": [
+      "česká kuchyně",
+      "lokální"
+    ],
+    "kristinasNote": "Česká restaurace na Fañabé.",
+    "practical": {
+      "note": "CC Litoral de Fañabé, Costa Adeje. Po zavřeno; út–ne 13:00–22:00. Česká, kanárská i španělská kuchyně."
+    },
+    "links": {
+      "official": "https://orangecafetenerife.cz/"
+    },
+    "photos": [
+      {
+        "url": "",
+        "alt": "Orange Cafe - foto se doplnuje",
+        "license": "missing",
+        "credit": "Doplnit"
+      }
+    ],
+    "confidence": "M",
+    "sourceRefs": [
+      {
+        "label": "Orange Cafe",
+        "url": "https://orangecafetenerife.cz/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  }
+]

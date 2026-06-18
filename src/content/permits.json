@@ -1,0 +1,200 @@
+[
+  {
+    "id": "teide-vrchol-pico-permit-pnt-10",
+    "title": "Teide — vrchol Pico (permit PNT 10)",
+    "appliesToPoiIds": [
+      "teide-cable-car-pico"
+    ],
+    "required": true,
+    "bookingUrl": "https://www.tenerifeon.es",
+    "deadline": "každé pondělí 7:00 KI, 56 dní dopředu",
+    "fees": "15 € bez rezervace; sunrise 6–9 h zdarma (bez lanovky)",
+    "currentStatus": "Lanovka je samostatná rezervace; sestup pěšky jen s permitem na regulované trasy.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Teide — vrchol Pico (permit PNT 10)",
+        "url": "https://www.tenerifeon.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "teide-lanovka",
+    "title": "Teide — lanovka",
+    "appliesToPoiIds": [
+      "teide-cable-car-pico"
+    ],
+    "required": false,
+    "bookingUrl": "https://www.volcanoteide.com",
+    "deadline": "ideálně 2 měsíce dopředu v sezóně",
+    "fees": "42 € dospělý (zpáteční), 21 € dítě 3–13",
+    "currentStatus": "Děti do 3 let nesmí lanovkou; provoz závisí na větru.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Teide — lanovka",
+        "url": "https://www.volcanoteide.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "masca-trail-barranco-de-masca",
+    "title": "Masca Trail (Barranco de Masca)",
+    "appliesToPoiIds": [
+      "masca-vesnice"
+    ],
+    "required": true,
+    "bookingUrl": "https://www.caminobarrancodemasca.com",
+    "deadline": "2+ měsíce předem v sezóně",
+    "fees": "40,66 € dospělý / 20,33 € junior 8–18",
+    "currentStatus": "Jen sestup, povinný bus TITSA 355 ze Santiago del Teide, samostatný boat exit do 4 h, děti do 8 let nesmí.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Masca Trail (Barranco de Masca)",
+        "url": "https://www.caminobarrancodemasca.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "loro-parque",
+    "title": "Loro Parque",
+    "appliesToPoiIds": [
+      "loro-parque",
+      "siam-park"
+    ],
+    "required": false,
+    "bookingUrl": "https://www.loroparque.com",
+    "deadline": "online nebo na místě",
+    "fees": "44 € dospělý / 32 € dítě 3–11",
+    "currentStatus": "Otevřeno 9:30–17:30; online nákup šetří frontu, Twin Ticket neplatí pro oba parky ve stejný den.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Loro Parque",
+        "url": "https://www.loroparque.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "siam-park",
+    "title": "Siam Park",
+    "appliesToPoiIds": [
+      "siam-park"
+    ],
+    "required": false,
+    "bookingUrl": "https://siampark.net",
+    "deadline": "online nebo na místě",
+    "fees": "44 € dospělý / 32 € dítě 3–11; vrchol čvc–srp cca 48 € / 36 €",
+    "currentStatus": "Základně 10:00–18:00 léto, 10:00–17:00 zima; online nákup šetří frontu; zavřeno 25. 12. a 1. 1.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Siam Park",
+        "url": "https://siampark.net",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "aqualand-costa-adeje",
+    "title": "Aqualand Costa Adeje",
+    "appliesToPoiIds": [
+      "aqualand-costa-adeje"
+    ],
+    "required": false,
+    "bookingUrl": "https://www.aqualand.es/costa-adeje/en/tickets/",
+    "deadline": "online nebo na místě",
+    "fees": "od cca 35 € dospělý / 27 € dítě 5–10 online; pokladna bývá dražší",
+    "currentStatus": "Jen pár kroků od apartmánu; vhodnější pro menší děti než Siam Park. V areálu se zeptej na zvýhodněný return ticket.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Aqualand Costa Adeje",
+        "url": "https://www.aqualand.es/costa-adeje/en/tickets/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "loro-siam-twin-ticket",
+    "title": "Loro + Siam Twin Ticket",
+    "appliesToPoiIds": [
+      "loro-parque",
+      "siam-park"
+    ],
+    "required": false,
+    "bookingUrl": "https://www.loroparque.com",
+    "deadline": "online nebo na místě",
+    "fees": "78 € dospělý / 57 € dítě 3–11",
+    "currentStatus": "Platnost 15 dní, nelze oba parky stejný den; v sezóně je online nákup pohodlnější.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Loro + Siam Twin Ticket",
+        "url": "https://www.loroparque.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "finca-las-margaritas-bananova-farma",
+    "title": "Finca Las Margaritas — banánová farma",
+    "appliesToPoiIds": [
+      "las-galletas-finca-las-margaritas"
+    ],
+    "required": false,
+    "bookingUrl": "https://lasmargaritasbananaexperience.com",
+    "deadline": "min. 12 h předem",
+    "fees": "10 € bez průvodce / 14 € s průvodcem",
+    "currentStatus": "Skupiny 12+ osob rezervace týden předem.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Finca Las Margaritas — banánová farma",
+        "url": "https://lasmargaritasbananaexperience.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "ferry-na-la-gomeru",
+    "title": "Ferry na La Gomeru",
+    "appliesToPoiIds": [],
+    "required": true,
+    "bookingUrl": "https://www.fredolsen.es",
+    "deadline": "1+ týden v sezóně",
+    "fees": "dynamicky cca 27–65 € jednosměrně",
+    "currentStatus": "Los Cristianos → San Sebastián, cca 50 min, 4–8 spojů denně podle sezóny.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "sourceRefs": [
+      {
+        "label": "Ferry na La Gomeru",
+        "url": "https://www.fredolsen.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  }
+]

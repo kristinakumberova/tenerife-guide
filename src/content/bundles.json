@@ -1,0 +1,195 @@
+[
+  {
+    "id": "quick-wins-okoli",
+    "propertyId": "paradise",
+    "title": "Quick wins z okolí apartmánu",
+    "region": "okoli",
+    "duration": "half-day",
+    "poiIds": [
+      "playa-del-duque",
+      "promenada-costa-adeje",
+      "la-caleta"
+    ],
+    "transport": "car-or-walk",
+    "permits": [],
+    "estimatedCostPerson": "EUR 0-20",
+    "notes": "- Vše je kousek od Calle Irlanda 33; nejpohodlnější je auto + pěší promenáda.\n- Parkování: Plaza del Duque / The Corner / okraje La Caleta podle obsazenosti.",
+    "summary": "První den po příletu, kdy nechceš řešit dlouhý přejezd, ale chceš hned moře, promenádu a dobrou večeři.",
+    "itinerary": "- 09:30 — Playa del Duque, káva a klidné koupání\n- 11:00 — promenáda Costa Adeje směr La Caleta\n- 12:30 — La Caleta, oběd nebo jen drink u oceánu\n- 14:00 — návrat na apartmán / siesta",
+    "bestFor": [
+      "První den po příletu, kdy nechceš řešit dlouhý přejezd, ale chceš hned moře, promenádu a dobrou večeři."
+    ],
+    "whenNot": "- Při Kalimě nebo velkém vedru zkrať trasu a nech jen pláž + stín."
+  },
+  {
+    "id": "klasika-jih",
+    "propertyId": "paradise",
+    "title": "Klasika jih",
+    "region": "jih",
+    "duration": "full-day",
+    "poiIds": [
+      "siam-park",
+      "aqualand-costa-adeje",
+      "los-cristianos",
+      "playa-de-las-vistas"
+    ],
+    "transport": "car",
+    "permits": [
+      "siam-park",
+      "aqualand-costa-adeje"
+    ],
+    "estimatedCostPerson": "EUR 35-80",
+    "notes": "- Siam i Aqualand se dají koupit online i na místě; online nákup šetří frontu. Aqualand je blíž a jednodušší pro menší děti, Siam je větší celodenní zážitek. Twin Ticket dává smysl jen pokud plánuješ i Loro Parque do 15 dní.\n- Los Cristianos je dobrý backup pro večerní procházku i orientaci u ferry.",
+    "summary": "Pro rodiny a partu, která chce jeden den bez složité logistiky: voda, promenády, jídlo a jednoduché parkování.",
+    "itinerary": "- 10:00 — Siam Park na otevíračku, nebo Aqualand pěšky od apartmánu pro menší děti\n- 16:30 — přesun do Los Cristianos\n- 17:00 — Playa de las Vistas / promenáda\n- 19:00 — večeře v Los Cristianos",
+    "bestFor": [
+      "Pro rodiny a partu, která chce jeden den bez složité logistiky: voda, promenády, jídlo a jednoduché parkování."
+    ],
+    "whenNot": "- Při silném větru může Siam zavírat některé atrakce. Při Kalimě raději indoor / severní program."
+  },
+  {
+    "id": "teide-okoli",
+    "propertyId": "paradise",
+    "title": "Teide + okolí",
+    "region": "centrum-hory",
+    "duration": "full-day",
+    "poiIds": [
+      "teide-cable-car-pico",
+      "roques-de-garcia",
+      "el-portillo",
+      "vilaflor-pino-gordo"
+    ],
+    "transport": "car",
+    "permits": [
+      "pico-del-teide-pnt10",
+      "teide-cable-car"
+    ],
+    "estimatedCostPerson": "EUR 0-60",
+    "notes": "- Pico permit a lanovka jsou dvě oddělené rezervace.\n- Bez permitu na vrchol zůstaň u Roques de García a vyhlídek kolem La Rambleta.",
+    "summary": "Pro první velký výlet na Tenerife: sopky, výhledy, fotky a pocit, že jsi opravdu na jiném ostrově.",
+    "itinerary": "- 08:00 — odjezd přes Vilaflor\n- 09:00 — Pino Gordo jako krátký stop\n- 10:30 — Roques de García okruh nebo vyhlídky\n- 13:00 — Teide lanovka / La Rambleta podle rezervace\n- 15:30 — návštěvnické centrum El Portillo\n- 17:00 — návrat",
+    "bestFor": [
+      "Pro první velký výlet na Tenerife: sopky, výhledy, fotky a pocit, že jsi opravdu na jiném ostrově."
+    ],
+    "whenNot": "- Při větru, sněhu/ledu nebo Kalimě ztrácí Teide smysl. Ověř silnici TF-21 a provoz lanovky."
+  },
+  {
+    "id": "sever-puerto-garachico-icod",
+    "propertyId": "paradise",
+    "title": "Sever - Puerto + Garachico + Icod",
+    "region": "sever",
+    "duration": "full-day",
+    "poiIds": [
+      "puerto-de-la-cruz-lago-martianez",
+      "garachico-el-caleton",
+      "drago-milenario-icod",
+      "la-orotava"
+    ],
+    "transport": "car",
+    "permits": [],
+    "estimatedCostPerson": "EUR 10-40",
+    "notes": "- La Orotava není UNESCO; ber ji jako národní historický celek a krásné koloniální město.\n- El Caletón řeš podle vln a přílivu.",
+    "summary": "Pro klasický severní den: zelenější Tenerife, historická města, přírodní bazény a méně resortní atmosféra.",
+    "itinerary": "- 08:30 — odjezd na sever\n- 10:00 — La Orotava, historické centrum a Casa de los Balcones\n- 12:00 — Icod de los Vinos, Drago Milenario\n- 14:00 — Garachico + El Caletón\n- 17:00 — Puerto de la Cruz / Lago Martiánez podle energie",
+    "bestFor": [
+      "Pro klasický severní den: zelenější Tenerife, historická města, přírodní bazény a méně resortní atmosféra."
+    ],
+    "whenNot": "- Při rozbouřeném moři vynech koupání v Garachicu. Při dešti zkrať pobřežní část a dej více měst/kaváren."
+  },
+  {
+    "id": "anaga-santa-cruz-laguna",
+    "propertyId": "paradise",
+    "title": "Anaga + Santa Cruz + La Laguna",
+    "region": "vychod",
+    "duration": "full-day",
+    "poiIds": [
+      "sendero-de-los-sentidos",
+      "anaga-chinamada",
+      "la-laguna",
+      "santa-cruz-palmetum",
+      "playa-teresitas-gaviotas"
+    ],
+    "transport": "car",
+    "permits": [],
+    "estimatedCostPerson": "EUR 0-30",
+    "notes": "- PR-TF 10 přes Chinamada je náročnější varianta; pro univerzální den preferuj Sendero de los Sentidos.\n- La Laguna je jediné město UNESCO v tomto návrhu.",
+    "summary": "Pro den, kdy chceš kontrast: prales, město UNESCO, kultura a podle počasí i pláž.",
+    "itinerary": "- 08:00 — odjezd směr Anaga\n- 10:00 — Sendero de los Sentidos / Cruz del Carmen\n- 12:00 — La Laguna, historické centrum\n- 14:30 — Santa Cruz, Palmetum nebo Auditorio\n- 17:00 — Playa de las Teresitas jako lehký závěr",
+    "bestFor": [
+      "Pro den, kdy chceš kontrast: prales, město UNESCO, kultura a podle počasí i pláž."
+    ],
+    "whenNot": "- Při silné mlze nebo dešti z Anagy udělej krátkou verzi a přesuň čas do La Laguny / Santa Cruz."
+  },
+  {
+    "id": "masca-los-gigantes",
+    "propertyId": "paradise",
+    "title": "Masca + Los Gigantes",
+    "region": "zapad",
+    "duration": "full-day",
+    "poiIds": [
+      "masca-vesnice",
+      "los-gigantes-boat-trip",
+      "alcala"
+    ],
+    "transport": "car-plus-bus",
+    "permits": [
+      "masca-trail",
+      "masca-boat-exit"
+    ],
+    "estimatedCostPerson": "EUR 0-80",
+    "notes": "- Masca Trail: rezervace, povinný bus 355 ze Santiago del Teide a samostatný boat exit do 4 h.\n- Bez treku je to pohodový scenic den s autem.",
+    "summary": "Pro dramatické scenérie západu; treková verze jen pro zdatné a logisticky trpělivé turisty.",
+    "itinerary": "- 08:00 — odjezd směr Santiago del Teide\n- 09:00 — vesnice Masca a Cruz de Hilda\n- 11:00 — buď krátká scenic varianta, nebo Masca Trail podle slotu\n- 15:00 — Los Gigantes, přístav / boat trip\n- 18:00 — Alcalá jako klidnější stop cestou zpět",
+    "bestFor": [
+      "Pro dramatické scenérie západu; treková verze jen pro zdatné a logisticky trpělivé turisty."
+    ],
+    "whenNot": "- Po dešti, při výstrahách nebo pokud má někdo problém s klikatými silnicemi."
+  },
+  {
+    "id": "la-gomera-day-trip",
+    "propertyId": "paradise",
+    "title": "La Gomera day trip",
+    "region": "mimo-tenerife",
+    "duration": "full-day",
+    "poiIds": [
+      "la-gomera-day-trip",
+      "los-cristianos"
+    ],
+    "transport": "ferry",
+    "permits": [
+      "ferry-la-gomera"
+    ],
+    "estimatedCostPerson": "EUR 55-130",
+    "notes": "- Nejjednodušší je organizovaný tour s ferry, busem a průvodcem.\n- DIY varianta dává svobodu, ale vyžaduje auto nebo přesný plán na ostrově.",
+    "summary": "Pro dobrodružnější den mimo Tenerife, ale stále realizovatelný z apartmánu díky blízkosti ferry v Los Cristianos.",
+    "itinerary": "- 07:30 — přesun do Los Cristianos\n- 08:45–09:30 — ferry na La Gomeru\n- 11:00 — Garajonay / organizovaný okruh\n- 14:00 — oběd + ukázka Silbo Gomero podle tour\n- 17:00 — San Sebastián de la Gomera\n- 20:00–22:00 — návrat podle lodního řádu",
+    "bestFor": [
+      "Pro dobrodružnější den mimo Tenerife, ale stále realizovatelný z apartmánu díky blízkosti ferry v Los Cristianos."
+    ],
+    "whenNot": "- Při rozhozených časech ferry, při mořské výstraze nebo pokud nechceš velmi dlouhý den."
+  },
+  {
+    "id": "off-season-kalima-alternativa",
+    "propertyId": "paradise",
+    "title": "Off-season / Kalima alternativa",
+    "region": "multi-region",
+    "duration": "full-day",
+    "poiIds": [
+      "loro-parque",
+      "el-portillo",
+      "la-laguna",
+      "santa-cruz-palmetum",
+      "candelaria"
+    ],
+    "transport": "car",
+    "permits": [],
+    "estimatedCostPerson": "EUR 0-60",
+    "notes": "- Při Kalimě neplánuj Teide ani dlouhé vyhlídkové trasy.\n- Loro Parque je nejjistější placená alternativa; La Laguna + Santa Cruz levnější kulturní varianta.",
+    "summary": "Pro den, kdy nefungují výhledy, fouká, je Kalima nebo prostě nechceš spálit den čekáním na lepší počasí.",
+    "itinerary": "- 09:00 — výběr podle počasí: Loro Parque / La Laguna / Santa Cruz\n- 12:00 — indoor nebo polokrytá část programu\n- 15:00 — Candelaria nebo Palmetum jako lehký druhý stop\n- 18:00 — návrat přes TF-1",
+    "bestFor": [
+      "Pro den, kdy nefungují výhledy, fouká, je Kalima nebo prostě nechceš spálit den čekáním na lepší počasí."
+    ],
+    "whenNot": "- Pokud jsou silniční výstrahy i na hlavních tazích, zůstaň v okolí apartmánu."
+  }
+]

@@ -1,0 +1,3488 @@
+[
+  {
+    "id": "alcala",
+    "propertyId": "paradise",
+    "name": "Alcalá",
+    "nameLocal": "Alcalá (municipio Guía de Isora)",
+    "gps": [
+      28.2381,
+      -16.8261
+    ],
+    "region": "zapad",
+    "tags": {
+      "activity": [
+        "mesta",
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Klidnější západní pobřeží bez velkých hotelových davů. Hodí se na krátké koupání, procházku po promenádě a západ slunce s výhledem směrem k La Gomeře.",
+    "description": "Klidnější západní pobřeží bez velkých hotelových davů. Hodí se na krátké koupání, procházku po promenádě a západ slunce s výhledem směrem k La Gomeře.",
+    "practical": {
+      "openingHours": "Pláže a promenáda jsou veřejně přístupné.",
+      "price": "Zdarma.",
+      "visitDuration": "1-3 hodiny jako zastávka; půlden, pokud chceš koupání a oběd.",
+      "parking": "Hledej místo u pláže nebo u náměstí; v sezoně počítej s chvílí hledání.",
+      "reservation": "Není potřeba."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta je Alcalá méně pohodlná než pláže v okolí Costa Adeje. Pokud nechceš řešit přestupy, je lepší auto nebo taxi."
+    },
+    "links": {
+      "official": "https://www.tenerife-is.com/alcala-tenerife/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Playa%20La%20Jaquita%20Alcala%20Tenerife",
+      "guide": "https://honest-tenerife.com/beaches/playa-de-alcala/",
+      "actions": [],
+      "other": [
+        "https://honest-tenerife.com/beaches/playa-de-alcala/",
+        "https://honest-tenerife.com/coast-path/alcala/",
+        "https://www.beachatlas.com/la-jaquita"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/alcala.webp",
+        "alt": "Alcalá – Tenerife",
+        "license": "CC BY 2.0",
+        "credit": "Wikimedia Commons: dronepicr",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Steep_coast_in_Alcala_on_Tenerife%2C_Spain_%2848225514032%29.jpg",
+        "localPath": "/images/poi/alcala.webp"
+      }
+    ],
+    "rainyAlt": "Při silných vlnách zůstaň u promenády a přírodních bazénů. Na klasické koupání je v horším počasí jistější zůstat na chráněnějších plážích u Costa Adeje.",
+    "insiderTip": "Neber to jako hlavní celodenní cíl, ale jako příjemnou zastávku cestou na Los Gigantes nebo zpět z výletu na západ. Pokud jsou v oceánu vlny, přírodní bazény mohou být příjemnější než otevřená pláž.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.tenerife-is.com/alcala-tenerife/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/beaches/playa-de-alcala/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Playa%20La%20Jaquita%20Alcala%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://honest-tenerife.com/beaches/playa-de-alcala/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://honest-tenerife.com/coast-path/alcala/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.beachatlas.com/la-jaquita",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "anaga-chinamada",
+    "propertyId": "paradise",
+    "name": "Anaga Rural Park + Chinamada (PR-TF 10 + Sendero Sentidos viz #5)",
+    "nameLocal": "Parque Rural de Anaga + caserío Chinamada",
+    "gps": [
+      28.535,
+      -16.284
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "priroda",
+        "turistika",
+        "vyhlidky",
+        "kultura"
+      ],
+      "logistics": [],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Anaga je nejzelenější a nejdivočejší část Tenerife: vlhký vavřínový les, hřebeny nad oceánem a úplně jiná atmosféra než na jihu. Chinamada přidá jeskynní domy a krásný výhledový trek pro ty, kdo chtějí opravdový horský den.",
+    "description": "Anaga je nejzelenější a nejdivočejší část Tenerife: vlhký vavřínový les, hřebeny nad oceánem a úplně jiná atmosféra než na jihu. Chinamada přidá jeskynní domy a krásný výhledový trek pro ty, kdo chtějí opravdový horský den.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Jde to autobusem z La Laguny na Cruz del Carmen a zpět z Punta del Hidalgo, ale spoje nejsou časté. Bez auta plánuj časy dopředu a nech si velkou rezervu."
+    },
+    "links": {
+      "official": "https://www.tenerifeon.es/en/protected-natural-areas/en-parques-rurales/parque-rural-de-anaga",
+      "maps": "https://www.google.com/maps/place/Parque+Rural+de+Anaga/@28.5310664,-16.2808981,403m/data=!3m1!1e3!4m6!3m5!1s0xc41ceb2cf807a31:0x6ccbc0b96cf0dc22!8m2!3d28.5308651!4d-16.279915!16s%2Fg%2F11_yxvp4q?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+      "guide": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+      "actions": [],
+      "other": [
+        "https://www.webtenerife.co.uk",
+        "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+        "https://www.tenerifeon.es/en/routes/hiking/pr-tf-10-cruz-del-carmen-punta-del-hidalgo"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/anaga-chinamada.webp",
+        "alt": "Anaga Rural Park + Chinamada (PR-TF 10 + Sendero Sentidos viz #5) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: H. Zell",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coast_at_Chinamada_-_Tenerife_04.jpg",
+        "localPath": "/images/poi/anaga-chinamada.webp"
+      }
+    ],
+    "rainyAlt": "Lehká mlha a mrholení Anaze sluší, ale za silného deště jsou stezky kluzké. V takovém případě zůstaň u návštěvnického centra, krátkého okruhu nebo den přesuň do La Laguny.",
+    "insiderTip": "Pokud nechceš logisticky náročný trek, dej si jen Sendero de los Sentidos u Cruz del Carmen. Je krátké, krásné a s rodinou mnohem jednodušší než sestup až k oceánu.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.tenerifeon.es/en/protected-natural-areas/en-parques-rurales/parque-rural-de-anaga",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/place/Parque+Rural+de+Anaga/@28.5310664,-16.2808981,403m/data=!3m1!1e3!4m6!3m5!1s0xc41ceb2cf807a31:0x6ccbc0b96cf0dc22!8m2!3d28.5308651!4d-16.279915!16s%2Fg%2F11_yxvp4q?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.webtenerife.co.uk",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-cruz-del-carmen-parque-rural-de-anaga",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-10-cruz-del-carmen-punta-del-hidalgo",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "aqualand-costa-adeje",
+    "propertyId": "paradise",
+    "name": "Aqualand Costa Adeje",
+    "nameLocal": "Aqualand Costa Adeje",
+    "gps": [
+      28.0807,
+      -16.7268
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "koupani"
+      ],
+      "logistics": [
+        "bez-auta",
+        "cely-den",
+        "s-koccarkem",
+        "placene-vstupne"
+      ],
+      "weather": [
+        "vse-pocasi",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Aqualand Costa Adeje je vodní park jen pár kroků od apartmánu. Oproti Siam Parku působí jednodušeji a často dává větší smysl pro menší děti: má dětské bazény, Splash Tower, Pelican Bay, Pirates Island, vlnový bazén i klidnější atrakce.",
+    "description": "Aqualand Costa Adeje je vodní park jen pár kroků od apartmánu. Oproti Siam Parku působí jednodušeji a často dává větší smysl pro menší děti: má dětské bazény, Splash Tower, Pelican Bay, Pirates Island, vlnový bazén i klidnější atrakce.",
+    "practical": {
+      "openingHours": "obvykle 10:00-17:00, v červenci a srpnu 10:00-18:00; vodní atrakce zavírají zhruba 30 minut před koncem parku.",
+      "price": "online 1denní vstupenka začíná zhruba od 35 € dospělý / 27 € dítě 5-10; na pokladně bývá dražší.",
+      "visitDuration": "počítej půlden až celý den podle věku dětí a tepla.",
+      "parking": "park má vlastní parkování, ale z apartmánu je nejpohodlnější dojít pěšky.",
+      "reservation": "vstupenky se dají koupit online i na místě; online nákup šetří frontu."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Z apartmánu se dá dojít pěšky. To je hlavní výhoda oproti Siam Parku: žádné auto, žádný taxík a snadný návrat, když jsou děti unavené."
+    },
+    "links": {
+      "official": "https://www.aqualand.es/costa-adeje/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aqualand%20Costa%20Adeje%20Avenida%20de%20Austria%2015",
+      "guide": "https://www.aqualand.es/costa-adeje/en/attraction/",
+      "actions": [],
+      "other": [
+        "https://www.aqualand.es/costa-adeje/en/tickets/",
+        "https://www.aqualand.es/costa-adeje/en/opening-hours/",
+        "https://www.aqualand.es/costa-adeje/en/how-to-get-there/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/aqualand-costa-adeje.webp",
+        "alt": "Aqualand Costa Adeje – Tenerife",
+        "license": "AI-generated illustrative image",
+        "credit": "OpenAI image generation",
+        "sourceUrl": "/images/poi/aqualand-costa-adeje.webp",
+        "localPath": "/images/poi/aqualand-costa-adeje.webp"
+      }
+    ],
+    "rainyAlt": "Za silného větru mohou být některé atrakce nepříjemné nebo omezené. V chladnějších měsících počítej s tím, že voda může působit studeně; pro malé děti je lepší teplý slunečný den.",
+    "insiderTip": "Pro menší děti může být Aqualand příjemnější než Siam Park, protože je blíž, jednodušší a méně logisticky náročný. V areálu se zeptej na zvýhodněný return ticket, pokud byste se chtěli vrátit další den; nabídky se mohou měnit podle sezóny.",
+    "verifiedDate": "2026-06-15",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.aqualand.es/costa-adeje/en/",
+        "tier": "official",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.aqualand.es/costa-adeje/en/attraction/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aqualand%20Costa%20Adeje%20Avenida%20de%20Austria%2015",
+        "tier": "maps",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.aqualand.es/costa-adeje/en/tickets/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.aqualand.es/costa-adeje/en/opening-hours/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.aqualand.es/costa-adeje/en/how-to-get-there/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      }
+    ]
+  },
+  {
+    "id": "candelaria",
+    "propertyId": "paradise",
+    "name": "Candelaria (Basílica de Nuestra Señora + sochy Guanche Menceyes)",
+    "nameLocal": "Basílica de Nuestra Señora de la Candelaria; Plaza de la Patrona de Canarias",
+    "gps": [
+      28.3528,
+      -16.3712
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "kultura",
+        "mesta",
+        "gastro",
+        "koupani"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Candelaria je hlavní poutní místo Kanárských ostrovů a příjemný kulturní výlet u moře. Bazilika, velké náměstí a sochy guančských králů působí nejlépe jako krátká zastávka spojená s obědem nebo procházkou.",
+    "description": "Candelaria je hlavní poutní místo Kanárských ostrovů a příjemný kulturní výlet u moře. Bazilika, velké náměstí a sochy guančských králů působí nejlépe jako krátká zastávka spojená s obědem nebo procházkou.",
+    "practical": {
+      "parking": "Parkování je snazší mimo hlavní poutní termíny a mimo špičku."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Do Candelarie jezdí více linek TITSA z východní a jižní části ostrova. Je to jedna z těch zastávek, které dávají smysl i bez auta."
+    },
+    "links": {
+      "official": "https://www.candelaria.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Basilica%20Candelaria%20Tenerife",
+      "guide": "https://gotenerife.net/en/explore/basilica-candelaria/",
+      "actions": [],
+      "other": [
+        "https://gotenerife.net/en/explore/basilica-candelaria/",
+        "https://en.m.wikipedia.org/wiki/Basilica_of_Candelaria",
+        "https://triptionary.net/candelaria-tenerife/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/candelaria.webp",
+        "alt": "Candelaria (Basílica de Nuestra Señora + sochy Guanche Menceyes) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Candelaria%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-12%2C_DD_11.jpg",
+        "localPath": "/images/poi/candelaria.webp"
+      }
+    ],
+    "rainyAlt": "Za horšího počasí zkrať venkovní část na baziliku, náměstí a kávu. Pokud prší víc, spoj Candelarii s indoor zastávkou v Santa Cruz.",
+    "insiderTip": "Sochy Menceyes foť od moře směrem k bazilice nebo z boku po ránu, kdy je na náměstí klidněji. Po prohlídce se hodí rybí oběd na promenádě nebo krátká zastávka na pláži v Punta Larga.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.candelaria.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://gotenerife.net/en/explore/basilica-candelaria/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Basilica%20Candelaria%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://gotenerife.net/en/explore/basilica-candelaria/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://en.m.wikipedia.org/wiki/Basilica_of_Candelaria",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://triptionary.net/candelaria-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "drago-milenario-icod",
+    "propertyId": "paradise",
+    "name": "Drago Milenario + Parque del Drago + Mariposario (Icod de los Vinos)",
+    "nameLocal": "Drago Milenario (Monumento Nacional 1917) + Parque del Drago + Mariposario del Drago",
+    "gps": [
+      28.3717,
+      -16.7187
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "priroda",
+        "kultura"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Icod de los Vinos je hezké historické městečko a Drago Milenario je jeden ze symbolů Tenerife. Dobře funguje jako klidná severní zastávka s krátkou procházkou, fotkou a případně motýlím parkem pro děti.",
+    "description": "Icod de los Vinos je hezké historické městečko a Drago Milenario je jeden ze symbolů Tenerife. Dobře funguje jako klidná severní zastávka s krátkou procházkou, fotkou a případně motýlím parkem pro děti.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta je cesta z jihu zdlouhavá a obvykle přes přestup. Pokud nemáš celý den, je praktičtější auto nebo organizovaný severní okruh."
+    },
+    "links": {
+      "official": "https://icoddelosvinos.es/patrimonio/drago-milenario",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20del%20Drago%20Icod%20de%20los%20Vinos%20Tenerife",
+      "guide": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+      "actions": [
+        {
+          "label": "Motýli",
+          "url": "https://www.mariposario.com/en/"
+        }
+      ],
+      "other": [
+        "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+        "http://www.mariposario.com/en/",
+        "https://www.mariposario.com/en/informacion-y-precios/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/drago-milenario-icod.webp",
+        "alt": "Drago Milenario + Parque del Drago + Mariposario (Icod de los Vinos) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Lmbuga (Luis Miguel Bugallo Sanchez)",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Drago_%28Dracaena_drago%29_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg",
+        "localPath": "/images/poi/drago-milenario-icod.webp"
+      }
+    ],
+    "rainyAlt": "Icod je na horší počasí snesitelný: Drago se dá vidět rychle a Mariposario je kryté. Pokud je sever zatažený celý den, spoj to s La Orotavou nebo Puerto de la Cruz.",
+    "insiderTip": "Motýlí park je dobrý bonus pro děti nebo jako jemná varianta při horším počasí. Po prohlídce si nech chvíli na historické uličky a sklenku místního bílého vína.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://icoddelosvinos.es/patrimonio/drago-milenario",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Motýli",
+        "url": "https://www.mariposario.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20del%20Drago%20Icod%20de%20los%20Vinos%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://icoddelosvinos.es/patrimonio/drago-milenario/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "http://www.mariposario.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.mariposario.com/en/informacion-y-precios/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "el-medano",
+    "propertyId": "paradise",
+    "name": "El Médano (městečko + Playa El Médano + Playa La Tejita + Montaña Roja + Playa La Pelada)",
+    "nameLocal": "El Médano (municipio Granadilla de Abona)",
+    "gps": [
+      28.0466,
+      -16.5358
+    ],
+    "region": "jih",
+    "tags": {
+      "activity": [
+        "mesta",
+        "koupani",
+        "priroda",
+        "gastro",
+        "turistika"
+      ],
+      "logistics": [
+        "bez-auta",
+        "pul-den",
+        "cely-den",
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "El Médano je uvolněné plážové městečko s promenádou, kavárnami a výhledem na Montaña Roja. Je skvělé na procházku, surfovou atmosféru a ve správném počasí i koupání.",
+    "description": "El Médano je uvolněné plážové městečko s promenádou, kavárnami a výhledem na Montaña Roja. Je skvělé na procházku, surfovou atmosféru a ve správném počasí i koupání.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "470"
+      ],
+      "note": "Z Los Cristianos a Las Galletas jezdí linka 470. Cesta je použitelná, jen si předem zkontroluj poslední spoj zpět."
+    },
+    "links": {
+      "official": "https://elmedanoweb.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Medano%20Tenerife",
+      "guide": "https://elmedanoweb.com/",
+      "actions": [
+        {
+          "label": "Surf lekce česky",
+          "url": "https://www.surftenerife.cz/"
+        }
+      ],
+      "other": [
+        "https://wikipedia.com/wiki/El_M%C3%A9dano",
+        "https://www.titsa.com",
+        "https://guanches.org/El_M%C3%A9dano"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/el-medano.webp",
+        "alt": "El Médano (městečko + Playa El Médano + Playa La Tejita + Montaña Roja + Playa La Pelada) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Papm1949",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ES7020049_Tenerife_Monta%C3%B1a_Roja%2C_playa_de_El_M%C3%A9dano.jpg",
+        "localPath": "/images/poi/el-medano.webp"
+      }
+    ],
+    "rainyAlt": "El Médano často fouká; pro surfaře je to výhoda, pro klidné koupání ne. Pokud chceš zkusit surf, rezervuj si lekci dopředu a podmínky nech posoudit školou. Když chceš vodu bez větru, zvol raději Playa del Duque nebo Las Vistas.",
+    "insiderTip": "Když si chceš surf jen vyzkoušet, dá se objednat lekce v české surf škole Wave Academy Surf School. Když je v centru moc živo, popojeď nebo dojdi k Playa La Pelada. Bývá klidnější, ale přístup je po prašné cestě a bez zázemí.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://elmedanoweb.com/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://elmedanoweb.com/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Surf lekce česky",
+        "url": "https://www.surftenerife.cz/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Medano%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://wikipedia.com/wiki/El_M%C3%A9dano",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.titsa.com",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://guanches.org/El_M%C3%A9dano",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "el-portillo",
+    "propertyId": "paradise",
+    "name": "Centro de Visitantes El Portillo (Teide NP)",
+    "nameLocal": "Centro de Visitantes de El Portillo",
+    "gps": [
+      28.3045,
+      -16.5666
+    ],
+    "region": "centrum-hory",
+    "tags": {
+      "activity": [
+        "kultura",
+        "priroda",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "El Portillo je praktická zastávka před nebo po cestě přes Teide. Návštěvnické centrum vysvětlí sopky, krajinu i místní rostliny a pomůže ostrov pochopit líp než jen z vyhlídky.",
+    "description": "El Portillo je praktická zastávka před nebo po cestě přes Teide. Návštěvnické centrum vysvětlí sopky, krajinu i místní rostliny a pomůže ostrov pochopit líp než jen z vyhlídky.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Zastavují tu linky přes Teide, ale mají omezený takt. Bez auta plánuj podle jízdního řádu TITSA, ne podle volné improvizace."
+    },
+    "links": {
+      "official": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20de%20Visitantes%20El%20Portillo%20Tenerife",
+      "guide": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+      "actions": [],
+      "other": [
+        "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+        "https://www.gobiernodecanarias.org/parquesnacionales/teide/visita/centros_y_horarios/",
+        "https://www.webtenerife.co.uk/what-see/teide-national-park/centro-de-visitantes-el-portillo/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/el-portillo.webp",
+        "alt": "Centro de Visitantes El Portillo (Teide NP) – Tenerife",
+        "license": "CC BY 4.0",
+        "credit": "Wikimedia Commons: Flocci Nivis",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20250704_Echium_wildpretii.jpg",
+        "localPath": "/images/poi/el-portillo.webp"
+      }
+    ],
+    "rainyAlt": "Když se lanovka na Teide kvůli větru zavře, El Portillo je dobrý náhradní bod v horách. Při špatné viditelnosti ale nečekej velké výhledy.",
+    "insiderTip": "Zařaď El Portillo cestou z Roques de García nebo při severní trase z Puerto de la Cruz. Je to přesně ta zastávka, která z krátkého výletu udělá srozumitelný zážitek.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.gobiernodecanarias.org/parquesnacionales/teide",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20de%20Visitantes%20El%20Portillo%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.tenerifeon.es/en/facilities/visitors-centre/centro-de-visitantes-el-portillo",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.gobiernodecanarias.org/parquesnacionales/teide/visita/centros_y_horarios/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.webtenerife.co.uk/what-see/teide-national-park/centro-de-visitantes-el-portillo/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "garachico-el-caleton",
+    "propertyId": "paradise",
+    "name": "Garachico + El Caletón (přírodní bazény)",
+    "nameLocal": "Garachico + El Caletón (přírodní bazény)",
+    "gps": [
+      28.3741,
+      -16.7634
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "koupani",
+        "mesta",
+        "kultura",
+        "vyhlidky",
+        "gastro"
+      ],
+      "logistics": [],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Garachico je jedno z nejhezčích historických měst na severu a lávové bazény El Caletón jsou jeho největší bonus. Je to výlet pro hezkou architekturu, moře, oběd a koupání, když je oceán klidný.",
+    "description": "Garachico je jedno z nejhezčích historických měst na severu a lávové bazény El Caletón jsou jeho největší bonus. Je to výlet pro hezkou architekturu, moře, oběd a koupání, když je oceán klidný.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "363"
+      ],
+      "note": "Z Puerto de la Cruz a Buenavisty jezdí linka 363. Z jihu je to bez auta delší výlet s přestupy."
+    },
+    "links": {
+      "official": "https://turismo.garachico.es/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20El%20Caleton%20Garachico%20Tenerife",
+      "guide": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+      "actions": [],
+      "other": [
+        "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+        "https://airial.travel/attractions/spain/garachico/el-calet%C3%B3n-natural-pools-qxCfuea5",
+        "https://canarias-lovers.com/en/natural-pools-el-caleton-garachico/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/garachico-el-caleton.webp",
+        "alt": "Garachico + El Caletón (přírodní bazény) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Piscinas_naturales%2C_Garachico%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-13%2C_DD_01.jpg",
+        "localPath": "/images/poi/garachico-el-caleton.webp"
+      }
+    ],
+    "rainyAlt": "Při vlnách do bazénů nechoď. Nech si Garachico jako městský výlet s kavárnou, Castillo de San Miguel a obědem u moře.",
+    "insiderTip": "Před cestou mrkni na příliv a vlny. Při nízkém klidném moři je El Caletón na koupání, při vyšších vlnách spíš na fotky a procházku městem.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://turismo.garachico.es/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20El%20Caleton%20Garachico%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.hellocanaryislands.com/natural-pools/tenerife/el-caleton-de-garachico/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://airial.travel/attractions/spain/garachico/el-calet%C3%B3n-natural-pools-qxCfuea5",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://canarias-lovers.com/en/natural-pools-el-caleton-garachico/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "la-caleta",
+    "propertyId": "paradise",
+    "name": "La Caleta (rybářská vesnice + Playa de Enramada)",
+    "nameLocal": "La Caleta de Adeje",
+    "gps": [
+      28.1024,
+      -16.7711
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "gastro",
+        "mesta",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": []
+    },
+    "summary": "La Caleta je příjemná rybářská vesnice na okraji Costa Adeje, kam se chodí hlavně na moře, západ slunce a dobrou večeři. Je klidnější než hlavní promenády a pořád blízko apartmánu.",
+    "description": "La Caleta je příjemná rybářská vesnice na okraji Costa Adeje, kam se chodí hlavně na moře, západ slunce a dobrou večeři. Je klidnější než hlavní promenády a pořád blízko apartmánu.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "467",
+        "477"
+      ],
+      "note": "Dá se dojet linkami 467 nebo 477, případně taxíkem. Z Costa Adeje je to také hezká pěší trasa po promenádě."
+    },
+    "links": {
+      "official": "https://costa-adeje.es/en/beaches/la-caleta",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Caleta%20Adeje%20Tenerife",
+      "guide": "https://costa-adeje.es/en/beaches/la-caleta",
+      "actions": [],
+      "other": [
+        "https://restaurantelavieja.com/en/",
+        "https://caletasuitestenerife.com/gastronomy/seafood-restaurants-in-la-caleta/",
+        "https://tapitaslacaleta.shop/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/la-caleta.webp",
+        "alt": "La Caleta (rybářská vesnice + Playa de Enramada) – Tenerife",
+        "license": "CC BY 3.0",
+        "credit": "Wikimedia Commons: Marc Ryckaert",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Caleta_R04.jpg",
+        "localPath": "/images/poi/la-caleta.webp"
+      }
+    ],
+    "rainyAlt": "Za větru zkrať pobřežní část a udělej z toho hlavně večeři. Při dešti vyber restauraci s krytou terasou nebo se přesuň do Plaza del Duque.",
+    "insiderTip": "Na jednoduchý večerní plán dej procházku směrem k Playa del Duque a pak rybu na terase v La Caletě. Pokud chceš konkrétní restauraci, rezervuj předem.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://costa-adeje.es/en/beaches/la-caleta",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://costa-adeje.es/en/beaches/la-caleta",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Caleta%20Adeje%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://restaurantelavieja.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://caletasuitestenerife.com/gastronomy/seafood-restaurants-in-la-caleta/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://tapitaslacaleta.shop/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "la-gomera-day-trip",
+    "propertyId": "paradise",
+    "name": "La Gomera — Day trip (Fred. Olsen / Naviera Armas + Garajonay NP + San Sebastián)",
+    "nameLocal": "Isla de La Gomera; Parque Nacional de Garajonay (UNESCO 1986); San Sebastián de la Gomera",
+    "gps": [
+      28.0479,
+      -16.7204
+    ],
+    "region": "mimo-tenerife",
+    "tags": {
+      "activity": [
+        "priroda",
+        "kultura",
+        "vyhlidky",
+        "turistika",
+        "gastro"
+      ],
+      "logistics": [
+        "cely-den",
+        "bez-auta"
+      ],
+      "weather": []
+    },
+    "summary": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Jako jednodenní výlet je to spíš náročná ochutnávka než pohodový den; dává smysl hlavně s organizovaným okruhem nebo pro hosty, kteří opravdu chtějí vidět další ostrov.",
+    "description": "La Gomera je za necelou hodinu lodí, ale působí jako jiný svět: zelený Garajonay, klidné vesnice a výhledy bez ruchu jižního Tenerife. Jako jednodenní výlet je to spíš náročná ochutnávka než pohodový den; dává smysl hlavně s organizovaným okruhem nebo pro hosty, kteří opravdu chtějí vidět další ostrov.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta dává největší smysl organizovaný tour s trajektem, autobusem a průvodcem. DIY varianta bez auta na Gomeře je na jeden den dost omezená."
+    },
+    "links": {
+      "official": "https://lagomera.travel/en/",
+      "maps": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
+      "mapsLabel": "Ferry",
+      "guide": "https://lagomera.travel/en/",
+      "actions": [],
+      "other": [
+        "https://www.expedia.com/La-Gomera.dx6025053",
+        "https://www.tuimusement.com/uk/spain/tenerife/la-gomera-tour-with-garajonay-forest-and-san-sebastian-10/e_o9qd7-d_302-c_161/",
+        "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/la-gomera-day-trip.webp",
+        "alt": "La Gomera — Day trip (Fred. Olsen / Naviera Armas + Garajonay NP + San Sebastián) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bosque_Encantado%2C_Parque_nacional_de_Garajonay%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_19.jpg",
+        "localPath": "/images/poi/la-gomera-day-trip.webp"
+      }
+    ],
+    "rainyAlt": "Při silném větru se může měnit komfort plavby i program v horách. Den předem ověř trajekt a počasí; při nejistotě raději nech výlet na jiný den.",
+    "insiderTip": "Pokud jedeš poprvé a jen na den, vezmi organizovaný okruh. Pokud chceš svobodu, rezervuj trajekt i auto v San Sebastiánu a neplánuj příliš mnoho zastávek.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://lagomera.travel/en/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://lagomera.travel/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Ferry",
+        "url": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.expedia.com/La-Gomera.dx6025053",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.tuimusement.com/uk/spain/tenerife/la-gomera-tour-with-garajonay-forest-and-san-sebastian-10/e_o9qd7-d_302-c_161/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.fredolsen.es/en/fast-ferry-la-gomera-tenerife-tenerife-la-gomera",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "la-laguna",
+    "propertyId": "paradise",
+    "name": "La Laguna (UNESCO World Heritage)",
+    "nameLocal": "San Cristóbal de La Laguna",
+    "gps": [
+      28.4855,
+      -16.3214
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "kultura",
+        "mesta",
+        "vyhlidky",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "La Laguna je historické univerzitní město a UNESCO památka s úplně jinou energií než jih ostrova. Hodí se na uličky, kavárny, koloniální domy a den, kdy nechceš být jen u pláže.",
+    "description": "La Laguna je historické univerzitní město a UNESCO památka s úplně jinou energií než jih ostrova. Hodí se na uličky, kavárny, koloniální domy a den, kdy nechceš být jen u pláže.",
+    "practical": {
+      "parking": "Parkování Aparcamiento Adelantado je dobrý výchozí bod na okraji centra."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Ze Santa Cruz jede do La Laguny tramvaj linky 1, rychle a často. Z jihu je praktičtější dojet autobusem do Santa Cruz a pokračovat tramvají."
+    },
+    "links": {
+      "official": "https://www.aytolalaguna.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Adelantado%20La%20Laguna%20Tenerife",
+      "guide": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
+      "actions": [],
+      "other": [
+        "https://tourismattractions.net/spain/la-laguna",
+        "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
+        "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/la-laguna.webp",
+        "alt": "La Laguna (UNESCO World Heritage) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Catedral_de_San_Crist%C3%B3bal_de_La_Laguna%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD%2C_DD_102-104_HDR.jpg",
+        "localPath": "/images/poi/la-laguna.webp"
+      }
+    ],
+    "rainyAlt": "Lehký déšť La Laguně nevadí: kavárny, obchody a historické domy jsou blízko u sebe. Při silnějším dešti zkrať program na centrum a oběd.",
+    "insiderTip": "Nejživější je centrum kolem poledne, kdy jsou v ulicích studenti. Vezmi si vrstvu navíc, La Laguna bývá chladnější a mlhavější než pobřeží.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.aytolalaguna.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Adelantado%20La%20Laguna%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://tourismattractions.net/spain/la-laguna",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://canaryvip.com/la-laguna-the-world-heritage-city-in-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "la-orotava",
+    "propertyId": "paradise",
+    "name": "La Orotava (historické centrum + Casa de los Balcones)",
+    "nameLocal": "La Villa de La Orotava (Conjunto Histórico-Artístico od 1976)",
+    "gps": [
+      28.3905,
+      -16.5236
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "kultura",
+        "mesta",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "La Orotava má jedno z nejhezčích historických center na Tenerife, s dřevěnými balkóny, patii a starými uličkami nad údolím. Je to klidná kulturní zastávka, která se dobře kombinuje s Puerto de la Cruz.",
+    "description": "La Orotava má jedno z nejhezčích historických center na Tenerife, s dřevěnými balkóny, patii a starými uličkami nad údolím. Je to klidná kulturní zastávka, která se dobře kombinuje s Puerto de la Cruz.",
+    "practical": {
+      "parking": "Parkování hledej na okraji historického centra a dál pokračuj pěšky."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta jeď přes Puerto de la Cruz nebo severní linky TITSA. Z jihu je to delší výlet, lepší jako součást celého dne na severu."
+    },
+    "links": {
+      "official": "http://www.laorotava.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Orotava%20centro%20Tenerife",
+      "guide": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+      "actions": [],
+      "other": [
+        "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+        "https://www.webtenerife.co.uk/what-see/other-attractions/casa-balcones/",
+        "http://www.laorotava.es/en/lugares/set-historical-buildings-visitables"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/la-orotava.webp",
+        "alt": "La Orotava (historické centrum + Casa de los Balcones) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Quartl",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Valle_de_La_Orotava_qtl1.jpg",
+        "localPath": "/images/poi/la-orotava.webp"
+      }
+    ],
+    "rainyAlt": "Při lehkém dešti fungují Casa de los Balcones, kavárny a krátká procházka centrem. Pokud je sever celý mokrý, spoj výlet s Puerto de la Cruz nebo ho přesuň.",
+    "insiderTip": "Začni u Plaza de la Constitución a sejdi přes historické ulice k Casa de los Balcones. Pokud trefíš Corpus Christi, město je výjimečné, ale bývá plné.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "http://www.laorotava.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20La%20Orotava%20centro%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://wonderfultenerife.com/en/article/show/2890/03-la-orotava-recorrido-historico-monumental",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.webtenerife.co.uk/what-see/other-attractions/casa-balcones/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "http://www.laorotava.es/en/lugares/set-historical-buildings-visitables",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "las-galletas-finca-las-margaritas",
+    "propertyId": "paradise",
+    "name": "Las Galletas + Finca Las Margaritas Banana Experience",
+    "nameLocal": "Las Galletas (municipio Arona) + Finca Las Margaritas",
+    "gps": [
+      28.0162,
+      -16.6516
+    ],
+    "region": "jih",
+    "tags": {
+      "activity": [
+        "mesta",
+        "koupani",
+        "gastro",
+        "atrakce",
+        "kultura"
+      ],
+      "logistics": [],
+      "weather": []
+    },
+    "summary": "Las Galletas je obyčejnější, místnější jih Tenerife bez velkých hotelových kulis. Finca Las Margaritas k tomu přidá srozumitelnou banánovou prohlídku s ochutnávkou, takže výlet není jen další pláž.",
+    "description": "Las Galletas je obyčejnější, místnější jih Tenerife bez velkých hotelových kulis. Finca Las Margaritas k tomu přidá srozumitelnou banánovou prohlídku s ochutnávkou, takže výlet není jen další pláž.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "470",
+        "416"
+      ],
+      "note": "Do Las Galletas jezdí linka 470 z Los Cristianos a El Médana, případně linka 416 přes Costa del Silencio. Na fincu si ověř docházkovou vzdálenost nebo vezmi taxi."
+    },
+    "links": {
+      "official": "https://spainguides.com/top-destinations/las-galletas/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Finca%20Las%20Margaritas%20Banana%20Experience%20parking%20Tenerife",
+      "guide": "https://laesenciadecanarias.com/tenerife/las-galletas/",
+      "actions": [],
+      "other": [
+        "https://lasmargaritasbananaexperience.com/en/",
+        "https://laesenciadecanarias.com/tenerife/las-galletas/",
+        "https://www.pelago.com/en-US/tenerife/playa-de-las-galletas-c3247"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/las-galletas-finca-las-margaritas.webp",
+        "alt": "Las Galletas + Finca Las Margaritas Banana Experience – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: X3m",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Las_Galletas_3.JPG",
+        "localPath": "/images/poi/las-galletas-finca-las-margaritas.webp"
+      }
+    ],
+    "rainyAlt": "Za větru zkrať pláž a nech si fincu, trh nebo oběd. Při dešti ověř, jestli prohlídka probíhá, a případně přesuň program do Los Cristianos.",
+    "insiderTip": "Po banánové prohlídce zůstaň na jednoduchý rybí oběd u promenády. Pokud někdo ve skupině potápí, Las Galletas je dobrý jihový výchozí bod.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://spainguides.com/top-destinations/las-galletas/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://laesenciadecanarias.com/tenerife/las-galletas/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Finca%20Las%20Margaritas%20Banana%20Experience%20parking%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://lasmargaritasbananaexperience.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://laesenciadecanarias.com/tenerife/las-galletas/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.pelago.com/en-US/tenerife/playa-de-las-galletas-c3247",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "loro-parque",
+    "propertyId": "paradise",
+    "name": "Loro Parque",
+    "nameLocal": "Loro Parque",
+    "gps": [
+      28.4108,
+      -16.5658
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "kultura"
+      ],
+      "logistics": [
+        "bez-auta",
+        "cely-den",
+        "rezervace-doporucena",
+        "placene-vstupne"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Loro Parque je velký celodenní park v Puerto de la Cruz, vhodný hlavně pro rodiny a den, kdy chcete hotový program bez plánování. Kombinuje zvířata, akvárium, show a kryté části, takže funguje i mimo plážové počasí.",
+    "description": "Loro Parque je velký celodenní park v Puerto de la Cruz, vhodný hlavně pro rodiny a den, kdy chcete hotový program bez plánování. Kombinuje zvířata, akvárium, show a kryté části, takže funguje i mimo plážové počasí.",
+    "practical": {
+      "parking": "Parkování je placené."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Po Puerto de la Cruz jezdí k parku turistický vláček z Plaza de los Reyes Católicos. Z jihu je cesta bez auta dlouhá, s přestupem přes sever."
+    },
+    "links": {
+      "official": "https://www.loroparque.com",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Loro%20Parque%20Tenerife",
+      "guide": "https://www.loroparque.com/en/plan-visit-loro-parque/",
+      "actions": [],
+      "other": [
+        "https://www.loroparque.com/en/plan-visit-loro-parque/",
+        "https://www.loroparque.com/en/faq/",
+        "https://www.taquilla.com/entradas/loro-parque"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/loro-parque.webp",
+        "alt": "Loro Parque – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: H. Zell",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Aratinga_solstitialis_-_Loro_Parque_01.jpg",
+        "localPath": "/images/poi/loro-parque.webp"
+      }
+    ],
+    "rainyAlt": "Tohle je jedna z nejlepších variant pro horší počasí. Část programu je krytá a sever bývá stejně chladnější, takže vezmi lehkou bundu.",
+    "insiderTip": "Přijeď na otevření a naplánuj si časy show hned u vstupu. U vodních show neseď v prvních řadách, pokud nechceš skončit mokrá.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.loroparque.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.loroparque.com/en/plan-visit-loro-parque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Loro%20Parque%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.loroparque.com/en/plan-visit-loro-parque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.loroparque.com/en/faq/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.taquilla.com/entradas/loro-parque",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "los-abrigos",
+    "propertyId": "paradise",
+    "name": "Los Abrigos",
+    "nameLocal": "Los Abrigos (municipio Granadilla de Abona)",
+    "gps": [
+      28.0247,
+      -16.5774
+    ],
+    "region": "jih",
+    "tags": {
+      "activity": [
+        "gastro",
+        "mesta",
+        "koupani"
+      ],
+      "logistics": [
+        "bez-auta"
+      ],
+      "weather": []
+    },
+    "summary": "Los Abrigos je nenápadný rybářský přístav na jihu, kam se jezdí hlavně na čerstvou rybu a klidnější večer. Je autentičtější než turistické promenády a pořád dobře dostupný z apartmánu.",
+    "description": "Los Abrigos je nenápadný rybářský přístav na jihu, kam se jezdí hlavně na čerstvou rybu a klidnější večer. Je autentičtější než turistické promenády a pořád dobře dostupný z apartmánu.",
+    "practical": {
+      "parking": "Parkování v uličkách může chvíli trvat."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "470",
+        "477"
+      ],
+      "note": "Do Los Abrigos jezdí linky 470 a 477. Na večerní návrat si zkontroluj poslední spoj, jinak je jednodušší taxi."
+    },
+    "links": {
+      "official": "https://www.granadilladeabona.org",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Los%20Abrigos%20Tenerife",
+      "guide": "https://tenerifesouthguide.com/los-abrigos/",
+      "actions": [],
+      "other": [
+        "https://biveros.com/los-abrigos-tenerife-spain/",
+        "https://www.tenerifepages.com/los-abrigos-fish-market",
+        "https://tenerifesouthguide.com/los-abrigos/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/los-abrigos.webp",
+        "alt": "Los Abrigos – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Mike Peel",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/At_Los_Abrigos_2022_001.jpg",
+        "localPath": "/images/poi/los-abrigos.webp"
+      }
+    ],
+    "rainyAlt": "Za větru z toho udělej hlavně gastro výlet. Vyber restauraci uvnitř nebo s krytou terasou a promenádu nech jen na krátkou pauzu.",
+    "insiderTip": "Přijď na oběd dřív, kdy bývá nejlepší výběr ryb. Po jídle se projdi kolem přístavu; na západ slunce je to velmi příjemná krátká zastávka.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.granadilladeabona.org",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://tenerifesouthguide.com/los-abrigos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Los%20Abrigos%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://biveros.com/los-abrigos-tenerife-spain/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.tenerifepages.com/los-abrigos-fish-market",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://tenerifesouthguide.com/los-abrigos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "los-cristianos",
+    "propertyId": "paradise",
+    "name": "Los Cristianos",
+    "nameLocal": "Los Cristianos",
+    "gps": [
+      28.0497,
+      -16.722
+    ],
+    "region": "jih",
+    "tags": {
+      "activity": [
+        "mesta",
+        "koupani",
+        "gastro",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "bez-auta"
+      ],
+      "weather": []
+    },
+    "summary": "Los Cristianos je rušné turistické centrum jihu s přístavem, dvěma plážemi a dlouhou promenádou. Je praktické na trajekt, večerní procházku, restaurace i den bez auta.",
+    "description": "Los Cristianos je rušné turistické centrum jihu s přístavem, dvěma plážemi a dlouhou promenádou. Je praktické na trajekt, večerní procházku, restaurace i den bez auta.",
+    "practical": {
+      "parking": "Parkování v centru je složitější, zejména večer a o víkendu."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Los Cristianos je hlavní autobusový uzel jihu. Bez auta je to jedna z nejjednodušších destinací."
+    },
+    "links": {
+      "official": "https://arona.travel",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Los%20Cristianos%20Tenerife",
+      "guide": "https://gotenerife.net/en/explore/los-cristianos/",
+      "actions": [],
+      "other": [
+        "https://en.wikipedia.org/wiki/Los_Cristianos",
+        "https://gotenerife.net/en/explore/los-cristianos/",
+        "https://arona.travel/es-es/Planea-tu-viaje/Oficinas-de-informaci%C3%B3n-tur%C3%ADstica"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/los-cristianos.webp",
+        "alt": "Los Cristianos – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Mike Peel",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/At_Tenerife_2023_503_-_Playa_Honda%2C_Los_Cristianos.jpg",
+        "localPath": "/images/poi/los-cristianos.webp"
+      }
+    ],
+    "rainyAlt": "Za větru funguje promenáda, přístav a restaurace. Při dešti zvol kratší procházku a kryté podniky v centru.",
+    "insiderTip": "Na klidnější koupání jdi spíš na Playa de las Vistas nebo přístavní Playa Los Cristianos. Pokud plánuješ La Gomeru, večer předem si projdi trasu k terminálu.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://arona.travel",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://gotenerife.net/en/explore/los-cristianos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Los%20Cristianos%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://en.wikipedia.org/wiki/Los_Cristianos",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://gotenerife.net/en/explore/los-cristianos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://arona.travel/es-es/Planea-tu-viaje/Oficinas-de-informaci%C3%B3n-tur%C3%ADstica",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "los-gigantes-boat-trip",
+    "propertyId": "paradise",
+    "name": "Los Gigantes + výlet lodí Flipper Uno",
+    "nameLocal": "Los Gigantes (Acantilados de los Gigantes) + Flipper Uno",
+    "gps": [
+      28.244,
+      -16.839
+    ],
+    "region": "zapad",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "vyhlidky",
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "cely-den"
+      ],
+      "weather": []
+    },
+    "summary": "Los Gigantes stojí za výlet hlavně kvůli obrovským útesům padajícím přímo do oceánu. Pokud chceš z výletu udělat zážitek, přidej plavbu lodí z přístavu a pozorování delfínů nebo velryb.",
+    "description": "Los Gigantes stojí za výlet hlavně kvůli obrovským útesům padajícím přímo do oceánu. Pokud chceš z výletu udělat zážitek, přidej plavbu lodí z přístavu a pozorování delfínů nebo velryb.",
+    "practical": {
+      "openingHours": "Město a přístav jsou volně přístupné; časy plaveb se řídí rezervací.",
+      "price": "Město zdarma; plavba lodí je placená.",
+      "visitDuration": "Půlden na město a výhledy; celý den, pokud přidáš plavbu a oběd.",
+      "parking": "U přístavu bývá rušno, přijeď s rezervou.",
+      "reservation": "Plavbu rezervuj předem, hlavně v sezoně."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta je možné jet autobusem směrem na Los Gigantes, ale pro pohodlný den s lodí je praktičtější auto nebo organizovaný výlet."
+    },
+    "links": {
+      "official": "https://flipperuno.com",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Deportivo%20Los%20Gigantes%20Tenerife",
+      "guide": "https://flipperuno.com/en/",
+      "actions": [],
+      "other": [
+        "https://flipperuno.com/en/",
+        "https://emocionatetours.com/en/excursions-tenerife/tenerife-boat-trips/flipper-one/",
+        "https://flipperuno.com/pf/flipper-uno/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/los-gigantes-boat-trip.webp",
+        "alt": "Los Gigantes + výlet lodí Flipper Uno – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Los_Gigantes%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_10.jpg",
+        "localPath": "/images/poi/los-gigantes-boat-trip.webp"
+      }
+    ],
+    "rainyAlt": "Při silném větru se plavby mohou měnit nebo rušit. V takovém případě nech Los Gigantes jen jako vyhlídkovou zastávku a spoj ho s Alcalá nebo Mascou.",
+    "insiderTip": "Na plavbu je lepší ranní termín: moře bývá klidnější a den se potom nerozpadne čekáním. Po návratu si nech čas na krátkou procházku přístavem a oběd s výhledem na útesy.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://flipperuno.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://flipperuno.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Puerto%20Deportivo%20Los%20Gigantes%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://flipperuno.com/en/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://emocionatetours.com/en/excursions-tenerife/tenerife-boat-trips/flipper-one/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://flipperuno.com/pf/flipper-uno/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "masca-vesnice",
+    "propertyId": "paradise",
+    "name": "Masca vesnice + Mirador La Cruz de Hilda",
+    "nameLocal": "Masca (Teno Rural Park, Buenavista del Norte)",
+    "gps": [
+      28.31,
+      -16.83
+    ],
+    "region": "zapad",
+    "tags": {
+      "activity": [
+        "mesta",
+        "vyhlidky",
+        "gastro",
+        "priroda"
+      ],
+      "logistics": [],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Masca je malá horská vesnice sevřená mezi dramatickými skalami a patří k nejfotogeničtějším místům Tenerife. Už samotná cesta přes Teno je zážitek, takže výlet dává smysl i bez treku kaňonem.",
+    "description": "Masca je malá horská vesnice sevřená mezi dramatickými skalami a patří k nejfotogeničtějším místům Tenerife. Už samotná cesta přes Teno je zážitek, takže výlet dává smysl i bez treku kaňonem.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "355"
+      ],
+      "note": "Do Mascy jezdí linka 355 mezi Buenavistou a Santiago del Teide. Autobus je dobrá volba, pokud se nechceš stresovat řízením a parkováním."
+    },
+    "links": {
+      "official": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Masca%20Tenerife",
+      "guide": "https://www.saltinourhair.com/spain/masca-tenerife/",
+      "actions": [],
+      "other": [
+        "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
+        "https://www.saltinourhair.com/spain/masca-tenerife/",
+        "https://biveros.com/mirador-la-cruz-de-hilda-tenerife-spain/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/masca-vesnice.webp",
+        "alt": "Masca vesnice + Mirador La Cruz de Hilda – Tenerife",
+        "license": "CC BY-SA 3.0 de",
+        "credit": "Wikimedia Commons: Thomas Wolf",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Masca_auf_Teneriffa_%28Zuschnitt%29.jpg",
+        "localPath": "/images/poi/masca-vesnice.webp"
+      }
+    ],
+    "rainyAlt": "Za deště nebo mlhy může být silnice nepříjemná a výhledy slabé. V takový den zvol raději Santiago del Teide, Garachico nebo pobřežní program.",
+    "insiderTip": "Nejhezčí krátká zastávka je Mirador La Cruz de Hilda na kávu a fotku do údolí. Pokud se někomu dělá v autě špatně, neber Mascu jako rychlou odbočku.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://buenavistadelnorte.travel/en/project/access-to-masca-village/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.saltinourhair.com/spain/masca-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Masca%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://travellect.com/en/front.trips/day?day_number=3&slug=canary-islands-tenerife",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.saltinourhair.com/spain/masca-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://biveros.com/mirador-la-cruz-de-hilda-tenerife-spain/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "paisaje-lunar",
+    "propertyId": "paradise",
+    "name": "Paisaje Lunar (PR-TF 72)",
+    "nameLocal": "Paisaje Lunar / Los Escurriales viewpoint (PR-TF 72)",
+    "gps": [
+      28.159,
+      -16.6365
+    ],
+    "region": "centrum-hory",
+    "tags": {
+      "activity": [
+        "turistika",
+        "priroda",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "cely-den"
+      ],
+      "weather": [
+        "slunecno-must"
+      ]
+    },
+    "summary": "Paisaje Lunar je horský trek k bílým sopečným útvarům, které vypadají skoro měsíčně. Je to krásný, ale delší výlet pro ty, kdo chtějí ticho, borovicový les a fyzicky poctivější den.",
+    "description": "Paisaje Lunar je horský trek k bílým sopečným útvarům, které vypadají skoro měsíčně. Je to krásný, ale delší výlet pro ty, kdo chtějí ticho, borovicový les a fyzicky poctivější den.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "482",
+        "474"
+      ],
+      "note": "Do Vilafloru jezdí linky 482 z Los Cristianos a 474 z Granadilly. Kvůli délce treku si pečlivě pohlídej poslední spoj zpět."
+    },
+    "links": {
+      "official": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Paisaje%20Lunar%20Vilaflor%20Tenerife",
+      "guide": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
+      "actions": [],
+      "other": [
+        "https://www.webtenerife.co.uk/what-to-do/nature/hiking/trails/camino-de-chasna-paisaje-lunar/",
+        "https://travelmademedoit.com/paisaje-lunar-tenerife/",
+        "https://honest-tenerife.com/hikes/paisaje-lunar-hike/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/paisaje-lunar.webp",
+        "alt": "Paisaje Lunar (PR-TF 72) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Chmee2",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Paisaje_Lunar_de_Granadilla_on_Tenerife_in_2014_%287%29.JPG",
+        "localPath": "/images/poi/paisaje-lunar.webp"
+      }
+    ],
+    "rainyAlt": "Za deště, mlhy nebo silného větru trek odlož. Kratší a bezpečnější alternativou je Vilaflor, Pino Gordo nebo návštěvnické centrum El Portillo.",
+    "insiderTip": "Po treku se zastav u Pino Gordo, je to krátká a nenáročná tečka za horským dnem. V létě vycházej brzy, v zimě počítej s chladným ránem.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.tenerifeon.es/en/routes/hiking/pr-tf-72-vilaflor-lunar-landscape-vilaflor",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Paisaje%20Lunar%20Vilaflor%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.webtenerife.co.uk/what-to-do/nature/hiking/trails/camino-de-chasna-paisaje-lunar/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://travelmademedoit.com/paisaje-lunar-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://honest-tenerife.com/hikes/paisaje-lunar-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "palm-mar-montana-guaza",
+    "propertyId": "paradise",
+    "name": "Palm-Mar + Montaña de Guaza + Malpaís de la Rasca",
+    "nameLocal": "Palm-Mar (Arona), Reserva Natural Especial del Malpaís de la Rasca, Monumento Natural Montaña de Guaza",
+    "gps": [
+      28.0235,
+      -16.6783
+    ],
+    "region": "jih",
+    "tags": {
+      "activity": [
+        "turistika",
+        "priroda",
+        "vyhlidky",
+        "gastro"
+      ],
+      "logistics": [],
+      "weather": [
+        "slunecno-must",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Palm-Mar je klidnější kout jihu blízko apartmánu, kde se dá utéct od hlavních promenád. Pobřeží Malpaís de la Rasca a Montaña de Guaza nabídnou suchou sopečnou krajinu, výhledy a nenáročný aktivní půlden.",
+    "description": "Palm-Mar je klidnější kout jihu blízko apartmánu, kde se dá utéct od hlavních promenád. Pobřeží Malpaís de la Rasca a Montaña de Guaza nabídnou suchou sopečnou krajinu, výhledy a nenáročný aktivní půlden.",
+    "practical": {
+      "parking": "Parkování hledej u Paseo Tucán v Palm-Maru."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Bez auta je Palm-Mar hůř napojený než Los Cristianos nebo Costa Adeje. Na krátký výlet je často nejjednodušší taxi."
+    },
+    "links": {
+      "official": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Paseo%20Tucan%20Palm-Mar%20Tenerife",
+      "guide": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+      "actions": [
+        {
+          "label": "Bahia Beach",
+          "url": "https://www.bahiabeach.club/"
+        }
+      ],
+      "other": [
+        "https://www.easykayaktenerife.com/blog/2393324_maplais-de-la-rasca-palm-mar",
+        "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+        "https://www.alltrails.com/en-gb/trail/spain/tenerife/palm-mar-faro-de-rasca"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/palm-mar-montana-guaza.webp",
+        "alt": "Palm-Mar + Montaña de Guaza + Malpaís de la Rasca – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Diego Delso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Monta%C3%B1a_de_Guaza%2C_Tenerife%2C_Espa%C3%B1a%2C_2022-01-07%2C_DD_01.jpg",
+        "localPath": "/images/poi/palm-mar-montana-guaza.webp"
+      }
+    ],
+    "rainyAlt": "Za silného větru nebo horka zkrať trasu na pobřežní část a drž se u Palm-Maru. Po dešti mohou být kameny kluzké, takže raději zvol promenádu v Costa Adeje.",
+    "insiderTip": "Po procházce si nech čas na drink nebo jídlo v Bahia Beach u Playa La Arenita - boho/Bali atmosféra, u moře a v neděli často i s živou hudbou. Aktuální program si předem ověř. Pokud jdeš na Guazu, vyraz brzy a neber to jako polední výšlap.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.alltrails.com/en-gb/parks/spain/tenerife/reserva-natural-especial-del-malpais-de-la-rasca",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Bahia Beach",
+        "url": "https://www.bahiabeach.club/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Paseo%20Tucan%20Palm-Mar%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.easykayaktenerife.com/blog/2393324_maplais-de-la-rasca-palm-mar",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/tfs-008-palm-mar-malpais-punta-de-rasca",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.alltrails.com/en-gb/trail/spain/tenerife/palm-mar-faro-de-rasca",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-de-las-vistas",
+    "propertyId": "paradise",
+    "name": "Playa de las Vistas (Los Cristianos)",
+    "nameLocal": "Playa de las Vistas",
+    "gps": [
+      28.0526,
+      -16.7248
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "koupani"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Playa de las Vistas je velká, pohodlná a dobře chráněná pláž mezi Los Cristianos a Las Américas. Je výborná pro rodiny, kočárek i hosty, kteří chtějí jednoduchý plážový den se zázemím.",
+    "description": "Playa de las Vistas je velká, pohodlná a dobře chráněná pláž mezi Los Cristianos a Las Américas. Je výborná pro rodiny, kočárek i hosty, kteří chtějí jednoduchý plážový den se zázemím.",
+    "practical": {
+      "parking": "Parkování v okolí existuje, ale v sezoně se rychle plní."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "111",
+        "343",
+        "467"
+      ],
+      "note": "Do Los Cristianos jede mnoho linek TITSA, například 111, 343 a 467. Od zastávky se dá pohodlně dojít pěšky."
+    },
+    "links": {
+      "official": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Vistas%20Los%20Cristianos%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+      "actions": [],
+      "other": [
+        "https://www.advartis.com/best-beaches-in-tenerife/los-cristianos/",
+        "https://los-cristianos.costasur.com/sites/playa-las-vistas/es/index.html"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-de-las-vistas.webp",
+        "alt": "Playa de las Vistas (Los Cristianos) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Tuxyso",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Playa-Las-Vistas-Tenerife-03.jpg",
+        "localPath": "/images/poi/playa-de-las-vistas.webp"
+      }
+    ],
+    "rainyAlt": "Za běžného větru Las Vistas často pořád funguje díky vlnolamům. Při dešti zkrať koupání a využij promenádu, kavárny nebo Los Cristianos.",
+    "insiderTip": "Když chceš úplně nejklidnější vodu, porovnej Las Vistas s přístavní Playa Los Cristianos. Na delší procházku pokračuj po promenádě až směrem ke Costa Adeje.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/las-vistas/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Vistas%20Los%20Cristianos%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.advartis.com/best-beaches-in-tenerife/los-cristianos/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://los-cristianos.costasur.com/sites/playa-las-vistas/es/index.html",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-de-troya",
+    "propertyId": "paradise",
+    "name": "Playa de Troya (a Playa del Bobo)",
+    "nameLocal": "Playas de Troya I a II",
+    "gps": [
+      28.0744,
+      -16.728
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Playa de Troya je nejbližší klasická pláž od apartmánu a nejrychlejší volba, když chceš prostě k moři bez plánování. Je živá, s promenádou, bary a Puerto Colón hned vedle.",
+    "description": "Playa de Troya je nejbližší klasická pláž od apartmánu a nejrychlejší volba, když chceš prostě k moři bez plánování. Je živá, s promenádou, bary a Puerto Colón hned vedle.",
+    "practical": {
+      "parking": "Parkování v okolí je spíš placené nebo v uličkách."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Z apartmánu je to pěšky jedna z nejjednodušších pláží. Autobusem se dá využít více linek přes Costa Adeje a Las Américas."
+    },
+    "links": {
+      "official": "https://costa-adeje.es/en/beaches/troya-beaches",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Troya%20Tenerife",
+      "guide": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
+      "actions": [],
+      "other": [
+        "http://tenerife-resorts.co.uk/costa_adeje.htm",
+        "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-de-troya.webp",
+        "alt": "Playa de Troya (a Playa del Bobo) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Tenerife Activities",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Beach_%22playa_de_Troya%22_in_Costa_Adeje_.jpg",
+        "localPath": "/images/poi/playa-de-troya.webp"
+      }
+    ],
+    "rainyAlt": "Za větru zůstaň u kratšího koupání a procházky po promenádě. Při dešti se přesuň do podniků u Puerto Colón nebo do obchodů v Costa Adeje.",
+    "insiderTip": "Ber ji jako rychlou pláž na dopoledne nebo podvečer. Pro klidnější atmosféru pokračuj po promenádě směrem na Playa del Duque.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://costa-adeje.es/en/beaches/troya-beaches",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Troya%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "http://tenerife-resorts.co.uk/costa_adeje.htm",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://canarias-lovers.com/en/playa-troya-beach-costa-adeje-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-del-duque",
+    "propertyId": "paradise",
+    "name": "Playa del Duque",
+    "nameLocal": "Playa del Duque",
+    "gps": [
+      28.0911,
+      -16.7434
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
+    "description": "Playa del Duque je upravená, elegantní pláž v Costa Adeje s klidnou vodou a hezkou promenádou. Hodí se, když chceš pohodlný plážový den, pěkné zázemí a trochu luxusnější atmosféru.",
+    "practical": {
+      "parking": "buď Plaza del Duque nebo okolní parkoviště, část je placená. Hezčí varianta je zaparkovat u La Calety / Hovima Jardín Caleta a dojít na Duque pobřežní procházkou přes Playa de la Enramada."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "467",
+        "477"
+      ],
+      "note": "Dojedeš linkou 467 nebo místní 477, případně pěšky po promenádě z Costa Adeje."
+    },
+    "links": {
+      "official": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20Comercial%20Plaza%20del%20Duque%20Tenerife",
+      "guide": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+      "actions": [
+        {
+          "label": "Start z La Calety",
+          "url": "https://www.google.com/maps/place/Hovima+Jardin+Caleta/@28.097627,-16.7495675,481m/data=!3m1!1e3!4m6!3m5!1s0xc6a91c51f10c62f:0x5975272d4508d46b!8m2!3d28.09903!4d-16.7512593!16s%2Fg%2F11gjs78c80?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D"
+        }
+      ],
+      "other": [
+        "https://www.barcelo.com/guia-turismo/en/spain/tenerife/things-to-do/playa-del-duque/",
+        "https://www.just-tenerife.com/resorts/playa-del-duque.htm",
+        "https://enjoycanaryislands.com/playa-del-duque-tenerife/",
+        "https://costa-adeje.es/en/beaches/la-caleta"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-del-duque.webp",
+        "alt": "Playa del Duque – Tenerife",
+        "license": "CC BY 3.0",
+        "credit": "Wikimedia Commons: Marc Ryckaert",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tenerife_Playa_El_Duque_R03.jpg",
+        "localPath": "/images/poi/playa-del-duque.webp"
+      }
+    ],
+    "rainyAlt": "Když fouká na otevřenějších plážích, Del Duque často zůstává použitelnější. Při dešti se dá program přesunout do Plaza del Duque nebo na krytou restauraci.",
+    "insiderTip": "Hezčí varianta autem: zaparkuj u La Calety, projdi se přes Playa de la Enramada směrem na Playa del Duque a vrať se stejnou cestou. U Enramady můžeš při dobrých podmínkách vidět paraglidisty a cestou je jednodušší zastavit na rozumnější plážové jídlo než přímo u Duque. Pokud chceš jen rychlé koupání bez procházky, Plaza del Duque je pohodlnější.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hellocanaryislands.com/beaches/tenerife/playa-del-duque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Start z La Calety",
+        "url": "https://www.google.com/maps/place/Hovima+Jardin+Caleta/@28.097627,-16.7495675,481m/data=!3m1!1e3!4m6!3m5!1s0xc6a91c51f10c62f:0x5975272d4508d46b!8m2!3d28.09903!4d-16.7512593!16s%2Fg%2F11gjs78c80?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Centro%20Comercial%20Plaza%20del%20Duque%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.barcelo.com/guia-turismo/en/spain/tenerife/things-to-do/playa-del-duque/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.just-tenerife.com/resorts/playa-del-duque.htm",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://enjoycanaryislands.com/playa-del-duque-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 4",
+        "url": "https://costa-adeje.es/en/beaches/la-caleta",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-el-bollullo",
+    "propertyId": "paradise",
+    "name": "Playa El Bollullo",
+    "nameLocal": "Playa El Bollullo (El Rincón, La Orotava / Puerto de la Cruz)",
+    "gps": [
+      28.4179,
+      -16.5194
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "koupani",
+        "priroda",
+        "turistika"
+      ],
+      "logistics": [],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "El Bollullo je divočejší severní pláž s černým pískem, útesy a banánovníky okolo. Je krásná hlavně pro atmosféru a fotky, ne jako bezstarostná dětská pláž.",
+    "description": "El Bollullo je divočejší severní pláž s černým pískem, útesy a banánovníky okolo. Je krásná hlavně pro atmosféru a fotky, ne jako bezstarostná dětská pláž.",
+    "practical": {
+      "parking": "Parkování u restaurace je malé a placené."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "45"
+      ],
+      "note": "Nejhezčí varianta bez auta je dojít pěšky z Puerto de la Cruz, zhruba 45 minut přes oblast s banánovníky. Z jihu je to bez auta na delší plán."
+    },
+    "links": {
+      "official": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Bollullo%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+      "actions": [],
+      "other": [
+        "https://tenerifevida.com/playa-el-bollullo/",
+        "https://dailytravelpill.com/playa-el-bollullo-tenerife/",
+        "https://airial.travel/attractions/spain/playa-de-el-bollullo-lFRlDUMm"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-el-bollullo.webp",
+        "alt": "Playa El Bollullo – Tenerife",
+        "license": "CC BY 4.0",
+        "credit": "Wikimedia Commons: TenSob",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Playa_El_Bollullo_4.jpg",
+        "localPath": "/images/poi/playa-el-bollullo.webp"
+      }
+    ],
+    "rainyAlt": "Při velkých vlnách se nekoupej a ber pláž jen jako vyhlídku. Za deště zvol raději Puerto de la Cruz, Lago Martiánez nebo botanickou zahradu.",
+    "insiderTip": "Nesnaž se za každou cenu dojet autem až dolů úzkou cestou. Pěší přístup z Puerto de la Cruz je často příjemnější a méně stresující.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/el-bollullo/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20El%20Bollullo%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://tenerifevida.com/playa-el-bollullo/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://dailytravelpill.com/playa-el-bollullo-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://airial.travel/attractions/spain/playa-de-el-bollullo-lFRlDUMm",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-fanabe",
+    "propertyId": "paradise",
+    "name": "Playa Fañabé",
+    "nameLocal": "Playa de Fañabé",
+    "gps": [
+      28.0867,
+      -16.7376
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Playa Fañabé je živá pláž v Costa Adeje s promenádou, restauracemi a dobrým zázemím. Hodí se pro rodiny, vodní aktivity i den, kdy chceš mít všechno po ruce.",
+    "description": "Playa Fañabé je živá pláž v Costa Adeje s promenádou, restauracemi a dobrým zázemím. Hodí se pro rodiny, vodní aktivity i den, kdy chceš mít všechno po ruce.",
+    "practical": {
+      "parking": "Parkování hledej v okolních ulicích nebo u Fañabé Plaza."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "111",
+        "343",
+        "416",
+        "473"
+      ],
+      "note": "Jezdí sem linky 111, 343, 416 a 473, zastávka Fañabé Plaza je pár minut pěšky od pláže. Z apartmánu je často nejpohodlnější jít pěšky po pobřeží."
+    },
+    "links": {
+      "official": "https://costa-adeje.es/en/beaches/fanabe-beach",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Fanabe%20Plaza%20Tenerife",
+      "guide": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+      "actions": [
+        {
+          "label": "Orange Cafe",
+          "url": "https://orangecafetenerife.cz/"
+        }
+      ],
+      "other": [
+        "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+        "https://costa-adeje.costasur.com/sites/playa-de-fanabe/es/index.html",
+        "https://canarias-lovers.com/en/playa-fanabe-beach-costa-adeje-tenerife/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-fanabe.webp",
+        "alt": "Playa Fañabé – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Marc Ryckaert",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Playa_de_Fa%C3%B1ab%C3%A9_R05.jpg",
+        "localPath": "/images/poi/playa-fanabe.webp"
+      }
+    ],
+    "rainyAlt": "Při větru se dá zůstat na promenádě nebo přesunout na chráněnější Del Duque. Při dešti zvol Fañabé Plaza, restauraci nebo kratší pobřežní procházku.",
+    "insiderTip": "Na pohodový den bez auta vyraz pěšky, dej si koupání, oběd na promenádě a večer se vrať při západu slunce. Když chceš českou kuchyni nebo jistější volbu pro děti, kousek od pláže je Orange Cafe v CC Litoral de Fañabé.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://costa-adeje.es/en/beaches/fanabe-beach",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Orange Cafe",
+        "url": "https://orangecafetenerife.cz/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Fanabe%20Plaza%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.webtenerife.co.uk/what-see/beaches/playa-fanabe/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://costa-adeje.costasur.com/sites/playa-de-fanabe/es/index.html",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://canarias-lovers.com/en/playa-fanabe-beach-costa-adeje-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "playa-teresitas-gaviotas",
+    "propertyId": "paradise",
+    "name": "Playa de las Teresitas + Playa de las Gaviotas (San Andrés)",
+    "nameLocal": "Playa de las Teresitas (umělá pláž z roku 1973) + Playa de las Gaviotas (vedlejší černá)",
+    "gps": [
+      28.5086,
+      -16.1858
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "koupani",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Las Teresitas je ikonická severovýchodní pláž se světlým pískem, klidnou vodou a horami za zády. San Andrés hned vedle z ní dělá dobrý výlet na koupání a rybí oběd.",
+    "description": "Las Teresitas je ikonická severovýchodní pláž se světlým pískem, klidnou vodou a horami za zády. San Andrés hned vedle z ní dělá dobrý výlet na koupání a rybí oběd.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "910"
+      ],
+      "note": "Ze Santa Cruz jezdí k Teresitas častá linka 910. Bez auta je to velmi použitelný výlet, pokud se nejdřív dostaneš do Santa Cruz."
+    },
+    "links": {
+      "official": "https://www.santacruzdetenerife.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Teresitas%20Tenerife",
+      "guide": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+      "actions": [],
+      "other": [
+        "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+        "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas",
+        "https://www.santacruzdetenerife.es/web/noticias-y-agenda/cronista-oficial/cronicas/detalle-cronica/la-playa-de-las-teresitas-cumple-medio-siglo"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/playa-teresitas-gaviotas.webp",
+        "alt": "Playa de las Teresitas + Playa de las Gaviotas (San Andrés) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Mike Peel",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Tenerife_2019_116.jpg",
+        "localPath": "/images/poi/playa-teresitas-gaviotas.webp"
+      }
+    ],
+    "rainyAlt": "Při větru zůstává Teresitas díky vlnolamu často lepší než otevřené pláže. Při dešti přesuň program do Santa Cruz nebo La Laguny.",
+    "insiderTip": "Jeď ve všední den mimo hlavní sezonu a po koupání si dej oběd v San Andrés. Las Gaviotas přidej jen jako krátký kontrast, pokud je moře klidné.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.santacruzdetenerife.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20de%20Las%20Teresitas%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.santacruzdetenerife.es/web/servicios-municipales/playas-y-zonas-de-bano-maritimas/las-teresitas",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.santacruzdetenerife.es/web/noticias-y-agenda/cronista-oficial/cronicas/detalle-cronica/la-playa-de-las-teresitas-cumple-medio-siglo",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "promenada-costa-adeje",
+    "propertyId": "paradise",
+    "name": "Promenáda Costa Adeje (Paseo Marítimo)",
+    "nameLocal": "Paseo Marítimo de Costa Adeje",
+    "gps": [
+      28.086,
+      -16.737
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "turistika",
+        "vyhlidky",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Paseo Marítimo je nejjednodušší výlet přímo od apartmánu: dlouhá pobřežní promenáda bez auta, pláže, bary a výhledy na La Gomeru. Dá se z ní udělat krátká večerní procházka i půldenní pěší program.",
+    "description": "Paseo Marítimo je nejjednodušší výlet přímo od apartmánu: dlouhá pobřežní promenáda bez auta, pláže, bary a výhledy na La Gomeru. Dá se z ní udělat krátká večerní procházka i půldenní pěší program.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Tohle je ideální bez auta: začni pěšky od apartmánu a vrať se stejnou cestou, taxíkem nebo autobusem podle energie."
+    },
+    "links": {
+      "official": "https://www.komoot.com/smarttour/1525340126",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20Fanabe%20Tenerife",
+      "guide": "https://www.komoot.com/smarttour/1525340126",
+      "actions": [],
+      "other": [
+        "https://www.studycountry.com/wiki/how-long-is-the-promenade-from-costa-adeje-to-los-cristianos",
+        "http://tenerife-resorts.co.uk/costa_adeje.htm"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/promenada-costa-adeje.webp",
+        "alt": "Promenáda Costa Adeje (Paseo Marítimo) – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Wouter Hagens",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tenerife_Adeje_promenade_A.jpg",
+        "localPath": "/images/poi/promenada-costa-adeje.webp"
+      }
+    ],
+    "rainyAlt": "Při větru jdi kratší úsek a drž se části s podniky, kde se dá sednout. Za Kalimy vyraz ráno a neplánuj dlouhou trasu v poledne.",
+    "insiderTip": "Nejlepší čas je ráno nebo před západem slunce. Na večeři dojdi směrem k La Caletě, na koupání a rušnější atmosféru směrem k Las Vistas.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "L",
+    "flags": [
+      "overit-pred-cestou"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.komoot.com/smarttour/1525340126",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.komoot.com/smarttour/1525340126",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Playa%20Fanabe%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.studycountry.com/wiki/how-long-is-the-promenade-from-costa-adeje-to-los-cristianos",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "http://tenerife-resorts.co.uk/costa_adeje.htm",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "puerto-de-la-cruz-lago-martianez",
+    "propertyId": "paradise",
+    "name": "Puerto de la Cruz + Lago Martiánez + Jardín Botánico",
+    "nameLocal": "Puerto de la Cruz; Lago Martiánez (Complejo Costa Martiánez); Jardín de Aclimatación de La Orotava (Jardín Botánico)",
+    "gps": [
+      28.4154,
+      -16.5466
+    ],
+    "region": "sever",
+    "tags": {
+      "activity": [
+        "mesta",
+        "koupani",
+        "gastro",
+        "kultura",
+        "priroda"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Puerto de la Cruz je klasické severní letovisko s hezkým centrem, oceánem a bazénovým areálem Lago Martiánez od Césara Manriqueho. Je to dobrý celodenní kontrast k jihu: víc zeleně, starší atmosféra a chladnější vzduch.",
+    "description": "Puerto de la Cruz je klasické severní letovisko s hezkým centrem, oceánem a bazénovým areálem Lago Martiánez od Césara Manriqueho. Je to dobrý celodenní kontrast k jihu: víc zeleně, starší atmosféra a chladnější vzduch.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Ze severu a Santa Cruz je spojení dobré, z jihu je cesta delší a obvykle přes přestup. Na pohodový den počítej s časovou rezervou."
+    },
+    "links": {
+      "official": "https://lagomartianez.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Muelle%20Puerto%20de%20la%20Cruz%20Tenerife",
+      "guide": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+      "actions": [],
+      "other": [
+        "https://www.webtenerife.co.uk",
+        "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+        "https://www.ticketlens.com/en/p409226320/tenerife/lago-martianez"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/puerto-de-la-cruz-lago-martianez.webp",
+        "alt": "Puerto de la Cruz + Lago Martiánez + Jardín Botánico – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: Quartl",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lago_Marti%C3%A1nez_qtl1.jpg",
+        "localPath": "/images/poi/puerto-de-la-cruz-lago-martianez.webp"
+      }
+    ],
+    "rainyAlt": "Při větru a chladnu vynech koupání v Lagu a nech si centrum, botanickou zahradu nebo kavárny. Pokud je sever úplně zatažený, zůstaň raději na jihu.",
+    "insiderTip": "Dobrá skladba dne: ráno botanická zahrada, oběd kolem Plaza del Charco a odpoledne Lago Martiánez. Den předtím neplánuj velkou túru.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://lagomartianez.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Muelle%20Puerto%20de%20la%20Cruz%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.webtenerife.co.uk",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.officialtaxitenerife.com/en/discover-tenerife/beaches-swimming-areas/lago-martianez/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.ticketlens.com/en/p409226320/tenerife/lago-martianez",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "punta-de-teno",
+    "propertyId": "paradise",
+    "name": "Punta de Teno",
+    "nameLocal": "Punta de Teno (Teno Rural Park)",
+    "gps": [
+      28.3434,
+      -16.9226
+    ],
+    "region": "zapad",
+    "tags": {
+      "activity": [
+        "vyhlidky",
+        "priroda",
+        "koupani"
+      ],
+      "logistics": [
+        "bez-auta"
+      ],
+      "weather": [
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Nejzápadnější cíp Tenerife s majákem, dramatickým pobřežím a výhledy na La Gomeru i La Palmu. Je to krásné místo, ale logistiku si naplánuj předem: soukromé auto má kvůli pracím na silnici omezený přístup a je potřeba počítat s autobusem z Buenavisty.",
+    "description": "Nejzápadnější cíp Tenerife s majákem, dramatickým pobřežím a výhledy na La Gomeru i La Palmu. Je to krásné místo, ale logistiku si naplánuj předem: soukromé auto má kvůli pracím na silnici omezený přístup a je potřeba počítat s autobusem z Buenavisty.",
+    "practical": {
+      "openingHours": "Přístup závisí na aktuálním režimu silnice a autobusu.",
+      "price": "Samotné místo zdarma; autobus se platí zvlášť.",
+      "visitDuration": "Půlden, ale kvůli dopravě počítej s větší časovou rezervou.",
+      "parking": "Auto nech v Buenavista del Norte a pokračuj autobusem TITSA 369.",
+      "reservation": "Permit není potřeba, ale před odjezdem ověř aktuální režim přístupu."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "369"
+      ],
+      "note": "Klíčová je linka TITSA 369 z Buenavista del Norte. Před cestou zkontroluj aktuální jízdní řád, ať nezůstaneš dlouho čekat na návrat."
+    },
+    "links": {
+      "official": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Buenavista%20del%20Norte%20bus%20369%20Punta%20de%20Teno%20Tenerife",
+      "guide": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
+      "actions": [],
+      "other": [
+        "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno/",
+        "https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-369",
+        "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/punta-de-teno.webp",
+        "alt": "Punta de Teno – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: H. Zell",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Punta_de_Teno_02.jpg",
+        "localPath": "/images/poi/punta-de-teno.webp"
+      }
+    ],
+    "rainyAlt": "Při silném větru nebo výstraze počasí Teno raději vynech. Cesta je exponovaná a výhledy za špatné viditelnosti nestojí za komplikace.",
+    "insiderTip": "Naplánuj den podle autobusu, ne podle mapy. Vezmi si něco proti větru a spoj Teno s Garachicem nebo krátkou zastávkou v Masce, jinak kvůli dlouhé cestě působí výlet zbytečně těžkopádně.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Buenavista%20del%20Norte%20bus%20369%20Punta%20de%20Teno%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://buenavistadelnorte.travel/en/project/access-to-punta-de-teno/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-369",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://tabaibaguesthouse.com/en/travelers-guide-to-punta-de-teno/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "roques-de-garcia",
+    "propertyId": "paradise",
+    "name": "Roques de García (Teide National Park)",
+    "nameLocal": "Sendero Roques de García (Trail No. 3, PR-TF-30)",
+    "gps": [
+      28.2241,
+      -16.6307
+    ],
+    "region": "centrum-hory",
+    "tags": {
+      "activity": [
+        "turistika",
+        "priroda",
+        "vyhlidky"
+      ],
+      "logistics": [
+        "bez-auta",
+        "pul-den"
+      ],
+      "weather": [
+        "slunecno-must",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Roques de García je nejvděčnější krátký trek v národním parku Teide. Za relativně málo času uvidíš lávové skály, kalderu i výhledy na Pico del Teide.",
+    "description": "Roques de García je nejvděčnější krátký trek v národním parku Teide. Za relativně málo času uvidíš lávové skály, kalderu i výhledy na Pico del Teide.",
+    "practical": {
+      "parking": "00-15:00 bývá plné."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "348",
+        "342"
+      ],
+      "note": "Jezdí sem linky 348 ze severu a 342 z jihu, ale spoje jsou omezené. Aktuální jízdní řád zkontroluj ještě před plánováním dne."
+    },
+    "links": {
+      "official": "https://www.webtenerife.co.uk/what-see/teide-national-park/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Roques%20de%20Garcia%20Tenerife",
+      "guide": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
+      "actions": [],
+      "other": [
+        "https://triptionary.net/teide-national-park-guide/",
+        "https://charlieswanderings.com/spain/the-spectacular-roques-de-garcia-hike-in-tenerife/",
+        "https://honest-tenerife.com/hikes/roques-de-garcia-hike/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/roques-de-garcia.webp",
+        "alt": "Roques de García (Teide National Park) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Ingo Mehling",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Teide_Roques_de_Garcia.jpg",
+        "localPath": "/images/poi/roques-de-garcia.webp"
+      }
+    ],
+    "rainyAlt": "Při silném větru, mlze nebo Kalimě výlet na Teide ztrácí smysl a může být nepříjemný. Náhradou je El Portillo, Vilaflor nebo zelenější Anaga.",
+    "insiderTip": "Přijeď do 10:00 nebo až později odpoledne. Pokud půjdeš okruh proti směru hodinových ručiček, náročnější část si lépe rozložíš.",
+    "verifiedDate": "2026-06-15",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.webtenerife.co.uk/what-see/teide-national-park/",
+        "tier": "official",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Roques%20de%20Garcia%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://triptionary.net/teide-national-park-guide/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://charlieswanderings.com/spain/the-spectacular-roques-de-garcia-hike-in-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://honest-tenerife.com/hikes/roques-de-garcia-hike/",
+        "tier": "secondary",
+        "checkedDate": "2026-06-15"
+      }
+    ]
+  },
+  {
+    "id": "santa-cruz-palmetum",
+    "propertyId": "paradise",
+    "name": "Santa Cruz de Tenerife + Palmetum",
+    "nameLocal": "Santa Cruz de Tenerife (hl. město) + Palmetum (botanická palmová zahrada)",
+    "gps": [
+      28.4636,
+      -16.2518
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "mesta",
+        "kultura",
+        "priroda",
+        "gastro"
+      ],
+      "logistics": [
+        "s-koccarkem",
+        "bez-auta"
+      ],
+      "weather": [
+        "vse-pocasi"
+      ]
+    },
+    "summary": "Santa Cruz je hlavní město Tenerife a dobrá volba, když chceš trh, městskou atmosféru, architekturu a něco zeleného. Palmetum je nečekaně příjemná palmová zahrada s výhledy a klidnou pauzou od města.",
+    "description": "Santa Cruz je hlavní město Tenerife a dobrá volba, když chceš trh, městskou atmosféru, architekturu a něco zeleného. Palmetum je nečekaně příjemná palmová zahrada s výhledy a klidnou pauzou od města.",
+    "practical": {
+      "parking": "Parkování v centru bývá placené, pohodlnější jsou garáže."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Do Santa Cruz je dobré autobusové spojení a po městě navazuje tramvaj do La Laguny. Bez auta je to jedna z nejlepších městských variant."
+    },
+    "links": {
+      "official": "https://www.santacruzdetenerife.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Palmetum%20Santa%20Cruz%20de%20Tenerife",
+      "guide": "https://palmetumtenerife.es/?lang=en",
+      "actions": [],
+      "other": [
+        "https://palmetumtenerife.es",
+        "https://palmetumtenerife.es/?lang=en",
+        "https://growproexperience.civitatis.com/en/santa-cruz-de-tenerife/palmetum-ticket/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/santa-cruz-palmetum.webp",
+        "alt": "Santa Cruz de Tenerife + Palmetum – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Mike Peel",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/At_Palmetum_de_Santa_Cruz_de_Tenerife_2022_016.jpg",
+        "localPath": "/images/poi/santa-cruz-palmetum.webp"
+      }
+    ],
+    "rainyAlt": "Za horšího počasí drž program víc městský: trh, kavárny, oběd a případně tramvaj do La Laguny. Palmetum nech na chvíli, kdy neprší.",
+    "insiderTip": "Začni ráno na trhu, projdi Auditorio a nábřeží, dej oběd v centru a Palmetum nech na klidnější odpoledne. La Lagunu můžeš přidat tramvají, pokud máš energii.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.santacruzdetenerife.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://palmetumtenerife.es/?lang=en",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Palmetum%20Santa%20Cruz%20de%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://palmetumtenerife.es",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://palmetumtenerife.es/?lang=en",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://growproexperience.civitatis.com/en/santa-cruz-de-tenerife/palmetum-ticket/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "sendero-de-los-sentidos",
+    "propertyId": "paradise",
+    "name": "Sendero de los Sentidos (Anaga Rural Park, Cruz del Carmen)",
+    "nameLocal": "Sendero de los Sentidos (Path of the Senses) — 3 varianty (1, 2, 3)",
+    "gps": [
+      28.5307,
+      -16.2799
+    ],
+    "region": "vychod",
+    "tags": {
+      "activity": [
+        "turistika",
+        "priroda",
+        "vyhlidky",
+        "kultura"
+      ],
+      "logistics": [
+        "bez-auta",
+        "pul-den",
+        "s-koccarkem",
+        "rezervace-doporucena"
+      ],
+      "weather": [
+        "vse-pocasi",
+        "kalima-ne"
+      ]
+    },
+    "summary": "Sendero de los Sentidos je nejjednodušší způsob, jak ochutnat prales Anagy bez velké túry. Krátké okruhy u Cruz del Carmen fungují i s dětmi, kočárkem na nejlehčí části a menší energií.",
+    "description": "Sendero de los Sentidos je nejjednodušší způsob, jak ochutnat prales Anagy bez velké túry. Krátké okruhy u Cruz del Carmen fungují i s dětmi, kočárkem na nejlehčí části a menší energií.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "76",
+        "77",
+        "273",
+        "275"
+      ],
+      "note": "Na Cruz del Carmen jezdí linky 76, 77, 273 a 275. Bez auta je to reálné, jen si předem ověř spoje zpět."
+    },
+    "links": {
+      "official": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Cruz%20del%20Carmen%20Tenerife",
+      "guide": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+      "actions": [],
+      "other": [
+        "https://wonderfultenerife.com/en/article/show/5093/sendero-de-los-sentidos",
+        "https://www.google.com/maps/dir//28.530695299574,+-16.279897900481",
+        "http://juegostafadtenerife.blogspot.com/2017/12/rutometro-sendero-de-los-sentidos.html"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/sendero-de-los-sentidos.webp",
+        "alt": "Sendero de los Sentidos (Anaga Rural Park, Cruz del Carmen) – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Falk2",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/J00_691_Mirador_Llano_de_los_Loros.jpg",
+        "localPath": "/images/poi/sendero-de-los-sentidos.webp"
+      }
+    ],
+    "rainyAlt": "Lehká mlha nebo mrholení tady nevadí, prales je pak krásný. Silný déšť je jiná věc: stezka klouže, takže zůstaň jen u krátké varianty nebo jeď do La Laguny.",
+    "insiderTip": "Přijeď před 9:00 a projdi si stezku ještě před hlavní vlnou návštěvníků. Pokud je parkoviště plné, zvaž blízký El Bosque de los Enigmas.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.tenerifeon.es/en/routes/hiking/sendero-de-los-sentidos-2-dejate-sorprender-2",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aparcamiento%20Cruz%20del%20Carmen%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://wonderfultenerife.com/en/article/show/5093/sendero-de-los-sentidos",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.google.com/maps/dir//28.530695299574,+-16.279897900481",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "http://juegostafadtenerife.blogspot.com/2017/12/rutometro-sendero-de-los-sentidos.html",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "siam-park",
+    "propertyId": "paradise",
+    "name": "Siam Park",
+    "nameLocal": "Siam Park",
+    "gps": [
+      28.0747,
+      -16.7236
+    ],
+    "region": "okoli",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "koupani"
+      ],
+      "logistics": [
+        "bez-auta",
+        "cely-den",
+        "rezervace-doporucena",
+        "placene-vstupne"
+      ],
+      "weather": [
+        "vse-pocasi",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Siam Park je velký vodní park přímo u Costa Adeje a nejjednodušší celodenní atrakce pro rodiny nebo milovníky skluzavek. Má adrenalinové atrakce, klidnější řeku i části pro menší děti.",
+    "description": "Siam Park je velký vodní park přímo u Costa Adeje a nejjednodušší celodenní atrakce pro rodiny nebo milovníky skluzavek. Má adrenalinové atrakce, klidnější řeku i části pro menší děti.",
+    "practical": {
+      "openingHours": "Otevírací dobu a ceny ověř před nákupem, sezonně se liší.",
+      "parking": "Parkování je placené a kapacita omezená."
+    },
+    "withoutCar": {
+      "titsaLines": [],
+      "note": "Z Las Américas, Los Cristianos a Costa Adeje jezdí shuttle. Z apartmánu je Siam Park velmi blízko i taxíkem."
+    },
+    "links": {
+      "official": "https://www.siampark.net",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Siam%20Park%20Tenerife",
+      "actions": [],
+      "other": [
+        "https://siampark.net",
+        "https://siampark.tictactickets.com/en",
+        "https://www.loroparque.com/en/faq/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/siam-park.webp",
+        "alt": "Siam Park – Tenerife",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons: Mataparda",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Siamparkentrada1.JPG",
+        "localPath": "/images/poi/siam-park.webp"
+      }
+    ],
+    "rainyAlt": "Za silného větru se mohou zavírat vyšší atrakce, při Kalimě je park méně příjemný. V chladnějších měsících počítej s tím, že voda může působit studeně.",
+    "insiderTip": "Největší fronty se tvoří u hlavních atrakcí, proto začni těmi, které jsou pro vás nejdůležitější. Pro děti předem zkontroluj výškové limity.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.siampark.net",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Siam%20Park%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://siampark.net",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://siampark.tictactickets.com/en",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.loroparque.com/en/faq/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "teide-cable-car-pico",
+    "propertyId": "paradise",
+    "name": "Teide Cable Car (Teleférico) + Pico del Teide permit",
+    "nameLocal": "Teleférico del Teide",
+    "gps": [
+      28.2522,
+      -16.6248
+    ],
+    "region": "centrum-hory",
+    "tags": {
+      "activity": [
+        "atrakce",
+        "vyhlidky",
+        "priroda"
+      ],
+      "logistics": [
+        "permit-nutny",
+        "rezervace-doporucena",
+        "placene-vstupne"
+      ],
+      "weather": [
+        "slunecno-must",
+        "vetrno-ne"
+      ]
+    },
+    "summary": "Lanovka na Teide tě během pár minut dostane do výšky přes 3 500 metrů s výhledy na kalderu a okolní ostrovy. Výstup na samotný vrchol je mimořádný zážitek, ale jen s povolením a dobrým počasím.",
+    "description": "Lanovka na Teide tě během pár minut dostane do výšky přes 3 500 metrů s výhledy na kalderu a okolní ostrovy. Výstup na samotný vrchol je mimořádný zážitek, ale jen s povolením a dobrým počasím.",
+    "practical": {},
+    "withoutCar": {
+      "titsaLines": [
+        "342",
+        "348"
+      ],
+      "note": "Jezdí sem linky 342 z jihu a 348 ze severu, ale s omezeným taktem. Bez auta si nejdřív ověř, že spoje sedí k času lanovky."
+    },
+    "links": {
+      "official": "https://www.volcanoteide.com",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Teleferico%20del%20Teide%20Tenerife",
+      "guide": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+      "actions": [],
+      "other": [
+        "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+        "https://www.volcanoteide.com/en/volcano_teide/teide_cable_car/teide_cable_car",
+        "https://www.volcanoteide.com/en/the_company/terms_and_conditions"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/teide-cable-car-pico.webp",
+        "alt": "Teide Cable Car (Teleférico) + Pico del Teide permit – Tenerife",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons: H. Zell",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tel%C3%A9ferico_del_Teide_01.jpg",
+        "localPath": "/images/poi/teide-cable-car-pico.webp"
+      }
+    ],
+    "rainyAlt": "Při větru, námraze nebo špatné viditelnosti lanovku odlož. Náhradní horský plán je Roques de García, El Portillo nebo Vilaflor.",
+    "insiderTip": "Pokud nemáš permit nebo se lanovka zavře, nenech si pokazit den: Roques de García a vyhlídky v parku jsou krásné i bez lanovky. Vezmi teplou vrstvu, nahoře je úplně jiné klima.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.volcanoteide.com",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Teleferico%20del%20Teide%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.volcanoteide.com/en/teide_cable_car/prices_and_opening_times",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.volcanoteide.com/en/volcano_teide/teide_cable_car/teide_cable_car",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.volcanoteide.com/en/the_company/terms_and_conditions",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "id": "vilaflor-pino-gordo",
+    "propertyId": "paradise",
+    "name": "Vilaflor + Pino Gordo",
+    "nameLocal": "Vilaflor de Chasna",
+    "gps": [
+      28.1577,
+      -16.6346
+    ],
+    "region": "centrum-hory",
+    "tags": {
+      "activity": [
+        "mesta",
+        "priroda",
+        "vyhlidky",
+        "gastro"
+      ],
+      "logistics": [
+        "bez-auta"
+      ],
+      "weather": []
+    },
+    "summary": "Vilaflor je klidná horská obec na cestě k Teide a Pino Gordo je rychlá, působivá zastávka u jednoho z největších borovicových stromů ostrova. Hodí se jako jemnější horský program bez dlouhé túry.",
+    "description": "Vilaflor je klidná horská obec na cestě k Teide a Pino Gordo je rychlá, působivá zastávka u jednoho z největších borovicových stromů ostrova. Hodí se jako jemnější horský program bez dlouhé túry.",
+    "practical": {
+      "parking": "Parkování je u silnice a vyhlídky, buď opatrná při přecházení."
+    },
+    "withoutCar": {
+      "titsaLines": [
+        "482",
+        "474"
+      ],
+      "note": "Do Vilafloru jezdí linka 482 z Los Cristianos a 474 z Granadilly. Na krátkou zastávku u Pino Gordo je ale auto pohodlnější."
+    },
+    "links": {
+      "official": "https://www.vilaflordechasna.es",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parking%20Pino%20Gordo%20Vilaflor%20Tenerife",
+      "guide": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+      "actions": [],
+      "other": [
+        "https://en.wikipedia.org/wiki/Vilaflor,_Santa_Cruz_de_Tenerife",
+        "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+        "https://www.tenerifecanaryislands.com/vilaflor/"
+      ]
+    },
+    "photos": [
+      {
+        "url": "/images/poi/vilaflor-pino-gordo.webp",
+        "alt": "Vilaflor + Pino Gordo – Tenerife",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons: Fry72",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pino_Gordo%2C_Vilaflor_de_Chasna%2C_Tenerife_04.jpg",
+        "localPath": "/images/poi/vilaflor-pino-gordo.webp"
+      }
+    ],
+    "rainyAlt": "Při horším počasí zkrať program na Vilaflor a Pino Gordo, bez delších horských tras. Pokud je nahoře mlha a déšť, nech Teide i Paisaje Lunar na jiný den.",
+    "insiderTip": "Zařaď Pino Gordo cestou na Teide nebo po návratu z Paisaje Lunar. Pokud máš čas, zastav se v centru Vilafloru na jednoduché kanárské jídlo.",
+    "verifiedDate": "2026-05-28",
+    "confidence": "H",
+    "flags": [],
+    "sourceRefs": [
+      {
+        "label": "Oficialni web",
+        "url": "https://www.vilaflordechasna.es",
+        "tier": "official",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Pruvodce",
+        "url": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Parkovani / mapa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Parking%20Pino%20Gordo%20Vilaflor%20Tenerife",
+        "tier": "maps",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 1",
+        "url": "https://en.wikipedia.org/wiki/Vilaflor,_Santa_Cruz_de_Tenerife",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.hotelvillalba.com/en/blog/what-to-see-in-vilaflor-tenerife/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://www.tenerifecanaryislands.com/vilaflor/",
+        "tier": "secondary",
+        "checkedDate": "2026-05-28"
+      }
+    ]
+  }
+]

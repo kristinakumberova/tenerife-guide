@@ -1,11 +1,12 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { join, resolve } from "node:path";
 import matter from "gray-matter";
 import yaml from "js-yaml";
 
 const repoRoot = resolve(".");
 const sourceRoot = resolve(repoRoot, "..");
 const outputRoot = resolve(repoRoot, "src", "data");
+const contentRoot = resolve(repoRoot, "src", "content");
 
 const sourceMarker = resolve(sourceRoot, "CONTENT-POI");
 if (!existsSync(sourceMarker)) {
@@ -51,6 +52,13 @@ function ensureDir(path) {
 function writeJson(name, value) {
   ensureDir(outputRoot);
   const path = join(outputRoot, name);
+  writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+// Content collections (Astro file() loader) zivou v src/content/.
+function writeContentJson(name, value) {
+  ensureDir(contentRoot);
+  const path = join(contentRoot, name);
   writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
@@ -775,15 +783,21 @@ function main() {
   const allData = { pois, bundles, permits, doprava, restaurants, canarianKitchen, kontakty, apartman };
   scanForSecrets(allData);
 
-  writeJson("poi.json", pois);
-  writeJson("bundles.json", bundles);
-  writeJson("permits.json", permits);
+  // Editovatelne kolekce -> src/content/ (Astro content collections, file() loader)
+  writeContentJson("poi.json", pois);
+  writeContentJson("bundles.json", bundles);
+  writeContentJson("permits.json", permits);
+  writeContentJson("restaurants.json", restaurants);
+
+  // Data singletony + read-only feed -> src/data/ (mimo kolekce)
+  writeJson("canarian-kitchen.json", canarianKitchen);
   writeJson("doprava.json", doprava);
-  writeJson("restaurants.json", { restaurants, canarianKitchen });
   writeJson("kontakty.json", kontakty);
   writeJson("apartman.json", apartman);
 
-  console.log(`Data build OK: ${pois.length} POI, ${bundles.length} bundles, ${permits.length} permits.`);
+  console.log(
+    `Data build OK: ${pois.length} POI, ${bundles.length} bundles, ${permits.length} permits, ${restaurants.length} restaurants.`,
+  );
   if (warnings.length > 0) {
     console.warn(`Warnings:\n- ${warnings.join("\n- ")}`);
   }

@@ -1,0 +1,259 @@
+{
+  "id": "paradise",
+  "brand": "Jazuma Living",
+  "name": "Jazuma Paradise",
+  "address": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
+  "mapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111",
+  "navigationName": "Paradise Court",
+  "apartmentNumber": "33",
+  "area": "San Eugenio Alto / Costa Adeje",
+  "checkIn": "od 15:00",
+  "checkOut": "do 10:00",
+  "heroImage": "/images/apartman/hero-terasa-sunset.webp",
+  "heroAlt": "Terasa apartmánu Jazuma Paradise při západu slunce s výhledem na moře a Costa Adeje",
+  "gallery": [
+    {
+      "src": "/images/apartman/hero-terasa-sunset.webp",
+      "alt": "Terasa apartmánu Jazuma Paradise při západu slunce s výhledem na moře a Costa Adeje",
+      "width": 1086,
+      "height": 1448,
+      "role": "hero"
+    },
+    {
+      "src": "/images/apartman/terasa-denni-vyhled.webp",
+      "alt": "Terasa s pergolou, jídelním sezením, lounge sofa a výhledem na oceán",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/obyvak-vyhled.webp",
+      "alt": "Obývací pokoj s prosklenými dveřmi na terasu a výhledem k moři",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/interier-living-dining.webp",
+      "alt": "Otevřený obývací a jídelní prostor ve světlém středomořském stylu",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/obyvak-sofa.webp",
+      "alt": "Obývací pokoj s rozkládací pohovkou a námořnickými detaily",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/loznice.webp",
+      "alt": "Ložnice s manželskou postelí ve světlém plážovém stylu",
+      "width": 1448,
+      "height": 1086,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/kuchynsky-kout.webp",
+      "alt": "Plně vybavený kuchyňský kout",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/koupelna.webp",
+      "alt": "Koupelna s toaletou, vanou a pračkou",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    },
+    {
+      "src": "/images/apartman/bazen-komplex.webp",
+      "alt": "Bazén v apartmánovém komplexu s lehátky a slunečnou terasou",
+      "width": 1086,
+      "height": 1448,
+      "role": "gallery"
+    }
+  ],
+  "mapImage": "/images/apartman/mapa-arealu.png",
+  "maps": {
+    "arrival": "/images/apartman/mapa-prijezdy.png",
+    "complex": "/images/apartman/mapa-arealu.png"
+  },
+  "contact": {
+    "label": "Kontaktuj den před příjezdem",
+    "whatsappUrl": "https://wa.me/420702188376",
+    "phone": "+420 702 188 376"
+  },
+  "quickInfo": [
+    {
+      "title": "Check-in",
+      "summary": "od 15:00",
+      "status": "neutral"
+    },
+    {
+      "title": "Check-out",
+      "summary": "do 10:00",
+      "status": "neutral"
+    },
+    {
+      "title": "Navigace",
+      "summary": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
+      "status": "neutral",
+      "href": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111"
+    },
+    {
+      "title": "Kódy a WiFi",
+      "summary": "Kontaktuj den před příjezdem pro aktuální kódy a hesla.",
+      "status": "contact-required"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Příjezd autem",
+      "mapImage": "/images/apartman/mapa-prijezdy.png",
+      "paragraphs": [
+        "K apartmánu vedou dvě různé příjezdové cesty podle toho, kterým vstupem chcete projít. Obě začínají na kruhovém objezdu na Av. Europa:"
+      ],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Cesta",
+          "Trasa",
+          "Cíl"
+        ],
+        "rows": [
+          {
+            "Cesta": "🟦 Modrá",
+            "Trasa": "kruhový objezd → Av. Europa → C. Alemania → C. Diario de Avisos",
+            "Cíl": "Dolní vstup & vjezd do garáže"
+          },
+          {
+            "Cesta": "🟧 Oranžová",
+            "Trasa": "kruhový objezd → Av. Europa → C. Irlanda",
+            "Cíl": "Horní vstup (lepší pro pěší s kufry, méně schodů)"
+          }
+        ]
+      },
+      "body": "K apartmánu vedou dvě různé příjezdové cesty podle toho, kterým vstupem chcete projít. Obě začínají na kruhovém objezdu na Av. Europa:"
+    },
+    {
+      "title": "Mapa areálu",
+      "mapImage": "/images/apartman/mapa-arealu.png",
+      "paragraphs": [],
+      "bullets": [],
+      "table": null,
+      "body": ""
+    },
+    {
+      "title": "Parkování",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Místo",
+          "Dostupnost"
+        ],
+        "rows": [
+          {
+            "Místo": "U horního vstupu",
+            "Dostupnost": "Obvykle plnější"
+          },
+          {
+            "Místo": "U dolního vstupu",
+            "Dostupnost": "Místo téměř vždy k dispozici"
+          },
+          {
+            "Místo": "Podzemní garáže — místo č. 10",
+            "Dostupnost": "Ovládání od garáže je v apartmánu"
+          }
+        ]
+      },
+      "body": ""
+    },
+    {
+      "title": "Vybavení apartmánu",
+      "paragraphs": [],
+      "bullets": [
+        "Obývací pokoj — gauč, jídelní stůl, Smart TV",
+        "Kuchyňka — indukce, dřez, lednice, nádobí, kombinovaná trouba / mikrovlnná trouba",
+        "Koupelna — vana, pračka, toaleta",
+        "Terasa — výhled na moře, jídelní sezení + sofa lounge, pergola",
+        "Bazén — bazén v komplexu, lehátka a slunečníky"
+      ],
+      "table": null,
+      "body": ""
+    },
+    {
+      "title": "Supermarkety a nákupy",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Obchod",
+          "Vzdálenost",
+          "Poznámka"
+        ],
+        "rows": [
+          {
+            "Obchod": "[Večerka 24/7](https://www.google.com/maps/place/28%C2%B004'54.3%22N+16%C2%B043'35.7%22W/@28.0817409,-16.7314559,962m/data=!3m2!1e3!4b1!4m7!1m2!2m1!1sparadise+court!3m3!8m2!3d28.081741!4d-16.726585?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky nejblíže",
+            "Poznámka": "Jen základní potřeby"
+          },
+          {
+            "Obchod": "[Dial Prix](https://www.google.com/maps/place/DIALPRIX+LAKME/@28.0788614,-16.7278887,120m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a975ec19d2e93:0x2f307f7dd42e84e4!8m2!3d28.0792043!4d-16.7275798!16s%2Fg%2F11bwky_bw8?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky, o něco dále",
+            "Poznámka": "Menší supermarket, dražší ceny, vhodnější na menší nákupy"
+          },
+          {
+            "Obchod": "[SuperDino](https://www.google.com/maps/place/SuperDino+Malib%C3%BA/@28.0788614,-16.7278887,120m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a97e3a250ceb7:0x627eebeb97b2f063!8m2!3d28.078517!4d-16.7275321!16s%2Fg%2F11mdck3q5k?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "pěšky, o něco dále",
+            "Poznámka": "Nejvhodnější supermarket v okolí, ale také dražší ceny, vhodnější na menší nákupy"
+          },
+          {
+            "Obchod": "[Mercadona](https://www.google.com/maps/place/X-Sur+Centro+Comercial/@28.0876938,-16.7310699,962m/data=!3m2!1e3!5s0xc6a9757394e3755:0xfe9a609396b5030c!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a97573f184fb1:0x74077f6df70c351c!8m2!3d28.087693!4d-16.728154!16s%2Fg%2F1tnl2nf2?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "~5 min autem (nákupní centrum X-Sur, směr Adeje)",
+            "Poznámka": "Doporučeno pro lokální výrobky"
+          },
+          {
+            "Obchod": "Další velké obchody<br>[Lidl](https://www.google.com/maps/place/Lidl/@28.1283608,-16.7475775,962m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a90926bd0999f:0x6d9ae0ff4938be7d!8m2!3d28.1283605!4d-16.7429494!16s%2Fg%2F1q5bmqsym?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)<br>[Aldi](https://www.google.com/maps/place/ALDI/@28.1283608,-16.7475775,962m/data=!3m1!1e3!4m9!1m2!2m1!1sparadise+court!3m5!1s0xc6a912c44c62577:0x1152faf142717981!8m2!3d28.12805!4d-16.74401!16s%2Fg%2F11s3v01xn1?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)<br>[HyperDino](https://www.google.com/maps/place/HiperDino+Siam+Mall/@28.069035,-16.7240003,962m/data=!3m1!1e3!4m14!1m7!3m6!1s0xc6a9761d7193869:0x2462a5eb8cc2ec57!2sSiam+Mall!8m2!3d28.069035!4d-16.7214254!16s%2Fg%2F11b7wld0n3!3m5!1s0xc6a99d895b6b3b1:0x981b93f6f207f695!8m2!3d28.0693854!4d-16.7228319!16s%2Fg%2F11bccd79m9?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D)",
+            "Vzdálenost": "~10 min autem",
+            "Poznámka": ""
+          }
+        ]
+      },
+      "body": ""
+    },
+    {
+      "title": "Pláže",
+      "paragraphs": [],
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Pláž",
+          "Vzdálenost",
+          "Charakter"
+        ],
+        "rows": [
+          {
+            "Pláž": "Playa de la Pinta",
+            "Vzdálenost": "~18-22 min pěšky",
+            "Charakter": "Pláž v přístavu, nejblíže"
+          },
+          {
+            "Pláž": "Fañabé",
+            "Vzdálenost": "~25-30 min pěšky",
+            "Charakter": "Dlouhá městská pláž s promenádou"
+          },
+          {
+            "Pláž": "Playa de El Bobo",
+            "Vzdálenost": "~22-26 min pěšky",
+            "Charakter": "Písečná pláž směrem k Las Américas"
+          }
+        ]
+      },
+      "body": ""
+    }
+  ]
+}
