@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Design tokeny (teal #0f6b78, Lora/Inter) se portují v chunku 3 z legacy
+   src/styles/tokens.css. Tady zatím jen Tailwind 4 entry pro scaffold. */

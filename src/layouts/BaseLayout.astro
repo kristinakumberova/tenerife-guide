@@ -1,0 +1,41 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "Jazuma Living", description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <!-- SeoHead + JSON-LD + AppShell (nav/footer) doplní chunk 3. -->
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Přeskočit na obsah</a>
+    <slot />
+  </body>
+</html>
+
+<style>
+  /* Minimální skip-link do doby, než chunk 3 portuje tokeny a AppShell. */
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    padding: 0.5rem 1rem;
+    background: #0f6b78;
+    color: #fff;
+  }
+  .skip-link:focus {
+    left: 0;
+  }
+</style>
