@@ -1,0 +1,28 @@
+---
+import ContactCTA from "./ContactCTA.astro";
+
+const path = Astro.url.pathname;
+const tabs = [
+  { to: "/paradise/apartman/", label: "Apartmán" },
+  { to: "/paradise/guide/", label: "Tenerife Guide" },
+  { to: "/paradise/doprava/", label: "Doprava" },
+  { to: "/paradise/stravovani/", label: "Stravování" },
+  { to: "/paradise/kontakty/", label: "Kontakty" },
+];
+
+const isActive = (to: string) => path === to || path.startsWith(to);
+---
+
+<header class="top-bar">
+  <a class="brand" href="/paradise/apartman/">
+    <span class="brand-mark">JL</span>
+    <span>
+      <strong>Jazuma Living</strong>
+      <small>Jazuma Paradise</small>
+    </span>
+  </a>
+  <nav class="desktop-nav" aria-label="Hlavní navigace">
+    {tabs.map((tab) => <a href={tab.to} class={isActive(tab.to) ? "active" : undefined}>{tab.label}</a>)}
+  </nav>
+  <ContactCTA variant="compact" />
+</header>

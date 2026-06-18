@@ -1,12 +1,35 @@
 ---
 import "../styles/global.css";
+// Self-hostované fonty (latin + latin-ext pro české znaky), font-display: swap.
+// Subset/preload optimalizace = chunk 7 (cíl ≤~20 woff2).
+import "@fontsource/lora/400.css";
+import "@fontsource/lora/500.css";
+import "@fontsource/lora/600.css";
+import "@fontsource/lora/700.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/inter/800.css";
 
-interface Props {
-  title?: string;
-  description?: string;
+import SeoHead from "../components/SeoHead.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import BottomNav from "../components/BottomNav.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { SITE, type SeoProps } from "../lib/seo";
+import { breadcrumbList, type Crumb } from "../lib/jsonld";
+
+interface Props extends SeoProps {
+  /** Per-typ JSON-LD bloky (VacationRental, Organization, ItemList…). */
+  jsonLd?: object[];
+  /** BreadcrumbList — generuje se vždy, když stránka předá drobky. */
+  breadcrumb?: Crumb[];
 }
 
-const { title = "Jazuma Living", description } = Astro.props;
+const { title, description, image, canonical, ogType, noindex, jsonLd = [], breadcrumb } = Astro.props;
+
+const schemas = [...jsonLd];
+if (breadcrumb && breadcrumb.length > 0) schemas.push(breadcrumbList(breadcrumb));
 ---
 
 <!doctype html>
@@ -14,28 +37,45 @@ const { title = "Jazuma Living", description } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content={SITE.themeColor} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    <!-- SeoHead + JSON-LD + AppShell (nav/footer) doplní chunk 3. -->
+
+    {/* Consent Mode v2: default denied. gtag.js se načítá až po souhlasu (chunk 8). */}
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
+      gtag("js", new Date());
+    </script>
+
+    <SeoHead
+      title={title}
+      description={description}
+      image={image}
+      canonical={canonical}
+      ogType={ogType}
+      noindex={noindex}
+    />
+
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
   <body>
-    <a class="skip-link" href="#main">Přeskočit na obsah</a>
-    <slot />
+    <div class="app-shell">
+      <a class="skip-link" href="#main">Přeskočit na obsah</a>
+      <SiteHeader />
+      <main id="main" class="page-shell">
+        <slot />
+      </main>
+      <SiteFooter />
+      <BottomNav />
+      {/* CookieConsent island: chunk 8 */}
+    </div>
   </body>
 </html>
-
-<style>
-  /* Minimální skip-link do doby, než chunk 3 portuje tokeny a AppShell. */
-  .skip-link {
-    position: absolute;
-    left: -9999px;
-    top: 0;
-    padding: 0.5rem 1rem;
-    background: #0f6b78;
-    color: #fff;
-  }
-  .skip-link:focus {
-    left: 0;
-  }
-</style>
