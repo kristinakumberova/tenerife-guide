@@ -63,6 +63,11 @@ const gallery = apartment.gallery.map((image, i) =>
   i === 0 ? { ...image, src: heroGalleryImg.src } : image,
 );
 
+// Per-routa OG (SPEC §5): apartmán má vlastní social náhled odvozený z hero
+// (crop na 1200×630, JPG kvůli kompatibilitě crawlerů). Ostatní routy zatím
+// sdílí výchozí /og-image.jpg, dokud nevzniknou dedikované OG assety.
+const ogImage = await getImage({ src: heroImg, width: 1200, height: 630, fit: "cover", format: "jpeg" });
+
 const escapeHtml = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -84,6 +89,7 @@ const cellToHtml = (value: string) =>
 <BaseLayout
   title="Jazuma Paradise — apartmán v Costa Adeje, Tenerife"
   description="Studio Jazuma Paradise pro 4 hosty s výhledem na moře v Costa Adeje na jihu Tenerife: fotky, dostupnost, příjezd, parkování a vše praktické."
+  image={ogImage.src}
   jsonLd={[vacationRental()]}
   breadcrumb={[
     { name: "Domů", url: "/" },
