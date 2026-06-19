@@ -1,16 +1,26 @@
 ---
 import "../styles/global.css";
-// Self-hostované fonty (latin + latin-ext pro české znaky), font-display: swap.
-// Subset/preload optimalizace = chunk 7 (cíl ≤~20 woff2).
-import "@fontsource/lora/400.css";
-import "@fontsource/lora/500.css";
-import "@fontsource/lora/600.css";
-import "@fontsource/lora/700.css";
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/500.css";
-import "@fontsource/inter/600.css";
-import "@fontsource/inter/700.css";
-import "@fontsource/inter/800.css";
+// Self-hostované fonty, font-display: swap. Chunk 7: importujeme jen subsety
+// latin + latin-ext (české znaky); plné CSS by táhlo i cyrillic/greek/vietnamese
+// (63 woff2 → 18). Váhy zachovány: Lora 400–700, Inter 400–800.
+import "@fontsource/lora/latin-400.css";
+import "@fontsource/lora/latin-ext-400.css";
+import "@fontsource/lora/latin-500.css";
+import "@fontsource/lora/latin-ext-500.css";
+import "@fontsource/lora/latin-600.css";
+import "@fontsource/lora/latin-ext-600.css";
+import "@fontsource/lora/latin-700.css";
+import "@fontsource/lora/latin-ext-700.css";
+import "@fontsource/inter/latin-400.css";
+import "@fontsource/inter/latin-ext-400.css";
+import "@fontsource/inter/latin-500.css";
+import "@fontsource/inter/latin-ext-500.css";
+import "@fontsource/inter/latin-600.css";
+import "@fontsource/inter/latin-ext-600.css";
+import "@fontsource/inter/latin-700.css";
+import "@fontsource/inter/latin-ext-700.css";
+import "@fontsource/inter/latin-800.css";
+import "@fontsource/inter/latin-ext-800.css";
 
 import SeoHead from "../components/SeoHead.astro";
 import SiteHeader from "../components/SiteHeader.astro";
