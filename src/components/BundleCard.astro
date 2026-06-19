@@ -1,0 +1,91 @@
+---
+import type { Bundle, Poi } from "../types";
+
+// Statická karta denního nápadu (0 JS) — nativní <details>. Port legacy BundleCard.tsx,
+// lucide → inline SVG.
+interface Props {
+  bundle: Bundle;
+  pois: Poi[];
+}
+const { bundle, pois } = Astro.props;
+
+const durationLabels: Record<string, string> = {
+  "half-day": "Půldenní",
+  "full-day": "Celodenní",
+};
+const transportLabels: Record<string, string> = {
+  car: "Autem",
+  "car-or-walk": "Auto / pěšky",
+  "car-plus-bus": "Auto + bus",
+  ferry: "Trajektem",
+};
+
+const stripBullet = (line: string) => line.replace(/^[-•]\s*/, "").trim();
+
+const names = bundle.poiIds.map((id) => pois.find((poi) => poi.id === id)?.name ?? id);
+const duration = durationLabels[bundle.duration] ?? bundle.duration;
+const transport = transportLabels[bundle.transport] ?? bundle.transport;
+const itineraryLines = bundle.itinerary.split("\n").map(stripBullet).filter(Boolean);
+---
+
+<article class="bundle-card">
+  <div class="card-kicker">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M8 2v4" />
+      <path d="M16 2v4" />
+      <rect width="18" height="18" x="3" y="4" rx="2" />
+      <path d="M3 10h18" />
+    </svg>
+    {duration} · {transport}
+  </div>
+  <h3>{bundle.title}</h3>
+  <p>{bundle.summary}</p>
+  <div class="route-line">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="6" cy="19" r="3" />
+      <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
+      <circle cx="18" cy="5" r="3" />
+    </svg>
+    <span>{names.join(" → ")}</span>
+  </div>
+  {bundle.estimatedCostPerson && <p class="muted">Odhad: {bundle.estimatedCostPerson}</p>}
+  <details>
+    <summary>Itinerář dne</summary>
+    {
+      itineraryLines.length > 0 && (
+        <ul class="section-list bundle-itinerary">
+          {itineraryLines.map((line) => (
+            <li>{line}</li>
+          ))}
+        </ul>
+      )
+    }
+    {
+      bundle.whenNot && (
+        <p class="muted bundle-whennot">
+          <strong>Kdy ne:</strong> {stripBullet(bundle.whenNot)}
+        </p>
+      )
+    }
+  </details>
+</article>

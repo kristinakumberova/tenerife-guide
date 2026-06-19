@@ -49,6 +49,41 @@ export function vacationRental() {
   };
 }
 
+// ItemList of TouristAttraction pro /guide (SPEC §5). Slim vstup — jen co schema
+// potřebuje, ne celý Poi.
+interface AttractionInput {
+  name: string;
+  summary: string;
+  gps: [number, number];
+  links?: { official?: string; guide?: string };
+}
+
+export function touristAttractionList(pois: AttractionInput[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Tenerife Guide — místa a tipy",
+    numberOfItems: pois.length,
+    itemListElement: pois.map((poi, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "TouristAttraction",
+        name: poi.name,
+        description: poi.summary,
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: poi.gps[0],
+          longitude: poi.gps[1],
+        },
+        ...(poi.links?.official || poi.links?.guide
+          ? { url: poi.links.guide ?? poi.links.official }
+          : {}),
+      },
+    })),
+  };
+}
+
 export interface Crumb {
   name: string;
   url: string;
