@@ -182,15 +182,12 @@ const cellToHtml = (value: string) =>
     </div>
     <AvailabilityCalendar client:visible />
     <article class="content-panel">
-      <p>
-        Zajímá tě konkrétní termín? Napiš nám a obratem potvrdíme, jestli je volno. WhatsApp je
-        nejrychlejší, ale klidně i e-mailem.
-      </p>
       <ContactCTA
         label="Zeptat se na termín"
         whatsappUrl={apartment.contact.whatsappUrl}
         phone={apartment.contact.phone}
         email={HOST_EMAIL}
+        showPhone={false}
       />
     </article>
   </section>
