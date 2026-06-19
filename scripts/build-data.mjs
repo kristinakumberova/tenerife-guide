@@ -36,8 +36,7 @@ const hardSecretPatterns = [
   /password\s*[:=]\s*\S+/i,
   /heslo\s*[:=]\s*\S+/i,
   /ssid\s*[:=]\s*\S+/i,
-  /\bwifi\b[^\n]{0,20}[:=]\s*\S+/i,
-  /\b\d{4,6}\s*#/,
+  /\b\d{4,6}#/,
 ];
 
 const warnings = [];
