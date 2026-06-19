@@ -1,0 +1,27 @@
+name: CI
+
+# Type + lint gate (DoD §5). Bezi na vyvojove vetvi astro-rebuild a na PR do main,
+# aby se chyby chytily pred deployem. deploy.yml dela lint+build az na main.
+on:
+  push:
+    branches: [astro-rebuild, main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # npm install (ne npm ci) — stejny duvod jako deploy.yml: sharp optional wasm
+      # podstrom (@emnapi) se cross-platform nezamkne pro prisne npm ci. Viz ADR-005.
+      - run: npm install --no-audit --no-fund
+      - run: npm run lint
+      - run: npm run check
