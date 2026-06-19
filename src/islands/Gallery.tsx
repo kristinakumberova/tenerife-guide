@@ -1,9 +1,12 @@
 import { ChevronLeft, ChevronRight, Expand, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 // Island (SPEC-Lite §3, chunk 5). Port legacy/src/components/Gallery.tsx.
 // Proti legacy doplněno a11y dle DoD §3: focus trap, initial focus a focus
-// restore. Mřížka + lightbox logika (Esc / šipky / scroll lock) beze změny.
+// restore. CR-001: lightbox se renderuje portálem na document.body a po dobu
+// otevření je .app-shell (pozadí) označený inert → odečítač ani Tab pozadí
+// nečtou. Mřížka + lightbox logika (Esc / šipky / scroll lock) beze změny.
 
 interface GalleryImage {
   src: string;
@@ -72,9 +75,13 @@ export function Gallery({ images }: GalleryProps) {
 
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
+    // CR-001: pozadí inert → SR i Tab ho ignorují, dokud je lightbox otevřený.
+    const shell = document.querySelector(".app-shell");
+    shell?.setAttribute("inert", "");
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      shell?.removeAttribute("inert");
       restoreFocusRef.current?.focus();
     };
   }, [open, step, close]);
@@ -107,15 +114,17 @@ export function Gallery({ images }: GalleryProps) {
         ))}
       </ul>
 
-      {open && index !== null && (
-        <div
-          ref={dialogRef}
-          className="lightbox"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Galerie apartmánu"
-          onClick={close}
-        >
+      {open &&
+        index !== null &&
+        createPortal(
+          <div
+            ref={dialogRef}
+            className="lightbox"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Galerie apartmánu"
+            onClick={close}
+          >
           <button
             type="button"
             className="lightbox-close"
@@ -156,8 +165,9 @@ export function Gallery({ images }: GalleryProps) {
           >
             <ChevronRight size={28} aria-hidden="true" />
           </button>
-        </div>
-      )}
+          </div>,
+          document.body,
+        )}
     </>
   );
 }
