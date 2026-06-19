@@ -51,7 +51,7 @@ export function PoiMap({ pois, apartment, onOpenPoi }: PoiMapProps) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={apartment.gps} icon={apartmentIcon}>
+        <Marker position={apartment.gps} icon={apartmentIcon} keyboard={false} title={apartment.name}>
           <Popup minWidth={240}>
             <div className="map-apartment-popup">
               <p className="eyebrow">Apartmán</p>
@@ -65,7 +65,7 @@ export function PoiMap({ pois, apartment, onOpenPoi }: PoiMapProps) {
           </Popup>
         </Marker>
         {pois.map((poi) => (
-          <Marker key={poi.id} position={poi.gps} icon={markerIcon}>
+          <Marker key={poi.id} position={poi.gps} icon={markerIcon} keyboard={false} title={poi.name}>
             <Popup minWidth={320} maxWidth={340} keepInView autoPanPadding={[28, 28]}>
               <MapPopupCard poi={poi} onOpen={onOpenPoi} />
             </Popup>

@@ -138,6 +138,19 @@ strong {
 }
 
 /* ---------- Skip link ---------- */
+/* Vizuálně skrytý obsah dostupný pro odečítače (skip-heading apod.). */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .skip-link {
   position: fixed;
   left: 1rem;
@@ -1221,7 +1234,8 @@ strong {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-muted);
+  /* WCAG AA: --color-muted (#6d7a80) je na bílé jen 4.42:1; ink-soft splňuje 4.5:1. */
+  color: var(--color-ink-soft);
 }
 
 .chip-row {
