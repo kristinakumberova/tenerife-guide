@@ -44,9 +44,11 @@ export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps
         <label className="search-box">
           <Search size={18} aria-hidden="true" />
           <input
+            type="search"
             value={filters.query}
             onChange={(event) => onChange({ ...filters, query: event.target.value })}
             placeholder="Hledat místo"
+            aria-label="Hledat místo"
           />
         </label>
         <FilterGroup title="Typ aktivity">
