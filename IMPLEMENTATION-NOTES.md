@@ -101,6 +101,6 @@ Legacy `vstup-mapa.png` was removed.
 
 ## Security / public-safe verification
 
-- Parser has hard-coded secret-pattern guard in `scripts/build-data.mjs` (`/***REMOVED***/`, `/***REMOVED***/`, `/***REMOVED***/`, `password=`, `heslo=`, `ssid=`).
+- Parser has a generic secret-pattern guard in `scripts/build-data.mjs` (structural patterns only, no literal secret values: `password=`, `heslo=`, `ssid=`, `wifi …=`, gate-code shape `NNNN#`).
 - WiFi SSID + password and gate / key-locker codes are NOT in the repo or in any markdown source. Public CTA: "Napsat Kristině" → WhatsApp `wa.me/420702188376`.
 - `.gitignore` excludes `node_modules`, `dist`, `*.log`, `.env*`.

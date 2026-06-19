@@ -29,14 +29,15 @@ const gpsFallbacks = {
   "promenada-costa-adeje": [28.086, -16.737],
 };
 
+// Pouze genericke strukturalni vzory — NIKDY sem nehardcoduj konkretni tajne hodnoty.
+// Tento repo je verejny; literalni kod brany / WiFi heslo odsud smazany 2026-06-19.
+// Robustni detekce konkretnich hodnot patri mimo repo (guardrail validate-content).
 const hardSecretPatterns = [
-  /***REMOVED***/i,
-  /***REMOVED***/i,
-  /***REMOVED***/i,
-  /***REMOVED***/i,
   /password\s*[:=]\s*\S+/i,
   /heslo\s*[:=]\s*\S+/i,
   /ssid\s*[:=]\s*\S+/i,
+  /\bwifi\b[^\n]{0,20}[:=]\s*\S+/i,
+  /\b\d{4,6}\s*#/,
 ];
 
 const warnings = [];
