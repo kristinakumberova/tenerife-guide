@@ -1,11 +1,11 @@
 ---
-import type { Bundle, Poi } from "../types";
+import type { Bundle, GuidePoi } from "../types";
 
 // Statická karta denního nápadu (0 JS) — nativní <details>. Port legacy BundleCard.tsx,
 // lucide → inline SVG.
 interface Props {
   bundle: Bundle;
-  pois: Poi[];
+  pois: GuidePoi[];
 }
 const { bundle, pois } = Astro.props;
 

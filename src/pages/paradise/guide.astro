@@ -7,12 +7,18 @@ import BundleCard from "../../components/BundleCard.astro";
 import { GuideExplorer } from "../../islands/guide/GuideExplorer";
 import { touristAttractionList } from "../../lib/jsonld";
 import apartmanData from "../../data/apartman.json";
-import type { Bundle, Permit, Poi } from "../../types";
+import type { Bundle, GuidePoi, Permit, Poi } from "../../types";
 
 // Tenerife Guide (SPEC-Lite §1 / chunk 6). Data z content kolekcí (build-time) se
 // předávají islandu GuideExplorer (client:load) i statickým sekcím (permity, denní
 // nápady = 0 JS). Mapa (Leaflet) se uvnitř islandu načítá lazy → mimo ostatní routy.
-const pois = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
+// CR-008: do islandu jde oříznutý GuidePoi (bez sourceRefs/flags/propertyId, jen
+// první foto) — full Poi by se jinak serializoval do client:load props.
+const allPois = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
+const pois: GuidePoi[] = allPois.map(({ sourceRefs: _s, flags: _f, propertyId: _p, ...rest }) => ({
+  ...rest,
+  photos: rest.photos.slice(0, 1),
+}));
 const permits = (await getCollection("permits")).map((entry) => entry.data) as Permit[];
 const bundles = (await getCollection("bundles")).map((entry) => entry.data) as Bundle[];
 

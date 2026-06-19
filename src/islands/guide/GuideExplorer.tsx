@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { emptyFilters, filterPois } from "../../lib/tagFilter";
-import type { GuideApartment, Permit, Poi, PoiFilterState } from "../../types";
+import type { GuideApartment, GuidePoi, Permit, PoiFilterState } from "../../types";
 import { ActiveFilterBar } from "./ActiveFilterBar";
 import { FilterPanel } from "./FilterPanel";
 import { POIMapList } from "./POIMapList";
@@ -10,7 +10,7 @@ import { POIMapList } from "./POIMapList";
 // jako 0 JS. Port interaktivní části legacy/src/pages/paradise/GuidePage.tsx.
 
 interface GuideExplorerProps {
-  pois: Poi[];
+  pois: GuidePoi[];
   permits: Permit[];
   apartment: GuideApartment;
 }

@@ -1,6 +1,6 @@
 import { lazy, Suspense, useState } from "react";
 import { useHydrated } from "../../lib/useHydrated";
-import type { GuideApartment, Permit, Poi } from "../../types";
+import type { GuideApartment, GuidePoi, Permit } from "../../types";
 import { POICard } from "./POICard";
 
 // PoiMap (Leaflet) je lazy → kód mapy je v samostatném chunku, mimo hlavní island
@@ -9,7 +9,7 @@ import { POICard } from "./POICard";
 const PoiMap = lazy(() => import("./PoiMap").then((module) => ({ default: module.PoiMap })));
 
 interface POIMapListProps {
-  pois: Poi[];
+  pois: GuidePoi[];
   permits: Permit[];
   apartment: GuideApartment;
   onResetFilters: () => void;

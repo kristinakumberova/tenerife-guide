@@ -79,6 +79,12 @@ export interface Poi {
   sourceRefs: SourceRef[];
 }
 
+// Oříznutý POI tvar pro guide island (CR-008). Z plného Poi se vynechávají pole,
+// která UI ani filtr nepotřebují (sourceRefs = nejtěžší, flags, propertyId) — jinak
+// by se serializovala do client:load island props. nameLocal/description zůstávají
+// (hledá v nich tagFilter). photos se navíc ořezávají na první v guide.astro.
+export type GuidePoi = Omit<Poi, "sourceRefs" | "flags" | "propertyId">;
+
 export interface PoiFilterState {
   activity: ActivityTag[];
   region: Region[];

@@ -2,7 +2,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { MapPin } from "lucide-react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import type { Poi } from "../../types";
+import type { GuidePoi } from "../../types";
 import { MapPopupCard } from "./MapPopupCard";
 
 // Leaflet mapa. Načítá se přes lazy import() v POIMapList → Leaflet není v hlavním
@@ -18,7 +18,7 @@ interface ApartmentMarker {
 }
 
 interface PoiMapProps {
-  pois: Poi[];
+  pois: GuidePoi[];
   apartment: ApartmentMarker;
   onOpenPoi: (poiId: string) => void;
 }

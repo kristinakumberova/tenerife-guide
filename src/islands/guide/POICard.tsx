@@ -1,10 +1,10 @@
 import { ArrowUp, ExternalLink, MapPin, ShieldCheck } from "lucide-react";
 import { activityLabels, confidenceLabel, logisticsLabels, regionLabels } from "../../lib/labels";
-import type { Permit, Poi } from "../../types";
+import type { GuidePoi, Permit } from "../../types";
 import { WeatherBadge } from "./WeatherBadge";
 
 interface POICardProps {
-  poi: Poi;
+  poi: GuidePoi;
   permits?: Permit[];
   variant?: "collapsed" | "popup";
   isOpen?: boolean;

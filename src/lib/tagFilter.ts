@@ -1,4 +1,4 @@
-import type { Poi, PoiFilterState } from "../types";
+import type { GuidePoi, PoiFilterState } from "../types";
 
 // Port z legacy/src/lib/tagFilter.ts beze změny. Multi-axis filtr POI:
 // prázdná osa = bez omezení; jinak průnik vybraných hodnot s tagy místa.
@@ -14,7 +14,7 @@ export const emptyFilters: PoiFilterState = {
   query: "",
 };
 
-export function filterPois(pois: Poi[], filters: PoiFilterState): Poi[] {
+export function filterPois(pois: GuidePoi[], filters: PoiFilterState): GuidePoi[] {
   const query = filters.query.trim().toLowerCase();
 
   return pois.filter((poi) => {

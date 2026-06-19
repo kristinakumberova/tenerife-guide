@@ -1,9 +1,9 @@
 import { ExternalLink, MapPin } from "lucide-react";
 import { activityLabels, regionLabels } from "../../lib/labels";
-import type { Poi } from "../../types";
+import type { GuidePoi } from "../../types";
 
 interface MapPopupCardProps {
-  poi: Poi;
+  poi: GuidePoi;
   onOpen: (poiId: string) => void;
 }
 
