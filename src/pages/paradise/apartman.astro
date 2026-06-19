@@ -3,13 +3,15 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageAnchors from "../../components/PageAnchors.astro";
 import QuickInfoCard from "../../components/QuickInfoCard.astro";
 import ContactCTA from "../../components/ContactCTA.astro";
+import { Gallery } from "../../islands/Gallery";
+import { AvailabilityCalendar } from "../../islands/AvailabilityCalendar";
 import { vacationRental } from "../../lib/jsonld";
 import apartmanData from "../../data/apartman.json";
 
-// Apartmán (SPEC-Lite §1 / chunk 4): hero + statická kostra.
-// Islandy Gallery (lightbox) a AvailabilityCalendar = chunk 5 — tady statická
-// galerie (0 JS) a placeholder dostupnosti s mailto/WhatsApp CTA.
-// Host-story je OUT (ADR-002). VacationRental JSON-LD jen / + /apartman (SPEC §5).
+// Apartmán (SPEC-Lite §1 / chunk 5): hero + statická kostra + 2 interaktivní
+// islandy hydratované client:visible — Gallery (lightbox) a AvailabilityCalendar
+// (obsazenost). Ostatní routy zůstávají 0 JS. Host-story je OUT (ADR-002).
+// VacationRental JSON-LD jen / + /apartman (SPEC §5).
 
 interface GalleryImage {
   src: string;
@@ -112,7 +114,7 @@ const cellToHtml = (value: string) =>
     ]}
   />
 
-  {/* Galerie — statická (lightbox island = chunk 5) */}
+  {/* Galerie — island s lightboxem (chunk 5), hydratace client:visible */}
   {
     apartment.gallery.length > 0 && (
       <section class="section-block section-anchor" id="fotky">
@@ -139,20 +141,12 @@ const cellToHtml = (value: string) =>
             Adresa v Google Maps
           </a>
         </div>
-        <ul class="gallery-grid">
-          {apartment.gallery.map((image, index) => (
-            <li class={`gallery-item${index === 0 ? " gallery-item-lead" : ""}`}>
-              <figure class="gallery-thumb">
-                <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" />
-              </figure>
-            </li>
-          ))}
-        </ul>
+        <Gallery images={apartment.gallery} client:visible />
       </section>
     )
   }
 
-  {/* Dostupnost — živý kalendář obsazenosti = chunk 5; teď CTA pro dotaz na termín */}
+  {/* Dostupnost — živý kalendář obsazenosti (island, client:visible) + CTA na termín */}
   <section class="section-block section-anchor" id="dostupnost">
     <div class="section-heading">
       <div>
@@ -160,6 +154,7 @@ const cellToHtml = (value: string) =>
         <h2>Dostupnost apartmánu</h2>
       </div>
     </div>
+    <AvailabilityCalendar client:visible />
     <article class="content-panel">
       <p>
         Zajímá tě konkrétní termín? Napiš nám a obratem potvrdíme, jestli je volno. WhatsApp je
