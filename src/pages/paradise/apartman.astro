@@ -1,4 +1,5 @@
 ---
+import { Picture, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageAnchors from "../../components/PageAnchors.astro";
 import QuickInfoCard from "../../components/QuickInfoCard.astro";
@@ -7,6 +8,7 @@ import { Gallery } from "../../islands/Gallery";
 import { AvailabilityCalendar } from "../../islands/AvailabilityCalendar";
 import { vacationRental } from "../../lib/jsonld";
 import apartmanData from "../../data/apartman.json";
+import heroImg from "../../assets/apartman/hero-terasa-sunset.webp";
 
 // Apartmán (SPEC-Lite §1 / chunk 5): hero + statická kostra + 2 interaktivní
 // islandy hydratované client:visible — Gallery (lightbox) a AvailabilityCalendar
@@ -52,6 +54,15 @@ interface Apartment {
 const apartment = apartmanData as Apartment;
 const HOST_EMAIL = "info@jazumaliving.com";
 
+// Chunk 7 (SPEC §6): hero je LCP prvek → astro:assets <Picture> (AVIF+WebP,
+// responsivní šířky). Galerie sdílí stejný zdroj přes getImage (žádný duplicitní
+// soubor v public). Ostatní fotky galerie zůstávají jako optimalizované webp v
+// public (lazy, pod foldem → mimo LCP).
+const heroGalleryImg = await getImage({ src: heroImg, width: 1086, format: "webp" });
+const gallery = apartment.gallery.map((image, i) =>
+  i === 0 ? { ...image, src: heroGalleryImg.src } : image,
+);
+
 const escapeHtml = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -81,7 +92,16 @@ const cellToHtml = (value: string) =>
 >
   <section class="hero-property">
     <div class="hero-media">
-      <img src={apartment.heroImage} alt={apartment.heroAlt} fetchpriority="high" width="1086" height="1448" />
+      <Picture
+        src={heroImg}
+        formats={["avif", "webp"]}
+        fallbackFormat="webp"
+        widths={[480, 768, 1086]}
+        sizes="(max-width: 768px) 100vw, 540px"
+        alt={apartment.heroAlt}
+        fetchpriority="high"
+        loading="eager"
+      />
     </div>
     <div class="hero-copy">
       <p class="eyebrow">{apartment.brand}</p>
@@ -116,7 +136,7 @@ const cellToHtml = (value: string) =>
 
   {/* Galerie — island s lightboxem (chunk 5), hydratace client:visible */}
   {
-    apartment.gallery.length > 0 && (
+    gallery.length > 0 && (
       <section class="section-block section-anchor" id="fotky">
         <div class="section-heading">
           <div>
@@ -141,7 +161,7 @@ const cellToHtml = (value: string) =>
             Adresa v Google Maps
           </a>
         </div>
-        <Gallery images={apartment.gallery} client:visible />
+        <Gallery images={gallery} client:visible />
       </section>
     )
   }
