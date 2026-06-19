@@ -6,6 +6,7 @@ interface Props {
   phone?: string;
   email?: string;
   variant?: "primary" | "compact" | "emergency";
+  showPhone?: boolean;
 }
 
 const {
@@ -14,6 +15,7 @@ const {
   phone = "+420 702 188 376",
   email,
   variant = "primary",
+  showPhone = true,
 } = Astro.props;
 
 const className =
@@ -60,7 +62,7 @@ const telHref = `tel:${phone.replace(/\s/g, "")}`;
     )
   }
   {
-    variant !== "compact" && (
+    variant !== "compact" && showPhone && (
       <a class="phone-link" href={telHref}>
         <svg
           width="16"
