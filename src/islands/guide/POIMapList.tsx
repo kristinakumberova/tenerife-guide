@@ -15,8 +15,6 @@ interface POIMapListProps {
   onResetFilters: () => void;
 }
 
-const apartmentGps: [number, number] = [28.0816, -16.7227];
-
 export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapListProps) {
   const hydrated = useHydrated();
   const [openedPoiId, setOpenedPoiId] = useState<string | null>(null);
@@ -60,7 +58,7 @@ export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapL
               name: apartment.name,
               address: apartment.address,
               mapsUrl: apartment.mapsUrl,
-              gps: apartmentGps,
+              gps: apartment.gps,
             }}
             onOpenPoi={openPoi}
           />

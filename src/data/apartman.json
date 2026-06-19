@@ -3,6 +3,7 @@
   "brand": "Jazuma Living",
   "name": "Jazuma Paradise",
   "address": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
+  "gps": [28.081741, -16.726585],
   "mapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111",
   "navigationName": "Paradise Court",
   "apartmentNumber": "33",

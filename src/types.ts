@@ -119,8 +119,10 @@ export interface Permit {
 }
 
 // Slim apartmán marker pro mapu — jen co popup potřebuje (ne celý Apartment singleton).
+// gps = jediný zdroj v apartman.json (CR-012), sdílí ho mapa i VacationRental JSON-LD.
 export interface GuideApartment {
   name: string;
   address: string;
   mapsUrl: string;
+  gps: [number, number];
 }

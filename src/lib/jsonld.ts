@@ -1,4 +1,8 @@
 import { SITE, absoluteUrl } from "./seo";
+import apartmanData from "../data/apartman.json";
+
+// GPS apartmánu = jediný zdroj v apartman.json (CR-012); sdílí ho mapa i geo níže.
+const [apartmanLat, apartmanLng] = apartmanData.gps as [number, number];
 
 // Per-typ JSON-LD (řeší P2 z auditu: dnes globální VacationRental kopírovaný i na
 // obsahové routy). VacationRental jen / + /apartman; Organization na /kontakty;
@@ -40,8 +44,8 @@ export function vacationRental() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 28.081741,
-      longitude: -16.726585,
+      latitude: apartmanLat,
+      longitude: apartmanLng,
     },
     identifier: "VV-38-4-0089376",
     telephone: "+420702188376",
