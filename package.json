@@ -10,7 +10,7 @@
     "prebuild": "npm run build:data && npm run build:availability",
     "build": "astro build",
     "check": "astro check",
-    "lint": "eslint .",
+    "lint": "eslint . --max-warnings 0",
     "preview": "astro preview"
   },
   "dependencies": {
