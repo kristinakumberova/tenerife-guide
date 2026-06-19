@@ -10,10 +10,11 @@ import apartmanData from "../../data/apartman.json";
 import type { Bundle, GuidePoi, Permit, Poi } from "../../types";
 
 // Tenerife Guide (SPEC-Lite §1 / chunk 6). Data z content kolekcí (build-time) se
-// předávají islandu GuideExplorer (client:load) i statickým sekcím (permity, denní
+// předávají islandu GuideExplorer (client:idle) i statickým sekcím (permity, denní
 // nápady = 0 JS). Mapa (Leaflet) se uvnitř islandu načítá lazy → mimo ostatní routy.
 // CR-008: do islandu jde oříznutý GuidePoi (bez sourceRefs/flags/propertyId, jen
-// první foto) — full Poi by se jinak serializoval do client:load props.
+// první foto) — full Poi by se jinak serializoval do islandu props.
+// CR7-C: client:idle (ne load) odsouvá hydrataci 35 karet mimo měřené TBT okno.
 const allPois = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
 const pois: GuidePoi[] = allPois.map(({ sourceRefs: _s, flags: _f, propertyId: _p, ...rest }) => ({
   ...rest,
@@ -56,7 +57,7 @@ const apartment = {
     ]}
   />
 
-  <GuideExplorer pois={pois} permits={permits} apartment={apartment} client:load />
+  <GuideExplorer pois={pois} permits={permits} apartment={apartment} client:idle />
 
   <PermitChecklist permits={permits} />
 
