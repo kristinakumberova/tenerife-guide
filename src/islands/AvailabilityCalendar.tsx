@@ -1,5 +1,6 @@
-import { useState, useSyncExternalStore } from "react";
+import { useState } from "react";
 import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
+import { useHydrated } from "../lib/useHydrated";
 import availabilityJson from "../data/availability.json";
 
 // Island (SPEC-Lite §3, chunk 5). Occupancy logika portována beze změny z
@@ -58,16 +59,6 @@ function buildCells(year: number, month: number): Cell[] {
 interface View {
   year: number;
   month: number;
-}
-
-// Vrací false na serveru i při prvním klientském renderu, true po hydrataci.
-const subscribe = () => () => {};
-function useHydrated(): boolean {
-  return useSyncExternalStore(
-    subscribe,
-    () => true,
-    () => false,
-  );
 }
 
 const Legend = () => (

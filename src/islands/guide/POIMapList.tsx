@@ -1,9 +1,11 @@
 import { lazy, Suspense, useState } from "react";
+import { useHydrated } from "../../lib/useHydrated";
 import type { GuideApartment, Permit, Poi } from "../../types";
 import { POICard } from "./POICard";
 
-// PoiMap (Leaflet) je lazy → kód mapy je v samostatném chunku, mimo hlavní
-// island bundle, a nevyhodnocuje se při SSR buildu (žádný window na serveru).
+// PoiMap (Leaflet) je lazy → kód mapy je v samostatném chunku, mimo hlavní island
+// bundle. Renderuje se až po hydrataci (useHydrated), takže dynamický import()
+// nikdy neproběhne při SSR buildu (Leaflet sahá na window → jinak crash).
 const PoiMap = lazy(() => import("./PoiMap").then((module) => ({ default: module.PoiMap })));
 
 interface POIMapListProps {
@@ -16,6 +18,7 @@ interface POIMapListProps {
 const apartmentGps: [number, number] = [28.0816, -16.7227];
 
 export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapListProps) {
+  const hydrated = useHydrated();
   const [openedPoiId, setOpenedPoiId] = useState<string | null>(null);
 
   const openPoi = (poiId: string) => {
@@ -41,21 +44,30 @@ export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapL
     );
   }
 
+  const mapFallback = (
+    <div className="map-frame map-frame-loading" id="poi-map" aria-busy="true">
+      <p className="muted">Načítám mapu…</p>
+    </div>
+  );
+
   return (
     <section className="poi-map-list">
-      <Suspense
-        fallback={
-          <div className="map-frame map-frame-loading" id="poi-map" aria-busy="true">
-            <p className="muted">Načítám mapu…</p>
-          </div>
-        }
-      >
-        <PoiMap
-          pois={pois}
-          apartment={{ name: apartment.name, address: apartment.address, mapsUrl: apartment.mapsUrl, gps: apartmentGps }}
-          onOpenPoi={openPoi}
-        />
-      </Suspense>
+      {hydrated ? (
+        <Suspense fallback={mapFallback}>
+          <PoiMap
+            pois={pois}
+            apartment={{
+              name: apartment.name,
+              address: apartment.address,
+              mapsUrl: apartment.mapsUrl,
+              gps: apartmentGps,
+            }}
+            onOpenPoi={openPoi}
+          />
+        </Suspense>
+      ) : (
+        mapFallback
+      )}
       <div className="poi-list" aria-label="Seznam míst">
         {pois.map((poi) => (
           <POICard
