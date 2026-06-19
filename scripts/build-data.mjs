@@ -706,6 +706,9 @@ function parseApartment() {
     name: "Jazuma Paradise",
     address: fields.Adresa ?? "C. Irlanda 5, 38660 Adeje, Tenerife",
     mapsUrl,
+    // Jediný zdroj GPS apartmánu (CR-012): generuje se sem, ať přežije přegenerování
+    // apartman.json. Čte ho mapa (POIMapList) i VacationRental JSON-LD geo.
+    gps: [28.081741, -16.726585],
     navigationName: "Paradise Court",
     apartmentNumber: "33",
     area: "San Eugenio Alto / Costa Adeje",
