@@ -26,6 +26,7 @@ import SeoHead from "../components/SeoHead.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import BottomNav from "../components/BottomNav.astro";
 import SiteFooter from "../components/SiteFooter.astro";
+import { CookieConsent } from "../islands/CookieConsent";
 import { SITE, type SeoProps } from "../lib/seo";
 import { breadcrumbList, type Crumb } from "../lib/jsonld";
 
@@ -85,7 +86,7 @@ if (breadcrumb && breadcrumb.length > 0) schemas.push(breadcrumbList(breadcrumb)
       </main>
       <SiteFooter />
       <BottomNav />
-      {/* CookieConsent island: chunk 8 */}
+      <CookieConsent client:load />
     </div>
   </body>
 </html>
