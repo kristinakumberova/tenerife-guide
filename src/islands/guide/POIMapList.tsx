@@ -42,9 +42,11 @@ export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapL
     );
   }
 
+  // CR-010: neutrální text místo „Načítám…". Bez JS island nehydratuje a fallback
+  // zůstane natrvalo — proto formulace platná i pro no-JS (seznam míst je vždy níže).
   const mapFallback = (
-    <div className="map-frame map-frame-loading" id="poi-map" aria-busy="true">
-      <p className="muted">Načítám mapu…</p>
+    <div className="map-frame map-frame-loading" id="poi-map">
+      <p className="muted">Interaktivní mapa se zobrazí po načtení. Všechna místa najdeš i v seznamu níže.</p>
     </div>
   );
 

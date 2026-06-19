@@ -87,8 +87,9 @@ export function AvailabilityCalendar() {
   }
 
   if (!hydrated) {
+    // CR-002: skeleton rezervuje výšku načteného kalendáře → bez layout shiftu (CLS).
     return (
-      <div className="availability">
+      <div className="availability availability--skeleton">
         <Legend />
         <p className="availability-note">
           <CalendarDays size={15} aria-hidden="true" />

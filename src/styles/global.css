@@ -979,6 +979,13 @@ strong {
   gap: 0.9rem;
 }
 
+/* CR-002: skeleton rezervuje přibližnou výšku načteného kalendáře (legenda + grid +
+   poznámka), aby hydratace nezpůsobila layout shift (CLS). */
+.availability--skeleton {
+  min-height: 520px;
+  align-content: start;
+}
+
 .availability-legend {
   display: flex;
   flex-wrap: wrap;
@@ -1494,6 +1501,16 @@ strong {
   border-radius: var(--radius-md);
   background: #fff;
   box-shadow: var(--shadow-xs);
+}
+
+/* CR-002: fallback mapy drží stejnou výšku jako načtená .leaflet-map → bez CLS
+   při lazy hydrataci Leafletu. */
+.map-frame-loading {
+  display: grid;
+  place-items: center;
+  min-height: min(68vh, 560px);
+  padding: 1.5rem;
+  text-align: center;
 }
 
 .leaflet-map {
