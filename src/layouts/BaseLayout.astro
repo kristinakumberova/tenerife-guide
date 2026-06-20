@@ -1,0 +1,92 @@
+---
+import "../styles/global.css";
+// Self-hostované fonty, font-display: swap. Chunk 7: importujeme jen subsety
+// latin + latin-ext (české znaky); plné CSS by táhlo i cyrillic/greek/vietnamese
+// (63 woff2 → 18). Váhy zachovány: Lora 400–700, Inter 400–800.
+import "@fontsource/lora/latin-400.css";
+import "@fontsource/lora/latin-ext-400.css";
+import "@fontsource/lora/latin-500.css";
+import "@fontsource/lora/latin-ext-500.css";
+import "@fontsource/lora/latin-600.css";
+import "@fontsource/lora/latin-ext-600.css";
+import "@fontsource/lora/latin-700.css";
+import "@fontsource/lora/latin-ext-700.css";
+import "@fontsource/inter/latin-400.css";
+import "@fontsource/inter/latin-ext-400.css";
+import "@fontsource/inter/latin-500.css";
+import "@fontsource/inter/latin-ext-500.css";
+import "@fontsource/inter/latin-600.css";
+import "@fontsource/inter/latin-ext-600.css";
+import "@fontsource/inter/latin-700.css";
+import "@fontsource/inter/latin-ext-700.css";
+import "@fontsource/inter/latin-800.css";
+import "@fontsource/inter/latin-ext-800.css";
+
+import SeoHead from "../components/SeoHead.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import BottomNav from "../components/BottomNav.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { CookieConsent } from "../islands/CookieConsent";
+import { SITE, type SeoProps } from "../lib/seo";
+import { breadcrumbList, type Crumb } from "../lib/jsonld";
+
+interface Props extends SeoProps {
+  /** Per-typ JSON-LD bloky (VacationRental, Organization, ItemList…). */
+  jsonLd?: object[];
+  /** BreadcrumbList — generuje se vždy, když stránka předá drobky. */
+  breadcrumb?: Crumb[];
+}
+
+const { title, description, image, canonical, ogType, noindex, jsonLd = [], breadcrumb } = Astro.props;
+
+const schemas = [...jsonLd];
+if (breadcrumb && breadcrumb.length > 0) schemas.push(breadcrumbList(breadcrumb));
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content={SITE.themeColor} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    {/* Consent Mode v2: default denied. gtag.js se načítá až po souhlasu (chunk 8). */}
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
+      gtag("js", new Date());
+    </script>
+
+    <SeoHead
+      title={title}
+      description={description}
+      image={image}
+      canonical={canonical}
+      ogType={ogType}
+      noindex={noindex}
+    />
+
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+  </head>
+  <body>
+    <div class="app-shell">
+      <a class="skip-link" href="#main">Přeskočit na obsah</a>
+      <SiteHeader />
+      <main id="main" class="page-shell">
+        <slot />
+      </main>
+      <SiteFooter />
+      <BottomNav />
+      <CookieConsent client:load />
+    </div>
+  </body>
+</html>

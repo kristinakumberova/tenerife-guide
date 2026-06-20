@@ -1,0 +1,72 @@
+---
+import { confidenceLabel } from "../lib/labels";
+import type { Permit } from "../types";
+
+// Statická sekce permitů (0 JS) — nativní <details>. Port legacy PermitChecklist.tsx,
+// lucide → inline SVG. Dle SPEC §3 není island.
+interface Props {
+  permits: Permit[];
+}
+const { permits } = Astro.props;
+---
+
+<details class="section-block section-disclosure section-anchor" id="permity">
+  <summary class="section-disclosure-summary">
+    <span>
+      <span class="eyebrow">Rezervace předem</span>
+      <h2>Permity a rezervace</h2>
+      <p>Ceny a pravidla se mění. Před cestou otevři oficiální odkaz a ověř aktuální stav.</p>
+    </span>
+    <span class="accordion-chevron" aria-hidden="true"></span>
+  </summary>
+  <div class="permit-list">
+    {
+      permits.map((permit) => (
+        <article class="permit-item">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          <div>
+            <h3>{permit.title}</h3>
+            <p>{permit.deadline}</p>
+            {permit.fees && <p class="muted">{permit.fees}</p>}
+            <span class={`confidence confidence-${permit.confidence.toLowerCase()}`}>
+              {confidenceLabel(permit.confidence)}
+            </span>
+          </div>
+          {permit.bookingUrl && (
+            <a class="text-button" href={permit.bookingUrl} target="_blank" rel="noreferrer">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M15 3h6v6" />
+                <path d="M10 14 21 3" />
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              </svg>
+              Otevřít rezervaci
+            </a>
+          )}
+        </article>
+      ))
+    }
+  </div>
+</details>

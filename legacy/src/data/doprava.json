@@ -1,0 +1,136 @@
+{
+  "title": "Doprava na Tenerife",
+  "lead": "Auto je nejpohodlnější, ale základní trasy zvládneš i taxíkem nebo autobusem TITSA.",
+  "sections": [
+    {
+      "id": "auto",
+      "title": "Auto z půjčovny",
+      "intro": "Přepážky půjčoven jsou přímo v příletové hale letiště TFS (úroveň 0, úroveň 1 i venku u terminálu). Nejlevnější a osvědčenou je Autoreisen, spolehlivá alternativa je Cicar, která je o něco dražší.",
+      "bullets": [
+        "Řidičák: stačí platný český nebo EU průkaz.",
+        "Platba: kreditní i běžná debetní karta (předplacené většinou ne).",
+        "Věk: Autoreisen od 23 let, Cicar od 21–25 let podle kategorie vozu.",
+        "Pojištění: Autoreisen i Cicar nabízejí široké krytí bez spoluúčasti.",
+        "Palivo: auto vrať se stejným množstvím paliva, s jakým ho přebíráš.",
+        "Ceny jsou dynamické podle termínu a délky — rezervuj online předem."
+      ],
+      "table": null,
+      "links": [
+        {
+          "label": "Autoreisen",
+          "url": "https://www.autoreisen.com/"
+        },
+        {
+          "label": "Cicar",
+          "url": "https://www.cicar.com/"
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "title": "Taxi",
+      "intro": "Oficiální taxi jede na taxametr. Ceny níže jsou orientační pro rok 2026 a liší se podle denní doby, provozu, zavazadel a přesné adresy.",
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Trasa",
+          "Cena",
+          "Čas"
+        ],
+        "rows": [
+          {
+            "Trasa": "Letiště TFS ↔ Paradise Court / San Eugenio",
+            "Cena": "cca 25–35 €",
+            "Čas": "20–25 min"
+          },
+          {
+            "Trasa": "Paradise Court → Los Cristianos",
+            "Cena": "cca 12–18 €",
+            "Čas": "10–15 min"
+          }
+        ]
+      },
+      "links": []
+    },
+    {
+      "id": "bus",
+      "title": "Autobus TITSA",
+      "intro": "Po celém ostrově jezdí autobusy TITSA. Platit lze bankovní kartou (Visa/Mastercard) na všech linkách, nebo hotově. Pro opakované jízdy se vyplatí dobíjecí karta Ten+.",
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Linka",
+          "Trasa",
+          "Hodí se na"
+        ],
+        "rows": [
+          {
+            "Linka": "343",
+            "Trasa": "TFS ↔ Costa Adeje ↔ TFN",
+            "Hodí se na": "spojení z letiště do Costa Adeje"
+          },
+          {
+            "Linka": "467",
+            "Trasa": "Costa Adeje ↔ Las Galletas",
+            "Hodí se na": "Las Galletas a okolí"
+          },
+          {
+            "Linka": "342",
+            "Trasa": "Costa Adeje → Vilaflor → Teide → El Portillo",
+            "Hodí se na": "Teide bez auta z jihu (1× denně)"
+          },
+          {
+            "Linka": "348",
+            "Trasa": "Puerto de la Cruz ↔ Teide",
+            "Hodí se na": "Teide ze severu"
+          },
+          {
+            "Linka": "355",
+            "Trasa": "Santiago del Teide ↔ Masca",
+            "Hodí se na": "trek soutěskou Masca"
+          },
+          {
+            "Linka": "408 + 415",
+            "Trasa": "přes San Isidro na El Médano",
+            "Hodí se na": "El Médano bez auta (s přestupem)"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "titsa.com",
+          "url": "https://www.titsa.com/"
+        }
+      ]
+    },
+    {
+      "id": "letiste",
+      "title": "Letiště: TFS vs. TFN",
+      "intro": "Tenerife má dvě letiště. Většina charterů a low-cost letů přilétá na jižní TFS, které je blíž apartmánu.",
+      "bullets": [],
+      "table": {
+        "headers": [
+          "Letiště",
+          "Poloha",
+          "K apartmánu",
+          "Doporučení"
+        ],
+        "rows": [
+          {
+            "Letiště": "TFS (Reina Sofía)",
+            "Poloha": "jih",
+            "K apartmánu": "cca 25 min autem",
+            "Doporučení": "preferovat"
+          },
+          {
+            "Letiště": "TFN (Los Rodeos)",
+            "Poloha": "sever",
+            "K apartmánu": "cca 60–75 min autem",
+            "Doporučení": "hlavně mezi­ostrovní + Madrid/Barcelona"
+          }
+        ]
+      },
+      "links": []
+    }
+  ]
+}

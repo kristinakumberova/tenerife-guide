@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageAnchors from "../../components/PageAnchors.astro";
+import ContactCard from "../../components/ContactCard.astro";
+import ContactCTA from "../../components/ContactCTA.astro";
+import { organization } from "../../lib/jsonld";
+import kontaktyData from "../../data/kontakty.json";
+
+// Kontakty (SPEC-Lite §1 / chunk 4): host kontakt blok NAHOŘE (WhatsApp + mailto +
+// telefon), pod ním SOS (P1). Organization JSON-LD na /kontakty (SPEC §5).
+
+interface ContactItem {
+  title?: string;
+  value?: string;
+  note?: string;
+  address?: string;
+  phone?: string;
+  situation?: string;
+  action?: string;
+}
+interface ContactsData {
+  emergency: ContactItem[];
+  medical: ContactItem[];
+  playbooks: ContactItem[];
+  host: { name: string; whatsappUrl: string; phone: string; email: string; note: string };
+}
+
+const data = kontaktyData as ContactsData;
+const { host } = data;
+const visiblePlaybooks = data.playbooks.filter((item) => item.situation !== "Ztracené klíče od apartmánu");
+---
+
+<BaseLayout
+  title="Kontakty — hostitel a tísňové linky, Tenerife"
+  description="Rychlý kontakt na hostitele (WhatsApp, e-mail, telefon) a tísňové linky pro pobyt na Tenerife: SOS, zdravotnictví a co dělat v nečekané situaci."
+  jsonLd={[organization()]}
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Kontakty", url: "/paradise/kontakty/" },
+  ]}
+>
+  <section class="page-intro section-anchor" id="hostitel">
+    <h1>Kontakty</h1>
+  </section>
+
+  <PageAnchors
+    items={[
+      { href: "#hostitel-kontakt", label: "Hostitel" },
+      { href: "#sos-kontakty", label: "Tísňové kontakty" },
+      { href: "#zdravotnictvi", label: "Zdravotnictví" },
+      { href: "#co-delat", label: "Co dělat" },
+    ]}
+  />
+
+  <section class="section-block section-anchor" id="hostitel-kontakt">
+    <div class="section-heading">
+      <h2>Hostitel</h2>
+    </div>
+    <article class="content-panel">
+      <p>{host.note}</p>
+      <ContactCTA label="Napsat na WhatsApp" whatsappUrl={host.whatsappUrl} phone={host.phone} email={host.email} />
+    </article>
+  </section>
+
+  <section class="section-block section-anchor" id="sos-kontakty">
+    <div class="section-heading">
+      <h2>Tísňové kontakty (SOS)</h2>
+    </div>
+    <div class="contact-grid">
+      {
+        data.emergency.slice(0, 6).map((item) => (
+          <ContactCard
+            title={item.title ?? "Kontakt"}
+            value={item.value}
+            note={item.note}
+            severity={item.value?.includes("112") ? "emergency" : "normal"}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section-block section-anchor" id="zdravotnictvi">
+    <div class="section-heading">
+      <h2>Zdravotnictví</h2>
+    </div>
+    <div class="contact-grid">
+      {
+        data.medical.slice(0, 4).map((item) => (
+          <ContactCard
+            title={item.title ?? "Zdravotnické zařízení"}
+            value={item.phone}
+            note={[item.address, item.note].filter(Boolean).join(" · ")}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section-block section-anchor" id="co-delat">
+    <div class="section-heading">
+      <h2>Co dělat, když…</h2>
+    </div>
+    <div class="section-grid">
+      {
+        visiblePlaybooks.map((item) => (
+          <article class="content-panel">
+            <h3>{item.situation}</h3>
+            <p>{item.action}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

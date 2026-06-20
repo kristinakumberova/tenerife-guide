@@ -1,0 +1,36 @@
+name: Lighthouse CI
+
+# Autoritativni perf/a11y/seo mereni na cistem Linux runneru (DoD §2/§3).
+# Lokalni Windows ma TBT sum -> verdikt /guide (CR7-C) jen odsud.
+# Measure-first: Perf/BP = warn (sbirame cislo), A11y/SEO = tvrda brana >=95.
+on:
+  workflow_dispatch:
+  push:
+    branches: [astro-rebuild]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --no-audit --no-fund
+      # Chromium pro prerender (stejne jako deploy.yml).
+      - run: npx playwright install chromium-headless-shell --with-deps
+      - run: npm run build
+        env:
+          VITE_BASE_PATH: /
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          AVAILABILITY_ICS_URL: ${{ secrets.AVAILABILITY_ICS_URL }}
+      - run: npx --yes @lhci/cli@0.14.x autorun

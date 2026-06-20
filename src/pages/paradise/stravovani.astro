@@ -1,0 +1,84 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageAnchors from "../../components/PageAnchors.astro";
+import RestaurantCard from "../../components/RestaurantCard.astro";
+import canarianKitchen from "../../data/canarian-kitchen.json";
+
+// Stravování (SPEC-Lite §1 / chunk 4): parita obsahu.
+// Restaurace = kolekce restaurants (ADR-003 file loader); kanárská kuchyně = singleton.
+
+interface KitchenItem {
+  id: string;
+  name: string;
+  description: string;
+  whereToTry: string;
+}
+
+const restaurants = (await getCollection("restaurants")).map((entry) => entry.data);
+const kitchen = canarianKitchen as KitchenItem[];
+
+const categoryLabels: Record<string, string> = {
+  okoli: "V okolí apartmánu",
+  zazitkove: "Zážitkové (za výletem)",
+  specializovane: "Specializované",
+};
+const categories = ["okoli", "zazitkove", "specializovane"] as const;
+const anchors = [
+  { href: "#okoli", label: "V okolí" },
+  { href: "#zazitkove", label: "Zážitkové" },
+  { href: "#specializovane", label: "Specializované" },
+  { href: "#kanarska-kuchyne", label: "Kanárská kuchyně" },
+];
+---
+
+<BaseLayout
+  title="Stravování na Tenerife — náš výběr a kanárské klasiky"
+  description="Subjektivní výběr restaurací v okolí apartmánu i za výletem a přehled kanárských specialit, které stojí za ochutnání. Ceny a otevírací doby si ověř před cestou."
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Stravování", url: "/paradise/stravovani/" },
+  ]}
+>
+  <section class="page-intro">
+    <p class="eyebrow">Stravování</p>
+    <h1>Náš výběr a kanárské klasiky</h1>
+    <p>Restaurace jsou subjektivní výběr. Otevírací doby a ceny si pro jistotu před cestou ověř.</p>
+  </section>
+
+  <PageAnchors items={anchors} />
+
+  {
+    categories.map((category) => (
+      <section class="section-block section-anchor" id={category}>
+        <div class="section-heading">
+          <h2>{categoryLabels[category]}</h2>
+        </div>
+        <div class="restaurant-grid">
+          {restaurants
+            .filter((restaurant) => restaurant.category === category)
+            .map((restaurant) => (
+              <RestaurantCard restaurant={restaurant} />
+            ))}
+        </div>
+      </section>
+    ))
+  }
+
+  <section class="section-block section-anchor" id="kanarska-kuchyne">
+    <div class="section-heading">
+      <h2>Co ochutnat — kanárská kuchyně</h2>
+    </div>
+    <div class="kitchen-grid">
+      {
+        kitchen.map((item) => (
+          <article class="content-panel">
+            <h3>{item.name}</h3>
+            <p>{item.description}</p>
+            <p class="muted">{item.whereToTry}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

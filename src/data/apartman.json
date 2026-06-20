@@ -4,6 +4,10 @@
   "name": "Jazuma Paradise",
   "address": "C. Irlanda, 5, 38660 Adeje, Santa Cruz de Tenerife, Španělsko",
   "mapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111",
+  "gps": [
+    28.081741,
+    -16.726585
+  ],
   "navigationName": "Paradise Court",
   "apartmentNumber": "33",
   "area": "San Eugenio Alto / Costa Adeje",
@@ -165,7 +169,7 @@
             "Dostupnost": "Místo téměř vždy k dispozici"
           },
           {
-            "Místo": "Podzemní garáže — místo č. 10",
+            "Místo": "Podzemní garáže — místo č. 12",
             "Dostupnost": "Ovládání od garáže je v apartmánu"
           }
         ]
@@ -180,7 +184,7 @@
         "Kuchyňka — indukce, dřez, lednice, nádobí, kombinovaná trouba / mikrovlnná trouba",
         "Koupelna — vana, pračka, toaleta",
         "Terasa — výhled na moře, jídelní sezení + sofa lounge, pergola",
-        "Bazén — bazén v komplexu, lehátka a slunečníky"
+        "Bazén — vyhřívaný bazén v komplexu, lehátka a slunečníky"
       ],
       "table": null,
       "body": ""

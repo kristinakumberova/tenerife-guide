@@ -1,7 +1,12 @@
-// Google Analytics 4 s Google Consent Mode v2.
-// Tag je v HTML kvůli detekci Googlem; měření se zapne až po souhlasu uživatele.
-// Měření zapneš doplněním Measurement ID (formát G-XXXXXXXXXX) níže:
-const GA_MEASUREMENT_ID = "G-W0SDXB9VTX";
+// Google Analytics 4 + Consent Mode v2 (SPEC-Lite §7, DoD §4).
+// Consent default = denied nastavuje inline skript v BaseLayout.astro (běží v
+// <head> dřív než tento island). gtag.js se NEnačítá, dokud uživatel nedá
+// souhlas → 0 GA requestů před consentem. Měření zapíná loadGa().
+//
+// Measurement ID se NEcommituje (repo pravidlo: žádná analytics v gitu). Bere se
+// z env PUBLIC_GA_ID (viz .env.example); bez něj loadGa() no-opuje a GA se nikdy
+// nenačte.
+const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_ID;
 
 const STORAGE_KEY = "jazuma-cookie-consent";
 
@@ -23,28 +28,21 @@ export function getStoredConsent(): ConsentChoice | null {
   }
 }
 
-function ensureGtagBase(): void {
-  if (typeof window === "undefined") {
-    return;
-  }
+// Fallback, kdyby inline gtag z BaseLayout chyběl. Consent default ŘEŠÍ
+// BaseLayout — tady ho znovu nenastavujeme (jediný zapisovatel defaultu).
+function ensureGtag(): void {
+  if (typeof window === "undefined") return;
   window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function gtag(...args: unknown[]) {
-    window.dataLayer.push(args);
-  };
-  // Consent Mode v2 — vše zamítnuto, dokud uživatel nesouhlasí.
-  window.gtag("consent", "default", {
-    analytics_storage: "denied",
-    ad_storage: "denied",
-    ad_user_data: "denied",
-    ad_personalization: "denied",
-  });
+  window.gtag =
+    window.gtag ||
+    function gtag(...args: unknown[]) {
+      window.dataLayer.push(args);
+    };
 }
 
 let gaLoaded = false;
 function loadGa(): void {
-  if (gaLoaded || !GA_MEASUREMENT_ID) {
-    return;
-  }
+  if (gaLoaded || !GA_MEASUREMENT_ID) return;
   gaLoaded = true;
   const src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
   if (!document.querySelector(`script[src="${src}"]`)) {
@@ -52,14 +50,13 @@ function loadGa(): void {
     script.async = true;
     script.src = src;
     document.head.appendChild(script);
-    window.gtag("js", new Date());
   }
   window.gtag("config", GA_MEASUREMENT_ID, { anonymize_ip: true });
 }
 
-// Zavolat při startu — obnoví dříve udělený souhlas.
+// Obnoví dříve udělený souhlas: pokud byl granted, zapne měření a načte GA.
 export function initConsent(): void {
-  ensureGtagBase();
+  ensureGtag();
   if (getStoredConsent() === "granted") {
     window.gtag("consent", "update", { analytics_storage: "granted" });
     loadGa();
@@ -67,7 +64,7 @@ export function initConsent(): void {
 }
 
 export function grantConsent(): void {
-  ensureGtagBase();
+  ensureGtag();
   try {
     localStorage.setItem(STORAGE_KEY, "granted");
   } catch {
@@ -78,7 +75,7 @@ export function grantConsent(): void {
 }
 
 export function denyConsent(): void {
-  ensureGtagBase();
+  ensureGtag();
   try {
     localStorage.setItem(STORAGE_KEY, "denied");
   } catch {

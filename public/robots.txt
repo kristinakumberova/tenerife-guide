@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jazumaliving.com/sitemap.xml
+Sitemap: https://jazumaliving.com/sitemap-index.xml

@@ -1,0 +1,107 @@
+{
+  "emergency": [
+    {
+      "title": "Tísňová linka (EU)",
+      "value": "112",
+      "note": "Policie, hasiči i záchranka — funguje 24/7 i z mobilu bez SIM."
+    },
+    {
+      "title": "Guardia Civil",
+      "value": "062",
+      "note": "Národní policie mimo města."
+    },
+    {
+      "title": "Policía Nacional",
+      "value": "091",
+      "note": "Národní policie ve městech."
+    },
+    {
+      "title": "Policía Local",
+      "value": "092",
+      "note": "Místní policie."
+    },
+    {
+      "title": "Hasiči (Bomberos)",
+      "value": "080",
+      "note": "Pro jistotu volej raději 112."
+    },
+    {
+      "title": "Námořní záchrana",
+      "value": "900 202 202",
+      "note": "Salvamento Marítimo."
+    }
+  ],
+  "medical": [
+    {
+      "title": "Hospital Quirónsalud Costa Adeje",
+      "address": "Urb. San Eugenio, Adeje",
+      "phone": "+34 922 791 000",
+      "note": "Soukromá nemocnice, urgentní příjem 24/7. Vezmi cestovní pojištění nebo platební kartu.",
+      "confidence": "H"
+    },
+    {
+      "title": "Hospiten Sur",
+      "address": "C. Siete Islas 8, Arona",
+      "phone": "+34 922 750 022",
+      "note": "Soukromá nemocnice. Platnost EHIC si ověř předem.",
+      "confidence": "H"
+    },
+    {
+      "title": "Lékárna San Eugenio",
+      "address": "Av. de los Pueblos 29, Costa Adeje",
+      "phone": "+34 922 716 309",
+      "note": "Pohotovostní lékárny (farmacia de guardia) se střídají — ověř v den potřeby.",
+      "confidence": "M"
+    },
+    {
+      "title": "Veřejná péče / EHIC",
+      "address": "Servicio Canario de la Salud",
+      "phone": "112",
+      "note": "S kartou EHIC využij veřejný systém; v akutní situaci vždy volej 112.",
+      "confidence": "M"
+    }
+  ],
+  "consulate": [
+    {
+      "title": "Velvyslanectví ČR — Madrid",
+      "detail": "Avenida Pío XII 22-24, 28016 Madrid",
+      "phone": "+34 915 313 065",
+      "confidence": "H"
+    },
+    {
+      "title": "Honorární konzulát ČR — Tenerife",
+      "detail": "El Médano (jen po předchozí domluvě)",
+      "phone": "+34 650 368 524",
+      "confidence": "M"
+    }
+  ],
+  "playbooks": [
+    {
+      "situation": "Ztracený pas",
+      "action": "Nahlas to na Policía Nacional (091) a kontaktuj Velvyslanectví ČR v Madridu. Honorární konzulát na Tenerife pomůže jen omezeně a po domluvě."
+    },
+    {
+      "situation": "Nehoda autem",
+      "action": "Volej 112 a pak půjčovnu podle čísla ve smlouvě — Autoreisen TFS +34 922 392 216, Cicar +34 928 822 900."
+    },
+    {
+      "situation": "Ztracené klíče od apartmánu",
+      "action": "Zavolej Kristině na WhatsApp nebo telefon +420 702 188 376."
+    },
+    {
+      "situation": "Nemoc nebo úraz",
+      "action": "Vážné případy: 112. Méně vážné: Quirónsalud Costa Adeje nebo Hospiten Sur s cestovním pojištěním; pro EHIC veřejný systém."
+    },
+    {
+      "situation": "Krádež osobních věcí",
+      "action": "Nahlas to na Policía Nacional (091) a vyžádej si protokol pro pojišťovnu."
+    }
+  ],
+  "host": {
+    "name": "Kristina Kumberová",
+    "whatsappUrl": "https://wa.me/420702188376",
+    "phone": "+420 702 188 376",
+    "email": "info@jazumaliving.com",
+    "note": "WhatsApp je preferovaný kontakt pro hosty."
+  }
+}

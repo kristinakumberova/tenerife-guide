@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// 404 (SPEC-Lite §1 / chunk 4): Astro vygeneruje 404.html; GH Pages ho servíruje
+// na neznámých routách (HTTP 404 zachován). noindex.
+---
+
+<BaseLayout title="Stránka nenalezena (404)" description="Tahle stránka neexistuje." noindex={true}>
+  <section class="empty-state">
+    <p class="eyebrow">404</p>
+    <h1>Tahle stránka tu není.</h1>
+    <p>Možná se odkaz změnil. Vrať se na úvod a pokračuj odtud.</p>
+    <a class="btn btn-primary" href="/paradise/apartman/">Zpět na Jazuma Paradise</a>
+  </section>
+</BaseLayout>

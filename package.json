@@ -1,31 +1,36 @@
 {
   "name": "tenerife-guide",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "astro dev",
     "build:data": "node scripts/build-data.mjs",
     "build:availability": "node scripts/fetch-availability.mjs",
     "prebuild": "npm run build:data && npm run build:availability",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "postbuild": "node scripts/create-spa-fallback.mjs && node scripts/prerender.mjs"
+    "build": "astro build",
+    "check": "astro check",
+    "lint": "eslint . --max-warnings 0",
+    "preview": "astro preview",
+    "test:e2e": "node tests/consent.e2e.mjs"
   },
   "dependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@astrojs/sitemap": "^3.7.0",
     "@fontsource/inter": "^5.2.8",
     "@fontsource/lora": "^5.2.8",
+    "astro": "5.18.2",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.468.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.4",
     "@eslint/js": "^9.39.4",
     "@tailwindcss/vite": "^4.2.1",
     "@types/js-yaml": "^4.0.9",
@@ -33,16 +38,16 @@
     "@types/node": "^24.12.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.0",
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
     "playwright": "^1.60.0",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.1",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.56.1",
-    "vite": "^8.0.0"
+    "typescript-eslint": "^8.56.1"
+  },
+  "overrides": {
+    "vite": "6.4.3"
   }
 }

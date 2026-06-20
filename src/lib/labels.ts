@@ -1,5 +1,7 @@
 import type { ActivityTag, LogisticsTag, Region, WeatherTag } from "../types";
 
+// Port z legacy/src/lib/labels.ts beze změny. Mapuje tag enumy na české popisky.
+
 export const activityLabels: Record<ActivityTag, string> = {
   koupani: "Koupání",
   turistika: "Turistika",

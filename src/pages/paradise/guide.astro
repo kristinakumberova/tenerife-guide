@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageAnchors from "../../components/PageAnchors.astro";
+import PermitChecklist from "../../components/PermitChecklist.astro";
+import BundleCard from "../../components/BundleCard.astro";
+import { GuideExplorer } from "../../islands/guide/GuideExplorer";
+import { touristAttractionList } from "../../lib/jsonld";
+import apartmanData from "../../data/apartman.json";
+import type { Bundle, GuidePoi, Permit, Poi } from "../../types";
+
+// Tenerife Guide (SPEC-Lite §1 / chunk 6). Data z content kolekcí (build-time) se
+// předávají islandu GuideExplorer (client:idle) i statickým sekcím (permity, denní
+// nápady = 0 JS). Mapa (Leaflet) se uvnitř islandu načítá lazy → mimo ostatní routy.
+// CR-008: do islandu jde oříznutý GuidePoi (bez sourceRefs/flags/propertyId, jen
+// první foto) — full Poi by se jinak serializoval do islandu props.
+// CR7-C: client:idle (ne load) odsouvá hydrataci 35 karet mimo měřené TBT okno.
+const allPois = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
+const pois: GuidePoi[] = allPois.map(({ sourceRefs: _s, flags: _f, propertyId: _p, ...rest }) => ({
+  ...rest,
+  photos: rest.photos.slice(0, 1),
+}));
+const permits = (await getCollection("permits")).map((entry) => entry.data) as Permit[];
+const bundles = (await getCollection("bundles")).map((entry) => entry.data) as Bundle[];
+
+const apartment = {
+  name: apartmanData.name,
+  address: apartmanData.address,
+  mapsUrl: apartmanData.mapsUrl,
+  gps: apartmanData.gps as [number, number],
+};
+---
+
+<BaseLayout
+  title="Tenerife Guide — mapa míst, výlety a tipy"
+  description="Interaktivní průvodce po jihu Tenerife: mapa míst s filtry podle regionu, aktivity a počasí, hotové denní trasy a permity, které je dobré rezervovat předem."
+  jsonLd={[touristAttractionList(pois)]}
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Tenerife Guide", url: "/paradise/guide/" },
+  ]}
+>
+  <section class="page-intro">
+    <p class="eyebrow">Tenerife Guide</p>
+    <h1>Mapa, filtry a denní nápady</h1>
+    <p>
+      Vyber si místo podle regionu, aktivity, logistiky a počasí. Místa s permitem nebo rezervací jsou označená
+      přímo v kartách.
+    </p>
+  </section>
+
+  <PageAnchors
+    items={[
+      { href: "#mista", label: "Místa a mapa" },
+      { href: "#permity", label: "Permity" },
+      { href: "#denni-napady", label: "Denní nápady" },
+    ]}
+  />
+
+  <GuideExplorer pois={pois} permits={permits} apartment={apartment} client:idle />
+
+  <PermitChecklist permits={permits} />
+
+  <details class="section-block section-disclosure section-anchor" id="denni-napady">
+    <summary class="section-disclosure-summary">
+      <span>
+        <span class="eyebrow">Hotové trasy</span>
+        <h2>Denní nápady</h2>
+        <p>Hotové kombinace míst, když nechceš skládat program od nuly.</p>
+      </span>
+      <span class="accordion-chevron" aria-hidden="true"></span>
+    </summary>
+    <div class="bundle-grid">
+      {bundles.map((bundle) => <BundleCard bundle={bundle} pois={pois} />)}
+    </div>
+  </details>
+</BaseLayout>
