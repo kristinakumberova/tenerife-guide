@@ -11,7 +11,8 @@
     "build": "astro build",
     "check": "astro check",
     "lint": "eslint . --max-warnings 0",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test:e2e": "node tests/consent.e2e.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.0",
