@@ -1,0 +1,60 @@
+---
+import { activityLabels, regionLabels } from "../lib/labels";
+import { poiPath } from "../lib/poi";
+import type { GuidePoi, Poi } from "../types";
+
+// Vizuální POI karta (0 JS) pro hub grid i „v okolí" na detailu (Fáze 2).
+// Design směr (AUDIT-Web-Visual-Design 2026-06-22, nález #6 / P2-5): foto vede,
+// tagy nahoře, méně textu. Celá karta = jeden odkaz na detail. data-* atributy
+// + id řídí visibility-toggle filtr a scroll z mapy (GuideFilter island);
+// bez JS je karta plně funkční odkaz. Praktické info + akce žijí na detailu.
+
+interface Props {
+  poi: Poi | GuidePoi;
+}
+
+const { poi } = Astro.props;
+const photo = poi.photos[0];
+const hasRequiredBooking = poi.tags.logistics.some(
+  (tag) => tag === "permit-nutny" || tag === "rezervace-doporucena",
+);
+const hasPaidEntry = poi.tags.logistics.includes("placene-vstupne");
+const permitBadge = hasRequiredBooking ? "Rezervace nutná" : hasPaidEntry ? "Placené vstupné" : undefined;
+---
+
+<a
+  class="poi-card-visual"
+  id={`poi-${poi.id}`}
+  href={poiPath(poi.id)}
+  aria-label={`${poi.name} – zobrazit místo`}
+  data-poi-card
+  data-poi-id={poi.id}
+  data-region={poi.region}
+  data-activity={poi.tags.activity.join(" ")}
+  data-logistics={poi.tags.logistics.join(" ")}
+  data-weather={poi.tags.weather.join(" ")}
+  data-name={poi.name.toLowerCase()}
+>
+  <div class="poi-card-visual-photo">
+    {
+      photo?.url ? (
+        <img src={photo.url} alt={photo.alt} loading="lazy" width="320" height="240" />
+      ) : (
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+      )
+    }
+  </div>
+  <div class="poi-card-visual-body">
+    <div class="chip-row compact">
+      <span class="badge">{regionLabels[poi.region]}</span>
+      {poi.tags.activity.slice(0, 2).map((tag) => <span class="badge">{activityLabels[tag]}</span>)}
+      {permitBadge && <span class="badge badge-permit">{permitBadge}</span>}
+    </div>
+    <h3>{poi.name}</h3>
+    <p>{poi.summary}</p>
+    <span class="poi-card-visual-cta" aria-hidden="true">Zobrazit místo →</span>
+  </div>
+</a>

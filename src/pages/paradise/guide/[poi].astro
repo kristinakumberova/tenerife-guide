@@ -1,0 +1,239 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PoiCardStatic from "../../../components/PoiCardStatic.astro";
+import { touristAttraction } from "../../../lib/jsonld";
+import { nearbyPois, poiDescription, poiPath, poiTitle, usefulInfo } from "../../../lib/poi";
+import { activityLabels, confidenceLabel, logisticsLabels, regionLabels, weatherLabels } from "../../../lib/labels";
+import type { Permit, Poi } from "../../../types";
+
+// 35 statických detailů /paradise/guide/[poi] (Fáze 2). getStaticPaths z poi
+// kolekce; per-POI meta a JSON-LD TouristAttraction = SEO long-tail. 0 JS —
+// vše statické, žádný island. „V okolí" = interní prolink (no orphan).
+
+export async function getStaticPaths() {
+  const all = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
+  const permits = (await getCollection("permits")).map((entry) => entry.data) as Permit[];
+  return all.map((poi) => ({
+    params: { poi: poi.id },
+    props: {
+      poi,
+      nearby: nearbyPois(poi, all, 4),
+      relatedPermits: permits.filter((permit) => permit.appliesToPoiIds.includes(poi.id)),
+    },
+  }));
+}
+
+interface Props {
+  poi: Poi;
+  nearby: Poi[];
+  relatedPermits: Permit[];
+}
+
+const { poi, nearby, relatedPermits } = Astro.props as Props;
+
+const description = poiDescription(poi);
+const photo = poi.photos[0];
+const hasCredit = photo?.credit && photo.credit !== "Doplnit";
+const isFree = /^zdarma/i.test(poi.practical.price ?? "");
+
+const hasDescription = Boolean(poi.description && poi.description !== poi.summary);
+const openingHours = usefulInfo(poi.practical.openingHours);
+const price = usefulInfo(poi.practical.price);
+const visitDuration = usefulInfo(poi.practical.visitDuration);
+const parking = usefulInfo(poi.practical.parking);
+const reservation = usefulInfo(poi.practical.reservation);
+const withoutCarNote = usefulInfo(poi.withoutCar?.note);
+const insiderTip = usefulInfo(poi.insiderTip);
+const rainyAlt = usefulInfo(poi.rainyAlt);
+
+const infoLines = [
+  { label: "Otevírací doba", value: openingHours },
+  { label: "Cena", value: price },
+  { label: "Doba návštěvy", value: visitDuration },
+  { label: "Parkování", value: parking },
+  { label: "Rezervace", value: reservation },
+  { label: "Bez auta", value: withoutCarNote },
+  { label: "Tip", value: insiderTip },
+  { label: "Když fouká nebo prší", value: rainyAlt },
+].filter((line) => line.value);
+
+const hasPractical = hasDescription || infoLines.length > 0 || relatedPermits.length > 0;
+
+const guideUrl = poi.links.guide ?? poi.links.official;
+const guideLabel = poi.links.guide ? (poi.links.guideLabel ?? "Průvodce") : "Web";
+const mapsLabel = poi.links.mapsLabel ?? "Otevřít v mapách";
+---
+
+<BaseLayout
+  title={poiTitle(poi)}
+  description={description}
+  image={photo?.url}
+  ogType="article"
+  jsonLd={[touristAttraction({ id: poi.id, name: poi.name, description, gps: poi.gps, image: photo?.url, isFree })]}
+  breadcrumb={[
+    { name: "Domů", url: "/" },
+    { name: "Tenerife Guide", url: "/paradise/guide/" },
+    { name: poi.name, url: poiPath(poi.id) },
+  ]}
+>
+  <nav class="breadcrumb" aria-label="Drobečková navigace">
+    <a href="/">Domů</a>
+    <span aria-hidden="true">/</span>
+    <a href="/paradise/guide/">Tenerife Guide</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{poi.name}</span>
+  </nav>
+
+  <article class="poi-detail-page">
+    <header class="poi-detail-header">
+      {
+        photo?.url && (
+          <div class="poi-detail-hero">
+            <img src={photo.url} alt={photo.alt} width="1200" height="675" fetchpriority="high" />
+          </div>
+        )
+      }
+      <h1>{poi.name}</h1>
+      {poi.nameLocal && poi.nameLocal !== poi.name && <p class="poi-detail-local">{poi.nameLocal}</p>}
+      <div class="chip-row">
+        <span class="badge">{regionLabels[poi.region]}</span>
+        {poi.tags.activity.map((tag) => <span class="badge">{activityLabels[tag]}</span>)}
+      </div>
+      <p class="poi-detail-summary">{poi.summary}</p>
+
+      <div class="card-actions">
+        {
+          poi.links.maps && (
+            <a class="text-button" href={poi.links.maps} target="_blank" rel="noreferrer">
+              {mapsLabel}
+            </a>
+          )
+        }
+        {
+          guideUrl && (
+            <a class="text-button" href={guideUrl} target="_blank" rel="noreferrer">
+              {guideLabel}
+            </a>
+          )
+        }
+        {
+          poi.links.actions?.map((action) => (
+            <a class="text-button" href={action.url} target="_blank" rel="noreferrer">
+              {action.label}
+            </a>
+          ))
+        }
+      </div>
+    </header>
+
+    {
+      hasPractical && (
+        <section class="section-block" aria-labelledby="prakticke-info">
+          <h2 id="prakticke-info">Praktické info</h2>
+          {hasDescription && <p>{poi.description}</p>}
+          {infoLines.map((line) => (
+            <p class="info-line">
+              <strong>{line.label}:</strong> {line.value}
+            </p>
+          ))}
+          {relatedPermits.length > 0 && (
+            <div class="poi-permit-links">
+              {relatedPermits.map((permit) => (
+                <a class="text-button" href={permit.bookingUrl} target="_blank" rel="noreferrer">
+                  {permit.title}
+                </a>
+              ))}
+            </div>
+          )}
+          {(poi.tags.logistics.length > 0 || poi.tags.weather.length > 0) && (
+            <div class="chip-row compact">
+              {poi.tags.logistics.map((tag) => <span class="badge">{logisticsLabels[tag]}</span>)}
+              {poi.tags.weather.map((tag) => <span class="badge badge-weather">{weatherLabels[tag]}</span>)}
+            </div>
+          )}
+          <p class="poi-verified">
+            <span class={`confidence confidence-${poi.confidence.toLowerCase()}`}>
+              {confidenceLabel(poi.confidence)}
+            </span>
+            <span class="muted"> · data z {poi.verifiedDate}</span>
+          </p>
+        </section>
+      )
+    }
+
+    {
+      nearby.length > 0 && (
+        <section class="section-block" aria-labelledby="v-okoli">
+          <h2 id="v-okoli">V okolí</h2>
+          <div class="poi-grid poi-nearby-grid">
+            {nearby.map((item) => (
+              <PoiCardStatic poi={item} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <nav class="poi-detail-back" aria-label="Návrat na průvodce">
+      <a class="text-button" href="/paradise/guide/">← Zpět na průvodce</a>
+      <a class="text-button" href="/paradise/guide/#mista">Zobrazit na mapě</a>
+    </nav>
+
+    {
+      hasCredit && (
+        <p class="photo-credit">
+          Foto: {photo.credit}
+          {photo.license && photo.license !== "missing" ? `, ${photo.license}` : ""}
+        </p>
+      )
+    }
+  </article>
+</BaseLayout>
+
+<style>
+  /* Strukturální layout detailu — bez nové barevné identity (drží global.css
+     tokeny + design audit). */
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+  .breadcrumb a {
+    color: var(--color-sea);
+  }
+  .breadcrumb [aria-current="page"] {
+    color: var(--color-muted);
+  }
+  .poi-detail-hero {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .poi-detail-hero img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+  .poi-detail-local {
+    color: var(--color-muted);
+    margin-bottom: 0.6rem;
+  }
+  .poi-detail-summary {
+    margin-top: 0.6rem;
+  }
+  .poi-nearby-grid {
+    margin-top: 0.5rem;
+  }
+  .poi-detail-back {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+</style>

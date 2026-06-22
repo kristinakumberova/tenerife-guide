@@ -39,12 +39,20 @@ interface Section {
   bullets: string[];
   table: TableData | null;
 }
+interface Host {
+  eyebrow: string;
+  heading: string;
+  paragraphs: string[];
+  photo: string | null;
+  photoAlt: string;
+}
 interface Apartment {
   brand: string;
   name: string;
   heroImage: string;
   heroAlt: string;
   mapsUrl: string;
+  host: Host | null;
   gallery: GalleryImage[];
   contact: { label: string; whatsappUrl: string; phone: string };
   quickInfo: QuickInfo[];
@@ -96,26 +104,34 @@ const cellToHtml = (value: string) =>
     { name: "Apartmán", url: "/paradise/apartman/" },
   ]}
 >
-  <section class="hero-property">
-    <div class="hero-media">
+  {/* Hero B (vizuální audit 2026-06-22 P1/1): full-bleed foto + overlay, titulek,
+      skenovatelný trust řádek (bez ceny — direct-contact) a 1 primární CTA. */}
+  <section class="hero-b">
+    <div class="hero-b-media">
       <Picture
         src={heroImg}
         formats={["avif", "webp"]}
         fallbackFormat="webp"
-        widths={[480, 768, 1086]}
-        sizes="(max-width: 768px) 100vw, 540px"
+        widths={[480, 768, 1086, 1600]}
+        sizes="(max-width: 900px) 100vw, 1200px"
         alt={apartment.heroAlt}
         fetchpriority="high"
         loading="eager"
       />
     </div>
-    <div class="hero-copy">
-      <p class="eyebrow">{apartment.brand}</p>
+    <div class="hero-b-content">
+      <p class="eyebrow eyebrow-on-photo">{apartment.brand}</p>
       <h1>{apartment.name}</h1>
-      <p class="lead">
+      <p class="hero-b-lead">
         Studio pro 4 hosty s výhledem na moře v Costa Adeje — terasa s pergolou, vyhřívaný bazén v komplexu a
-        pláže i nákupy v docházkové vzdálenosti. Praktický průvodce pro příjezd, výlety, jídlo a rychlé kontakty.
+        pláže i nákupy v docházkové vzdálenosti.
       </p>
+      <ul class="trust-row" aria-label="Co apartmán nabízí">
+        <li>4 hosté</li>
+        <li>výhled na moře</li>
+        <li>vyhřívaný bazén</li>
+        <li>terasa s pergolou</li>
+      </ul>
       <ContactCTA
         label={apartment.contact.label}
         whatsappUrl={apartment.contact.whatsappUrl}
@@ -123,13 +139,15 @@ const cellToHtml = (value: string) =>
         showPhone={false}
       />
     </div>
-    <div class="quick-grid">
-      {
-        apartment.quickInfo.map((item) => (
-          <QuickInfoCard title={item.title} summary={item.summary} status={item.status} href={item.href} />
-        ))
-      }
-    </div>
+  </section>
+
+  {/* Praktické zkratky (check-in/out, navigace, kódy & WiFi) */}
+  <section class="quick-grid">
+    {
+      apartment.quickInfo.map((item) => (
+        <QuickInfoCard title={item.title} summary={item.summary} status={item.status} href={item.href} />
+      ))
+    }
   </section>
 
   <PageAnchors
@@ -172,7 +190,8 @@ const cellToHtml = (value: string) =>
     )
   }
 
-  {/* Dostupnost — živý kalendář obsazenosti (island, client:visible) + CTA na termín */}
+  {/* Dostupnost → poptávka (vizuální audit P2/4): kalendář + poptávkový panel jako
+      jeden celek. Desktop = vedle sebe, mobil = pod sebou. Legenda je v islandu. */}
   <section class="section-block section-anchor" id="dostupnost">
     <div class="section-heading">
       <div>
@@ -180,16 +199,21 @@ const cellToHtml = (value: string) =>
         <h2>Dostupnost apartmánu</h2>
       </div>
     </div>
-    <AvailabilityCalendar client:visible />
-    <article class="content-panel">
-      <ContactCTA
-        label="WhatsApp"
-        whatsappUrl={apartment.contact.whatsappUrl}
-        phone={apartment.contact.phone}
-        email={HOST_EMAIL}
-        showPhone={false}
-      />
-    </article>
+    <div class="availability-block">
+      <AvailabilityCalendar client:visible />
+      <article class="content-panel availability-request">
+        <h3>Vyberte termín a ozvěte se</h3>
+        <p>Rezervace řešíme napřímo. Napište nám preferovaný termín a počet hostů — co nejdřív se ozveme.</p>
+        <ContactCTA
+          label="Napsat na WhatsApp"
+          whatsappUrl={apartment.contact.whatsappUrl}
+          phone={apartment.contact.phone}
+          email={HOST_EMAIL}
+          showPhone={false}
+        />
+        <p class="muted">Check-in od 15:00 · check-out do 10:00.</p>
+      </article>
+    </div>
   </section>
 
   {/* Praktické info — nativní accordion (0 JS) */}
@@ -250,4 +274,33 @@ const cellToHtml = (value: string) =>
       }
     </div>
   </section>
+
+  {/* O hostitelích (ADR-006, privacy-safe) — osobní zakončení na konci stránky.
+      Kompaktní karta, malá fotka bez lightboxu, dětské tváře nerozpoznatelné.
+      Reverzibilní: renderuje se jen když datový model nese obsah. */}
+  {
+    apartment.host && apartment.host.paragraphs.length > 0 && (
+      <section class="host-section section-block">
+        <div class="host-card">
+          {apartment.host.photo && (
+            <img
+              class="host-avatar"
+              src={apartment.host.photo}
+              alt={apartment.host.photoAlt}
+              loading="lazy"
+              decoding="async"
+              width="640"
+              height="480"
+            />
+          )}
+          <div class="host-copy">
+            <p class="eyebrow">{apartment.host.eyebrow}</p>
+            {apartment.host.paragraphs.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
 </BaseLayout>

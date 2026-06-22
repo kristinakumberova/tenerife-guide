@@ -62,7 +62,6 @@ export function POIMapList({ pois, permits, apartment, onResetFilters }: POIMapL
               mapsUrl: apartment.mapsUrl,
               gps: apartment.gps,
             }}
-            onOpenPoi={openPoi}
           />
         </Suspense>
       ) : (

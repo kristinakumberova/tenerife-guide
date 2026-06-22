@@ -1,13 +1,13 @@
-import { ExternalLink, MapPin } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import { activityLabels, regionLabels } from "../../lib/labels";
+import { poiPath } from "../../lib/poi";
 import type { GuidePoi } from "../../types";
 
 interface MapPopupCardProps {
   poi: GuidePoi;
-  onOpen: (poiId: string) => void;
 }
 
-export function MapPopupCard({ poi, onOpen }: MapPopupCardProps) {
+export function MapPopupCard({ poi }: MapPopupCardProps) {
   const photo = poi.photos[0];
 
   return (
@@ -26,15 +26,10 @@ export function MapPopupCard({ poi, onOpen }: MapPopupCardProps) {
           ))}
         </div>
         <p>{poi.summary}</p>
-        <button
-          type="button"
-          className="text-button map-popup-action"
-          onClick={() => onOpen(poi.id)}
-          aria-label={`Více info: ${poi.name}`}
-        >
-          <ExternalLink size={16} aria-hidden="true" />
+        <a className="text-button map-popup-action" href={poiPath(poi.id)} aria-label={`Více info: ${poi.name}`}>
+          <ArrowRight size={16} aria-hidden="true" />
           Více info
-        </button>
+        </a>
       </div>
     </article>
   );

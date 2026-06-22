@@ -13,7 +13,7 @@
   --color-surface-2: #fbf8f2;
   --color-ink: #1e2a30;
   --color-ink-soft: #41525a;
-  --color-muted: #6d7a80;
+  --color-muted: #5e6a71; /* a11y: 4.95:1 na pískové (DoD §3); dřív #6d7a80 = 3.94 fail */
   --color-line: rgb(30 42 48 / 10%);
   --color-line-strong: rgb(30 42 48 / 16%);
 
@@ -49,6 +49,16 @@
 
   /* Layout */
   --maxw: 1200px;
+
+  /* Hero B overlay (vizuální audit 2026-06-22): gradient zdola, aby bílý text na
+     fotce splnil kontrast ≥4,5:1. Obsah hero je ukotvený dole, kde je overlay nejsilnější. */
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgb(18 28 33 / 8%) 0%,
+    rgb(18 28 33 / 30%) 48%,
+    rgb(18 28 33 / 74%) 84%,
+    rgb(18 28 33 / 86%) 100%
+  );
 }
 
 * {
@@ -438,6 +448,231 @@ strong {
 
 .hero-copy .contact-cta {
   margin-top: 0.6rem;
+}
+
+/* ---------- Hero B (atmosférická fotka + overlay) ---------- */
+.hero-b {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  min-height: clamp(360px, 54vh, 540px);
+  margin-top: 0.5rem;
+  border-radius: var(--radius-xl);
+  background: var(--color-sand);
+  box-shadow: var(--shadow-lg);
+  isolation: isolate;
+}
+
+.hero-b-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-b-media :where(img) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Portrétní hero (terasa→moře→západ): horizont je v horní ~třetině. V širokém
+     landscape boxu posuneme výřez nahoru, ať je vždy vidět moře (USP apartmánu). */
+  object-position: center 30%;
+}
+
+.hero-b::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--hero-overlay);
+  pointer-events: none;
+}
+
+.hero-b-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 640px;
+  padding: clamp(1.3rem, 4vw, 2.6rem);
+  color: #fff;
+}
+
+.hero-b-content h1 {
+  color: #fff;
+  margin: 0.15rem 0 0.5rem;
+}
+
+.eyebrow-on-photo {
+  color: var(--color-sand);
+}
+
+.hero-b-lead {
+  margin: 0 0 0.4rem;
+  max-width: 52ch;
+  font-size: 1.08rem;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 92%);
+}
+
+/* Skenovatelný trust řádek — bez ceny (direct-contact). */
+.trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.9rem 0 1.15rem;
+  padding: 0;
+  list-style: none;
+}
+
+.trust-row li {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgb(255 255 255 / 32%);
+  background: rgb(255 255 255 / 16%);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+}
+
+/* Homepage hero B = rozcestník (dvě cesty jako karty přes foto) */
+.hero-b-home {
+  min-height: clamp(440px, 64vh, 620px);
+}
+
+.hero-b-home .hero-b-content {
+  max-width: 880px;
+}
+
+.pathway-cards {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.pathway-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--radius-md);
+  background: rgb(255 255 255 / 95%);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.pathway-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pathway-card h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.pathway-card-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+}
+
+.pathway-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+  color: var(--color-sea);
+  font-weight: 800;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 640px) {
+  .pathway-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ---------- Sekce O hostitelích (ADR-006) — kompaktní karta na konci stránky ---------- */
+.host-section {
+  margin-top: 2.4rem;
+}
+
+.host-card {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  padding: 1.3rem 1.5rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-2);
+}
+
+/* „Pidi midi" fotka — malý zaoblený náhled, zachová rodinnou scénu (bez lightboxu). */
+.host-avatar {
+  flex: 0 0 132px;
+  width: 132px;
+  height: 99px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+}
+
+.host-copy {
+  flex: 1 1 auto;
+}
+
+.host-copy .eyebrow {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.host-copy p + p {
+  margin-top: 0.7rem;
+}
+
+@media (max-width: 560px) {
+  .host-card {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+}
+
+/* ---------- Dostupnost → poptávka blok ---------- */
+.availability-block {
+  display: grid;
+  gap: 1.1rem;
+  align-items: start;
+}
+
+.availability-request {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.availability-request h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.availability-request p {
+  margin: 0;
+}
+
+.availability-request .contact-cta {
+  margin-top: 0.2rem;
+}
+
+@media (min-width: 900px) {
+  .availability-block {
+    grid-template-columns: minmax(0, 440px) minmax(0, 1fr);
+    gap: 1.4rem;
+  }
 }
 
 /* ---------- Quick info cards ---------- */
@@ -1462,6 +1697,92 @@ strong {
   margin-top: 0.55rem;
 }
 
+/* ---------- POI vizuální karta + grid (Fáze 2 — design směr: foto vede, tagy nahoře) ---------- */
+.poi-grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 1.2rem;
+}
+
+.poi-card-visual {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow 0.16s ease, transform 0.16s ease, border-color 0.16s ease;
+}
+
+.poi-card-visual:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-line-strong);
+  transform: translateY(-2px);
+}
+
+.poi-card-visual:focus-visible {
+  outline: 2px solid var(--color-sea);
+  outline-offset: 2px;
+}
+
+.poi-card-visual-photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--color-sea-tint);
+  display: grid;
+  place-items: center;
+  color: var(--color-sea);
+  overflow: hidden;
+}
+
+/* Absolutní pozice = obrázek neovlivňuje výšku kontejneru (jinak portrét, např.
+   1000×1500, roztáhne aspect-ratio box). object-fit: cover pak portrét ořízne na 4:3. */
+.poi-card-visual-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.poi-card-visual-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.9rem 1rem 1.05rem;
+}
+
+.poi-card-visual-body h3 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.poi-card-visual-body p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.poi-card-visual-cta {
+  margin-top: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-sea);
+}
+
+.poi-card-visual[hidden] {
+  display: none !important;
+}
+
 .info-line {
   margin-bottom: 0.4rem;
   font-size: 0.92rem;
@@ -1846,6 +2167,28 @@ strong {
 }
 
 /* ---------- Restaurant card ---------- */
+.restaurant-card-photo {
+  overflow: hidden;
+}
+
+.restaurant-photo {
+  margin: -1.2rem -1.2rem 0.95rem;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--color-sea-tint);
+}
+
+.restaurant-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.restaurant-card-photo:hover .restaurant-photo img {
+  transform: scale(1.05);
+}
+
 .restaurant-card h3 {
   margin-bottom: 0.4rem;
   font-family: var(--font-display);
@@ -2091,7 +2434,12 @@ details summary {
     transition-duration: 0.001ms !important;
   }
 
-  .gallery-thumb:hover img {
+  .gallery-thumb:hover img,
+  .restaurant-card-photo:hover .restaurant-photo img {
+    transform: none;
+  }
+
+  .pathway-card:hover {
     transform: none;
   }
 }

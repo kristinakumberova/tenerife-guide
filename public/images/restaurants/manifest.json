@@ -1,0 +1,26 @@
+{
+  "craft-burger-beer": {
+    "width": 1000,
+    "height": 667
+  },
+  "el-cordero": {
+    "width": 1000,
+    "height": 667
+  },
+  "el-molino-blanco": {
+    "width": 1000,
+    "height": 1328
+  },
+  "roca-negra-sunset-club": {
+    "width": 941,
+    "height": 1672
+  },
+  "bahia-beach": {
+    "width": 1000,
+    "height": 1333
+  },
+  "el-caleton-restaurante-chill-out": {
+    "width": 1000,
+    "height": 750
+  }
+}

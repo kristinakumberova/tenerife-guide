@@ -20,7 +20,6 @@ interface ApartmentMarker {
 interface PoiMapProps {
   pois: GuidePoi[];
   apartment: ApartmentMarker;
-  onOpenPoi: (poiId: string) => void;
 }
 
 const markerIcon = L.divIcon({
@@ -43,7 +42,7 @@ const apartmentIcon = L.divIcon({
   iconAnchor: [18, 18],
 });
 
-export function PoiMap({ pois, apartment, onOpenPoi }: PoiMapProps) {
+export function PoiMap({ pois, apartment }: PoiMapProps) {
   return (
     <div className="map-frame" id="poi-map">
       <MapContainer center={[28.2916, -16.6291]} zoom={9} scrollWheelZoom={false} className="leaflet-map">
@@ -67,7 +66,7 @@ export function PoiMap({ pois, apartment, onOpenPoi }: PoiMapProps) {
         {pois.map((poi) => (
           <Marker key={poi.id} position={poi.gps} icon={markerIcon} keyboard={false} title={poi.name}>
             <Popup minWidth={320} maxWidth={340} keepInView autoPanPadding={[28, 28]}>
-              <MapPopupCard poi={poi} onOpen={onOpenPoi} />
+              <MapPopupCard poi={poi} />
             </Popup>
           </Marker>
         ))}

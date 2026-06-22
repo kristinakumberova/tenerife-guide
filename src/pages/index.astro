@@ -1,9 +1,12 @@
 ---
+import { Picture } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { organization, vacationRental } from "../lib/jsonld";
+import heroImg from "../assets/apartman/hero-terasa-sunset.webp";
 
 // Reálná homepage (SPEC-Lite §1 / chunk 4): value prop + rozcestník Apartmán/Průvodce.
-// Nahrazuje původní redirect na /paradise/apartman. Canonical = / (vlastní).
+// Vizuální audit 2026-06-22 (P1/1): hero varianta B — atmosférická fotka na pozadí +
+// dvě cesty jako karty přes foto. Canonical = / (vlastní).
 const cards = [
   {
     href: "/paradise/apartman/",
@@ -28,55 +31,54 @@ const cards = [
   jsonLd={[organization(), vacationRental()]}
   breadcrumb={[{ name: "Domů", url: "/" }]}
 >
-  <section class="page-intro">
-    <span class="eyebrow">Jazuma Living</span>
-    <h1>Apartmán a průvodce po Tenerife</h1>
-    <p class="lead">
-      Soukromý apartmán v Costa Adeje na jihu Tenerife a praktický průvodce, který hostům
-      pomůže s příjezdem, výlety, dopravou i rychlými kontakty.
-    </p>
-  </section>
-
-  <section class="section-block">
-    <div class="home-split">
-      {
-        cards.map((card) => (
-          <article class="content-panel">
-            <p class="eyebrow">{card.eyebrow}</p>
-            <h2>{card.title}</h2>
-            <p>{card.text}</p>
-            <p class="card-actions">
-              <a class="btn btn-primary" href={card.href}>
+  <section class="hero-b hero-b-home">
+    <div class="hero-b-media">
+      <Picture
+        src={heroImg}
+        formats={["avif", "webp"]}
+        fallbackFormat="webp"
+        widths={[480, 768, 1086, 1600]}
+        sizes="(max-width: 900px) 100vw, 1200px"
+        alt="Terasa apartmánu Jazuma Paradise při západu slunce s výhledem na moře a Costa Adeje"
+        fetchpriority="high"
+        loading="eager"
+      />
+    </div>
+    <div class="hero-b-content">
+      <p class="eyebrow eyebrow-on-photo">Jazuma Living</p>
+      <h1>Apartmán a průvodce po Tenerife</h1>
+      <p class="hero-b-lead">
+        Soukromý apartmán v Costa Adeje na jihu Tenerife a praktický průvodce, který hostům
+        pomůže s příjezdem, výlety, dopravou i rychlými kontakty.
+      </p>
+      <div class="pathway-cards">
+        {
+          cards.map((card) => (
+            <a class="pathway-card" href={card.href}>
+              <p class="eyebrow">{card.eyebrow}</p>
+              <h2>{card.title}</h2>
+              <p class="pathway-card-text">{card.text}</p>
+              <span class="pathway-card-cta">
                 {card.cta}
-              </a>
-            </p>
-          </article>
-        ))
-      }
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .home-split {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .home-split .content-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-  }
-
-  .home-split .card-actions {
-    margin-top: auto;
-    padding-top: 0.6rem;
-  }
-
-  @media (min-width: 768px) {
-    .home-split {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-</style>
