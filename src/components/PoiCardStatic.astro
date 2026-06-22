@@ -1,0 +1,87 @@
+---
+import { activityLabels, regionLabels } from "../lib/labels";
+import { poiPath } from "../lib/poi";
+import type { GuidePoi, Poi } from "../types";
+
+// Statická POI karta (0 JS) pro hub grid i „v okolí" na detailu (Fáze 2).
+// Podmnožina POICard.tsx — bez rozbalovacího praktického info a akcí (ty žijí
+// na detailu). Celá karta = jeden klikací odkaz na detail. data-* atributy řídí
+// visibility-toggle filtr (chunk 2); bez JS je karta plně funkční odkaz.
+
+interface Props {
+  poi: Poi | GuidePoi;
+}
+
+const { poi } = Astro.props;
+const photo = poi.photos[0];
+const hasRequiredBooking = poi.tags.logistics.some(
+  (tag) => tag === "permit-nutny" || tag === "rezervace-doporucena",
+);
+const hasPaidEntry = poi.tags.logistics.includes("placene-vstupne");
+const permitBadge = hasRequiredBooking ? "Rezervace nutná" : hasPaidEntry ? "Placené vstupné" : undefined;
+---
+
+<a
+  class="poi-card poi-card-static"
+  href={poiPath(poi.id)}
+  aria-label={`${poi.name} – zobrazit místo`}
+  data-poi-card
+  data-region={poi.region}
+  data-activity={poi.tags.activity.join(" ")}
+  data-logistics={poi.tags.logistics.join(" ")}
+  data-weather={poi.tags.weather.join(" ")}
+  data-name={poi.name.toLowerCase()}
+>
+  <div class="poi-thumb">
+    {
+      photo?.url ? (
+        <img src={photo.url} alt={photo.alt} loading="lazy" width="108" height="108" />
+      ) : (
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+      )
+    }
+  </div>
+  <div class="poi-body">
+    <div class="poi-heading">
+      <h3>{poi.name}</h3>
+    </div>
+    <div class="chip-row compact">
+      <span class="badge">{regionLabels[poi.region]}</span>
+      {poi.tags.activity.slice(0, 2).map((tag) => <span class="badge">{activityLabels[tag]}</span>)}
+      {permitBadge && <span class="badge badge-permit">{permitBadge}</span>}
+    </div>
+    <p>{poi.summary}</p>
+    <span class="poi-card-cta" aria-hidden="true">Zobrazit místo →</span>
+  </div>
+</a>
+
+<style>
+  /* Strukturální reset odkazu — vizuál (paleta, hover, density) drží global.css
+     a design audit. Žádná identita zde, jen aby <a> nedědil podtržení/barvu textu. */
+  .poi-card-static {
+    text-decoration: none;
+    color: inherit;
+  }
+  .poi-card-static:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-line-strong);
+    transform: translateY(-2px);
+  }
+  .poi-card-static:focus-visible {
+    outline: 2px solid var(--color-sea);
+    outline-offset: 2px;
+  }
+  .poi-card-cta {
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-sea);
+  }
+  [hidden] {
+    display: none !important;
+  }
+</style>
