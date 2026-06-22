@@ -13,7 +13,7 @@
   --color-surface-2: #fbf8f2;
   --color-ink: #1e2a30;
   --color-ink-soft: #41525a;
-  --color-muted: #6d7a80;
+  --color-muted: #5e6a71; /* a11y: 4.95:1 na pískové (DoD §3); dřív #6d7a80 = 3.94 fail */
   --color-line: rgb(30 42 48 / 10%);
   --color-line-strong: rgb(30 42 48 / 16%);
 
@@ -1695,6 +1695,92 @@ strong {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.55rem;
+}
+
+/* ---------- POI vizuální karta + grid (Fáze 2 — design směr: foto vede, tagy nahoře) ---------- */
+.poi-grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 1.2rem;
+}
+
+.poi-card-visual {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow 0.16s ease, transform 0.16s ease, border-color 0.16s ease;
+}
+
+.poi-card-visual:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-line-strong);
+  transform: translateY(-2px);
+}
+
+.poi-card-visual:focus-visible {
+  outline: 2px solid var(--color-sea);
+  outline-offset: 2px;
+}
+
+.poi-card-visual-photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--color-sea-tint);
+  display: grid;
+  place-items: center;
+  color: var(--color-sea);
+  overflow: hidden;
+}
+
+/* Absolutní pozice = obrázek neovlivňuje výšku kontejneru (jinak portrét, např.
+   1000×1500, roztáhne aspect-ratio box). object-fit: cover pak portrét ořízne na 4:3. */
+.poi-card-visual-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.poi-card-visual-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.9rem 1rem 1.05rem;
+}
+
+.poi-card-visual-body h3 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.poi-card-visual-body p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.poi-card-visual-cta {
+  margin-top: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-sea);
+}
+
+.poi-card-visual[hidden] {
+  display: none !important;
 }
 
 .info-line {

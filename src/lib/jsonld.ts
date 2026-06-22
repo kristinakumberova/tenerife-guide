@@ -54,12 +54,17 @@ export function vacationRental() {
 }
 
 // ItemList of TouristAttraction pro /guide (SPEC §5). Slim vstup — jen co schema
-// potřebuje, ne celý Poi.
+// potřebuje, ne celý Poi. url položek míří na interní detail /paradise/guide/{id}/
+// (Fáze 2 — interní entity linking, ne externí průvodce).
 interface AttractionInput {
+  id: string;
   name: string;
   summary: string;
   gps: [number, number];
-  links?: { official?: string; guide?: string };
+}
+
+function attractionUrl(id: string): string {
+  return absoluteUrl(`/paradise/guide/${id}/`);
 }
 
 export function touristAttractionList(pois: AttractionInput[]) {
@@ -75,16 +80,47 @@ export function touristAttractionList(pois: AttractionInput[]) {
         "@type": "TouristAttraction",
         name: poi.name,
         description: poi.summary,
+        url: attractionUrl(poi.id),
         geo: {
           "@type": "GeoCoordinates",
           latitude: poi.gps[0],
           longitude: poi.gps[1],
         },
-        ...(poi.links?.official || poi.links?.guide
-          ? { url: poi.links.guide ?? poi.links.official }
-          : {}),
       },
     })),
+  };
+}
+
+// Singulární TouristAttraction pro detail /paradise/guide/[poi] (Fáze 2).
+// description = meta description (konzistence), ne raw summary.
+interface AttractionDetailInput {
+  id: string;
+  name: string;
+  description: string;
+  gps: [number, number];
+  image?: string;
+  isFree?: boolean;
+}
+
+export function touristAttraction(poi: AttractionDetailInput) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    name: poi.name,
+    description: poi.description,
+    url: attractionUrl(poi.id),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: poi.gps[0],
+      longitude: poi.gps[1],
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "Santa Cruz de Tenerife",
+      addressCountry: "ES",
+    },
+    ...(poi.image ? { image: absoluteUrl(poi.image) } : {}),
+    ...(poi.isFree ? { isAccessibleForFree: true } : {}),
   };
 }
 

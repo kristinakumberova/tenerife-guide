@@ -1,7 +1,7 @@
 import { ChevronDown, Search, SlidersHorizontal } from "lucide-react";
 import { useState, type ReactNode } from "react";
-import { activityLabels, logisticsLabels, regionLabels, weatherLabels } from "../../lib/labels";
-import type { ActivityTag, LogisticsTag, PoiFilterState, Region, WeatherTag } from "../../types";
+import { activityLabels, logisticsLabels, regionLabels } from "../../lib/labels";
+import type { ActivityTag, LogisticsTag, PoiFilterState, Region } from "../../types";
 
 interface FilterPanelProps {
   filters: PoiFilterState;
@@ -12,7 +12,8 @@ interface FilterPanelProps {
 const activity = Object.keys(activityLabels) as ActivityTag[];
 const regions = Object.keys(regionLabels) as Region[];
 const logistics = Object.keys(logisticsLabels) as LogisticsTag[];
-const weather = Object.keys(weatherLabels) as WeatherTag[];
+// Osa „Počasí" dočasně skrytá z UI (matoucí negativa — rozhodnutí 2026-06-22).
+// Tagy v datech + filterPois logika zůstávají; vrátí se po přepracování taxonomie.
 
 export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps) {
   const [open, setOpen] = useState(true);
@@ -69,13 +70,6 @@ export function FilterPanel({ filters, resultCount, onChange }: FilterPanelProps
           {logistics.map((item) => (
             <Chip key={item} active={filters.logistics.includes(item)} onClick={() => toggle("logistics", item)}>
               {logisticsLabels[item]}
-            </Chip>
-          ))}
-        </FilterGroup>
-        <FilterGroup title="Počasí">
-          {weather.map((item) => (
-            <Chip key={item} active={filters.weather.includes(item)} onClick={() => toggle("weather", item)}>
-              {weatherLabels[item]}
             </Chip>
           ))}
         </FilterGroup>

@@ -1,5 +1,6 @@
 import { ArrowUp, ExternalLink, MapPin, ShieldCheck } from "lucide-react";
 import { activityLabels, confidenceLabel, logisticsLabels, regionLabels } from "../../lib/labels";
+import { usefulInfo } from "../../lib/poi";
 import type { GuidePoi, Permit } from "../../types";
 import { WeatherBadge } from "./WeatherBadge";
 
@@ -184,21 +185,6 @@ function Info({ label, value }: { label: string; value?: string }) {
       <strong>{label}:</strong> {value}
     </p>
   );
-}
-
-function usefulInfo(value?: string) {
-  if (!value) return undefined;
-  const text = value.trim();
-  const genericPatterns = [
-    /^Veřejné prostranství je obvykle volně přístupné/i,
-    /^Zdarma u veřejných míst; placené atrakce/i,
-    /^Půlden až celý den podle tempa/i,
-    /^Ověř podle konkrétního místa/i,
-    /^Není uvedeno jako povinné; u placených atrakcí/i,
-    /^Bez auta ověř aktuální linky TITSA/i,
-    /^Když se zvedne vítr, přijde déšť nebo Kalima/i,
-  ];
-  return genericPatterns.some((pattern) => pattern.test(text)) ? undefined : text;
 }
 
 function sameUrl(left?: string, right?: string) {
