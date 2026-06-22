@@ -1495,17 +1495,24 @@ strong {
 }
 
 .poi-card-visual-photo {
+  position: relative;
   aspect-ratio: 4 / 3;
   background: var(--color-sea-tint);
   display: grid;
   place-items: center;
   color: var(--color-sea);
+  overflow: hidden;
 }
 
+/* Absolutní pozice = obrázek neovlivňuje výšku kontejneru (jinak portrét, např.
+   1000×1500, roztáhne aspect-ratio box). object-fit: cover pak portrét ořízne na 4:3. */
 .poi-card-visual-photo img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .poi-card-visual-body {
