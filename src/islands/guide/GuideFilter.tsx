@@ -40,11 +40,6 @@ export function GuideFilter({ pois, apartment }: GuideFilterProps) {
     setFilters({ ...filters, [axis]: (filters[axis] as string[]).filter((item) => item !== value) });
   };
 
-  // Mapa scrolluje na statickou kartu (id="poi-{id}") — parita s původním chováním.
-  const openPoi = (poiId: string) => {
-    document.getElementById(`poi-${poiId}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-
   // CR-010: neutrální text — platí i pro no-JS (karty jsou vždy v DOM níže).
   const mapFallback = (
     <div className="map-frame map-frame-loading" id="poi-map">
@@ -74,7 +69,6 @@ export function GuideFilter({ pois, apartment }: GuideFilterProps) {
                 mapsUrl: apartment.mapsUrl,
                 gps: apartment.gps,
               }}
-              onOpenPoi={openPoi}
             />
           </Suspense>
         ) : (
