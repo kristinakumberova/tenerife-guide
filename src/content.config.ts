@@ -27,6 +27,9 @@ const photoAsset = z.object({
   alt: z.string(),
   license: z.string(),
   credit: z.string(),
+  width: z.number().nullable().optional(),
+  height: z.number().nullable().optional(),
+  objectPosition: z.string().nullable().optional(),
   sourceUrl: z.string().optional(),
   localPath: z.string().optional(),
 });

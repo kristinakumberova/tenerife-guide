@@ -15,6 +15,18 @@
   "checkOut": "do 10:00",
   "heroImage": "/images/apartman/hero-terasa-sunset.webp",
   "heroAlt": "Terasa apartmánu Jazuma Paradise při západu slunce s výhledem na moře a Costa Adeje",
+  "host": {
+    "eyebrow": "O hostitelích",
+    "heading": "O hostitelích",
+    "paragraphs": [
+      "Jazuma vznikla ze začátku jmen našich tří dětí. I proto je pro nás přirozené myslet na rodiny: sami jsme pětičlenná rodina a dobře víme, co cestování s malými dětmi obnáší.",
+      "Apartmán jsme připravili tak, aby se u nás rodiče i děti cítili co nejpohodlněji. Najdete tu dětskou postýlku, jídelní židličku, stupínek k umyvadlu, nočník, dětské prkýnko, hračky, plážové hračky i základní plážové vybavení. Chceme, aby si rodiny nemusely vozit všechno s sebou a mohly se rychleji přepnout do dovolenkového režimu.",
+      "Tenerife je pro nás už dlouho druhým domovem. Strávili jsme tu spoustu času a máme radost, když se o naše oblíbené místo můžeme podělit s rodinou, kamarády i hosty, kteří sem míří poprvé.",
+      "Proto vznikl i tento web: aby byly informace k apartmánu, příjezdu, dopravě, výletům i jídlu přehledně na jednom místě. Budeme rádi, když vám pomůže užít si pobyt víc v klidu. A pokud vám tu bude něco chybět, dejte nám vědět."
+    ],
+    "photo": "/images/apartman/host-family.webp",
+    "photoAlt": "Rodina hostitelů na Tenerife"
+  },
   "gallery": [
     {
       "src": "/images/apartman/hero-terasa-sunset.webp",

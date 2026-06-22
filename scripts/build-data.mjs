@@ -258,6 +258,39 @@ function localPoiPhoto(id) {
   return existsSync(filePath) ? webPath : null;
 }
 
+// Restaurant photos are Kristina's own (ChatGPT-polished) WebP, self-hosted under
+// public/images/restaurants/<id>.webp. Present = used; absent = placeholder.
+// Dimensions come from the build-web-photos manifest so the card can pick a
+// portrait vs landscape aspect ratio (vertical subjects must not get center-cropped).
+const restaurantPhotoManifest = (() => {
+  const manifestPath = resolve(repoRoot, "public", "images", "restaurants", "manifest.json");
+  if (!existsSync(manifestPath)) return {};
+  try {
+    return JSON.parse(readFileSync(manifestPath, "utf8"));
+  } catch {
+    return {};
+  }
+})();
+
+// Per-foto výřez (object-position) tam, kde střed neořízne to podstatné.
+// El Caleton: západ slunce + moře jsou v horní části → bias nahoru.
+const RESTAURANT_PHOTO_FOCUS = {
+  "el-caleton-restaurante-chill-out": "center top",
+};
+
+function localRestaurantPhoto(id) {
+  const webPath = `/images/restaurants/${id}.webp`;
+  const filePath = resolve(repoRoot, "public", "images", "restaurants", `${id}.webp`);
+  if (!existsSync(filePath)) return null;
+  const dims = restaurantPhotoManifest[id] ?? {};
+  return {
+    url: webPath,
+    width: dims.width ?? null,
+    height: dims.height ?? null,
+    objectPosition: RESTAURANT_PHOTO_FOCUS[id] ?? null,
+  };
+}
+
 function normalizePhotos(photos, id, name) {
   const local = localPoiPhoto(id);
   if (!Array.isArray(photos) || photos.length === 0) {
@@ -491,8 +524,10 @@ function parseRestaurants() {
     const rows = parseMarkdownTable(subsection(raw, heading));
     for (const row of rows) {
       const name = stripMarkdown(row.Restaurace).replace(/\s*\([^)]*\)$/, "");
+      const id = slugify(name);
+      const localPhoto = localRestaurantPhoto(id);
       restaurants.push({
-        id: slugify(name),
+        id,
         propertyId: "paradise",
         name,
         category,
@@ -500,7 +535,9 @@ function parseRestaurants() {
         kristinasNote: stripMarkdown(row["Kristina poznamka"]),
         practical: { note: stripMarkdown(row["Overeno 2026-05-28"]) },
         links: { official: markdownLinkToUrl(row["Web / kontakt"]) },
-        photos: [{ url: "", alt: `${name} - foto se doplnuje`, license: "missing", credit: "Doplnit" }],
+        photos: localPhoto
+          ? [{ url: localPhoto.url, width: localPhoto.width, height: localPhoto.height, objectPosition: localPhoto.objectPosition, alt: `${name} – Costa Adeje, Tenerife`, license: "vlastní foto, upraveno", credit: "Vlastní foto (Jazuma Living)" }]
+          : [{ url: "", alt: `${name} - foto se doplnuje`, license: "missing", credit: "Doplnit" }],
         confidence: containsFlag(Object.values(row).join(" ")) ? "L" : "M",
         sourceRefs: markdownLinkToUrl(row["Web / kontakt"])
           ? [{ label: name, url: markdownLinkToUrl(row["Web / kontakt"]), tier: "official", checkedDate: "2026-05-28" }]
@@ -677,6 +714,21 @@ function parseApartment() {
     ?? "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc6a99e20f73a321:0x4b3db373dfb4bf9e?sa=X&ved=1t:8290&ictx=111";
 
   const arrival = parseStructuredSection(raw, "Příjezd autem", "Prijezd autem");
+
+  // Host presence (ADR-006, privacy-safe). Jen odstavce medailonku; fotka je
+  // volitelná (reverzibilita — bez fotky/obsahu se sekce na webu nerenderuje).
+  const hostBlock = parseStructuredSection(raw, "O hostitelích", "O hostitelich");
+  const hostPhotoFile = resolve(repoRoot, "public", "images", "apartman", "host-family.webp");
+  const host = hostBlock.paragraphs.length > 0
+    ? {
+        eyebrow: "O hostitelích",
+        heading: "O hostitelích",
+        paragraphs: hostBlock.paragraphs,
+        photo: existsSync(hostPhotoFile) ? "/images/apartman/host-family.webp" : null,
+        photoAlt: "Rodina hostitelů na Tenerife",
+      }
+    : null;
+
   const parkovani = parseStructuredSection(raw, "Parkování", "Parkovani");
   const vybaveni = parseStructuredSection(raw, "Vybavení apartmánu", "Vybaveni apartmanu");
   const supermarkety = parseStructuredSection(raw, "Supermarkety a nákupy", "Supermarkety a nakupy");
@@ -716,6 +768,7 @@ function parseApartment() {
     checkOut: fields["Check-out"] ?? "do 10:00",
     heroImage: heroFromGallery?.src ?? "/images/apartman/hero-terasa-sunset.webp",
     heroAlt: heroFromGallery?.alt ?? "Terasa apartmánu Jazuma Paradise při západu slunce",
+    host,
     gallery,
     mapImage: maps.complex,
     maps,
