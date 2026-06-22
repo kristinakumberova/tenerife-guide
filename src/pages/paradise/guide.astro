@@ -12,8 +12,9 @@ import type { Bundle, GuidePoi, Permit, Poi } from "../../types";
 
 // Tenerife Guide hub (Fáze 2). POI karty se renderují staticky (PoiCardStatic,
 // 0 JS) a jsou crawlovatelné odkazy na detail /paradise/guide/[poi]. Island
-// GuideFilter (client:visible) drží filtr + lazy mapu a jen přepíná viditelnost
-// statických karet — 35 React karet se už nehydratuje (řeší CR7-C zátěž).
+// GuideFilter (client:idle — odsouvá hydrataci mimo TBT okno, CR7-C) drží filtr
+// + lazy mapu a jen přepíná viditelnost statických karet — 35 React karet se už
+// nehydratuje.
 // CR-008: do islandu jde oříznutý GuidePoi (bez sourceRefs/flags/propertyId, jen
 // první foto) — full Poi by se jinak serializoval do islandu props.
 const allPois = (await getCollection("poi")).map((entry) => entry.data) as Poi[];
@@ -58,7 +59,7 @@ const apartment = {
     ]}
   />
 
-  <GuideFilter pois={pois} apartment={apartment} client:visible />
+  <GuideFilter pois={pois} apartment={apartment} client:idle />
 
   <div class="poi-grid" id="poi-grid">
     {pois.map((poi) => <PoiCardStatic poi={poi} />)}
