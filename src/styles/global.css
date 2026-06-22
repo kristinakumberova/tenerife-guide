@@ -13,7 +13,7 @@
   --color-surface-2: #fbf8f2;
   --color-ink: #1e2a30;
   --color-ink-soft: #41525a;
-  --color-muted: #6d7a80;
+  --color-muted: #5e6a71; /* a11y: 4.95:1 na pískové (DoD §3); dřív #6d7a80 = 3.94 fail */
   --color-line: rgb(30 42 48 / 10%);
   --color-line-strong: rgb(30 42 48 / 16%);
 
